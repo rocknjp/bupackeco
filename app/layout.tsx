@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     "BUpack helps DTC and eCommerce brands scale with sustainable paper boxes and bags. Low MOQ, FSC-certified materials, custom printing — built for brands that care about unboxing and the planet.",
   keywords:
     "eco-friendly packaging, sustainable packaging for ecommerce, custom paper boxes dtc brands, subscription box packaging, paper bags for small business, low moq packaging manufacturer",
+  verification: {
+    google: "0UiMWYGj7TuSenx5PyIWZZ5N-l9jecBQW30rxEvTBUA",
+  },
   openGraph: {
     title: "BUpack – Eco Packaging for Growing eCommerce Brands",
     description:
