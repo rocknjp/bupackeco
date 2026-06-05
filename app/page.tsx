@@ -64,21 +64,21 @@ const products = [
     slug: "paper-boxes",
     tags: ["DTC", "Subscription Box"],
     desc: "Corrugated or rigid paper mailer boxes with magnetic closure. Perfect for DTC shipments that need to look good on arrival.",
-    img: "/images/industry_gift_box.jpg",
+    img: "/images/product_box_1.jpg",
   },
   {
     name: "Retail Paper Bags",
     slug: "paper-bags",
     tags: ["Retail", "Event"],
     desc: "Matte or gloss laminated paper bags with rope handles. From boutique storefronts to pop-up events.",
-    img: "/images/industry_clothing.jpg",
+    img: "/images/product_bag_1.jpg",
   },
   {
     name: "Subscription Boxes",
     slug: "paper-boxes",
     tags: ["Monthly Box", "Gift Box"],
     desc: "Designed for repeat impressions. Custom interiors, tissue paper, and inserts included in one order.",
-    img: "/images/industry_cosmetics.jpg",
+    img: "/images/product_box_2.jpg",
   },
 ];
 
@@ -179,6 +179,33 @@ export default function HomePage() {
                 </span>
               ))}
             </div>
+
+            {/* Factory Showcase */}
+            <div className="mt-14 pt-8 border-t border-white/10">
+              <p className="text-green-400/80 text-xs font-semibold uppercase tracking-widest mb-4">Built in Our Own ISO-Certified Factory</p>
+              <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+                {[
+                  { img: "/images/factory_hero.jpg", label: "Assembly Workshop" },
+                  { img: "/images/factory_printing.png", label: "Printing Center" },
+                  { img: "/images/factory_production.jpg", label: "Production Line" },
+                  { img: "/images/factory_workers.jpg", label: "Skilled Team" },
+                  { img: "/images/factory_machine.jpg", label: "Precision Machinery" },
+                ].map((item) => (
+                  <div key={item.label} className="relative h-24 sm:h-28 rounded-lg overflow-hidden border border-white/20 hover:border-green-400/60 transition-all group cursor-pointer">
+                    <Image
+                      src={item.img}
+                      alt={item.label}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-black/45 group-hover:bg-black/30 transition-colors"></div>
+                    <div className="absolute bottom-0 left-0 right-0 p-2">
+                      <span className="text-[10px] sm:text-xs text-white/90 font-medium block text-center">{item.label}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -186,7 +213,7 @@ export default function HomePage() {
       {/* ── FACTORY PREVIEW ─────────────────────────── */}
       <section className="relative h-[420px] md:h-[500px] flex items-center justify-center overflow-hidden">
         <Image
-          src="/images/factory_workshop.jpg"
+          src="/images/factory_production.jpg"
           alt="BUpack factory workshop - eco packaging production"
           fill
           className="object-cover"
@@ -339,12 +366,12 @@ export default function HomePage() {
               From apparel to gourmet food, we&apos;ve helped 850+ brands create packaging their customers brag about.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
             {industries.map((ind) => (
               <Link
                 key={ind.slug}
                 href={`/industries/${ind.slug}`}
-                className="group relative rounded-2xl overflow-hidden h-64 block"
+                className="group relative rounded-2xl overflow-hidden h-44 md:h-48 block"
               >
                 <Image
                   src={ind.img}
