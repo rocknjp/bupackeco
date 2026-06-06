@@ -41,6 +41,12 @@ const products: Record<string, ProductData> = {
       { title: "Gift & Premium Boxes", desc: "Rigid lid-and-base boxes with custom EVA or paperboard inserts for multi-item sets.", tags: ["Gift", "Luxury"] },
       { title: "Product Launch Kits", desc: "PR boxes with magnetic closures, ribbon pulls, and tissue paper — designed to be shared on social.", tags: ["PR", "Influencer"] },
     ],
+    packagingTypes: [
+      { type: "E-Commerce Shipping Mailer", desc: "Corrugated mailer boxes that protect products during transit while displaying your brand on the porch. Self-locking design, no tape needed.", industries: "Candles, Jewelry, Chocolate, Tea, Pet Treats" },
+      { type: "Gift Set Box", desc: "Rigid lid-and-base boxes with custom inserts for multi-item collections. The 'giftable' presentation that customers photograph.", industries: "Chocolate, Jewelry, Stationery, Tea" },
+      { type: "Subscription Box", desc: "Monthly delivery boxes with standardized dimensions. Rotating artwork, consistent structure — subscribers can't wait for the next one.", industries: "Pet, Tea, Candles, Stationery" },
+      { type: "Product Primary Box", desc: "Folding cartons or sleeves that wrap individual products. Brand story, ingredients, and care instructions printed directly on the box.", industries: "Candles, Chocolate, Stationery, Tea" },
+    ],
     process: [
       { step: "01", title: "Design Review", desc: "You upload artwork (AI / PDF / PSD). Our prepress team checks bleed, resolution, and color mode — free of charge." },
       { step: "02", title: "Physical Sample", desc: "We produce a fully finished physical sample with your print and mail it to your address within 7–10 days." },
@@ -108,6 +114,12 @@ const products: Record<string, ProductData> = {
       { title: "Trade Shows & Events", desc: "Large-format bags with reinforced handles that hold brochures, samples, and swag without tearing.", tags: ["B2B", "Events"] },
       { title: "Gift & Holiday Packaging", desc: "Seasonal designs with rope handles and foil stamping — bags customers keep and reuse for years.", tags: ["Gift", "Seasonal"] },
       { title: "Food & Bakery Takeaway", desc: "Food-safe coated paper bags with flat handles. FDA-compliant for direct food contact.", tags: ["Food", "Cafe"] },
+    ],
+    packagingTypes: [
+      { type: "E-Commerce Shipping Bag", desc: "Flat paper mailer bags for clothing and soft goods. Lightweight, recyclable, and fully branded.", industries: "Apparel, Stationery, Accessories" },
+      { type: "Retail Shopping Bag", desc: "Branded shopping bags with reinforced rope or flat handles. Customers reuse them 3-5 times — free brand exposure.", industries: "Jewelry, Stationery, Candles" },
+      { type: "Gift & Event Bag", desc: "Premium bags with ribbon handles, foil stamping, and seasonal designs. The bag customers keep for years.", industries: "Chocolate, Jewelry, Stationery" },
+      { type: "Product Insert Pouch", desc: "Small drawstring or flat pouches for jewelry, samples, and accessories. Reusable and keepsake-worthy.", industries: "Jewelry, Tea, Pet Treats" },
     ],
     process: [
       { step: "01", title: "Size & Handle Selection", desc: "Choose your bag dimensions, paper weight, and handle type. We recommend the best combination for your use case." },
@@ -177,6 +189,12 @@ const products: Record<string, ProductData> = {
       { title: "PR & Influencer Kits", desc: "Limited-edition boxes with numbered certificates, QR codes, and surprise inserts.", tags: ["PR", "Launch"] },
       { title: "Corporate Welcome Kits", desc: "Onboarding boxes for remote teams with branded stationery, swag, and a personalized note.", tags: ["HR", "Corporate"] },
     ],
+    packagingTypes: [
+      { type: "Monthly Subscription Box", desc: "Standardized box with rotating monthly themes. Magnetic closure, custom inserts, interior printing — designed for repeat unboxing.", industries: "Pet, Tea, Candles, Stationery" },
+      { type: "Curated Gift Set Box", desc: "Rigid box with multi-compartment insert for holiday or seasonal gift collections. Everything arrives perfectly presented.", industries: "Chocolate, Jewelry, Tea, Candles" },
+      { type: "PR & Influencer Kit", desc: "Limited-edition boxes with numbered certificates, surprise inserts, and social-ready design. Built for the camera.", industries: "Beauty, Candles, Jewelry, Chocolate" },
+      { type: "Product Launch Box", desc: "Custom-sized rigid box for new product introductions. Includes insert, tissue, and collateral — all in one order.", industries: "Jewelry, Chocolate, Stationery, Tea" },
+    ],
     process: [
       { step: "01", title: "Box Style Selection", desc: "Choose from magnetic closure, drawer slide, two-piece lid, or book-style boxes. We recommend based on your product fit." },
       { step: "02", title: "Insert Design", desc: "We design foam or paperboard inserts that hold your products securely. 3D renderings provided for approval." },
@@ -229,6 +247,7 @@ interface ProductData {
   highlights: { icon: string; title: string; desc: string }[]
   specs: Record<string, string | string[]>
   useCases: { title: string; desc: string; tags: string[] }[]
+  packagingTypes: { type: string; desc: string; industries: string }[]
   process: { step: string; title: string; desc: string }[]
   whyChoose: { title: string; desc: string }[]
   comparison: { headers: string[]; rows: string[][] }
@@ -398,6 +417,36 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 </div>
                 <h3 className="font-bold text-gray-900 mb-2">{uc.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{uc.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── PACKAGING TYPES ─────────────────────────────────── */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-4">4 Ways to Use {product.shortName}</h2>
+          <p className="text-center text-gray-500 mb-12 max-w-xl mx-auto">
+            From shipping to gifting — one product type, four powerful applications across multiple industries.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {product.packagingTypes.map((pt, i) => (
+              <div key={i} className="flex items-start gap-4 bg-gray-50 rounded-xl p-5 border border-gray-100 hover:border-green-200 transition-colors group">
+                <div className={`w-10 h-10 rounded-lg ${product.accent} flex items-center justify-center flex-shrink-0 mt-0.5`}>
+                  <span className="text-white font-bold text-sm">{String(i + 1).padStart(2, '0')}</span>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-1">{pt.type}</h4>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-2">{pt.desc}</p>
+                  <div className="flex flex-wrap gap-1">
+                    {pt.industries.split(", ").map((ind) => (
+                      <span key={ind} className="text-[10px] bg-green-50 text-green-700 font-medium px-2 py-0.5 rounded-full border border-green-100">
+                        {ind}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               </div>
             ))}
           </div>
