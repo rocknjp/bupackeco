@@ -136,7 +136,7 @@ const industries = [
   {
     name: "Stationery & Lifestyle Gifts",
     slug: "stationery-gifts",
-    img: "/images/industry_gift_box.jpg",
+    img: "/images/industry_stationery_gifts.jpg",
     desc: "Journals, pens, and gift sets deserve packaging that matches the craft inside.",
     tags: ["Flat Mailers", "Gift Sets", "Floral Print"],
   },
