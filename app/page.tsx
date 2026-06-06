@@ -10,24 +10,39 @@ export const metadata: Metadata = {
 
 const painPoints = [
   {
-    pain: "Your packaging looks generic",
-    fix: "Full custom printing from 100 units",
-    icon: "🎨",
-  },
-  {
-    pain: "Customers don't share unboxing videos",
-    fix: "Premium feel that earns organic UGC",
-    icon: "📱",
-  },
-  {
-    pain: "Eco claims but plastic packaging",
-    fix: "100% FSC-certified, plastic-free options",
-    icon: "🌿",
-  },
-  {
-    pain: "Huge MOQs for a small brand",
-    fix: "Start from just 100 units",
+    pain: "High MOQs force you to over-order and burn cash",
+    fix: "Start from just 100 units. Test your design, validate demand, then scale — no dead inventory.",
     icon: "📦",
+    stat: "15-25%",
+    statLabel: "of packaging budget lost to overstock",
+  },
+  {
+    pain: "Your packaging looks like everyone else's — no brand recall",
+    fix: "Full custom printing with inside-print, foil stamping & soft-touch finish. Your box becomes shareable content.",
+    icon: "🎨",
+    stat: "3x",
+    statLabel: "more unboxing shares with branded packaging",
+  },
+  {
+    pain: "Shipping damage destroys reviews and drives returns",
+    fix: "FEFCO-tested corrugated + custom-fit inserts. Every design is stress-tested before production.",
+    icon: "🛡️",
+    stat: "18%",
+    statLabel: "of online sales affected by poor packaging",
+  },
+  {
+    pain: "8–12 week lead times kill your product launch momentum",
+    fix: "Digital printing + in-house production = samples in 3-5 days, bulk in 2-3 weeks.",
+    icon: "⚡",
+    stat: "7 days",
+    statLabel: "average social media trend window",
+  },
+  {
+    pain: "Oversized boxes inflate shipping costs by 'dimensional weight'",
+    fix: "Right-size design optimization. We engineer packaging to minimize volume weight and cut freight spend.",
+    icon: "📐",
+    stat: "15-30%",
+    statLabel: "shipping cost savings with optimized sizing",
   },
 ];
 
@@ -239,19 +254,72 @@ export default function HomePage() {
       </section>
 
       {/* ── PAIN POINTS ────────────────────────────── */}
-      <section className="py-16 px-4 bg-white border-b border-gray-100">
+      <section className="py-20 px-4 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto">
-          <p className="text-center text-gray-500 text-sm font-medium uppercase tracking-widest mb-10">
-            Sound familiar?
-          </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {painPoints.map((p) => (
-              <div key={p.pain} className="rounded-2xl border border-gray-100 bg-gray-50 p-6 hover:border-green-200 hover:bg-green-50/30 transition-all">
-                <div className="text-3xl mb-3">{p.icon}</div>
-                <p className="text-gray-700 font-semibold text-sm mb-2 line-through decoration-red-300">{p.pain}</p>
-                <p className="text-green-700 font-medium text-sm">✓ {p.fix}</p>
+          <div className="text-center mb-14">
+            <p className="text-green-600 text-sm font-semibold uppercase tracking-widest mb-3">Sound Familiar?</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              The packaging problems keeping you up at night
+            </h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-lg">
+              We talk to 100+ growing brands every month. These are the same 5 frustrations we hear again and again — and exactly how we solve them.
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            {painPoints.map((p, i) => (
+              <div
+                key={p.pain}
+                className="group rounded-2xl border border-gray-100 bg-white hover:border-green-200 hover:shadow-lg transition-all overflow-hidden"
+              >
+                <div className="flex flex-col md:flex-row">
+                  {/* Pain Side */}
+                  <div className="md:w-2/5 p-6 md:p-8 bg-gray-50/50 group-hover:bg-red-50/30 transition-colors border-b md:border-b-0 md:border-r border-gray-100">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 rounded-xl bg-gray-100 group-hover:bg-red-100 flex items-center justify-center text-2xl flex-shrink-0 transition-colors">
+                        {p.icon}
+                      </div>
+                      <div>
+                        <p className="text-red-700/70 text-xs font-bold uppercase tracking-wider mb-1">Pain Point {String(i + 1).padStart(2, '0')}</p>
+                        <p className="text-gray-800 font-bold text-lg leading-snug">{p.pain}</p>
+                        <div className="mt-3 inline-flex items-center gap-2 bg-red-50 text-red-700 text-xs font-semibold px-3 py-1.5 rounded-full">
+                          <span className="text-red-500">⚠</span> {p.stat} {p.statLabel}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Solution Side */}
+                  <div className="md:w-3/5 p-6 md:p-8 flex items-center">
+                    <div className="flex items-start gap-4 w-full">
+                      <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                        </svg>
+                      </div>
+                      <div>
+                        <p className="text-green-700 text-xs font-bold uppercase tracking-wider mb-1">BUpack Solution</p>
+                        <p className="text-gray-700 text-base leading-relaxed">{p.fix}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             ))}
+          </div>
+
+          {/* Bottom CTA */}
+          <div className="mt-12 text-center">
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 bg-green-600 text-white font-bold px-8 py-4 rounded-xl hover:bg-green-500 transition-colors text-base"
+            >
+              See How We Can Solve Yours
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <p className="text-gray-400 text-sm mt-3">Free sample kit · No commitment · Ships in 3-5 days</p>
           </div>
         </div>
       </section>
