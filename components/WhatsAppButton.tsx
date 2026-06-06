@@ -7,7 +7,13 @@ import { useState, useEffect } from "react";
 // ============================================================
 const WHATSAPP_NUMBER = "8615064260757";
 const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Hi! I'm interested in custom packaging. Can you send me more information?"
+  "Hi BUpack! I'm interested in custom packaging. Here's what I need:\n\n" +
+  "• Product type (mailer box / paper bag / subscription box / gift box): \n" +
+  "• Industry (candles / jewelry / chocolate / stationery / tea / pet): \n" +
+  "• Estimated quantity: \n" +
+  "• Custom printing needed? (Yes / No): \n" +
+  "• Timeline or special requirements: \n\n" +
+  "Looking forward to hearing from you!"
 );
 const DISPLAY_NUMBER = "+86 150-6426-0757";
 
