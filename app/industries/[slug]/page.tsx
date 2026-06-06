@@ -4,7 +4,7 @@ import type { Metadata } from "next"
 import { BreadcrumbSchema } from "@/components/Schema"
 
 interface IndustryPageProps {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }
 
 const industries = {
@@ -267,7 +267,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: IndustryPageProps): Promise<Metadata> {
-  const industry = industries[params.slug as keyof typeof industries]
+  const { slug } = await params
+  const industry = industries[slug as keyof typeof industries]
   if (!industry) return {}
   return {
     title: `${industry.name} Packaging | BUpack`,
@@ -276,8 +277,9 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
   }
 }
 
-export default function IndustryPage({ params }: IndustryPageProps) {
-  const industry = industries[params.slug as keyof typeof industries]
+export default async function IndustryPage({ params }: IndustryPageProps) {
+  const { slug } = await params
+  const industry = industries[slug as keyof typeof industries]
   if (!industry) notFound()
 
   return (
@@ -286,7 +288,7 @@ export default function IndustryPage({ params }: IndustryPageProps) {
         items={[
           { name: "Home", url: "https://bupackeco.com" },
           { name: "Industries", url: "https://bupackeco.com/industries" },
-          { name: industry.name, url: `https://bupackeco.com/industries/${params.slug}` },
+          { name: industry.name, url: `https://bupackeco.com/industries/${slug}` },
         ]}
       />
       {/* Hero */}

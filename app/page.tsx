@@ -75,7 +75,7 @@ const products = [
   },
   {
     name: "Subscription Boxes",
-    slug: "paper-boxes",
+    slug: "subscription-boxes",
     tags: ["Monthly Box", "Gift Box"],
     desc: "Designed for repeat impressions. Custom interiors, tissue paper, and inserts included in one order.",
     img: "/images/product_box_2.jpg",

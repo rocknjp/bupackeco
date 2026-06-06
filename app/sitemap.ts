@@ -7,6 +7,7 @@ const staticRoutes = [
   "/products",
   "/products/paper-boxes",
   "/products/paper-bags",
+  "/products/subscription-boxes",
   "/industries/clothing",
   "/industries/cosmetics",
   "/industries/food",
