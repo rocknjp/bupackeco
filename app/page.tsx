@@ -105,12 +105,48 @@ const impactStats = [
 ];
 
 const industries = [
-  { name: "Clothing & Apparel", slug: "clothing", img: "/images/industry_clothing.jpg", desc: "Hang tags, mailers, and retail bags for fashion brands." },
-  { name: "Cosmetics & Beauty", slug: "cosmetics", img: "/images/industry_cosmetics.jpg", desc: "Luxury rigid boxes with foil stamping and soft-touch finish." },
-  { name: "Food & Gourmet", slug: "food", img: "/images/industry_food_box.jpg", desc: "FDA-compliant food-safe inks and coatings." },
-  { name: "Wine & Spirits", slug: "wine", img: "/images/industry_wine.jpg", desc: "Shipping-safe dividers and gift box sets." },
-  { name: "Jewelry", slug: "jewelry", img: "/images/industry_jewelry.jpg", desc: "Small-batch luxury boxes with insert customization." },
-  { name: "Gifts & Crafts", slug: "gift", img: "/images/industry_gift_box.jpg", desc: "Seasonal packaging that customers keep and reuse." },
+  {
+    name: "Candles & Home Fragrance",
+    slug: "candles-fragrance",
+    img: "/images/industry_cosmetics.jpg",
+    desc: "Mailer boxes, gift sets, and subscription boxes for candle brands that want unboxing to be part of the experience.",
+    tags: ["Fast Turnaround", "Gift-Ready", "Seasonal"],
+  },
+  {
+    name: "Jewelry & Accessories",
+    slug: "jewelry",
+    img: "/images/industry_jewelry.jpg",
+    desc: "Small-batch luxury rigid boxes with velvet inserts. Your packaging is the proposal moment.",
+    tags: ["Low MOQ", "Magnetic Closure", "Velvet Insert"],
+  },
+  {
+    name: "Chocolate & Confectionery",
+    slug: "chocolate-confectionery",
+    img: "/images/industry_food_box.jpg",
+    desc: "FDA-compliant gift boxes that make chocolate feel like a luxury — not a commodity.",
+    tags: ["Food-Safe", "Holiday Rush", "Window Boxes"],
+  },
+  {
+    name: "Stationery & Lifestyle Gifts",
+    slug: "stationery-gifts",
+    img: "/images/industry_gift_box.jpg",
+    desc: "Journals, pens, and gift sets deserve packaging that matches the craft inside.",
+    tags: ["Flat Mailers", "Gift Sets", "Floral Print"],
+  },
+  {
+    name: "Tea & Specialty Beverages",
+    slug: "tea-beverages",
+    img: "/images/industry_wine.jpg",
+    desc: "Tea tins, sachet boxes, and monthly subscription boxes for the modern tea brand.",
+    tags: ["Subscription Box", "Drawer Style", "Airtight"],
+  },
+  {
+    name: "Pet Treats & Subscription Boxes",
+    slug: "pet-subscription",
+    img: "/images/industry_clothing.jpg",
+    desc: "Monthly themed boxes that dogs (and their owners) can't wait to open.",
+    tags: ["Monthly Themes", "Durable", "Pet-Safe Ink"],
+  },
 ];
 
 const testimonials = [
@@ -426,38 +462,53 @@ export default function HomePage() {
       {/* ── INDUSTRIES WE SERVE ───────────────────── */}
       <section className="py-20 px-4 bg-[#f9fdf8]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
+          <div className="text-center mb-14">
+            <p className="text-green-600 text-sm font-semibold uppercase tracking-widest mb-3">Industries We Serve</p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Industries we serve
+              Your packaging is your product. We get that.
             </h2>
-            <p className="text-gray-500 max-w-xl mx-auto">
-              From apparel to gourmet food, we&apos;ve helped 850+ brands create packaging their customers brag about.
+            <p className="text-gray-500 max-w-2xl mx-auto text-lg">
+              These 6 industries share one thing: the packaging IS the experience. Your customers judge your brand the moment they open the box — and we make sure that moment is unforgettable.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {industries.map((ind) => (
               <Link
                 key={ind.slug}
                 href={`/industries/${ind.slug}`}
-                className="group rounded-xl overflow-hidden bg-white border border-gray-100 hover:border-green-200 hover:shadow-md transition-all block"
+                className="group rounded-2xl overflow-hidden bg-white border border-gray-100 hover:border-green-200 hover:shadow-lg transition-all block"
               >
-                <div className="relative h-28 sm:h-32 bg-gray-50 flex items-center justify-center overflow-hidden">
+                <div className="relative h-40 sm:h-44 bg-gradient-to-br from-green-50 to-emerald-100 flex items-center justify-center overflow-hidden">
                   <Image
                     src={ind.img}
                     alt={ind.name}
                     fill
-                    className="object-contain p-3 group-hover:scale-105 transition-transform duration-500"
+                    className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                   />
+                  <div className="absolute inset-0 bg-green-900/5 group-hover:bg-green-900/10 transition-colors"></div>
                 </div>
-                <div className="p-4">
-                  <h3 className="text-gray-900 font-bold text-sm mb-1 group-hover:text-green-700 transition-colors">{ind.name}</h3>
-                  <p className="text-gray-400 text-xs leading-relaxed line-clamp-2">{ind.desc}</p>
-                  <span className="inline-flex items-center gap-1 text-green-600 text-xs mt-2 font-medium group-hover:gap-2 transition-all">
-                    View cases →
+                <div className="p-5">
+                  <h3 className="text-gray-900 font-bold text-base mb-2 group-hover:text-green-700 transition-colors">{ind.name}</h3>
+                  <p className="text-gray-500 text-sm leading-relaxed mb-3">{ind.desc}</p>
+                  <div className="flex flex-wrap gap-1.5 mb-3">
+                    {ind.tags.map((t) => (
+                      <span key={t} className="text-[11px] bg-green-50 text-green-700 font-medium px-2 py-0.5 rounded-full border border-green-100">
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                  <span className="inline-flex items-center gap-1 text-green-600 text-sm font-semibold group-hover:gap-2 transition-all">
+                    Explore {ind.name} Packaging →
                   </span>
                 </div>
               </Link>
             ))}
+          </div>
+          {/* Bottom insight */}
+          <div className="mt-12 text-center max-w-2xl mx-auto bg-white rounded-2xl border border-green-100 p-6">
+            <p className="text-gray-700 text-sm leading-relaxed">
+              <span className="font-bold text-green-700">Why these 6?</span> These industries buy packaging independently from their product supply chain — which means you control the packaging decision. No OEM lock-in, no middleman markup. Just direct factory quality at brand-friendly MOQs.
+            </p>
           </div>
         </div>
       </section>
