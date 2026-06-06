@@ -17,6 +17,12 @@ const staticRoutes = [
   "/contact",
   "/eco",
   "/blog",
+  "/blog/unboxing-experience-drives-dtc-growth",
+  "/blog/eco-packaging-guide-dtc-brands-2025",
+  "/blog/subscription-box-packaging-design",
+  "/blog/custom-packaging-low-moq-guide",
+  "/blog/packaging-impacts-product-reviews",
+  "/blog/kraft-paper-vs-coated-paper",
 ];
 
 const locales = ["en"]; // Add more locales as needed

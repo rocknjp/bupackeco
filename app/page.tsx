@@ -425,36 +425,36 @@ export default function HomePage() {
               View all products →
             </Link>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
             {products.map((p) => (
               <Link
                 key={p.slug + p.name}
                 href={`/products/${p.slug}`}
-                className="group rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg hover:border-green-200 transition-all"
+                className="group rounded-xl border border-gray-100 overflow-hidden hover:shadow-lg hover:border-green-200 transition-all"
               >
-                <div className="relative h-56 bg-gradient-to-br from-green-50 to-emerald-100 flex items-center justify-center overflow-hidden">
+                <div className="relative h-36 bg-gradient-to-br from-green-50 to-emerald-100 flex items-center justify-center overflow-hidden">
                   <Image
                     src={p.img}
                     alt={p.name}
                     width={400}
-                    height={224}
+                    height={144}
                     className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-green-900/20 group-hover:bg-green-900/10 transition-colors"></div>
                 </div>
-                <div className="p-6">
-                  <div className="flex flex-wrap gap-2 mb-3">
+                <div className="p-4">
+                  <div className="flex flex-wrap gap-1.5 mb-2">
                     {p.tags.map((t) => (
-                      <span key={t} className="text-xs bg-green-50 text-green-700 font-medium px-2.5 py-0.5 rounded-full border border-green-100">
+                      <span key={t} className="text-[10px] bg-green-50 text-green-700 font-medium px-2 py-0.5 rounded-full border border-green-100">
                         {t}
                       </span>
                     ))}
                   </div>
-                  <h3 className="font-bold text-gray-900 text-lg mb-2 group-hover:text-green-700 transition-colors">{p.name}</h3>
-                  <p className="text-gray-500 text-sm leading-relaxed">{p.desc}</p>
-                  <span className="inline-flex items-center gap-1 text-green-700 font-medium text-sm mt-4 group-hover:gap-2 transition-all">
+                  <h3 className="font-bold text-gray-900 text-sm mb-1.5 group-hover:text-green-700 transition-colors">{p.name}</h3>
+                  <p className="text-gray-500 text-xs leading-relaxed line-clamp-3">{p.desc}</p>
+                  <span className="inline-flex items-center gap-1 text-green-700 font-medium text-xs mt-3 group-hover:gap-2 transition-all">
                     Learn more
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </span>

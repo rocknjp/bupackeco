@@ -164,3 +164,50 @@ export function BreadcrumbSchema({
     />
   );
 }
+
+/** Article schema for blog posts */
+export function ArticleSchema({
+  headline,
+  description,
+  datePublished,
+  authorName = "BUpack Team",
+  image,
+}: {
+  headline: string;
+  description: string;
+  datePublished: string;
+  authorName?: string;
+  image?: string;
+}) {
+  return (
+    <Script
+      id="schema-article"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline,
+          description,
+          datePublished,
+          author: {
+            "@type": "Organization",
+            name: authorName,
+          },
+          publisher: {
+            "@type": "Organization",
+            name: "BUpack",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://bupackeco.com/images/factory_workshop.jpg",
+            },
+          },
+          ...(image && {
+            image: image.startsWith("http") ? image : `https://bupackeco.com${image}`,
+          }),
+        }),
+      }}
+    />
+  );
+}
