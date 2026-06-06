@@ -366,24 +366,25 @@ export default function HomePage() {
               From apparel to gourmet food, we&apos;ve helped 850+ brands create packaging their customers brag about.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
             {industries.map((ind) => (
               <Link
                 key={ind.slug}
                 href={`/industries/${ind.slug}`}
-                className="group relative rounded-2xl overflow-hidden h-44 md:h-48 block"
+                className="group rounded-xl overflow-hidden bg-white border border-gray-100 hover:border-green-200 hover:shadow-md transition-all block"
               >
-                <Image
-                  src={ind.img}
-                  alt={ind.name}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 right-0 p-5">
-                  <h3 className="text-white font-bold text-lg mb-1">{ind.name}</h3>
-                  <p className="text-green-100 text-xs leading-relaxed">{ind.desc}</p>
-                  <span className="inline-flex items-center gap-1 text-green-300 text-xs mt-2 group-hover:gap-2 transition-all">
+                <div className="relative h-28 sm:h-32 bg-gray-50 flex items-center justify-center overflow-hidden">
+                  <Image
+                    src={ind.img}
+                    alt={ind.name}
+                    fill
+                    className="object-contain p-3 group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="text-gray-900 font-bold text-sm mb-1 group-hover:text-green-700 transition-colors">{ind.name}</h3>
+                  <p className="text-gray-400 text-xs leading-relaxed line-clamp-2">{ind.desc}</p>
+                  <span className="inline-flex items-center gap-1 text-green-600 text-xs mt-2 font-medium group-hover:gap-2 transition-all">
                     View cases →
                   </span>
                 </div>
