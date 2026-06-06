@@ -5,11 +5,11 @@ import { useState, useEffect } from "react";
 // ============================================================
 // CONFIGURATION — Edit these values to match your WhatsApp
 // ============================================================
-const WHATSAPP_NUMBER = "8613800000000"; // TODO: Replace with your WhatsApp number (include country code, no + or spaces)
+const WHATSAPP_NUMBER = "8615064260757";
 const WHATSAPP_MESSAGE = encodeURIComponent(
   "Hi! I'm interested in custom packaging. Can you send me more information?"
 );
-const DISPLAY_NUMBER = "+86 138-0000-0000"; // TODO: Replace with display version
+const DISPLAY_NUMBER = "+86 150-6426-0757";
 
 export default function WhatsAppButton() {
   const [isVisible, setIsVisible] = useState(false);
