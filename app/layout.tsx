@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://bupackeco.com"),
   title: "BUpack – Eco Packaging for Growing eCommerce Brands",
   description:
-    "BUpack helps DTC and eCommerce brands scale with sustainable paper boxes and bags. Low MOQ, FSC-certified materials, custom printing — built for brands that care about unboxing and the planet.",
+    "Qingdao Bejan Giant New Packaging — 17 years of expertise in custom rigid boxes, cardstock boxes, corrugated boxes, paper bags & more. FSC certified, ISO 9001, flexible MOQ, owned factory in Qingdao.",
   keywords:
-    "eco-friendly packaging, sustainable packaging for ecommerce, custom paper boxes dtc brands, subscription box packaging, paper bags for small business, low moq packaging manufacturer",
+    "custom rigid box manufacturer, gift box OEM China, paper packaging factory Qingdao, FSC certified packaging, ISO 9001 packaging supplier, Fortune 500 packaging vendor, low MOQ custom boxes, candle jewelry chocolate packaging",
   verification: {
     google: "0UiMWYGj7TuSenx5PyIWZZ5N-l9jecBQW30rxEvTBUA",
   },

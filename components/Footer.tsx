@@ -17,7 +17,7 @@ export default function Footer() {
               <span className="text-xl font-bold text-white">BU<span className="text-green-500">pack</span></span>
             </div>
             <p className="text-sm leading-relaxed text-gray-500 max-w-xs">
-              Sustainable paper packaging for growing eCommerce brands. FSC-certified materials, low MOQ, factory-direct.
+              Qingdao Bejan Giant New Packaging — 17 years of expertise in custom paper packaging. FSC & ISO 9001 certified, owned factory in Qingdao, serving global brands since 2014.
             </p>
             <div className="flex items-center gap-2 mt-5">
               <span className="inline-flex items-center gap-1.5 bg-green-900/40 text-green-400 text-xs font-medium px-3 py-1.5 rounded-full">
@@ -59,18 +59,25 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wide">Get in Touch</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="mailto:hello@qingdaobaina.com" className="hover:text-white transition-colors flex items-center gap-2">
+                <a href="mailto:welcome@qingdaobaina.com" className="hover:text-white transition-colors flex items-center gap-2">
                   <svg className="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  hello@qingdaobaina.com
+                  welcome@qingdaobaina.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <svg className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 011 .948l.553 3.319a1 1 0 01-.363.989L8.92 9.146a11.003 11.003 0 005.666 5.666l1.89-1.89a1 1 0 01 .989-.363l3.319.553A1 1 0 0122 18.72V22a2 2 0 01-2 2h-1C9.715 23.3 1.105 14.69 1 4V3a2 2 0 012-2z" />
                 </svg>
-                <span>Response within 24h<br/>(Mon–Fri, EST hours)</span>
+                <span><strong className="text-white">Phone:</strong> +86 189-5484-9811</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <svg className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span>No. 96, Tianfeng North Road<br/>Chengyang, Qingdao, China</span>
               </li>
               <li className="mt-4">
                 <Link href="/contact" className="inline-block bg-green-700 text-white text-xs font-semibold px-4 py-2 rounded-lg hover:bg-green-600 transition-colors">

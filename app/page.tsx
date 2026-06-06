@@ -3,70 +3,70 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "BUpack – Eco Packaging Built for Growing eCommerce Brands",
+  title: "BUpack – Custom Paper Packaging Manufacturer | Qingdao Bejan Giant",
   description:
-    "Stop losing customers at the unboxing moment. BUpack makes FSC-certified custom paper boxes and bags that reflect your brand values — low MOQ, factory direct, ships to North America.",
+    "Qingdao Bejan Giant (BUpack) — 17 years of expertise in custom rigid boxes, cardstock boxes, corrugated boxes & paper bags. FSC & ISO 9001 certified, owned 10,000㎡ factory, Fortune 500 trusted vendor. Flexible MOQ, 3-day sampling.",
 };
 
 const painPoints = [
   {
-    pain: "High MOQs force you to over-order and burn cash",
-    fix: "Start from just 100 units. Test your design, validate demand, then scale — no dead inventory.",
+    pain: "High MOQs at other suppliers force you to over-order",
+    fix: "Flexible MOQ support — we treat every client equally, from startup to Fortune 500. Scale at your own pace.",
     icon: "📦",
-    stat: "15-25%",
-    statLabel: "of packaging budget lost to overstock",
+    stat: "Flexible",
+    statLabel: "MOQ — no forced overstock",
   },
   {
-    pain: "Your packaging looks like everyone else's — no brand recall",
-    fix: "Full custom printing with inside-print, foil stamping & soft-touch finish. Your box becomes shareable content.",
+    pain: "Packaging doesn't reflect your brand quality",
+    fix: "Full custom printing, foil stamping, embossing, spot UV, magnetic closure — make your packaging unforgettable.",
     icon: "🎨",
-    stat: "3x",
-    statLabel: "more unboxing shares with branded packaging",
+    stat: "100%",
+    statLabel: "customizable — size, material, process",
   },
   {
     pain: "Shipping damage destroys reviews and drives returns",
     fix: "FEFCO-tested corrugated + custom-fit inserts. Every design is stress-tested before production.",
     icon: "🛡️",
-    stat: "18%",
-    statLabel: "of online sales affected by poor packaging",
+    stat: "17 yrs",
+    statLabel: "of expertise in protective packaging",
   },
   {
-    pain: "8–12 week lead times kill your product launch momentum",
-    fix: "Digital printing + in-house production = samples in 3-5 days, bulk in 2-3 weeks.",
+    pain: "Slow sampling delays your entire launch timeline",
+    fix: "Material samples in 1 day, printed samples in 3 days. Rapid prototyping with digital proof confirmation.",
     icon: "⚡",
-    stat: "7 days",
-    statLabel: "average social media trend window",
+    stat: "3 days",
+    statLabel: "average sampling turnaround",
   },
   {
-    pain: "Oversized boxes inflate shipping costs by 'dimensional weight'",
-    fix: "Right-size design optimization. We engineer packaging to minimize volume weight and cut freight spend.",
+    pain: "Oversized boxes inflate shipping costs",
+    fix: "Right-size design optimization. We proactively optimize material and size to reduce shipping costs.",
     icon: "📐",
-    stat: "15-30%",
-    statLabel: "shipping cost savings with optimized sizing",
+    stat: "Proven",
+    statLabel: "cost savings for our clients",
   },
 ];
 
 const useCases = [
   {
     stage: "Startup",
-    tag: "100–500 units",
-    desc: "Test your packaging design without a massive investment. We support early-stage brands with low MOQs and free sampling.",
+    tag: "Flexible MOQ",
+    desc: "We support brands at every stage. Flexible MOQ, equal service quality — from first sample to mass production.",
     emoji: "🌱",
     color: "from-emerald-50 to-green-100",
     border: "border-green-200",
   },
   {
     stage: "Growth",
-    tag: "500–5,000 units",
-    desc: "Consistent quality at scale. Upgrade your unboxing experience to reduce returns and boost repeat purchases.",
+    tag: "Scaling Up",
+    desc: "Consistent quality at scale. Dedicated project management, priority production scheduling.",
     emoji: "🚀",
     color: "from-teal-50 to-teal-100",
     border: "border-teal-200",
   },
   {
-    stage: "Scaling",
-    tag: "5,000+ units",
-    desc: "Dedicated account manager, priority production, and volume pricing. We grow with you.",
+    stage: "Enterprise",
+    tag: "Fortune 500",
+    desc: "Trusted by Fortune 500 companies. Full supply chain management, DDP shipping, rigorous QC.",
     emoji: "📈",
     color: "from-green-50 to-emerald-100",
     border: "border-emerald-200",
@@ -75,33 +75,40 @@ const useCases = [
 
 const products = [
   {
-    name: "eCommerce Mailer Boxes",
+    name: "Rigid Boxes",
     slug: "paper-boxes",
-    tags: ["DTC", "Subscription Box"],
-    desc: "Corrugated or rigid paper mailer boxes with magnetic closure. Perfect for DTC shipments that need to look good on arrival.",
+    tags: ["Gift Box", "Luxury"],
+    desc: "High-density cardboard rigid boxes with magnetic closure, velvet insert, foil stamping. Built for high-end gift packaging and luxury brands.",
     img: "/images/product_box_1.jpg",
   },
   {
-    name: "Retail Paper Bags",
-    slug: "paper-bags",
-    tags: ["Retail", "Event"],
-    desc: "Matte or gloss laminated paper bags with rope handles. From boutique storefronts to pop-up events.",
-    img: "/images/product_bag_1.jpg",
+    name: "Cardstock & Foldable Boxes",
+    slug: "paper-boxes",
+    tags: ["Retail", "Folding Carton"],
+    desc: "Flexible thin paperboard boxes for cosmetics, food, and retail products. Full-color printing, embossing, window patching available.",
+    img: "/images/product_box_2.jpg",
   },
   {
-    name: "Subscription Boxes",
-    slug: "subscription-boxes",
-    tags: ["Monthly Box", "Gift Box"],
-    desc: "Designed for repeat impressions. Custom interiors, tissue paper, and inserts included in one order.",
-    img: "/images/product_box_2.jpg",
+    name: "Corrugated & Mailer Boxes",
+    slug: "paper-boxes",
+    tags: ["Shipping", "DTC"],
+    desc: "Durable 3-layer corrugated boxes for eCommerce shipping. Custom size, printed exterior, eco-friendly material options.",
+    img: "/images/product_box_3.jpg",
+  },
+  {
+    name: "Paper Bags",
+    slug: "paper-bags",
+    tags: ["Retail", "Shopping"],
+    desc: "Custom paper bags with rope handles, Matte/Gloss lamination. From boutique storefronts to trade shows.",
+    img: "/images/product_bag_1.jpg",
   },
 ];
 
 const impactStats = [
-  { number: "2.4M", unit: "trees saved", icon: "🌳" },
-  { number: "850+", unit: "brands trust us", icon: "🤝" },
-  { number: "18M+", unit: "eco units shipped", icon: "♻️" },
-  { number: "100%", unit: "plastic-free options", icon: "🌿" },
+  { number: "17", unit: "years of expertise", icon: "🏭" },
+  { number: "10,000+", unit: "㎡ factory area", icon: "🏢" },
+  { number: "50,000+", unit: "units daily capacity", icon: "📦" },
+  { number: "100+", unit: "clients served", icon: "🤝" },
 ];
 
 const industries = [
@@ -151,21 +158,21 @@ const industries = [
 
 const testimonials = [
   {
-    quote: "We switched to BUpack for our subscription box and our unboxing video shares went up 3x in the first month.",
-    brand: "Bloom Beauty Co.",
+    quote: "Bejan was superb from start to finish. Our artwork was done exactly as presented and in the highest quality. Really fast shipping too. I highly recommend Bejan!!!",
+    brand: "Bili Kid",
     role: "Founder",
     country: "🇺🇸",
   },
   {
-    quote: "The MOQ was the deal-breaker with other manufacturers. BUpack let us start with 200 units and the quality was incredible.",
-    brand: "PureLeaf Wellness",
-    role: "Head of Operations",
-    country: "🇨🇦",
+    quote: "Thanks to Bejan's proactive optimization on our existing packaging, we were able to save costs on material as well as optimize size for saving space on shipping for even lower shipping costs!",
+    brand: "Elaina Eckland",
+    role: "Brand Owner",
+    country: "🇺🇸",
   },
   {
-    quote: "Our customers constantly mention the packaging in their reviews. It's become part of our brand identity.",
-    brand: "Cedar & Stone",
-    role: "Co-Founder",
+    quote: "Bejan team has been extremely communicative to ensure that my packaging is perfect by going through rigorous testing and quality control. The team is extremely reliable also!",
+    brand: "Brandy Corley",
+    role: "Founder",
     country: "🇺🇸",
   },
 ];
@@ -190,38 +197,37 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-6">
               <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
-              <span className="text-green-400 text-sm font-medium tracking-wide uppercase">For Growing eCommerce Brands</span>
+              <span className="text-green-400 text-sm font-medium tracking-wide uppercase">Est. 2014 · Owned Factory · Qingdao, China</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Your packaging is the{" "}
+              Custom Paper Packaging<br />
               <span className="relative inline-block">
-                <span className="text-green-400">first review</span>
+                <span className="text-green-400">Built for Your Brand</span>
                 <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-green-400/50 rounded"></span>
-              </span>{" "}
-              your customer writes.
+              </span>
             </h1>
             <p className="text-green-100 text-lg md:text-xl leading-relaxed mb-8 max-w-2xl">
-              BUpack makes FSC-certified custom paper boxes and bags for DTC and eCommerce brands that care about unboxing experience and the planet — starting from just 100 units.
+              Qingdao Bejan Giant — 17 years of expertise in custom rigid boxes, cardstock boxes, corrugated boxes & paper bags. FSC & ISO 9001 certified, Fortune 500 trusted vendor. Sampling in 3 days, flexible MOQ.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 bg-green-500 text-white font-bold px-8 py-4 rounded-xl hover:bg-green-400 transition-colors text-base"
               >
-                Get Free Samples
+                Get a Free Quote
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </Link>
               <Link
-                href="/products"
+                href="/about"
                 className="inline-flex items-center justify-center gap-2 border border-white/30 text-white font-medium px-8 py-4 rounded-xl hover:bg-white/10 transition-colors text-base"
               >
-                Browse Products
+                About Our Factory
               </Link>
             </div>
             <div className="flex flex-wrap gap-4 mt-8">
-              {["FSC Certified", "100+ MOQ", "Ships to North America", "Free Sampling"].map((tag) => (
+              {["FSC Certified", "ISO 9001", "Sedex Certified", "Fortune 500 Vendor", "Flexible MOQ"].map((tag) => (
                 <span key={tag} className="flex items-center gap-1.5 text-sm text-green-200">
                   <svg className="w-4 h-4 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
@@ -233,7 +239,7 @@ export default function HomePage() {
 
             {/* Factory Showcase */}
             <div className="mt-14 pt-8 border-t border-white/10">
-              <p className="text-green-400/80 text-xs font-semibold uppercase tracking-widest mb-4">Built in Our Own ISO-Certified Factory</p>
+              <p className="text-green-400/80 text-xs font-semibold uppercase tracking-widest mb-4">Inside Our 10,000㎡ Owned Factory</p>
               <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
                 {[
                   { img: "/images/factory_hero.jpg", label: "Assembly Workshop" },
