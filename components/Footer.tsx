@@ -59,18 +59,18 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wide">Get in Touch</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="mailto:welcome@qingdaobaina.com" className="hover:text-white transition-colors flex items-center gap-2">
+                <a href="mailto:hello@qingdaobaina.com" className="hover:text-white transition-colors flex items-center gap-2">
                   <svg className="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  welcome@qingdaobaina.com
+                  hello@qingdaobaina.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <svg className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 011 .948l.553 3.319a1 1 0 01-.363.989L8.92 9.146a11.003 11.003 0 005.666 5.666l1.89-1.89a1 1 0 01 .989-.363l3.319.553A1 1 0 0122 18.72V22a2 2 0 01-2 2h-1C9.715 23.3 1.105 14.69 1 4V3a2 2 0 012-2z" />
                 </svg>
-                <span><strong className="text-white">Phone:</strong> +86 189-5484-9811</span>
+                <span><strong className="text-white">Phone / WhatsApp:</strong> +86 15064260757</span>
               </li>
               <li className="flex items-start gap-2">
                 <svg className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

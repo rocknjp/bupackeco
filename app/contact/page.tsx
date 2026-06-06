@@ -93,8 +93,8 @@ export default function ContactPage() {
 
               <div className="bg-green-50 border border-green-100 rounded-xl p-5 mt-4">
               <p className="text-green-800 font-semibold text-sm mb-1">📧 Prefer email?</p>
-              <a href="mailto:welcome@qingdaobaina.com" className="text-green-700 text-sm hover:underline">
-                welcome@qingdaobaina.com
+                <a href="mailto:hello@qingdaobaina.com" className="text-green-700 text-sm hover:underline">
+                  hello@qingdaobaina.com
               </a>
               <p className="text-green-600 text-xs mt-1">Or WhatsApp us directly ↓</p>
               <a
