@@ -456,7 +456,7 @@ export default async function BlogPostPage({
       <ArticleSchema
         headline={post.title}
         description={post.excerpt}
-        datePublished="2025-01-01"
+        datePublished={new Date(post.date).toISOString()}
         authorName="BUpack Team"
       />
       <FAQSchema items={faqItems} />
