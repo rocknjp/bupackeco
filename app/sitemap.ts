@@ -24,6 +24,9 @@ const staticRoutes = [
   "/blog/custom-packaging-low-moq-guide",
   "/blog/packaging-impacts-product-reviews",
   "/blog/kraft-paper-vs-coated-paper",
+  "/blog/china-vs-us-packaging-manufacturer",
+  "/blog/custom-packaging-cost-guide",
+  "/compare/rigid-vs-corrugated-boxes",
   "/case-studies",
   "/moq-guide",
 ];

@@ -88,6 +88,28 @@ const posts = [
     featured: false,
     emoji: "📄",
   },
+  {
+    slug: "china-vs-us-packaging-manufacturer",
+    title: "China vs US Custom Packaging Manufacturers: Cost, Quality & Lead Time Compared",
+    excerpt:
+      "Should you source custom packaging from China or the US? This data-driven comparison covers unit costs, quality standards, lead times, certifications, MOQ, and hidden fees — so you can make the right call for your brand.",
+    category: "DTC Strategy",
+    date: "June 5, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "🌏",
+  },
+  {
+    slug: "custom-packaging-cost-guide",
+    title: "How Much Does Custom Packaging Cost? Complete Pricing Guide for DTC Brands",
+    excerpt:
+      "A transparent breakdown of custom packaging costs by product type, volume, and finishing — plus the hidden fees most suppliers won't mention and 7 proven strategies to cut costs without sacrificing quality.",
+    category: "Packaging 101",
+    date: "May 20, 2026",
+    readTime: "9 min",
+    featured: false,
+    emoji: "💰",
+  },
 ];
 
 export default function BlogPage() {
