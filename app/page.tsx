@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "BUpack – Custom Paper Packaging Manufacturer | Qingdao Bejan Giant",
+  title: "Custom Paper Packaging Manufacturer | Low MOQ, FSC-Certified | BUpack – Qingdao Bejan Giant",
   description:
     "Qingdao Bejan Giant (BUpack) — 17 years of expertise in custom rigid boxes, cardstock boxes, corrugated boxes & paper bags. FSC & ISO 9001 certified, owned 10,000㎡ factory, Fortune 500 trusted vendor. Flexible MOQ, 3-day sampling.",
 };
@@ -555,6 +555,33 @@ export default function HomePage() {
                 <div className="text-2xl mb-2">{item.icon}</div>
                 <div className="font-semibold text-sm mb-1">{item.label}</div>
                 <div className="text-green-300 text-xs">{item.desc}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── GEO DATA SECTION: Industry Statistics ──── */}
+      <section className="py-16 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Custom Packaging by the Numbers</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-lg">
+              The data behind why growing DTC brands are switching to factory-direct custom packaging.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-4 gap-6">
+            {[
+              { stat: "40%", label: "Higher Retention", desc: "Subscription brands with premium packaging retain 40% more customers after 3 months.", source: "Industry benchmark" },
+              { stat: "73%", label: "Willing to Pay More", desc: "73% of US consumers say they'd pay a premium for sustainable packaging.", source: "McKinsey Consumer Survey 2023" },
+              { stat: "2-3x", label: "More UGC", desc: "DTC brands with custom unboxing-ready packaging see 2-3x more user-generated content.", source: "DTC industry data" },
+              { stat: "$0.50-$3", label: "Per Unit Range", desc: "Custom paper boxes cost $0.50-$3 per unit at 500-5,000 quantity — comparable to generic options at scale.", source: "BUpack pricing analysis" },
+            ].map((item) => (
+              <div key={item.label} className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-100 text-center hover:shadow-md transition-shadow">
+                <div className="text-3xl md:text-4xl font-black text-green-700 mb-2">{item.stat}</div>
+                <div className="text-gray-800 font-bold text-sm mb-2">{item.label}</div>
+                <p className="text-gray-500 text-xs leading-relaxed">{item.desc}</p>
+                <p className="text-gray-400 text-[10px] mt-3 italic">Source: {item.source}</p>
               </div>
             ))}
           </div>

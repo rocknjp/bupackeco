@@ -24,6 +24,8 @@ const staticRoutes = [
   "/blog/custom-packaging-low-moq-guide",
   "/blog/packaging-impacts-product-reviews",
   "/blog/kraft-paper-vs-coated-paper",
+  "/case-studies",
+  "/moq-guide",
 ];
 
 const locales = ["en"]; // Add more locales as needed

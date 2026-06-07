@@ -357,9 +357,29 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
   const { slug } = await params
   const industry = industries[slug as keyof typeof industries]
   if (!industry) return {}
+
+  // SEO-optimized title & description per industry
+  const seoTitleMap: Record<string, string> = {
+    "candles-fragrance": "Custom Candle Packaging Boxes | Mailer & Gift Sets | Low MOQ | BUpack",
+    "jewelry": "Jewelry Packaging Boxes Wholesale | Custom Rigid Boxes with Velvet Insert | BUpack",
+    "chocolate-confectionery": "Chocolate Gift Box Packaging | Custom Confectionery Boxes | Food-Safe | BUpack",
+    "stationery-gifts": "Stationery & Gift Packaging | Custom Flat Mailers & Gift Sets | BUpack",
+    "tea-beverages": "Tea Packaging Boxes | Subscription & Gift Boxes for Tea Brands | BUpack",
+    "pet-subscription": "Pet Subscription Box Packaging | Custom Monthly Boxes for Pet Brands | BUpack",
+  }
+
+  const seoDescMap: Record<string, string> = {
+    "candles-fragrance": "Custom candle packaging boxes for DTC candle and home fragrance brands. Mailer boxes with glass jar inserts, holiday gift sets, and subscription boxes. FSC-certified, low MOQ from 100 units.",
+    "jewelry": "Custom jewelry packaging boxes with velvet inserts and magnetic closures. Rigid gift boxes for rings, necklaces, and earrings. Low MOQ from 100 units, factory-direct pricing. Free samples available.",
+    "chocolate-confectionery": "FDA-compliant custom chocolate gift box packaging for artisan confectionery brands. Window boxes, rigid gift sets with truffle inserts, and holiday quick-turn options. MOQ from 100 units.",
+    "stationery-gifts": "Custom stationery and gift packaging — flat mailer boxes for notebooks, rigid gift set boxes for journal collections, and reusable keepsake boxes. Low MOQ, eco-friendly materials.",
+    "tea-beverages": "Custom tea packaging boxes — drawer-style tea boxes, multi-compartment gift sets, and monthly subscription boxes for tea brands. FSC-certified, fast turnaround, MOQ from 100 units.",
+    "pet-subscription": "Custom pet subscription box packaging with monthly theme rotation. Divided interior boxes for treats, toys, and accessories. Pet-safe soy inks, durable corrugated construction. MOQ from 100 units.",
+  }
+
   return {
-    title: `${industry.name} Packaging | Custom Boxes for ${industry.name} Brands | BUpack`,
-    description: `${industry.tagline}. Eco-friendly custom ${industry.name.toLowerCase()} packaging for DTC and eCommerce brands. Low MOQ, fast turnaround, factory-direct pricing. Get free samples.`,
+    title: seoTitleMap[slug] || `${industry.name} Packaging | Custom Boxes for ${industry.name} Brands | BUpack`,
+    description: seoDescMap[slug] || `${industry.tagline}. Eco-friendly custom ${industry.name.toLowerCase()} packaging for DTC and eCommerce brands. Low MOQ, fast turnaround, factory-direct pricing. Get free samples.`,
     keywords: industry.seoKeywords,
   }
 }

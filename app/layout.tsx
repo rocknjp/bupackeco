@@ -7,7 +7,7 @@ import { SiteSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.bupackeco.com"),
-  title: "BUpack – Eco Packaging for Growing eCommerce Brands",
+  title: "Custom Paper Packaging Manufacturer | Low MOQ, FSC-Certified | BUpack",
   description:
     "Qingdao Bejan Giant New Packaging — 17 years of expertise in custom rigid boxes, cardstock boxes, corrugated boxes, paper bags & more. FSC certified, ISO 9001, flexible MOQ, owned factory in Qingdao.",
   keywords:
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     google: "0UiMWYGj7TuSenx5PyIWZZ5N-l9jecBQW30rxEvTBUA",
   },
   openGraph: {
-    title: "BUpack – Eco Packaging for Growing eCommerce Brands",
+    title: "Custom Paper Packaging Manufacturer | Low MOQ, FSC-Certified | BUpack",
     description:
       "Sustainable custom paper boxes & bags. Built for DTC brands that value unboxing experience and environmental responsibility.",
     url: "https://www.bupackeco.com",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BUpack – Eco Packaging for Growing eCommerce Brands",
+    title: "Custom Paper Packaging Manufacturer | Low MOQ, FSC-Certified | BUpack",
     description:
       "Sustainable custom paper boxes & bags for DTC brands. Low MOQ, FSC-certified, ships to North America.",
     images: ["https://www.bupackeco.com/images/factory_workshop.jpg"],
