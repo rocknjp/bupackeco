@@ -5,7 +5,7 @@ import Script from "next/script";
  * Add to layout.tsx (site-wide) or per-page for page-specific schemas.
  */
 export function SiteSchema() {
-  const baseUrl = "https://bupackeco.com";
+  const baseUrl = "https://www.bupackeco.com";
   return (
     <>
       {/* Organization */}
@@ -80,7 +80,7 @@ export function ProductSchema({
   brand?: string;
   offers?: { price: string; priceCurrency?: string; url?: string };
 }) {
-  const baseUrl = "https://bupackeco.com";
+  const baseUrl = "https://www.bupackeco.com";
   return (
     <Script
       id="schema-product"
@@ -157,7 +157,7 @@ export function BreadcrumbSchema({
             "@type": "ListItem",
             position: i + 1,
             name: item.name,
-            item: item.url.startsWith("http") ? item.url : `https://bupackeco.com${item.url}`,
+            item: item.url.startsWith("http") ? item.url : `https://www.bupackeco.com${item.url}`,
           })),
         }),
       }}
@@ -200,11 +200,11 @@ export function ArticleSchema({
             name: "BUpack",
             logo: {
               "@type": "ImageObject",
-              url: "https://bupackeco.com/images/factory_workshop.jpg",
+              url: "https://www.bupackeco.com/images/factory_workshop.jpg",
             },
           },
           ...(image && {
-            image: image.startsWith("http") ? image : `https://bupackeco.com${image}`,
+            image: image.startsWith("http") ? image : `https://www.bupackeco.com${image}`,
           }),
         }),
       }}

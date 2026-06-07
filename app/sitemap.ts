@@ -29,7 +29,7 @@ const staticRoutes = [
 const locales = ["en"]; // Add more locales as needed
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://bupackeco.com";
+  const baseUrl = "https://www.bupackeco.com";
 
   const routes = staticRoutes.flatMap((route) =>
     locales.map((locale) => ({

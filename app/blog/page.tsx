@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
   title: "Packaging Blog – Tips for eCommerce Brands | BUpack",
@@ -95,6 +96,12 @@ export default function BlogPage() {
 
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://www.bupackeco.com" },
+          { name: "Blog", url: "https://www.bupackeco.com/blog" },
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#0a2e18] text-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">

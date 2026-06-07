@@ -8,7 +8,7 @@ Allow: /
 
 # Disallow admin or private paths (none currently)
 
-Sitemap: https://bupackeco.com/sitemap.xml
+Sitemap: https://www.bupackeco.com/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1`;

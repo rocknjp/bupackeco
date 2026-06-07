@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
   title: "BUpack – Custom Paper Packaging Manufacturer | Qingdao Bejan Giant",
@@ -180,6 +181,17 @@ const testimonials = [
 export default function HomePage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://www.bupackeco.com" },
+        ]}
+      />
+      <FAQSchema
+        items={painPoints.map((p) => ({
+          question: p.pain,
+          answer: p.fix,
+        }))}
+      />
       {/* ── HERO ─────────────────────────────────────── */}
       <section className="relative bg-[#0a2e18] text-white overflow-hidden">
         {/* factory background image */}

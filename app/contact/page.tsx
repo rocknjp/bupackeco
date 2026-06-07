@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/Schema";
 
 // Note: metadata can't be exported from client components.
 // For production, move metadata to a separate server component wrapper.
@@ -40,6 +41,12 @@ export default function ContactPage() {
 
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://www.bupackeco.com" },
+          { name: "Contact", url: "https://www.bupackeco.com/contact" },
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#0a2e18] text-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">

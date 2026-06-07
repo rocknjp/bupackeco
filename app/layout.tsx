@@ -6,7 +6,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { SiteSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bupackeco.com"),
+  metadataBase: new URL("https://www.bupackeco.com"),
   title: "BUpack – Eco Packaging for Growing eCommerce Brands",
   description:
     "Qingdao Bejan Giant New Packaging — 17 years of expertise in custom rigid boxes, cardstock boxes, corrugated boxes, paper bags & more. FSC certified, ISO 9001, flexible MOQ, owned factory in Qingdao.",
@@ -19,21 +19,21 @@ export const metadata: Metadata = {
     title: "BUpack – Eco Packaging for Growing eCommerce Brands",
     description:
       "Sustainable custom paper boxes & bags. Built for DTC brands that value unboxing experience and environmental responsibility.",
-    url: "https://bupackeco.com",
+    url: "https://www.bupackeco.com",
     siteName: "BUpack",
     locale: "en_US",
     type: "website",
-    images: [{ url: "https://bupackeco.com/images/factory_workshop.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://www.bupackeco.com/images/factory_workshop.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "BUpack – Eco Packaging for Growing eCommerce Brands",
     description:
       "Sustainable custom paper boxes & bags for DTC brands. Low MOQ, FSC-certified, ships to North America.",
-    images: ["https://bupackeco.com/images/factory_workshop.jpg"],
+    images: ["https://www.bupackeco.com/images/factory_workshop.jpg"],
   },
   alternates: {
-    canonical: "https://bupackeco.com",
+    canonical: "https://www.bupackeco.com",
   },
 };
 
