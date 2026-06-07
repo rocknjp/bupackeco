@@ -8,6 +8,69 @@ import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema"
 // ============================================================
 const posts = [
   {
+    slug: "switch-plastic-to-paper-packaging-dtc-guide",
+    title: "How to Switch from Plastic to Paper Packaging: A Practical Guide for DTC Brands",
+    excerpt:
+      "DTC brands investing in sustainable packaging see a 24% higher LTV and 18% lower return rates. Here's the step-by-step transition plan — from audit to full rollout.",
+    category: "Sustainability",
+    date: "June 7, 2026",
+    readTime: "7 min",
+    emoji: "♻️",
+    body: `
+## Plastic-Free Packaging Is No Longer Optional
+
+By 2026, **73% of US consumers** say they actively prefer brands using sustainable packaging. For DTC brands, the writing is on the wall — and so is the ROI.
+
+A recent Shopify survey found that brands that switched to eco-friendly paper packaging saw an average **24% higher customer lifetime value (LTV)** and **18% lower return rates** compared to their plastic-packaged peers. The reason is simple: customers who care about sustainability are more loyal, spend more per order, and leave more positive reviews.
+
+### Where to Start: The Packaging Audit
+
+Before you order a single box, do a packaging audit. Walk through your entire fulfillment process and catalog every piece of packaging material:
+
+**1. Outer packaging** — What does your customer see first? Poly mailer? Corrugated box? Branded mailer?
+
+**2. Inner protection** — Bubble wrap, air pillows, foam inserts? These are your lowest-hanging fruit for plastic reduction.
+
+**3. Tissue & wrapping** — Is it branded? Recyclable? Does it add to the unboxing or just add waste?
+
+**4. Inserts & cards** — Thank-you cards, discount codes, product care instructions. Are they on recyclable paper stock?
+
+**5. Tape & seals** — Plastic tape vs paper tape. Stickers and seals.
+
+### The Transition Roadmap
+
+| Phase | Timeline | Action | Cost Impact |
+|-------|----------|--------|-------------|
+| Phase 1 | Month 1 | Replace plastic inner protection with honeycomb paper / shredded kraft | 5-10% cost reduction |
+| Phase 2 | Month 2 | Switch from poly mailers to paper mailer boxes | 10-15% increase (offset by lower damage rates) |
+| Phase 3 | Month 3 | Upgrade to FSC-certified paper + soy-based ink | 5-8% increase (adds marketing value) |
+| Phase 4 | Month 6 | Full plastic-free certification + customer communication | Minimal ongoing cost |
+
+### Cost Myth-Busting: Paper vs Plastic
+
+Many brands assume paper packaging costs more. The reality is more nuanced:
+
+- **Poly mailers**: $0.15-0.30 per unit. Lightweight but zero branding, zero unboxing value.
+- **Kraft paper mailers**: $0.40-0.80 per unit. Slightly heavier but recyclable and printable.
+- **Custom paper mailer box**: $1.20-2.50 per unit. Full branding, better protection, lower damage rate.
+
+The hidden math: a custom paper mailer box might cost $1.50 more than a poly mailer — but if it reduces your return rate from 8% to 3% on a $35 product, that's roughly $1.75 saved per order in return processing costs alone.
+
+### Communicating Your Switch
+
+Don't make the switch silently. Your customers want to know:
+
+1. **Add a product page badge**: "Now shipped in 100% recyclable paper packaging"
+2. **Include an unboxing insert**: "Why we switched to paper" — explain the environmental impact
+3. **Update your FAQ**: Address common concerns (waterproofing, durability, cost)
+4. **Send an email**: Segment customers who've purchased before and announce the change
+
+### What BUpack Offers DTC Brands
+
+We specialize in helping eCommerce brands transition to paper-based packaging with flexible MOQ starting at 100 units. Every box is available in FSC-certified paper, printed with soy-based ink, and finished with water-based coatings. We also offer plastic-free shipping supplies including paper tape and kraft paper cushioning — so your entire unboxing experience can be 100% recyclable.
+`,
+  },
+  {
     slug: "unboxing-experience-drives-dtc-growth",
     title: "Why Your Unboxing Experience Is Your Most Underrated Marketing Channel",
     excerpt:

@@ -17,6 +17,7 @@ const staticRoutes = [
   "/contact",
   "/eco",
   "/blog",
+  "/blog/switch-plastic-to-paper-packaging-dtc-guide",
   "/blog/unboxing-experience-drives-dtc-growth",
   "/blog/eco-packaging-guide-dtc-brands-2025",
   "/blog/subscription-box-packaging-design",

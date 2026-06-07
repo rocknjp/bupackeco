@@ -11,6 +11,17 @@ const categories = ["All", "Unboxing Experience", "Sustainability", "DTC Strateg
 
 const posts = [
   {
+    slug: "switch-plastic-to-paper-packaging-dtc-guide",
+    title: "How to Switch from Plastic to Paper Packaging: A Practical Guide for DTC Brands",
+    excerpt:
+      "DTC brands investing in sustainable packaging see a 24% higher LTV and 18% lower return rates. Here's the step-by-step transition plan — from audit to full rollout.",
+    category: "Sustainability",
+    date: "June 7, 2026",
+    readTime: "7 min",
+    featured: true,
+    emoji: "♻️",
+  },
+  {
     slug: "unboxing-experience-drives-dtc-growth",
     title: "Why Your Unboxing Experience Is Your Most Underrated Marketing Channel",
     excerpt:
@@ -18,7 +29,7 @@ const posts = [
     category: "Unboxing Experience",
     date: "May 28, 2025",
     readTime: "9 min",
-    featured: true,
+    featured: false,
     emoji: "📱",
   },
   {
