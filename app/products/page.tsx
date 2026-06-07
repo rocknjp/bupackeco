@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { CollectionPageSchema, BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
   title: "Eco Packaging Products for eCommerce Brands | BUpack",
@@ -26,65 +27,35 @@ const products = [
     whyBrands: "DTC brands that run unboxing-worthy experiences report 2–3x higher UGC and social shares. Start from 100 units.",
     emoji: "📬",
   },
-  {
-    id: "paper-bags",
-    name: "Custom Paper Bags",
-    tags: ["Retail", "Pop-up", "Boutique"],
-    badge: "🌿 Eco Favorite",
-    description:
-      "Elevate your retail and event experience with custom paper bags. Kraft or coated art paper, rope or flat handles — every bag tells your brand story.",
-    specs: [
-      { label: "Material", value: "Kraft / Coated art / Recycled paper" },
-      { label: "Handles", value: "Cotton rope, flat paper, die-cut" },
-      { label: "Print", value: "Full CMYK, foil stamp, emboss" },
-      { label: "Sizes", value: "XS to XXL, fully custom" },
-      { label: "MOQ", value: "From 200 units" },
-      { label: "Lead time", value: "12–18 business days" },
-    ],
-    whyBrands: "73% of shoppers say they reuse a paper bag if it looks premium. Your bag becomes a walking billboard.",
-    emoji: "🛍️",
-  },
-  {
-    id: "subscription-boxes",
-    name: "Subscription & Gift Boxes",
-    tags: ["Monthly Box", "Gift Set", "Wellness", "Beauty"],
-    badge: "🎁 Unboxing Special",
-    description:
-      "For brands that ship monthly boxes or curated gift sets. Full interior design, custom dividers, tissue paper inserts — we handle the complete unboxing experience.",
-    specs: [
-      { label: "Style", value: "Two-piece lid, magnetic closure, drawer box" },
-      { label: "Interior", value: "Custom printed inserts, foam, tissue" },
-      { label: "Paper", value: "300–600gsm premium board" },
-      { label: "Finish", value: "Foil, emboss, soft-touch, ribbon" },
-      { label: "MOQ", value: "From 100 units" },
-      { label: "Lead time", value: "20–25 business days" },
-    ],
-    whyBrands: "Subscription box brands see up to 40% higher retention when customers feel the packaging is premium.",
-    emoji: "🎁",
-  },
-  {
-    id: "mailer-boxes",
-    name: "Kraft & Recycled Mailers",
-    tags: ["Eco", "Minimal", "Skincare", "Food"],
-    badge: "♻️ Most Sustainable",
-    description:
-      "Minimal, natural, and effective. Kraft mailers made from 100% recycled paper — perfect for brands with a minimalist or zero-waste identity.",
-    specs: [
-      { label: "Material", value: "100% recycled kraft paper" },
-      { label: "Print", value: "1–2 color flexo or digital print" },
-      { label: "Closure", value: "Self-seal strip, no adhesive tape needed" },
-      { label: "Certifications", value: "FSC, ISO 14001, compostable liner available" },
-      { label: "MOQ", value: "From 200 units" },
-      { label: "Lead time", value: "10–15 business days" },
-    ],
-    whyBrands: "A growing segment of North American consumers actively seek out brands with plastic-free packaging.",
-    emoji: "♻️",
-  },
 ];
 
 export default function ProductsPage() {
   return (
     <>
+      <CollectionPageSchema
+        name="BUpack Packaging Products"
+        description="Browse BUpack's range of sustainable packaging: eCommerce mailer boxes, paper bags, subscription boxes, and gift packaging. FSC-certified, fully customizable, low MOQ."
+        products={[
+          {
+            name: "eCommerce Mailer Boxes",
+            description: "Self-locking, no-tape mailer boxes with full interior and exterior print.",
+            image: "https://bupackeco.com/images/product_box_1.jpg",
+            url: "https://bupackeco.com/products/paper-boxes",
+          },
+          {
+            name: "Custom Paper Bags",
+            description: "Elevate your retail and event experience with custom paper bags.",
+            image: "https://bupackeco.com/images/product_bag_1.jpg",
+            url: "https://bupackeco.com/products/paper-bags",
+          },
+        ]}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://bupackeco.com" },
+          { name: "Products", url: "https://bupackeco.com/products" },
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#0a2e18] text-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">

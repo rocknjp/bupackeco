@@ -1,12 +1,25 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
   title: "BUpack – Custom Paper Packaging Manufacturer | Qingdao Bejan Giant",
   description:
     "Qingdao Bejan Giant (BUpack) — 17 years of expertise in custom rigid boxes, cardstock boxes, corrugated boxes & paper bags. FSC & ISO 9001 certified, owned 10,000㎡ factory, Fortune 500 trusted vendor. Flexible MOQ, 3-day sampling.",
 };
+
+export default function HomePage() {
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://bupackeco.com" },
+        ]}
+      />
+      {/* ── HERO ───────────────────────────────────── */}
+      <section className="relative bg-[#0a2e18] text-white overflow-hidden">
+
 
 const painPoints = [
   {

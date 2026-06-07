@@ -172,12 +172,14 @@ export function ArticleSchema({
   datePublished,
   authorName = "BUpack Team",
   image,
+  dateModified,
 }: {
   headline: string;
   description: string;
   datePublished: string;
   authorName?: string;
   image?: string;
+  dateModified?: string;
 }) {
   return (
     <Script
@@ -191,9 +193,11 @@ export function ArticleSchema({
           headline,
           description,
           datePublished,
+          ...(dateModified && { dateModified }),
           author: {
             "@type": "Organization",
             name: authorName,
+            url: "https://bupackeco.com",
           },
           publisher: {
             "@type": "Organization",
@@ -203,9 +207,127 @@ export function ArticleSchema({
               url: "https://bupackeco.com/images/factory_workshop.jpg",
             },
           },
+          mainEntityOfPage: {
+            "@type": "WebPage",
+            "@id": "https://bupackeco.com",
+          },
           ...(image && {
             image: image.startsWith("http") ? image : `https://bupackeco.com${image}`,
           }),
+        }),
+      }}
+    />
+  );
+}
+
+/** ContactPage schema */
+export function ContactPageSchema() {
+  return (
+    <>
+      <Script
+        id="schema-contact"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            mainEntity: {
+              "@type": "Organization",
+              name: "BUpack",
+              url: "https://bupackeco.com",
+              logo: "https://bupackeco.com/images/factory_workshop.jpg",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+86-150-6426-0757",
+                contactType: "customer service",
+                availableLanguage: ["English", "Chinese"],
+                areaServed: ["North America", "Europe", "Asia"],
+              },
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "No. 96, Tianfeng North Road",
+                addressLocality: "Chengyang District",
+                addressRegion: "Qingdao",
+                addressCountry: "CN",
+              },
+              sameAs: [
+                "https://www.linkedin.com/company/bupack",
+                "https://www.instagram.com/bupack",
+              ],
+            },
+          }),
+        }}
+      />
+      <FAQSchema
+        items={[
+          {
+            question: "What is the minimum order quantity for custom packaging at BUpack?",
+            answer: "BUpack offers a low minimum order quantity of just 100 pieces, making it ideal for small and growing ecommerce brands.",
+          },
+          {
+            question: "Are BUpack's packaging materials eco-friendly?",
+            answer: "Yes, all BUpack packaging uses FSC-certified paper, soy-based inks, and plastic-free materials. We are committed to 100% sustainable packaging solutions.",
+          },
+          {
+            question: "How long does production take at BUpack?",
+            answer: "Production lead time is typically 15-20 business days after sample confirmation. Shipping to North America takes 7-12 days via DDP service.",
+          },
+          {
+            question: "Does BUpack ship internationally?",
+            answer: "Yes, BUpack ships to North America, Europe, and other global markets. We offer DDP (Delivered Duty Paid) shipping to simplify customs clearance.",
+          },
+        ]}
+      />
+    </>
+  );
+}
+
+/** CollectionPage schema for products */
+export function CollectionPageSchema({
+  name,
+  description,
+  products,
+}: {
+  name: string;
+  description: string;
+  products: Array<{
+    name: string;
+    description: string;
+    image: string;
+    url: string;
+  }>;
+}) {
+  return (
+    <Script
+      id="schema-collection"
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name,
+          description,
+          url: "https://bupackeco.com/products",
+          mainEntity: {
+            "@type": "ItemList",
+            itemListElement: products.map((product, index) => ({
+              "@type": "ListItem",
+              position: index + 1,
+              item: {
+                "@type": "Product",
+                name: product.name,
+                description: product.description,
+                image: product.image.startsWith("http")
+                  ? product.image
+                  : `https://bupackeco.com${product.image}`,
+                url: product.url.startsWith("http")
+                  ? product.url
+                  : `https://bupackeco.com${product.url}`,
+              },
+            })),
+          },
         }),
       }}
     />
