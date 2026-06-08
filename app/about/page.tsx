@@ -41,11 +41,11 @@ const values = [
 ];
 
 const certifications = [
-  { name: "FSC Certified", desc: "Forest Stewardship Council chain of custody certified" },
-  { name: "ISO 9001", desc: "Quality management system certified" },
-  { name: "Sedex / SMETA", desc: "Ethical trade audit passed" },
-  { name: "SGS Tested", desc: "Third-party quality & safety verification" },
-  { name: "RoHS Compliant", desc: "Restriction of Hazardous Substances certified materials" },
+  { name: "FSC Certified", img: "/images/cert_fsc.png", desc: "Forest Stewardship Council chain of custody certified" },
+  { name: "ISO 9001", img: "/images/cert_iso9001.jpg", desc: "Quality management system certified" },
+  { name: "Sedex / SMETA", img: "/images/cert_smeta.jpg", desc: "Ethical trade audit passed" },
+  { name: "SGS Tested", img: "/images/cert_sgs.jpg", desc: "Third-party quality & safety verification" },
+  { name: "RoHS Compliant", img: "/images/cert_rohs.jpg", desc: "Restriction of Hazardous Substances certified materials" },
 ];
 
 const equipment = [
@@ -246,19 +246,37 @@ export default function AboutPage() {
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Certifications & Compliance</h2>
             <p className="text-gray-500 max-w-2xl mx-auto text-lg">
-              Our certifications ensure your packaging meets global quality and sustainability standards.
+              Our certifications ensure your packaging meets global quality and sustainability standards. Need originals? <a href="/contact" className="text-green-700 font-medium hover:underline">Contact us</a> for certified copies.
             </p>
           </div>
-          <div className="grid sm:grid-cols-3 lg:grid-cols-5 gap-4 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 max-w-4xl mx-auto">
             {certifications.map((c) => (
-              <div key={c.name} className="bg-green-50 rounded-xl p-5 text-center border border-green-100">
-                <div className="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center mx-auto mb-3">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
+              <div key={c.name} className="flex flex-col items-center text-center group">
+                <div
+                  className="relative w-32 h-40 bg-gray-50 rounded-lg border border-gray-200 overflow-hidden mb-3 select-none cert-protected"
+                  style={{
+                    pointerEvents: "none",
+                    userSelect: "none",
+                    WebkitUserSelect: "none",
+                  }}
+                >
+                  <Image
+                    src={c.img}
+                    alt={c.name}
+                    width={128}
+                    height={160}
+                    className="object-contain w-full h-full p-2"
+                    draggable={false}
+                    unoptimized
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none select-none">
+                    <span className="text-[8px] text-gray-400/60 font-mono rotate-[-30deg] whitespace-nowrap bg-white/80 px-2 py-1 rounded">
+                      bupackeco.com
+                    </span>
+                  </div>
                 </div>
                 <h4 className="text-gray-900 font-bold text-sm mb-1">{c.name}</h4>
-                <p className="text-gray-500 text-xs">{c.desc}</p>
+                <p className="text-gray-400 text-xs">{c.desc}</p>
               </div>
             ))}
           </div>
