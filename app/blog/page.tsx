@@ -110,6 +110,17 @@ const posts = [
     featured: false,
     emoji: "💰",
   },
+  {
+    slug: "eco-packaging-roi-small-dtc-brands",
+    title: "Eco-Friendly Packaging ROI: How Small DTC Brands Can Afford Sustainable Packaging",
+    excerpt:
+      "Sustainable packaging doesn't have to destroy your margins. Here's the real ROI math for small DTC brands — including cost breakdowns, customer retention data, and 5 low-cost strategies to go green without breaking the bank.",
+    category: "Sustainability",
+    date: "June 8, 2026",
+    readTime: "8 min",
+    featured: false,
+    emoji: "🌱",
+  },
 ];
 
 export default function BlogPage() {

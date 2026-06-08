@@ -27,6 +27,7 @@ const staticRoutes = [
   "/blog/kraft-paper-vs-coated-paper",
   "/blog/china-vs-us-packaging-manufacturer",
   "/blog/custom-packaging-cost-guide",
+  "/blog/eco-packaging-roi-small-dtc-brands",
   "/compare/rigid-vs-corrugated-boxes",
   "/case-studies",
   "/moq-guide",
