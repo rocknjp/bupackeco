@@ -80,28 +80,28 @@ const products = [
     slug: "paper-boxes",
     tags: ["Gift Box", "Luxury"],
     desc: "High-density cardboard rigid boxes with magnetic closure, velvet insert, foil stamping. Built for high-end gift packaging and luxury brands.",
-    img: "/images/product_box_1.jpg",
+    img: "/images/product_rigid_boxes.jpg",
   },
   {
     name: "Cardstock & Foldable Boxes",
     slug: "paper-boxes",
     tags: ["Retail", "Folding Carton"],
     desc: "Flexible thin paperboard boxes for cosmetics, food, and retail products. Full-color printing, embossing, window patching available.",
-    img: "/images/product_box_2.jpg",
+    img: "/images/product_cardstock_foldable.png",
   },
   {
     name: "Corrugated & Mailer Boxes",
     slug: "paper-boxes",
     tags: ["Shipping", "DTC"],
     desc: "Durable 3-layer corrugated boxes for eCommerce shipping. Custom size, printed exterior, eco-friendly material options.",
-    img: "/images/product_box_3.jpg",
+    img: "/images/product_corrugated_mailer.png",
   },
   {
     name: "Paper Bags",
     slug: "paper-bags",
     tags: ["Retail", "Shopping"],
     desc: "Custom paper bags with rope handles, Matte/Gloss lamination. From boutique storefronts to trade shows.",
-    img: "/images/product_bag_1.jpg",
+    img: "/images/product_paper_bags.png",
   },
 ];
 
