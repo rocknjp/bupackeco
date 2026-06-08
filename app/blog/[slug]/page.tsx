@@ -42,7 +42,7 @@ Before you order a single box, do a packaging audit. Walk through your entire fu
 | Phase | Timeline | Action | Cost Impact |
 |-------|----------|--------|-------------|
 | Phase 1 | Month 1 | Replace plastic inner protection with honeycomb paper / shredded kraft | 5-10% cost reduction |
-| Phase 2 | Month 2 | Switch from poly mailers to paper mailer boxes | 10-15% increase (offset by lower damage rates) |
+| Phase 2 | Month 2 | Switch from poly mailers to <a href="/products/paper-boxes">paper mailer boxes</a> | 10-15% increase (offset by lower damage rates) |
 | Phase 3 | Month 3 | Upgrade to FSC-certified paper + soy-based ink | 5-8% increase (adds marketing value) |
 | Phase 4 | Month 6 | Full plastic-free certification + customer communication | Minimal ongoing cost |
 
@@ -67,7 +67,9 @@ Don't make the switch silently. Your customers want to know:
 
 ### What BUpack Offers DTC Brands
 
-We specialize in helping eCommerce brands transition to paper-based packaging with flexible MOQ starting at 100 units. Every box is available in FSC-certified paper, printed with soy-based ink, and finished with water-based coatings. We also offer plastic-free shipping supplies including paper tape and kraft paper cushioning — so your entire unboxing experience can be 100% recyclable.
+We specialize in helping eCommerce brands transition to <a href="/products/paper-boxes">paper-based packaging</a> with flexible MOQ starting at 100 units. Every box is available in <a href="/eco">FSC-certified paper</a>, printed with soy-based ink, and finished with water-based coatings. We also offer plastic-free shipping supplies including paper tape and kraft paper cushioning — so your entire unboxing experience can be 100% recyclable.
+
+Brands in specific verticals can explore our industry-specific solutions: from <a href="/industries/candles-fragrance">candle packaging</a> to <a href="/industries/jewelry">jewelry boxes</a> and <a href="/industries/chocolate-confectionery">confectionery packaging</a> — each with drop-tested designs and FDA-compliant materials where needed.
 `,
   },
   {
