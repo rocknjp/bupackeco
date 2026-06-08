@@ -112,6 +112,14 @@ const impactStats = [
   { number: "100+", unit: "clients served", icon: "🤝" },
 ];
 
+const certifications = [
+  { name: "FSC Certified", img: "/images/cert_fsc.png", desc: "Responsibly sourced paper from certified forests" },
+  { name: "ISO 9001", img: "/images/cert_iso9001.jpg", desc: "International quality management standard" },
+  { name: "Sedex / SMETA", img: "/images/cert_smeta.jpg", desc: "Ethical supply chain and labor practices" },
+  { name: "SGS Tested", img: "/images/cert_sgs.jpg", desc: "Third-party quality assurance testing" },
+  { name: "RoHS Compliant", img: "/images/cert_rohs.jpg", desc: "Hazardous substance restriction compliance" },
+];
+
 const industries = [
   {
     name: "Candles & Home Fragrance",
@@ -239,7 +247,7 @@ export default function HomePage() {
               </Link>
             </div>
             <div className="flex flex-wrap gap-4 mt-8">
-              {["FSC Certified", "ISO 9001", "Sedex Certified", "Fortune 500 Vendor", "Flexible MOQ"].map((tag) => (
+              {["FSC Certified", "ISO 9001", "Sedex / SMETA", "SGS Tested", "RoHS Compliant"].map((tag) => (
                 <span key={tag} className="flex items-center gap-1.5 text-sm text-green-200">
                   <svg className="w-4 h-4 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
@@ -555,6 +563,51 @@ export default function HomePage() {
                 <div className="text-2xl mb-2">{item.icon}</div>
                 <div className="font-semibold text-sm mb-1">{item.label}</div>
                 <div className="text-green-300 text-xs">{item.desc}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── CERTIFICATIONS & COMPLIANCE ───────────── */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Certifications & Compliance</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-lg">
+              Every certificate is independently verified. Need originals? <a href="/contact" className="text-green-700 font-medium hover:underline">Contact us</a> for certified copies.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+            {certifications.map((cert) => (
+              <div key={cert.name} className="flex flex-col items-center text-center group">
+                {/* Certificate image with anti-download protection */}
+                <div
+                  className="relative w-32 h-40 bg-gray-50 rounded-lg border border-gray-200 overflow-hidden mb-3 select-none cert-protected"
+                  style={{
+                    pointerEvents: "none",
+                    userSelect: "none",
+                    WebkitUserSelect: "none",
+                  }}
+                >
+                  <Image
+                    src={cert.img}
+                    alt={cert.name}
+                    width={128}
+                    height={160}
+                    className="object-contain w-full h-full p-2"
+                    draggable={false}
+                    unoptimized
+                  />
+                  {/* Watermark overlay to discourage screenshot */}
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none select-none">
+                    <span className="text-[8px] text-gray-400/60 font-mono rotate-[-30deg] whitespace-nowrap bg-white/80 px-2 py-1 rounded">
+                      bupackeco.com
+                    </span>
+                  </div>
+                </div>
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">{cert.name}</h4>
+                <p className="text-gray-400 text-xs leading-relaxed">{cert.desc}</p>
               </div>
             ))}
           </div>

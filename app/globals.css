@@ -36,3 +36,20 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* Certificate anti-download protection */
+.cert-protected {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+.cert-protected img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
+}
