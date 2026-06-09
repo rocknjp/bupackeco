@@ -275,7 +275,10 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     openGraph: {
       title: `${product.name} | BUpack`,
       description: product.tagline,
-      images: [{ url: `https://bupackeco.com${product.heroImage}` }],
+      images: [{ url: `https://www.bupackeco.com${product.heroImage}` }],
+    },
+    alternates: {
+      canonical: `https://www.bupackeco.com/products/${slug}`,
     },
   }
 }
@@ -297,9 +300,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
       />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://bupackeco.com" },
-          { name: "Products", url: "https://bupackeco.com/products" },
-          { name: product.name, url: `https://bupackeco.com/products/${slug}` },
+          { name: "Home", url: "https://www.bupackeco.com" },
+          { name: "Products", url: "https://www.bupackeco.com/products" },
+          { name: product.name, url: `https://www.bupackeco.com/products/${slug}` },
         ]}
       />
       <FAQSchema items={product.faqs} />

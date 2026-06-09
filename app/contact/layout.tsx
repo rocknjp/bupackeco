@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Contact BUpack for custom packaging solutions. Get a free sample kit, request a quote, or chat with our packaging specialists on WhatsApp.",
   alternates: {
-    canonical: "https://bupackeco.com/contact",
+    canonical: "https://www.bupackeco.com/contact",
   },
 };
 

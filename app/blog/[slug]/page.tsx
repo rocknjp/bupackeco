@@ -393,6 +393,9 @@ export async function generateMetadata({
   return {
     title: `${post.title} | BUpack Blog`,
     description: post.excerpt,
+    alternates: {
+      canonical: `https://www.bupackeco.com/blog/${slug}`,
+    },
   };
 }
 

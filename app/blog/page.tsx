@@ -1,27 +1,19 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
   title: "Packaging Blog – Tips for eCommerce Brands | BUpack",
   description:
     "Actionable packaging guides for DTC and eCommerce brands: unboxing experience, sustainable packaging, reducing costs, subscription box design and more.",
+  alternates: {
+    canonical: "https://www.bupackeco.com/blog",
+  },
 };
 
 const categories = ["All", "Unboxing Experience", "Sustainability", "DTC Strategy", "Packaging 101"];
 
-export default function BlogPage() {
-  return (
-    <>
-      <BlogPostingSchema />
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: "https://bupackeco.com" },
-          { name: "Blog", url: "https://bupackeco.com/blog" },
-        ]}
-      />
-      {/* Hero */}
-      <section className="bg-[#0a2e18] text-white py-16 px-4">
+const posts = [
   {
     slug: "unboxing-experience-drives-dtc-growth",
     title: "Why Your Unboxing Experience Is Your Most Underrated Marketing Channel",
@@ -96,6 +88,13 @@ export default function BlogPage() {
 
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://www.bupackeco.com" },
+          { name: "Blog", url: "https://www.bupackeco.com/blog" },
+        ]}
+      />
+
       {/* Hero */}
       <section className="bg-[#0a2e18] text-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">

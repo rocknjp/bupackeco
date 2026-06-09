@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Eco Packaging Products for eCommerce Brands | BUpack",
   description:
     "Browse BUpack's range of sustainable packaging: eCommerce mailer boxes, paper bags, subscription boxes, and gift packaging. FSC-certified, fully customizable, low MOQ.",
+  alternates: {
+    canonical: "https://www.bupackeco.com/products",
+  },
 };
 
 const products = [
@@ -39,21 +42,21 @@ export default function ProductsPage() {
           {
             name: "eCommerce Mailer Boxes",
             description: "Self-locking, no-tape mailer boxes with full interior and exterior print.",
-            image: "https://bupackeco.com/images/product_box_1.jpg",
-            url: "https://bupackeco.com/products/paper-boxes",
+            image: "https://www.bupackeco.com/images/product_box_1.jpg",
+            url: "https://www.bupackeco.com/products/paper-boxes",
           },
           {
             name: "Custom Paper Bags",
             description: "Elevate your retail and event experience with custom paper bags.",
-            image: "https://bupackeco.com/images/product_bag_1.jpg",
-            url: "https://bupackeco.com/products/paper-bags",
+            image: "https://www.bupackeco.com/images/product_bag_1.jpg",
+            url: "https://www.bupackeco.com/products/paper-bags",
           },
         ]}
       />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://bupackeco.com" },
-          { name: "Products", url: "https://bupackeco.com/products" },
+          { name: "Home", url: "https://www.bupackeco.com" },
+          { name: "Products", url: "https://www.bupackeco.com/products" },
         ]}
       />
       {/* Hero */}

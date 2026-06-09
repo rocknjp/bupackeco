@@ -361,6 +361,9 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
     title: `${industry.name} Packaging | Custom Boxes for ${industry.name} Brands | BUpack`,
     description: `${industry.tagline}. Eco-friendly custom ${industry.name.toLowerCase()} packaging for DTC and eCommerce brands. Low MOQ, fast turnaround, factory-direct pricing. Get free samples.`,
     keywords: industry.seoKeywords,
+    alternates: {
+      canonical: `https://www.bupackeco.com/industries/${slug}`,
+    },
   }
 }
 
@@ -373,9 +376,9 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
     <div className="min-h-screen">
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://bupackeco.com" },
-          { name: "Industries", url: "https://bupackeco.com/industries" },
-          { name: industry.name, url: `https://bupackeco.com/industries/${slug}` },
+          { name: "Home", url: "https://www.bupackeco.com" },
+          { name: "Industries", url: "https://www.bupackeco.com/industries" },
+          { name: industry.name, url: `https://www.bupackeco.com/industries/${slug}` },
         ]}
       />
       <FAQSchema

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "About BUpack – Qingdao Bejan Giant New Packaging",
   description:
     "Qingdao Bejan Giant New Packaging (BUpack) — 17 years of expertise in custom paper packaging. Owned factory in Qingdao, FSC & ISO 9001 certified, Fortune 500 trusted vendor.",
+  alternates: {
+    canonical: "https://www.bupackeco.com/about",
+  },
 };
 
 const timeline = [

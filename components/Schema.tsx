@@ -5,7 +5,7 @@ import Script from "next/script";
  * Add to layout.tsx (site-wide) or per-page for page-specific schemas.
  */
 export function SiteSchema() {
-  const baseUrl = "https://bupackeco.com";
+  const baseUrl = "https://www.bupackeco.com";
   return (
     <>
       {/* Organization */}
@@ -80,7 +80,7 @@ export function ProductSchema({
   brand?: string;
   offers?: { price: string; priceCurrency?: string; url?: string };
 }) {
-  const baseUrl = "https://bupackeco.com";
+  const baseUrl = "https://www.bupackeco.com";
   return (
     <Script
       id="schema-product"
@@ -157,7 +157,7 @@ export function BreadcrumbSchema({
             "@type": "ListItem",
             position: i + 1,
             name: item.name,
-            item: item.url.startsWith("http") ? item.url : `https://bupackeco.com${item.url}`,
+            item: item.url.startsWith("http") ? item.url : `https://www.bupackeco.com${item.url}`,
           })),
         }),
       }}
@@ -197,22 +197,22 @@ export function ArticleSchema({
           author: {
             "@type": "Organization",
             name: authorName,
-            url: "https://bupackeco.com",
+            url: "https://www.bupackeco.com",
           },
           publisher: {
             "@type": "Organization",
             name: "BUpack",
             logo: {
               "@type": "ImageObject",
-              url: "https://bupackeco.com/images/factory_workshop.jpg",
+              url: "https://www.bupackeco.com/images/factory_workshop.jpg",
             },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://bupackeco.com",
+            "@id": "https://www.bupackeco.com",
           },
           ...(image && {
-            image: image.startsWith("http") ? image : `https://bupackeco.com${image}`,
+            image: image.startsWith("http") ? image : `https://www.bupackeco.com${image}`,
           }),
         }),
       }}
@@ -235,8 +235,8 @@ export function ContactPageSchema() {
             mainEntity: {
               "@type": "Organization",
               name: "BUpack",
-              url: "https://bupackeco.com",
-              logo: "https://bupackeco.com/images/factory_workshop.jpg",
+            url: "https://www.bupackeco.com",
+            logo: "https://www.bupackeco.com/images/factory_workshop.jpg",
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+86-150-6426-0757",
@@ -309,7 +309,7 @@ export function CollectionPageSchema({
           "@type": "CollectionPage",
           name,
           description,
-          url: "https://bupackeco.com/products",
+          url: "https://www.bupackeco.com/products",
           mainEntity: {
             "@type": "ItemList",
             itemListElement: products.map((product, index) => ({
@@ -321,10 +321,10 @@ export function CollectionPageSchema({
                 description: product.description,
                 image: product.image.startsWith("http")
                   ? product.image
-                  : `https://bupackeco.com${product.image}`,
+                  : `https://www.bupackeco.com${product.image}`,
                 url: product.url.startsWith("http")
                   ? product.url
-                  : `https://bupackeco.com${product.url}`,
+                  : `https://www.bupackeco.com${product.url}`,
               },
             })),
           },

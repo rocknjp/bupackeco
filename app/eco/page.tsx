@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Sustainability – Our Eco Packaging Commitments | BUpack",
   description:
     "BUpack's sustainability commitments: FSC-certified paper, soy-based inks, plastic-free options, and carbon-neutral shipping. Learn how we help eCommerce brands go green.",
+  alternates: {
+    canonical: "https://www.bupackeco.com/eco",
+  },
 };
 
 const commitments = [

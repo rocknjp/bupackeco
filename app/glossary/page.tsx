@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Comprehensive packaging industry glossary: 50+ terms explained. Perfect for eCommerce brands sourcing custom boxes, mailers, and sustainable packaging solutions.",
   alternates: {
-    canonical: "https://bupackeco.com/glossary",
+    canonical: "https://www.bupackeco.com/glossary",
   },
 };
 
@@ -113,8 +113,8 @@ export default function GlossaryPage() {
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://bupackeco.com" },
-          { name: "Glossary", url: "https://bupackeco.com/glossary" },
+          { name: "Home", url: "https://www.bupackeco.com" },
+          { name: "Glossary", url: "https://www.bupackeco.com/glossary" },
         ]}
       />
 
