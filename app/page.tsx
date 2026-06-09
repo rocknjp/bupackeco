@@ -1,28 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
-import { BreadcrumbSchema } from "@/components/Schema";
+import { FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "BUpack – Custom Paper Packaging Manufacturer | Qingdao Bejan Giant",
+  title: "Custom Paper Packaging Manufacturer | Low MOQ, FSC-Certified | BUpack – Qingdao Bejan Giant",
   description:
     "Qingdao Bejan Giant (BUpack) — 17 years of expertise in custom rigid boxes, cardstock boxes, corrugated boxes & paper bags. FSC & ISO 9001 certified, owned 10,000㎡ factory, Fortune 500 trusted vendor. Flexible MOQ, 3-day sampling.",
   alternates: {
     canonical: "https://www.bupackeco.com",
   },
 };
-
-export default function HomePage() {
-  return (
-    <>
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: "https://www.bupackeco.com" },
-        ]}
-      />
-      {/* ── HERO ───────────────────────────────────── */}
-      <section className="relative bg-[#0a2e18] text-white overflow-hidden">
-
 
 const painPoints = [
   {
@@ -95,28 +83,28 @@ const products = [
     slug: "paper-boxes",
     tags: ["Gift Box", "Luxury"],
     desc: "High-density cardboard rigid boxes with magnetic closure, velvet insert, foil stamping. Built for high-end gift packaging and luxury brands.",
-    img: "/images/product_box_1.jpg",
+    img: "/images/product_rigid_boxes.jpg",
   },
   {
     name: "Cardstock & Foldable Boxes",
     slug: "paper-boxes",
     tags: ["Retail", "Folding Carton"],
     desc: "Flexible thin paperboard boxes for cosmetics, food, and retail products. Full-color printing, embossing, window patching available.",
-    img: "/images/product_box_2.jpg",
+    img: "/images/product_cardstock_foldable.png",
   },
   {
     name: "Corrugated & Mailer Boxes",
     slug: "paper-boxes",
     tags: ["Shipping", "DTC"],
     desc: "Durable 3-layer corrugated boxes for eCommerce shipping. Custom size, printed exterior, eco-friendly material options.",
-    img: "/images/product_box_3.jpg",
+    img: "/images/product_corrugated_mailer.png",
   },
   {
     name: "Paper Bags",
     slug: "paper-bags",
     tags: ["Retail", "Shopping"],
     desc: "Custom paper bags with rope handles, Matte/Gloss lamination. From boutique storefronts to trade shows.",
-    img: "/images/product_bag_1.jpg",
+    img: "/images/product_paper_bags.png",
   },
 ];
 
@@ -125,6 +113,14 @@ const impactStats = [
   { number: "10,000+", unit: "㎡ factory area", icon: "🏢" },
   { number: "50,000+", unit: "units daily capacity", icon: "📦" },
   { number: "100+", unit: "clients served", icon: "🤝" },
+];
+
+const certifications = [
+  { name: "FSC Certified", img: "/images/cert_fsc.png", desc: "Responsibly sourced paper from certified forests" },
+  { name: "ISO 9001", img: "/images/cert_iso9001.jpg", desc: "International quality management standard" },
+  { name: "Sedex / SMETA", img: "/images/cert_smeta.jpg", desc: "Ethical supply chain and labor practices" },
+  { name: "SGS Tested", img: "/images/cert_sgs.jpg", desc: "Third-party quality assurance testing" },
+  { name: "RoHS Compliant", img: "/images/cert_rohs.jpg", desc: "Hazardous substance restriction compliance" },
 ];
 
 const industries = [
@@ -196,6 +192,17 @@ const testimonials = [
 export default function HomePage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://www.bupackeco.com" },
+        ]}
+      />
+      <FAQSchema
+        items={painPoints.map((p) => ({
+          question: p.pain,
+          answer: p.fix,
+        }))}
+      />
       {/* ── HERO ─────────────────────────────────────── */}
       <section className="relative bg-[#0a2e18] text-white overflow-hidden">
         {/* factory background image */}
@@ -243,7 +250,7 @@ export default function HomePage() {
               </Link>
             </div>
             <div className="flex flex-wrap gap-4 mt-8">
-              {["FSC Certified", "ISO 9001", "Sedex Certified", "Fortune 500 Vendor", "Flexible MOQ"].map((tag) => (
+              {["FSC Certified", "ISO 9001", "Sedex / SMETA", "SGS Tested", "RoHS Compliant"].map((tag) => (
                 <span key={tag} className="flex items-center gap-1.5 text-sm text-green-200">
                   <svg className="w-4 h-4 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
@@ -559,6 +566,76 @@ export default function HomePage() {
                 <div className="text-2xl mb-2">{item.icon}</div>
                 <div className="font-semibold text-sm mb-1">{item.label}</div>
                 <div className="text-green-300 text-xs">{item.desc}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── CERTIFICATIONS & COMPLIANCE ───────────── */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Certifications & Compliance</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-lg">
+              Every certificate is independently verified. Need originals? <a href="/contact" className="text-green-700 font-medium hover:underline">Contact us</a> for certified copies.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+            {certifications.map((cert) => (
+              <div key={cert.name} className="flex flex-col items-center text-center group">
+                <div
+                  className="relative w-32 h-40 bg-gray-50 rounded-lg border border-gray-200 overflow-hidden mb-3 select-none cert-protected"
+                  style={{
+                    pointerEvents: "none",
+                    userSelect: "none",
+                    WebkitUserSelect: "none",
+                  }}
+                >
+                  <Image
+                    src={cert.img}
+                    alt={cert.name}
+                    width={128}
+                    height={160}
+                    className="object-contain w-full h-full p-2"
+                    draggable={false}
+                    unoptimized
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none select-none">
+                    <span className="text-[8px] text-gray-400/60 font-mono rotate-[-30deg] whitespace-nowrap bg-white/80 px-2 py-1 rounded">
+                      bupackeco.com
+                    </span>
+                  </div>
+                </div>
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">{cert.name}</h4>
+                <p className="text-gray-400 text-xs leading-relaxed">{cert.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── GEO DATA SECTION: Industry Statistics ──── */}
+      <section className="py-16 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Custom Packaging by the Numbers</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-lg">
+              The data behind why growing DTC brands are switching to factory-direct custom packaging.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-4 gap-6">
+            {[
+              { stat: "40%", label: "Higher Retention", desc: "Subscription brands with premium packaging retain 40% more customers after 3 months.", source: "Industry benchmark" },
+              { stat: "73%", label: "Willing to Pay More", desc: "73% of US consumers say they'd pay a premium for sustainable packaging.", source: "McKinsey Consumer Survey 2023" },
+              { stat: "2-3x", label: "More UGC", desc: "DTC brands with custom unboxing-ready packaging see 2-3x more user-generated content.", source: "DTC industry data" },
+              { stat: "$0.50-$3", label: "Per Unit Range", desc: "Custom paper boxes cost $0.50-$3 per unit at 500-5,000 quantity — comparable to generic options at scale.", source: "BUpack pricing analysis" },
+            ].map((item) => (
+              <div key={item.label} className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-100 text-center hover:shadow-md transition-shadow">
+                <div className="text-3xl md:text-4xl font-black text-green-700 mb-2">{item.stat}</div>
+                <div className="text-gray-800 font-bold text-sm mb-2">{item.label}</div>
+                <p className="text-gray-500 text-xs leading-relaxed">{item.desc}</p>
+                <p className="text-gray-400 text-[10px] mt-3 italic">Source: {item.source}</p>
               </div>
             ))}
           </div>

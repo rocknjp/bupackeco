@@ -43,6 +43,17 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Resources */}
+          <div>
+            <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wide">Resources</h3>
+            <ul className="space-y-2.5 text-sm">
+              <li><Link href="/case-studies" className="hover:text-white transition-colors">Case Studies</Link></li>
+              <li><Link href="/moq-guide" className="hover:text-white transition-colors">Low MOQ Guide</Link></li>
+              <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
+              <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
+            </ul>
+          </div>
+
           {/* By Brand Stage */}
           <div>
             <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wide">By Brand Stage</h3>

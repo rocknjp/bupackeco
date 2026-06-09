@@ -268,13 +268,28 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   const { slug } = await params
   const product = products[slug]
   if (!product) return {}
+
+  // SEO-optimized title per product
+  const seoTitleMap: Record<string, string> = {
+    "paper-boxes": "Custom Paper Boxes for eCommerce | Mailer, Gift & Rigid Boxes | Low MOQ | BUpack",
+    "paper-bags": "Custom Paper Bags with Logo | Retail, Boutique & Trade Show Bags | FSC-Certified | BUpack",
+    "subscription-boxes": "Subscription Box Packaging | Custom Gift & Monthly Boxes | Magnetic Closure | BUpack",
+  }
+
+  const seoDescMap: Record<string, string> = {
+    "paper-boxes": "Custom paper boxes for DTC and eCommerce brands — mailer boxes, rigid gift boxes, and folding cartons. FSC-certified paper, soy-based inks, low MOQ from 100 units. Free physical sample in 7-10 days.",
+    "paper-bags": "Custom paper bags with your logo — kraft, coated art paper, rope or flat handles. Perfect for retail boutiques, trade shows, and gift packaging. FSC-certified, food-safe options, MOQ from 200 units.",
+    "subscription-boxes": "Subscription box packaging designed for repeat unboxing. Magnetic closure, custom inserts, interior printing. Perfect for beauty, pet, tea, and lifestyle subscription brands. MOQ from 100 units.",
+  }
+
   return {
-    title: `${product.name} | BUpack — Low MOQ, Factory Direct`,
-    description: `${product.tagline} ${product.overview.slice(0, 120)}...`,
+    title: seoTitleMap[slug] || `${product.name} | BUpack — Low MOQ, Factory Direct`,
+    description: seoDescMap[slug] || `${product.tagline} ${product.overview.slice(0, 120)}...`,
     keywords: product.seoKeywords,
     openGraph: {
-      title: `${product.name} | BUpack`,
-      description: product.tagline,
+    openGraph: {
+      title: seoTitleMap[slug] || `${product.name} | BUpack`,
+      description: seoDescMap[slug] || product.tagline,
       images: [{ url: `https://www.bupackeco.com${product.heroImage}` }],
     },
     alternates: {

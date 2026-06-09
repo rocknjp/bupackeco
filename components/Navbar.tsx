@@ -37,6 +37,12 @@ export default function Navbar() {
             <Link href="/blog" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
               Blog
             </Link>
+            <Link href="/case-studies" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
+              Case Studies
+            </Link>
+            <Link href="/moq-guide" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
+              Low MOQ Guide
+            </Link>
             <Link
               href="/contact"
               className="bg-green-700 text-white px-5 py-2 rounded-lg font-medium hover:bg-green-600 transition-colors text-sm"
@@ -72,6 +78,8 @@ export default function Navbar() {
               <Link href="/eco" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Sustainability</Link>
               <Link href="/about" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>About</Link>
               <Link href="/blog" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Blog</Link>
+              <Link href="/case-studies" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Case Studies</Link>
+              <Link href="/moq-guide" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Low MOQ Guide</Link>
               <Link href="/contact" className="bg-green-700 text-white px-5 py-2 rounded-lg font-medium text-center" onClick={() => setMenuOpen(false)}>Get Free Samples →</Link>
             </nav>
           </div>

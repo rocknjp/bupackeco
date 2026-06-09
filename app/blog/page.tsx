@@ -15,6 +15,17 @@ const categories = ["All", "Unboxing Experience", "Sustainability", "DTC Strateg
 
 const posts = [
   {
+    slug: "switch-plastic-to-paper-packaging-dtc-guide",
+    title: "How to Switch from Plastic to Paper Packaging: A Practical Guide for DTC Brands",
+    excerpt:
+      "DTC brands investing in sustainable packaging see a 24% higher LTV and 18% lower return rates. Here's the step-by-step transition plan — from audit to full rollout.",
+    category: "Sustainability",
+    date: "June 7, 2026",
+    readTime: "7 min",
+    featured: true,
+    emoji: "♻️",
+  },
+  {
     slug: "unboxing-experience-drives-dtc-growth",
     title: "Why Your Unboxing Experience Is Your Most Underrated Marketing Channel",
     excerpt:
@@ -22,7 +33,7 @@ const posts = [
     category: "Unboxing Experience",
     date: "May 28, 2025",
     readTime: "9 min",
-    featured: true,
+    featured: false,
     emoji: "📱",
   },
   {
@@ -79,6 +90,39 @@ const posts = [
     readTime: "5 min",
     featured: false,
     emoji: "📄",
+  },
+  {
+    slug: "china-vs-us-packaging-manufacturer",
+    title: "China vs US Custom Packaging Manufacturers: Cost, Quality & Lead Time Compared",
+    excerpt:
+      "Should you source custom packaging from China or the US? This data-driven comparison covers unit costs, quality standards, lead times, certifications, MOQ, and hidden fees — so you can make the right call for your brand.",
+    category: "DTC Strategy",
+    date: "June 5, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "🌏",
+  },
+  {
+    slug: "custom-packaging-cost-guide",
+    title: "How Much Does Custom Packaging Cost? Complete Pricing Guide for DTC Brands",
+    excerpt:
+      "A transparent breakdown of custom packaging costs by product type, volume, and finishing — plus the hidden fees most suppliers won't mention and 7 proven strategies to cut costs without sacrificing quality.",
+    category: "Packaging 101",
+    date: "May 20, 2026",
+    readTime: "9 min",
+    featured: false,
+    emoji: "💰",
+  },
+  {
+    slug: "eco-packaging-roi-small-dtc-brands",
+    title: "Eco-Friendly Packaging ROI: How Small DTC Brands Can Afford Sustainable Packaging",
+    excerpt:
+      "Sustainable packaging doesn't have to destroy your margins. Here's the real ROI math for small DTC brands — including cost breakdowns, customer retention data, and 5 low-cost strategies to go green without breaking the bank.",
+    category: "Sustainability",
+    date: "June 8, 2026",
+    readTime: "8 min",
+    featured: false,
+    emoji: "🌱",
   },
 ];
 

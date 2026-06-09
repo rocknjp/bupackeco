@@ -53,6 +53,7 @@ export default function ProductsPage() {
           },
         ]}
       />
+
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://www.bupackeco.com" },

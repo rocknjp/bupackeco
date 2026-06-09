@@ -8,6 +8,7 @@ const staticRoutes = [
   "/products/paper-boxes",
   "/products/paper-bags",
   "/products/subscription-boxes",
+  "/industries",
   "/industries/candles-fragrance",
   "/industries/jewelry",
   "/industries/chocolate-confectionery",
@@ -17,12 +18,19 @@ const staticRoutes = [
   "/contact",
   "/eco",
   "/blog",
+  "/blog/switch-plastic-to-paper-packaging-dtc-guide",
   "/blog/unboxing-experience-drives-dtc-growth",
   "/blog/eco-packaging-guide-dtc-brands-2025",
   "/blog/subscription-box-packaging-design",
   "/blog/custom-packaging-low-moq-guide",
   "/blog/packaging-impacts-product-reviews",
   "/blog/kraft-paper-vs-coated-paper",
+  "/blog/china-vs-us-packaging-manufacturer",
+  "/blog/custom-packaging-cost-guide",
+  "/blog/eco-packaging-roi-small-dtc-brands",
+  "/compare/rigid-vs-corrugated-boxes",
+  "/case-studies",
+  "/moq-guide",
 ];
 
 const locales = ["en"]; // Add more locales as needed
