@@ -18,31 +18,31 @@ const glossaryTerms = [
     category: "Manufacturing",
   },
   {
-    term: "Corrugated Box”,
+    term: "Corrugated Box",
     definition:
       "A shipping box made from corrugated fiberboard (three layers: two liners + fluted medium). Provides cushioning and stacking strength for ecommerce shipping.",
     category: "Materials",
   },
   {
-    term: "Rigid Box”,
+    term: "Rigid Box",
     definition:
       "A stiff, non-collapsible box made from high-density cardboard (usually 1000-2000 GSM). Used for luxury packaging, gift boxes, and premium unboxing experiences.",
     category: "Products",
   },
   {
-    term: "FSC Certification”,
+    term: "FSC Certification",
     definition:
       "Forest Stewardship Council certification ensures paper products come from responsibly managed forests. BUpack uses 100% FSC-certified paper stocks.",
     category: "Sustainability",
   },
   {
-    term: "Soy-Based Ink”,
+    term: "Soy-Based Ink",
     definition:
       "An eco-friendly alternative to petroleum-based inks. Soy inks are renewable, produce fewer VOCs, and are easier to de-ink during recycling.",
     category: "Printing",
   },
   {
-    term: "CMYK Printing”,
+    term: "CMYK Printing",
     definition:
       "Full-color printing using Cyan, Magenta, Yellow, and Key (black) inks. Allows for millions of color combinations in custom packaging design.",
     category: "Printing",
@@ -60,13 +60,13 @@ const glossaryTerms = [
     category: "Business",
   },
   {
-    term: "Unboxing Experience”,
+    term: "Unboxing Experience",
     definition:
       "The customer's first physical interaction with a product. Premium unboxing (custom tissue, inserts, thank-you notes) increases UGC, reviews, and repeat purchases.",
     category: "Marketing",
   },
   {
-    term: "Mailer Box”,
+    term: "Mailer Box",
     definition:
       "A self-locking shipping box that requires no tape. Popular for DTC brands because it's easy for customers to open and provides a premium feel.",
     category: "Products",

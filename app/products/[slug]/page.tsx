@@ -287,7 +287,6 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     description: seoDescMap[slug] || `${product.tagline} ${product.overview.slice(0, 120)}...`,
     keywords: product.seoKeywords,
     openGraph: {
-    openGraph: {
       title: seoTitleMap[slug] || `${product.name} | BUpack`,
       description: seoDescMap[slug] || product.tagline,
       images: [{ url: `https://www.bupackeco.com${product.heroImage}` }],
