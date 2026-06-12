@@ -124,6 +124,17 @@ const posts = [
     featured: false,
     emoji: "🌱",
   },
+  {
+    slug: "cosmetics-packaging-boxes-supplier-guide",
+    title: "Cosmetics Packaging Boxes: How to Find a Supplier That Gets Your Brand",
+    excerpt:
+      "The cosmetics packaging market is projected to hit $62 billion by 2030 — but finding a supplier who understands beauty brand standards is harder than it looks. Here's how to evaluate, qualify, and partner with the right cosmetics packaging boxes supplier.",
+    category: "Packaging 101",
+    date: "June 13, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "💄",
+  },
 ];
 
 export default function BlogPage() {
