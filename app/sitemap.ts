@@ -32,6 +32,8 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/case-studies", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.7 },
   { path: "/moq-guide", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.7 },
   { path: "/fsc-certified-packaging", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
+  { path: "/products/folding-cartons", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
+  { path: "/products/rigid-gift-boxes", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
