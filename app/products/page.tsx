@@ -9,6 +9,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/products",
   },
+  openGraph: {
+    title: "Eco Packaging Products for eCommerce Brands | BUpack",
+    description:
+      "Sustainable custom paper boxes & bags for eCommerce brands. FSC-certified, low MOQ from 100 units.",
+    url: "https://www.bupackeco.com/products",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
 };
 
 const products = [

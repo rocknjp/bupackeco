@@ -3,11 +3,21 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Sustainability – Our Eco Packaging Commitments | BUpack",
+  title: "Sustainability – Eco Packaging Commitments | BUpack",
   description:
-    "BUpack's sustainability commitments: FSC-certified paper, soy-based inks, plastic-free options, and carbon-neutral shipping. Learn how we help eCommerce brands go green.",
+    "FSC-certified paper, soy-based inks, plastic-free options. Learn how BUpack helps eCommerce brands go green.",
   alternates: {
     canonical: "https://www.bupackeco.com/eco",
+  },
+  openGraph: {
+    title: "Sustainability – Eco Packaging Commitments | BUpack",
+    description:
+      "FSC-certified paper, soy-based inks, plastic-free options. BUpack helps eCommerce brands go green.",
+    url: "https://www.bupackeco.com/eco",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
   },
 };
 

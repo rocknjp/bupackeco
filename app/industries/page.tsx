@@ -2,9 +2,22 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Custom Packaging by Industry | Eco-Friendly Solutions for Your Vertical | BUpack",
+  title: "Custom Packaging by Industry | BUpack",
   description:
-    "Explore custom paper packaging tailored to your industry. From candles and jewelry to chocolate and pet boxes — FSC-certified, low MOQ, factory-direct. See how BUpack serves your vertical.",
+    "Custom paper packaging tailored to your industry. From candles and jewelry to chocolate and pet boxes — FSC-certified, low MOQ.",
+  alternates: {
+    canonical: "https://www.bupackeco.com/industries",
+  },
+  openGraph: {
+    title: "Custom Packaging by Industry | BUpack",
+    description:
+      "Custom paper packaging tailored to your industry. FSC-certified, low MOQ, factory-direct.",
+    url: "https://www.bupackeco.com/industries",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
 };
 
 const industryList = [
@@ -49,13 +62,6 @@ const industryList = [
     icon: "🐾",
     desc: "Monthly themed boxes with pet-safe soy-based inks. Divided interiors for treats + toys + accessories. Direct-ship ready — no outer carton needed.",
     tags: ["Subscription", "Pet-Safe Ink", "Divided Interior"],
-  },
-  {
-    slug: "cosmetics-beauty",
-    name: "Cosmetics & Beauty",
-    icon: "💄",
-    desc: "Custom mailer boxes with bottle inserts for serums and perfumes. Luxury rigid gift boxes with soft-touch lamination and foil stamping. Beauty subscription boxes with monthly design refreshes.",
-    tags: ["Bottle Inserts", "Luxury Finish", "Subscription"],
   },
 ];
 

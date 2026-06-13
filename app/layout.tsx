@@ -7,18 +7,18 @@ import { SiteSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.bupackeco.com"),
-  title: "Custom Paper Packaging Manufacturer | Low MOQ, FSC | BUpack",
+  title: "Custom Paper Packaging | Low MOQ, FSC | BUpack",
   description:
-    "Qingdao Bejan Giant New Packaging — 17 years of expertise in custom rigid boxes, cardstock boxes, corrugated boxes, paper bags & more. FSC certified, ISO 9001, flexible MOQ, owned factory in Qingdao.",
+    "FSC-certified custom paper boxes & bags. Low MOQ from 100 units, owned factory in Qingdao. Free samples, fast production. Ships to North America.",
   keywords:
     "custom rigid box manufacturer, gift box OEM China, paper packaging factory Qingdao, FSC certified packaging, ISO 9001 packaging supplier, Fortune 500 packaging vendor, low MOQ custom boxes, candle jewelry chocolate packaging",
   verification: {
     google: "0UiMWYGj7TuSenx5PyIWZZ5N-l9jecBQW30rxEvTBUA",
   },
   openGraph: {
-    title: "Custom Paper Packaging Manufacturer | Low MOQ, FSC | BUpack",
+    title: "Custom Paper Packaging | Low MOQ, FSC | BUpack",
     description:
-      "Sustainable custom paper boxes & bags. Built for DTC brands that value unboxing experience and environmental responsibility.",
+      "FSC-certified custom paper boxes & bags. Low MOQ from 100 units, owned factory in Qingdao. Free samples, fast production.",
     url: "https://www.bupackeco.com",
     siteName: "BUpack",
     locale: "en_US",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Custom Paper Packaging Manufacturer | Low MOQ, FSC | BUpack",
+    title: "Custom Paper Packaging | Low MOQ, FSC | BUpack",
     description:
-      "Sustainable custom paper boxes & bags for DTC brands. Low MOQ, FSC-certified, ships to North America.",
+      "FSC-certified custom paper boxes & bags. Low MOQ from 100 units. Ships to North America.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
   },
 };

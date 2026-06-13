@@ -1,24 +1,20 @@
 import type { Metadata } from "next";
-import { ContactPageSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
   title: "Contact BUpack – Get Free Packaging Samples",
   description:
-    "Contact BUpack for custom packaging solutions. Get a free sample kit, request a quote, or chat with our packaging specialists on WhatsApp.",
+    "Contact BUpack for custom packaging solutions. Get a free sample kit, request a quote, or chat with our packaging specialists.",
   alternates: {
     canonical: "https://www.bupackeco.com/contact",
   },
+  openGraph: {
+    title: "Contact BUpack – Get Free Packaging Samples",
+    description:
+      "Get free packaging samples. Request a quote. Chat with BUpack specialists on WhatsApp.",
+    url: "https://www.bupackeco.com/contact",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
 };
-
-export default function ContactLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <>
-      <ContactPageSchema />
-      {children}
-    </>
-  );
-}

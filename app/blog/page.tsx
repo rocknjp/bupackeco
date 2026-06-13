@@ -5,9 +5,19 @@ import { BreadcrumbSchema } from "@/components/Schema";
 export const metadata: Metadata = {
   title: "Packaging Blog – Tips for eCommerce Brands | BUpack",
   description:
-    "Actionable packaging guides for DTC and eCommerce brands: unboxing experience, sustainable packaging, reducing costs, subscription box design and more.",
+    "Actionable packaging guides: unboxing experience, sustainable packaging, subscription box design and more.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog",
+  },
+  openGraph: {
+    title: "Packaging Blog – Tips for eCommerce Brands | BUpack",
+    description:
+      "Actionable packaging guides for DTC brands: unboxing, sustainability, costs, subscription box design.",
+    url: "https://www.bupackeco.com/blog",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
   },
 };
 
