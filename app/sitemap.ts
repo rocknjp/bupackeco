@@ -33,6 +33,12 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/blog/china-vs-us-packaging-manufacturer", lastmod: "2026-06-05", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/custom-packaging-cost-guide", lastmod: "2026-05-20", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/eco-packaging-roi-small-dtc-brands", lastmod: "2026-06-12", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/custom-packaging-for-startups-guide", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/import-custom-packaging-from-china-guide", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/biodegradable-ecommerce-packaging-guide", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/branded-packaging-ideas-ecommerce", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/digital-printing-vs-offset-packaging", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/compostable-packaging-alternatives", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
   { path: "/compare/rigid-vs-corrugated-boxes", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.7 },
   { path: "/case-studies", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.7 },
   { path: "/moq-guide", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.7 },
@@ -41,6 +47,10 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/products/rigid-gift-boxes", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/services/design-support", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.7 },
   { path: "/services/sampling-prototyping", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.7 },
+  { path: "/faq", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
+  { path: "/blog/custom-boxes-overseas-manufacturer", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/how-to-create-unboxing-experience", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/eco-friendly-packaging-small-business", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

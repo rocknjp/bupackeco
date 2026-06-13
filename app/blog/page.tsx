@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
 };
 
-const categories = ["All", "Unboxing Experience", "Sustainability", "DTC Strategy", "Packaging 101"];
+const categories = ["All", "Unboxing Experience", "Sustainability", "DTC Strategy", "Packaging 101", "Startup Guide", "Import Guide", "Eco Guide"];
 
 const posts = [
   {
@@ -144,6 +144,105 @@ const posts = [
     readTime: "10 min",
     featured: false,
     emoji: "💄",
+  },
+  {
+    slug: "custom-packaging-for-startups-guide",
+    title: "Custom Packaging for Startups: A Complete Guide (2026)",
+    excerpt:
+      "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands. Free design support included.",
+    category: "Startup Guide",
+    date: "June 13, 2026",
+    readTime: "9 min",
+    featured: false,
+    emoji: "🚀",
+  },
+  {
+    slug: "import-custom-packaging-from-china-guide",
+    title: "How to Import Custom Packaging from China: Complete Guide",
+    excerpt:
+      "Step-by-step guide to importing custom packaging from China. Shipping, customs, quality control, and cost breakdown. Factory-direct pricing saves 40-60% vs domestic.",
+    category: "Import Guide",
+    date: "June 13, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "🚢",
+  },
+  {
+    slug: "biodegradable-ecommerce-packaging-guide",
+    title: "Biodegradable Ecommerce Packaging Guide for DTC Brands",
+    excerpt:
+      "Complete guide to biodegradable packaging for ecommerce. Materials comparison, cost analysis, and certification guide. FSC-certified options from BUpack.",
+    category: "Sustainability",
+    date: "June 13, 2026",
+    readTime: "9 min",
+    featured: false,
+    emoji: "🌿",
+  },
+  {
+    slug: "branded-packaging-ideas-ecommerce",
+    title: "15 Branded Packaging Ideas for Ecommerce Brands (2026)",
+    excerpt:
+      "15 creative branded packaging ideas for ecommerce and DTC brands. From custom inserts to interactive unboxing. Real examples and cost breakdowns for each idea.",
+    category: "Packaging 101",
+    date: "June 13, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "🎨",
+  },
+  {
+    slug: "digital-printing-vs-offset-packaging",
+    title: "Digital Printing vs Offset for Custom Packaging: Which to Choose?",
+    excerpt:
+      "Digital printing vs offset printing for custom packaging boxes. Cost comparison, quality differences, and when to use each method. MOQ recommendations included.",
+    category: "Packaging 101",
+    date: "June 13, 2026",
+    readTime: "9 min",
+    featured: false,
+    emoji: "🖨️",
+  },
+  {
+    slug: "compostable-packaging-alternatives",
+    title: "Compostable Packaging Alternatives: Complete Guide for Brands",
+    excerpt:
+      "Complete guide to compostable packaging alternatives. Materials comparison, home vs industrial composting, costs, and certification. Eco-friendly options from BUpack.",
+    category: "Sustainability",
+    date: "June 13, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "🌱",
+  },
+  {
+    slug: "custom-boxes-overseas-manufacturer",
+    title: "How to Choose an Overseas Custom Boxes Manufacturer",
+    excerpt:
+      "Guide to choosing an overseas custom packaging manufacturer. Quality verification, communication tips, shipping logistics, and cost comparison. Factory-direct from BUpack, China.",
+    category: "Import Guide",
+    date: "June 13, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "🌏",
+  },
+  {
+    slug: "how-to-create-unboxing-experience",
+    title: "How to Create an Unboxing Experience That Drives Social Shares",
+    excerpt:
+      "How to design a memorable unboxing experience for your DTC brand. 8 proven strategies with real brand examples. Custom inserts, tissue, and interior printing from BUpack.",
+    category: "Unboxing Experience",
+    date: "June 13, 2026",
+    readTime: "9 min",
+    featured: false,
+    emoji: "📱",
+  },
+  {
+    slug: "eco-friendly-packaging-small-business",
+    title: "Eco-Friendly Packaging for Small Business: 2026 Guide",
+    excerpt:
+      "Complete guide to eco-friendly packaging for small businesses. FSC-certified, recycled, and compostable options. Low MOQ from 100 units. Cost comparison and certification guide.",
+    category: "Eco Guide",
+    date: "June 13, 2026",
+    readTime: "11 min",
+    featured: false,
+    emoji: "🌿",
   },
 ];
 
