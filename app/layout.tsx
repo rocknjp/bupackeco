@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     siteName: "BUpack",
     locale: "en_US",
     type: "website",
-    images: [{ url: "https://www.bupackeco.com/images/factory_workshop.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Custom Paper Packaging Manufacturer | Low MOQ, FSC | BUpack",
     description:
       "Sustainable custom paper boxes & bags for DTC brands. Low MOQ, FSC-certified, ships to North America.",
-    images: ["https://www.bupackeco.com/images/factory_workshop.jpg"],
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
   },
 };
 

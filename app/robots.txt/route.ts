@@ -5,8 +5,8 @@ export const dynamic = "force-static";
 export function GET() {
   const robotsTxt = `User-agent: *
 Allow: /
-
-# Disallow admin or private paths (none currently)
+Disallow: /api/
+Disallow: /_next/
 
 Sitemap: https://www.bupackeco.com/sitemap.xml
 

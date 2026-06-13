@@ -19,11 +19,15 @@ export function SiteSchema() {
             "@type": "Organization",
             name: "BUpack",
             url: baseUrl,
-            logo: `${baseUrl}/images/factory_workshop.jpg`,
+            logo: `${baseUrl}/images/bupack-logo.png`,
             description:
               "FSC-certified custom paper boxes and bags for DTC and eCommerce brands. Low MOQ, eco-friendly, ships to North America.",
             address: {
               "@type": "PostalAddress",
+              streetAddress: "No. 268, Haier Road, Laoshan District",
+              addressLocality: "Qingdao",
+              addressRegion: "Shandong",
+              postalCode: "266100",
               addressCountry: "CN",
             },
             sameAs: [
@@ -204,7 +208,7 @@ export function ArticleSchema({
             name: "BUpack",
             logo: {
               "@type": "ImageObject",
-              url: "https://www.bupackeco.com/images/factory_workshop.jpg",
+              url: "https://www.bupackeco.com/images/bupack-logo.png",
             },
           },
           mainEntityOfPage: {
