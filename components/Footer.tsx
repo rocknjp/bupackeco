@@ -39,6 +39,8 @@ export default function Footer() {
               <li><Link href="/products#paper-bags" className="hover:text-white transition-colors">Paper Bags</Link></li>
               <li><Link href="/products#subscription-boxes" className="hover:text-white transition-colors">Subscription Boxes</Link></li>
               <li><Link href="/products#gift-packaging" className="hover:text-white transition-colors">Gift Packaging</Link></li>
+              <li><Link href="/products/rigid-gift-boxes" className="hover:text-white transition-colors">Rigid Gift Boxes</Link></li>
+              <li><Link href="/products/folding-cartons" className="hover:text-white transition-colors">Folding Cartons</Link></li>
               <li><Link href="/products#mailer-boxes" className="hover:text-white transition-colors">Mailer Boxes</Link></li>
             </ul>
           </div>

@@ -25,7 +25,7 @@ export default function Navbar() {
             <Link href="/" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
               Home
             </Link>
-            <Link href="/products" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
+            <Link href="/products#ecommerce-boxes" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
               Products
             </Link>
             <Link href="/eco" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
@@ -74,7 +74,7 @@ export default function Navbar() {
           <div className="md:hidden border-t border-gray-100 py-3">
             <nav className="flex flex-col gap-3">
               <Link href="/" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Home</Link>
-              <Link href="/products" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Products</Link>
+              <Link href="/products#ecommerce-boxes" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Products</Link>
               <Link href="/eco" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Sustainability</Link>
               <Link href="/about" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>About</Link>
               <Link href="/blog" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Blog</Link>
