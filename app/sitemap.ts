@@ -18,6 +18,8 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/industries/cosmetics-beauty", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/industries/wine-spirits", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/industries/apparel-fashion", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
+  { path: "/industries/bakery-food", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
+  { path: "/industries/cbd-hemp", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/contact", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.6 },
   { path: "/eco", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.7 },
   { path: "/blog", lastmod: "2026-06-12", changefreq: "weekly", priority: 0.7 },
@@ -37,6 +39,8 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/fsc-certified-packaging", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/products/folding-cartons", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/products/rigid-gift-boxes", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
+  { path: "/services/design-support", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.7 },
+  { path: "/services/sampling-prototyping", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.7 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

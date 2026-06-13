@@ -84,6 +84,20 @@ const industryList = [
     desc: "Branded corrugated mailers that keep garments flat and wrinkle-free. Styling boxes with tissue and inserts. Monthly style subscription boxes.",
     tags: ["Apparel Mailers", "Gift Boxes", "Subscription"],
   },
+  {
+    slug: "bakery-food",
+    name: "Bakery & Food",
+    icon: "🥐",
+    desc: "FDA-compliant packaging with food-safe inks and windowed presentation. Custom inserts for cookies, macarons, and pastries. Seasonal gift boxes for holidays.",
+    tags: ["FDA Compliant", "Window Boxes", "Gift Sets"],
+  },
+  {
+    slug: "cbd-hemp",
+    name: "CBD & Hemp",
+    icon: "🌿",
+    desc: "Child-resistant certified packaging with premium finishes. Compliant display boxes with required warning labels. Subscription boxes with regulatory compliance built in.",
+    tags: ["Child-Resistant", "Compliant", "Premium Finish"],
+  },
 ];
 
 export default function IndustriesPage() {

@@ -518,6 +518,120 @@ const industries = {
       { q: "Can you do both boxes and matching paper bags?", a: "Absolutely. We design coordinated box + bag sets so your packaging looks consistent across online orders and in-store or pop-up purchases." },
     ],
   },
+  "bakery-food": {
+    name: "Bakery & Food",
+    tagline: "Packaging that keeps your baked goods as fresh as your brand",
+    heroImage: "/images/industry_food_box.jpg",
+    color: "from-yellow-500 to-amber-600",
+    icon: "🥐",
+    whyBUpack: "Bakery brands craft their products fresh daily and need packaging that keeps up. Our FDA-compliant materials, food-safe inks, and fast turnaround mean your cookies, pastries, and macarons arrive looking as good as they taste.",
+    painPoints: [
+      "Baked goods arrive crushed, stale, or misshapen — your beautiful croissants become crumbly disappointments",
+      "FDA compliance keeps you up at night — are your inks, coatings, and adhesives truly food-safe?",
+      "Seasonal products demand rapid packaging switches — Valentine's, Easter, Christmas all need different designs on tight timelines",
+      "Small-batch artisan bakers can't meet the 5,000+ unit minimums most packaging suppliers require",
+    ],
+    solutions: [
+      {
+        title: "Food-Safe Mailer Boxes",
+        desc: "FDA 21 CFR compliant corrugated mailers with food-safe inks and water-based adhesives. Custom inserts cradle cookies, macarons, and pastries for safe shipping.",
+        image: "/images/product_box_1.jpg",
+      },
+      {
+        title: "Windowed Presentation Boxes",
+        desc: "PET or PLA window boxes that showcase your baked goods' craftsmanship while keeping them fresh. Customers see the beauty before they even open the box.",
+        image: "/images/product_box_2.jpg",
+      },
+      {
+        title: "Holiday Gift Boxes",
+        desc: "Pre-engineered seasonal dielines for Valentine's, Easter, Mother's Day, and Christmas. Quick-turn production so you never miss a holiday rush.",
+        image: "/images/product_box_3.jpg",
+      },
+    ],
+    caseStudy: {
+      brand: "Golden Crumb Bakery",
+      stage: "DTC artisan bakery ($800K ARR)",
+      challenge: "Online cookie orders arrived broken and stale in generic boxes. Zero repeat customers from online channel. Holiday gift sets looked no different from everyday packaging.",
+      solution: "Custom corrugated mailer with precision-cut paperboard insert holding 12 cookies in individual slots. Windowed gift box with gold foil logo and satin ribbon for holiday sets.",
+      result: "Breakage rate dropped from 18% → 1%. Online repeat purchase rate jumped from 8% → 34%. Holiday gift set revenue grew 120% YoY.",
+    },
+    recommendedProducts: [
+      { name: "Food-Safe Mailer Boxes", href: "/products/paper-boxes" },
+      { name: "Windowed Presentation Boxes", href: "/products/paper-boxes" },
+      { name: "Holiday Gift Boxes", href: "/products/rigid-gift-boxes" },
+    ],
+    packagingTypes: [
+      { type: "Shipping Mailer", desc: "FDA-compliant corrugated mailer with custom inserts for cookies and pastries. Food-safe materials throughout.", icon: "📦" },
+      { type: "Gift Set Box", desc: "Rigid windowed box with individual pastry slots. The 'bakery showcase' experience delivered to the door.", icon: "🎁" },
+      { type: "Subscription Box", desc: "Monthly bakery discovery box with seasonal designs. Fresh artwork, same reliable structure.", icon: "🔄" },
+      { type: "Product Box", desc: "Folding carton or windowed sleeve for individual items. Brand story and ingredient list printed inside.", icon: "🥐" },
+    ],
+    seoKeywords: "custom bakery packaging boxes, custom food packaging boxes, bakery gift box wholesale, eco friendly food packaging, FDA compliant bakery boxes, artisan pastry packaging",
+    faqs: [
+      { q: "Are your bakery packaging materials FDA-compliant?", a: "Yes. All our food-contact packaging uses FDA 21 CFR compliant inks, water-based adhesives, and FSC-certified paperboard. We provide compliance documentation upon request." },
+      { q: "Can you make window boxes so customers can see the baked goods?", a: "Absolutely. We offer PET (clear) and PLA (compostable) window options in any die-cut shape. Windows let your product sell itself before the box is even opened." },
+      { q: "What's the minimum order for custom bakery boxes?", a: "We start at just 100 units — perfect for artisan bakeries testing new products or seasonal designs. No need to commit to thousands of boxes upfront." },
+      { q: "How fast can I get holiday-themed packaging for my bakery?", a: "3 days for design, 5 days for sampling, 7 days for production. We recommend ordering 4-6 weeks before peak season for best pricing, but we can rush orders when needed." },
+      { q: "Can you design inserts for different pastry shapes and sizes?", a: "Yes. We create precision-cut paperboard or EVA foam inserts for cookies, macarons, croissants, cupcakes, and any other shape. Each item gets its own protective slot." },
+    ],
+  },
+  "cbd-hemp": {
+    name: "CBD & Hemp",
+    tagline: "Compliant packaging that looks as premium as your product",
+    heroImage: "/images/industry_cosmetics.jpg",
+    color: "from-green-600 to-lime-700",
+    icon: "🌿",
+    whyBUpack: "CBD and hemp brands face a unique challenge: packaging must meet strict regulatory requirements while still looking premium enough to justify the price point. We deliver both — compliant by design, luxurious by choice.",
+    painPoints: [
+      "Regulatory compliance is a maze — state-by-state labeling requirements, FDA warning letters, and changing laws keep you anxious",
+      "Child-resistant packaging requirements add complexity and cost — most CR options look clinical, not premium",
+      "Building brand trust is harder when your packaging looks like every other CBD brand on the shelf",
+      "Fierce market competition means your packaging must differentiate instantly — generic boxes won't cut it",
+    ],
+    solutions: [
+      {
+        title: "Child-Resistant Mailer Boxes",
+        desc: "CR-certified packaging that meets ASTM D3475 and 16 CFR §1700 standards. Premium exterior design meets mandatory safety requirements — compliance without compromising aesthetics.",
+        image: "/images/product_box_1.jpg",
+      },
+      {
+        title: "Compliant Display Boxes",
+        desc: "Retail-ready packaging with required warning labels, QR codes, and batch information elegantly integrated into the design. Compliant doesn't have to mean ugly.",
+        image: "/images/product_box_2.jpg",
+      },
+      {
+        title: "CBD Subscription Boxes",
+        desc: "Monthly curated boxes with rotating product combinations. Standardized structure, fresh designs each cycle, and full regulatory compliance built in.",
+        image: "/images/product_box_3.jpg",
+      },
+    ],
+    caseStudy: {
+      brand: "Verde Botanics",
+      stage: "DTC CBD wellness brand ($2.5M ARR)",
+      challenge: "Packaging looked clinical and generic. Customers couldn't distinguish the brand on social media. Child-resistant requirements forced them into ugly stock options that hurt the premium positioning.",
+      solution: "Custom CR-certified rigid box with matte black exterior, holographic foil logo, and interior brand story. Required warning text elegantly integrated into the design. QR code linking to lab results.",
+      result: "Social media unboxing posts up 7x. Brand recognition in customer surveys improved 65%. Subscription retention increased from 3.2 → 5.8 month average. Zero compliance issues.",
+    },
+    recommendedProducts: [
+      { name: "Child-Resistant Mailer Boxes", href: "/products/paper-boxes" },
+      { name: "Compliant Display Boxes", href: "/products/paper-boxes" },
+      { name: "CBD Subscription Boxes", href: "/products/subscription-boxes" },
+    ],
+    packagingTypes: [
+      { type: "Shipping Mailer", desc: "CR-certified corrugated mailer for direct-to-consumer CBD orders. Compliant and presentable.", icon: "📦" },
+      { type: "Display Box", desc: "Retail-ready box with required labeling elegantly integrated. Shelf appeal meets regulatory requirements.", icon: "🎁" },
+      { type: "Subscription Box", desc: "Monthly CBD curation box. Compliant structure with rotating seasonal designs.", icon: "🔄" },
+      { type: "Pre-Roll Pack", desc: "Custom pre-roll packaging with CR-certified closure. Premium look, mandatory safety compliance.", icon: "🌿" },
+    ],
+    seoKeywords: "custom CBD packaging boxes, CBD hemp packaging wholesale, child resistant packaging custom, custom pre-roll packaging boxes, compliant CBD packaging, premium hemp packaging",
+    faqs: [
+      { q: "Do your CBD packaging boxes meet child-resistant requirements?", a: "Yes. Our CR-certified packaging meets ASTM D3475 and 16 CFR §1700 standards. We provide certification documentation and test reports with every order." },
+      { q: "Can you include required warning labels and QR codes in the design?", a: "Absolutely. We integrate all required regulatory text, warning labels, QR codes for lab results, and batch information directly into your packaging design — elegantly and compliantly." },
+      { q: "What's the minimum order for custom CBD packaging?", a: "100 units for standard designs, 300 units for CR-certified packaging. We keep MOQs low so emerging CBD brands can access premium packaging without overcommitting on inventory." },
+      { q: "How do you handle different state compliance requirements?", a: "We track labeling requirements across all 50 states and can produce state-specific variations. Our design team ensures your packaging meets the strictest applicable regulations." },
+      { q: "Can you make packaging that looks premium but is still compliant?", a: "That's our specialty. Compliance and luxury aren't mutually exclusive. We use premium finishes — soft-touch lamination, foil stamping, spot UV — alongside required regulatory elements for packaging that looks as good as it complies." },
+    ],
+  },
 }
 
 export async function generateStaticParams() {
@@ -540,6 +654,8 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
     "cosmetics-beauty": "Custom Cosmetic Packaging Boxes | BUpack",
     "wine-spirits": "Custom Wine Packaging Boxes | BUpack",
     "apparel-fashion": "Custom Apparel Packaging Boxes | BUpack",
+    "bakery-food": "Custom Bakery & Food Packaging Boxes | BUpack",
+    "cbd-hemp": "Custom CBD & Hemp Packaging Boxes | BUpack",
   }
 
   const seoDescMap: Record<string, string> = {
@@ -552,6 +668,8 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
     "cosmetics-beauty": "Custom cosmetic packaging boxes for skincare & beauty brands. Mailer boxes, luxury gift sets, subscription boxes. FSC-certified, low MOQ from 100 units.",
     "wine-spirits": "Custom wine packaging boxes with protective inserts. Gift sets, wine club shipments. FSC-certified, low MOQ from 100 units.",
     "apparel-fashion": "Custom apparel packaging boxes for fashion brands. Branded mailers, gift sets, subscription boxes. Low MOQ from 100 units.",
+    "bakery-food": "Custom bakery & food packaging boxes. FDA-compliant mailers, windowed presentation boxes, holiday gift sets. FSC-certified, low MOQ from 100 units.",
+    "cbd-hemp": "Custom CBD & hemp packaging boxes. Child-resistant mailers, compliant display boxes, subscription packaging. CR-certified, low MOQ from 100 units.",
   }
 
   return {
