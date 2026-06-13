@@ -56,7 +56,8 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/products/custom-mailer-boxes", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/products/custom-paper-bags", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/packaging-101", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
-  // New guide page (GEO content)
+  // Guide index & GEO content
+  { path: "/guide", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/guide/ecommerce-packaging-sourcing", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.9 },
   // New blog posts
   { path: "/blog/packaging-design-trends-2026", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
