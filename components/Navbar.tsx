@@ -21,27 +21,24 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-6">
             <Link href="/" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
               Home
             </Link>
             <Link href="/products#ecommerce-boxes" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
               Products
             </Link>
+            <Link href="/industries" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
+              Industries
+            </Link>
             <Link href="/eco" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
               Sustainability
-            </Link>
-            <Link href="/about" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
-              About
             </Link>
             <Link href="/blog" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
               Blog
             </Link>
-            <Link href="/case-studies" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
-              Case Studies
-            </Link>
-            <Link href="/moq-guide" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
-              Low MOQ Guide
+            <Link href="/faq" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
+              FAQ
             </Link>
             <Link
               href="/contact"
@@ -75,11 +72,10 @@ export default function Navbar() {
             <nav className="flex flex-col gap-3">
               <Link href="/" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Home</Link>
               <Link href="/products#ecommerce-boxes" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Products</Link>
+              <Link href="/industries" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Industries</Link>
               <Link href="/eco" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Sustainability</Link>
-              <Link href="/about" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>About</Link>
               <Link href="/blog" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Blog</Link>
-              <Link href="/case-studies" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Case Studies</Link>
-              <Link href="/moq-guide" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Low MOQ Guide</Link>
+              <Link href="/faq" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>FAQ</Link>
               <Link href="/contact" className="bg-green-700 text-white px-5 py-2 rounded-lg font-medium text-center" onClick={() => setMenuOpen(false)}>Get Free Samples →</Link>
             </nav>
           </div>

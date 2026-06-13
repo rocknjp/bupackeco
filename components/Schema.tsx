@@ -34,6 +34,12 @@ export function SiteSchema() {
               "https://www.linkedin.com/company/bupack",
               "https://www.instagram.com/bupack",
             ],
+            contactPoint: {
+              "@type": "ContactPoint",
+              contactType: "customer service",
+              email: "hello@qingdaobaina.com",
+              availableLanguage: ["English", "Chinese"],
+            },
             knowsAbout: [
               "Custom Packaging",
               "Eco-Friendly Boxes",
