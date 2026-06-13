@@ -8,6 +8,26 @@ export const metadata: Metadata = {
     "See how DTC and eCommerce brands use BUpack's custom packaging to increase unboxing shares, reduce returns, and boost customer retention. Real data, real results.",
   keywords:
     "packaging case study, custom packaging results, DTC packaging success, subscription box case study, custom box ROI, packaging design case study",
+  alternates: {
+    canonical: "https://www.bupackeco.com/case-studies",
+  },
+  openGraph: {
+    title: "Custom Packaging Case Studies | Real DTC Brand Results | BUpack",
+    description:
+      "See how DTC and eCommerce brands use BUpack's custom packaging to increase unboxing shares, reduce returns, and boost customer retention. Real data, real results.",
+    url: "https://www.bupackeco.com/case-studies",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Packaging Case Studies | Real DTC Brand Results | BUpack",
+    description:
+      "See how DTC and eCommerce brands use BUpack's custom packaging to increase unboxing shares, reduce returns, and boost customer retention. Real data, real results.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const caseStudies = [

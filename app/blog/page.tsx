@@ -19,6 +19,13 @@ export const metadata: Metadata = {
     type: "website",
     images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Packaging Blog – Tips for eCommerce Brands | BUpack",
+    description:
+      "Actionable packaging guides for DTC brands: unboxing, sustainability, costs, subscription box design.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const categories = ["All", "Unboxing Experience", "Sustainability", "DTC Strategy", "Packaging 101", "Startup Guide", "Import Guide", "Eco Guide", "Design Trends"];

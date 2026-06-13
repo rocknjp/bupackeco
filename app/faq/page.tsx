@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/faq",
   },
+  openGraph: {
+    title: "Custom Packaging FAQ | Low MOQ, FSC, Shipping | BUpack",
+    description:
+      "Frequently asked questions about custom packaging. MOQ, pricing, shipping, materials, and design. Get answers from BUpack — FSC-certified manufacturer with 100-unit MOQ.",
+    url: "https://www.bupackeco.com/faq",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Packaging FAQ | Low MOQ, FSC, Shipping | BUpack",
+    description:
+      "Frequently asked questions about custom packaging. MOQ, pricing, shipping, materials, and design. Get answers from BUpack — FSC-certified manufacturer with 100-unit MOQ.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const faqCategories = [

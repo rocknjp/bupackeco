@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/blog/custom-packaging-for-startups-guide",
   },
+  openGraph: {
+    title: "Custom Packaging for Startups: A Complete Guide (2026) | BUpack",
+    description:
+      "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands. Free design support included.",
+    url: "https://www.bupackeco.com/blog/custom-packaging-for-startups-guide",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "article",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Packaging for Startups: A Complete Guide (2026) | BUpack",
+    description:
+      "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands. Free design support included.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const faqItems = [

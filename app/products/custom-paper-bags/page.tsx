@@ -20,6 +20,23 @@ export const metadata: Metadata = {
     "kraft paper bags custom",
     "printed paper bags",
   ],
+  openGraph: {
+    title: "Custom Paper Bags with Logo | Bulk & Wholesale | BUpack",
+    description:
+      "Custom printed paper bags with your logo. Kraft, coated, and luxury options. Bulk and wholesale pricing. FSC-certified, MOQ from 200 units.",
+    url: "https://www.bupackeco.com/products/custom-paper-bags",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Paper Bags with Logo | Bulk & Wholesale | BUpack",
+    description:
+      "Custom printed paper bags with your logo. Kraft, coated, and luxury options. Bulk and wholesale pricing. FSC-certified, MOQ from 200 units.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const coreValues = [

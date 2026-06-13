@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/blog/kraft-vs-coated-paper-deep-dive",
   },
+  openGraph: {
+    title: "Kraft vs Coated Paper for Packaging: In-Depth Comparison | BUpack",
+    description:
+      "Kraft paper vs coated paper for custom packaging. Appearance, durability, sustainability, and cost comparison. Choose the right material for your brand.",
+    url: "https://www.bupackeco.com/blog/kraft-vs-coated-paper-deep-dive",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "article",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kraft vs Coated Paper for Packaging: In-Depth Comparison | BUpack",
+    description:
+      "Kraft paper vs coated paper for custom packaging. Appearance, durability, sustainability, and cost comparison. Choose the right material for your brand.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const faqItems = [

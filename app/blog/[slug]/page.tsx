@@ -1699,6 +1699,21 @@ export async function generateMetadata({
     alternates: {
       canonical: `https://www.bupackeco.com/blog/${slug}`,
     },
+    openGraph: {
+      title: `${post.title} | BUpack Blog`,
+      description: post.excerpt,
+      url: `https://www.bupackeco.com/blog/${slug}`,
+      siteName: "BUpack",
+      locale: "en_US",
+      type: "article",
+      images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${post.title} | BUpack Blog`,
+      description: post.excerpt,
+      images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+    },
   };
 }
 

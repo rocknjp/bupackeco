@@ -20,6 +20,23 @@ export const metadata: Metadata = {
     "low MOQ mailer boxes",
     "DTC packaging",
   ],
+  openGraph: {
+    title: "Custom Mailer Boxes for Ecommerce | Low MOQ | BUpack",
+    description:
+      "Custom printed mailer boxes for ecommerce and DTC brands. E-flute and B-flute options, custom inserts, full-color printing. MOQ from 100 units.",
+    url: "https://www.bupackeco.com/products/custom-mailer-boxes",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Mailer Boxes for Ecommerce | Low MOQ | BUpack",
+    description:
+      "Custom printed mailer boxes for ecommerce and DTC brands. E-flute and B-flute options, custom inserts, full-color printing. MOQ from 100 units.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const coreValues = [

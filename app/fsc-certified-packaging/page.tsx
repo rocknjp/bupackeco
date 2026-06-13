@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/fsc-certified-packaging",
   },
+  openGraph: {
+    title: "FSC-Certified Custom Packaging | Low MOQ, Verified | BUpack",
+    description:
+      "FSC-certified custom paper packaging for DTC and eCommerce brands. Verified chain of custody from sustainable forests. Mailer boxes, rigid boxes, and paper bags from 100 units MOQ.",
+    url: "https://www.bupackeco.com/fsc-certified-packaging",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FSC-Certified Custom Packaging | Low MOQ, Verified | BUpack",
+    description:
+      "FSC-certified custom paper packaging for DTC and eCommerce brands. Verified chain of custody from sustainable forests. Mailer boxes, rigid boxes, and paper bags from 100 units MOQ.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const fscLabels = [

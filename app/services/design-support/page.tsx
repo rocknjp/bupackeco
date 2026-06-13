@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/services/design-support",
   },
+  openGraph: {
+    title: "Free Custom Packaging Design Support | BUpack",
+    description:
+      "Free packaging design support for your custom boxes. Professional structural design, artwork assistance, and 3D mockups. No design fees — included with every order from BUpack.",
+    url: "https://www.bupackeco.com/services/design-support",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free Custom Packaging Design Support | BUpack",
+    description:
+      "Free packaging design support for your custom boxes. Professional structural design, artwork assistance, and 3D mockups. No design fees — included with every order from BUpack.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const includedServices = [

@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/services/sampling-prototyping",
   },
+  openGraph: {
+    title: "Custom Packaging Sampling & Prototyping | BUpack",
+    description:
+      "Get physical samples of your custom packaging before full production. 5-day sampling, structural prototypes, and color-matched proofs. MOQ from 100 units after sample approval.",
+    url: "https://www.bupackeco.com/services/sampling-prototyping",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Packaging Sampling & Prototyping | BUpack",
+    description:
+      "Get physical samples of your custom packaging before full production. 5-day sampling, structural prototypes, and color-matched proofs. MOQ from 100 units after sample approval.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const sampleTypes = [

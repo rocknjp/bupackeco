@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/blog/import-custom-packaging-from-china-guide",
   },
+  openGraph: {
+    title: "How to Import Custom Packaging from China: Complete Guide | BUpack",
+    description:
+      "Step-by-step guide to importing custom packaging from China. Shipping, customs, quality control, and cost breakdown. Factory-direct pricing saves 40-60% vs domestic.",
+    url: "https://www.bupackeco.com/blog/import-custom-packaging-from-china-guide",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "article",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to Import Custom Packaging from China: Complete Guide | BUpack",
+    description:
+      "Step-by-step guide to importing custom packaging from China. Shipping, customs, quality control, and cost breakdown. Factory-direct pricing saves 40-60% vs domestic.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const faqItems = [

@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/blog/packaging-for-subscription-boxes-guide",
   },
+  openGraph: {
+    title: "Packaging for Subscription Boxes: Complete Guide | BUpack",
+    description:
+      "Complete guide to subscription box packaging. Box types, monthly design rotation, interior organization, and cost control. MOQ from 100 units.",
+    url: "https://www.bupackeco.com/blog/packaging-for-subscription-boxes-guide",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "article",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Packaging for Subscription Boxes: Complete Guide | BUpack",
+    description:
+      "Complete guide to subscription box packaging. Box types, monthly design rotation, interior organization, and cost control. MOQ from 100 units.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const faqItems = [

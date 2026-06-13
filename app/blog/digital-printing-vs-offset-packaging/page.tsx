@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/blog/digital-printing-vs-offset-packaging",
   },
+  openGraph: {
+    title: "Digital Printing vs Offset for Custom Packaging: Which to Choose? | BUpack",
+    description:
+      "Digital printing vs offset printing for custom packaging boxes. Cost comparison, quality differences, and when to use each method. MOQ recommendations included.",
+    url: "https://www.bupackeco.com/blog/digital-printing-vs-offset-packaging",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "article",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Digital Printing vs Offset for Custom Packaging: Which to Choose? | BUpack",
+    description:
+      "Digital printing vs offset printing for custom packaging boxes. Cost comparison, quality differences, and when to use each method. MOQ recommendations included.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const faqItems = [

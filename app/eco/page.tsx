@@ -19,6 +19,13 @@ export const metadata: Metadata = {
     type: "website",
     images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sustainability – Eco Packaging Commitments | BUpack",
+    description:
+      "FSC-certified paper, soy-based inks, plastic-free options. BUpack helps eCommerce brands go green.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const commitments = [

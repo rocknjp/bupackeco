@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/blog/custom-boxes-overseas-manufacturer",
   },
+  openGraph: {
+    title: "How to Choose an Overseas Custom Boxes Manufacturer | BUpack",
+    description:
+      "Guide to choosing an overseas custom packaging manufacturer. Quality verification, communication tips, shipping logistics, and cost comparison. Factory-direct from BUpack, China.",
+    url: "https://www.bupackeco.com/blog/custom-boxes-overseas-manufacturer",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "article",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to Choose an Overseas Custom Boxes Manufacturer | BUpack",
+    description:
+      "Guide to choosing an overseas custom packaging manufacturer. Quality verification, communication tips, shipping logistics, and cost comparison. Factory-direct from BUpack, China.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const faqItems = [

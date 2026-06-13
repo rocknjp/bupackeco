@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/blog/branded-packaging-ideas-ecommerce",
   },
+  openGraph: {
+    title: "15 Branded Packaging Ideas for Ecommerce Brands (2026) | BUpack",
+    description:
+      "15 creative branded packaging ideas for ecommerce and DTC brands. From custom inserts to interactive unboxing. Real examples and cost breakdowns for each idea.",
+    url: "https://www.bupackeco.com/blog/branded-packaging-ideas-ecommerce",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "article",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "15 Branded Packaging Ideas for Ecommerce Brands (2026) | BUpack",
+    description:
+      "15 creative branded packaging ideas for ecommerce and DTC brands. From custom inserts to interactive unboxing. Real examples and cost breakdowns for each idea.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const faqItems = [

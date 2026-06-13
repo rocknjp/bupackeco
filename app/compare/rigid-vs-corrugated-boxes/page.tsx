@@ -6,6 +6,26 @@ export const metadata: Metadata = {
   title: "Rigid Box vs Corrugated Box: Which Is Right for Your Brand? | BUpack",
   description:
     "A comprehensive comparison of rigid boxes and corrugated boxes — cost, use cases, printing options, unboxing experience, and sustainability. Find the right box type for your brand.",
+  alternates: {
+    canonical: "https://www.bupackeco.com/compare/rigid-vs-corrugated-boxes",
+  },
+  openGraph: {
+    title: "Rigid Box vs Corrugated Box: Which Is Right for Your Brand? | BUpack",
+    description:
+      "A comprehensive comparison of rigid boxes and corrugated boxes — cost, use cases, printing options, unboxing experience, and sustainability. Find the right box type for your brand.",
+    url: "https://www.bupackeco.com/compare/rigid-vs-corrugated-boxes",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rigid Box vs Corrugated Box: Which Is Right for Your Brand? | BUpack",
+    description:
+      "A comprehensive comparison of rigid boxes and corrugated boxes — cost, use cases, printing options, unboxing experience, and sustainability. Find the right box type for your brand.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const comparisonData = [

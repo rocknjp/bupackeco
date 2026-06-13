@@ -289,7 +289,17 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     openGraph: {
       title: seoTitleMap[slug] || `${product.name} | BUpack`,
       description: seoDescMap[slug] || product.tagline,
-      images: [{ url: `https://www.bupackeco.com${product.heroImage}` }],
+      url: `https://www.bupackeco.com/products/${slug}`,
+      siteName: "BUpack",
+      locale: "en_US",
+      type: "website",
+      images: [{ url: `https://www.bupackeco.com${product.heroImage}`, width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: seoTitleMap[slug] || `${product.name} | BUpack`,
+      description: seoDescMap[slug] || product.tagline,
+      images: [`https://www.bupackeco.com${product.heroImage}`],
     },
     alternates: {
       canonical: `https://www.bupackeco.com/products/${slug}`,

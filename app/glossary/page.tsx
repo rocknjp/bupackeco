@@ -8,6 +8,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/glossary",
   },
+  openGraph: {
+    title: "Packaging Industry Glossary – Terms & Definitions | BUpack",
+    description:
+      "Comprehensive packaging industry glossary: 50+ terms explained. Perfect for eCommerce brands sourcing custom boxes, mailers, and sustainable packaging solutions.",
+    url: "https://www.bupackeco.com/glossary",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Packaging Industry Glossary – Terms & Definitions | BUpack",
+    description:
+      "Comprehensive packaging industry glossary: 50+ terms explained. Perfect for eCommerce brands sourcing custom boxes, mailers, and sustainable packaging solutions.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const glossaryTerms = [

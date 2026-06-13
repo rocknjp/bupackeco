@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/blog/how-to-create-unboxing-experience",
   },
+  openGraph: {
+    title: "How to Create an Unboxing Experience That Drives Social Shares | BUpack",
+    description:
+      "How to design a memorable unboxing experience for your DTC brand. 8 proven strategies with real brand examples. Custom inserts, tissue, and interior printing from BUpack.",
+    url: "https://www.bupackeco.com/blog/how-to-create-unboxing-experience",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "article",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to Create an Unboxing Experience That Drives Social Shares | BUpack",
+    description:
+      "How to design a memorable unboxing experience for your DTC brand. 8 proven strategies with real brand examples. Custom inserts, tissue, and interior printing from BUpack.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const faqItems = [

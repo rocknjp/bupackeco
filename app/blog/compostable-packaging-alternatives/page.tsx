@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/blog/compostable-packaging-alternatives",
   },
+  openGraph: {
+    title: "Compostable Packaging Alternatives: Complete Guide for Brands | BUpack",
+    description:
+      "Complete guide to compostable packaging alternatives. Materials comparison, home vs industrial composting, costs, and certification. Eco-friendly options from BUpack.",
+    url: "https://www.bupackeco.com/blog/compostable-packaging-alternatives",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "article",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Compostable Packaging Alternatives: Complete Guide for Brands | BUpack",
+    description:
+      "Complete guide to compostable packaging alternatives. Materials comparison, home vs industrial composting, costs, and certification. Eco-friendly options from BUpack.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const faqItems = [
