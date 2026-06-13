@@ -42,6 +42,8 @@ export default function Footer() {
               <li><Link href="/products/rigid-gift-boxes" className="hover:text-white transition-colors">Rigid Gift Boxes</Link></li>
               <li><Link href="/products/folding-cartons" className="hover:text-white transition-colors">Folding Cartons</Link></li>
               <li><Link href="/products#mailer-boxes" className="hover:text-white transition-colors">Mailer Boxes</Link></li>
+              <li><Link href="/products/custom-mailer-boxes" className="hover:text-white transition-colors">Custom Mailer Boxes</Link></li>
+              <li><Link href="/products/custom-paper-bags" className="hover:text-white transition-colors">Custom Paper Bags</Link></li>
             </ul>
           </div>
 
@@ -54,6 +56,8 @@ export default function Footer() {
               <li><Link href="/services/design-support" className="hover:text-white transition-colors">Free Design Support</Link></li>
               <li><Link href="/services/sampling-prototyping" className="hover:text-white transition-colors">Sampling & Prototyping</Link></li>
               <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
+              <li><Link href="/packaging-101" className="hover:text-white transition-colors">Packaging 101</Link></li>
+              <li><Link href="/faq" className="hover:text-white transition-colors">FAQ</Link></li>
               <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
             </ul>
           </div>

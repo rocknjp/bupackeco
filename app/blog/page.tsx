@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
 };
 
-const categories = ["All", "Unboxing Experience", "Sustainability", "DTC Strategy", "Packaging 101", "Startup Guide", "Import Guide", "Eco Guide"];
+const categories = ["All", "Unboxing Experience", "Sustainability", "DTC Strategy", "Packaging 101", "Startup Guide", "Import Guide", "Eco Guide", "Design Trends"];
 
 const posts = [
   {
@@ -241,6 +241,83 @@ const posts = [
     category: "Eco Guide",
     date: "June 13, 2026",
     readTime: "11 min",
+    featured: false,
+    emoji: "🌿",
+  },
+  {
+    slug: "packaging-design-trends-2026",
+    title: "Packaging Design Trends 2026: What DTC Brands Need to Know",
+    excerpt:
+      "Top packaging design trends for 2026. Minimalism, bold colors, sustainable materials, and interactive unboxing. Stay ahead with BUpack.",
+    category: "Design Trends",
+    date: "June 13, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "🎨",
+  },
+  {
+    slug: "custom-packaging-timeline-guide",
+    title: "Custom Packaging Timeline: From Design to Delivery",
+    excerpt:
+      "Complete timeline for custom packaging production. Design, sampling, manufacturing, and shipping breakdown. Get your boxes in 15 days with BUpack.",
+    category: "Packaging 101",
+    date: "June 13, 2026",
+    readTime: "9 min",
+    featured: false,
+    emoji: "⏱️",
+  },
+  {
+    slug: "kraft-vs-coated-paper-deep-dive",
+    title: "Kraft vs Coated Paper for Packaging: In-Depth Comparison",
+    excerpt:
+      "Kraft paper vs coated paper for custom packaging. Appearance, durability, sustainability, and cost comparison. Choose the right material for your brand.",
+    category: "Packaging 101",
+    date: "June 13, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "📄",
+  },
+  {
+    slug: "custom-packaging-cost-breakdown",
+    title: "Custom Packaging Cost Breakdown: What You're Paying For",
+    excerpt:
+      "Detailed cost breakdown for custom packaging. Materials, printing, finishing, and shipping costs explained. Factory-direct pricing from BUpack saves 40-60%.",
+    category: "Packaging 101",
+    date: "June 13, 2026",
+    readTime: "11 min",
+    featured: false,
+    emoji: "💰",
+  },
+  {
+    slug: "seasonal-packaging-strategy",
+    title: "Seasonal Packaging Strategy for DTC Brands",
+    excerpt:
+      "How to plan seasonal packaging for holidays and launches. Valentine's, Easter, Halloween, Christmas packaging tips. Quick-turn options from BUpack.",
+    category: "DTC Strategy",
+    date: "June 13, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "🎄",
+  },
+  {
+    slug: "packaging-for-subscription-boxes-guide",
+    title: "Packaging for Subscription Boxes: Complete Guide",
+    excerpt:
+      "Complete guide to subscription box packaging. Box types, monthly design rotation, interior organization, and cost control. MOQ from 100 units.",
+    category: "DTC Strategy",
+    date: "June 13, 2026",
+    readTime: "12 min",
+    featured: false,
+    emoji: "📬",
+  },
+  {
+    slug: "why-fsc-certification-matters-packaging",
+    title: "Why FSC Certification Matters for Your Packaging",
+    excerpt:
+      "Why FSC certification matters for custom packaging. Environmental impact, brand trust, and market advantage explained. FSC-certified options from BUpack.",
+    category: "Sustainability",
+    date: "June 13, 2026",
+    readTime: "8 min",
     featured: false,
     emoji: "🌿",
   },

@@ -51,6 +51,18 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/blog/custom-boxes-overseas-manufacturer", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/how-to-create-unboxing-experience", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/eco-friendly-packaging-small-business", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  // New product & resource pages
+  { path: "/products/custom-mailer-boxes", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
+  { path: "/products/custom-paper-bags", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
+  { path: "/packaging-101", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
+  // New blog posts
+  { path: "/blog/packaging-design-trends-2026", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/custom-packaging-timeline-guide", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/kraft-vs-coated-paper-deep-dive", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/custom-packaging-cost-breakdown", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/seasonal-packaging-strategy", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/packaging-for-subscription-boxes-guide", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/why-fsc-certification-matters-packaging", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
