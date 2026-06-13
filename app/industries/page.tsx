@@ -50,6 +50,13 @@ const industryList = [
     desc: "Monthly themed boxes with pet-safe soy-based inks. Divided interiors for treats + toys + accessories. Direct-ship ready — no outer carton needed.",
     tags: ["Subscription", "Pet-Safe Ink", "Divided Interior"],
   },
+  {
+    slug: "cosmetics-beauty",
+    name: "Cosmetics & Beauty",
+    icon: "💄",
+    desc: "Custom mailer boxes with bottle inserts for serums and perfumes. Luxury rigid gift boxes with soft-touch lamination and foil stamping. Beauty subscription boxes with monthly design refreshes.",
+    tags: ["Bottle Inserts", "Luxury Finish", "Subscription"],
+  },
 ];
 
 export default function IndustriesPage() {

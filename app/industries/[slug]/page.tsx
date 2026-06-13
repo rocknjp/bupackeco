@@ -290,6 +290,63 @@ const industries = {
       { q: "What's the minimum order for tea subscription boxes?", a: "100 units for the first design. After your dieline is established, you can reorder as few as 50 units with new artwork." },
     ],
   },
+  "cosmetics-beauty": {
+    name: "Cosmetics & Beauty",
+    tagline: "Your product deserves packaging as beautiful as the formula inside",
+    heroImage: "/images/industry_cosmetics.jpg",
+    color: "from-pink-500 to-rose-600",
+    icon: "💄",
+    whyBUpack: "Beauty brands formulate their products and source packaging independently. Your box is the first touchpoint — it needs to feel as premium as the serum inside. We help DTC beauty brands create unboxing moments that customers photograph, share, and remember.",
+    painPoints: [
+      "Glass serum bottles and perfume vials arrive shattered — your beautiful product becomes a refund and a bad review",
+      "Generic white boxes make premium skincare look like a drugstore brand",
+      "Subscription beauty boxes feel repetitive — same box, different products, zero excitement",
+      "High MOQs from traditional suppliers force you to overstock packaging you'll outgrow in 6 months",
+    ],
+    solutions: [
+      {
+        title: "Custom Mailer Boxes with Bottle Inserts",
+        desc: "E-flute corrugated mailers with precision-cut inserts that cradle glass bottles and jars. Drop-tested for FedEx, USPS, and DHL. Your serum arrives intact, every time.",
+        image: "/images/product_box_1.jpg",
+      },
+      {
+        title: "Luxury Rigid Gift Boxes",
+        desc: "Lid-and-base rigid boxes with soft-touch lamination, gold foil stamping, and custom EVA or paperboard inserts. The 'Instagram-worthy' unboxing experience.",
+        image: "/images/product_box_2.jpg",
+      },
+      {
+        title: "Beauty Subscription Boxes",
+        desc: "Standardized dieline with monthly design refreshes. Same structure, new artwork every month — subscribers look forward to the reveal, not just the products.",
+        image: "/images/product_box_3.jpg",
+      },
+    ],
+    caseStudy: {
+      brand: "GlowTheory",
+      stage: "DTC skincare brand ($3.2M ARR)",
+      challenge: "Serum bottles were arriving broken in 8% of orders. The plain white mailer box didn't reflect the premium $85 price point. Customers loved the product but never posted about the packaging.",
+      solution: "Custom E-flute mailer with precision-cut EVA insert for 30ml serum bottle + dropper. Exterior: soft-touch lamination with rose gold foil logo. Interior: brand story + usage guide printed.",
+      result: "Shipping damage dropped from 8% → 0.3%. Instagram unboxing tags increased 12x in 3 months. AOV increased 28% when bundle sets launched in the new rigid gift box.",
+    },
+    recommendedProducts: [
+      { name: "Mailer Boxes with Inserts", href: "/products/paper-boxes" },
+      { name: "Rigid Gift Boxes", href: "/products/rigid-gift-boxes" },
+      { name: "Subscription Boxes", href: "/products/subscription-boxes" },
+    ],
+    packagingTypes: [
+      { type: "Shipping Mailer", desc: "E-flute corrugated with custom bottle inserts. Protects glass serums, perfumes, and creams during cross-country shipping.", icon: "📦" },
+      { type: "Rigid Gift Box", desc: "Lid-and-base luxury box with soft-touch finish. Perfect for skincare sets, perfume gifting, and holiday collections.", icon: "🎁" },
+      { type: "Subscription Box", desc: "Monthly beauty box with rotating artwork. Standardized structure, fresh design every shipment cycle.", icon: "🔄" },
+      { type: "Product Box / Sleeve", desc: "Folding carton or sleeve for individual products — serum boxes, moisturizer cartons, lipstick sleeves.", icon: "💄" },
+    ],
+    seoKeywords: "custom cosmetic packaging boxes, skincare product packaging custom, custom beauty box packaging, custom makeup packaging boxes, luxury cosmetics packaging wholesale, eco friendly cosmetic packaging, low MOQ cosmetic boxes",
+    faqs: [
+      { q: "What's the minimum order for custom cosmetic packaging boxes?", a: "We start at just 100 units for standard mailer boxes and 300 units for rigid gift boxes. Perfect for testing a new product line or seasonal collection before scaling up." },
+      { q: "How do you protect glass serum bottles and perfume vials during shipping?", a: "We use E-flute corrugated mailers with precision-cut EVA foam or paperboard inserts that hold each bottle securely in place. Every design is drop-tested before production to ensure your products arrive intact." },
+      { q: "Can you do luxury finishes like soft-touch, foil stamping, and embossing?", a: "Absolutely. We specialize in premium beauty packaging — soft-touch lamination, gold/silver/rose gold foil stamping, blind embossing, and spot UV are all available. These finishes are what make customers photograph and share your packaging." },
+      { q: "How fast can I get custom beauty packaging produced?", a: "3 days for design finalization, 5 days for sampling, and 7-10 days for production delivery — that's 15-18 days from concept to your door for orders under 10,000 units. Perfect for seasonal launches and product drops." },
+      { q: "Are your materials safe for cosmetic packaging?", a: "Yes. We use FSC-certified paper, soy-based inks, and water-based adhesives. All materials are tested for indirect contact safety with cosmetic products. We can also provide compliance documentation for your brand's records." },
+    ],
+  },
   "pet-subscription": {
     name: "Pet Treats & Subscription Boxes",
     tagline: "The box your dog can't wait to open",
@@ -366,6 +423,7 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
     "stationery-gifts": "Stationery & Gift Packaging | Custom Flat Mailers & Gift Sets | BUpack",
     "tea-beverages": "Tea Packaging Boxes | Subscription & Gift Boxes for Tea Brands | BUpack",
     "pet-subscription": "Pet Subscription Box Packaging | Custom Monthly Boxes for Pet Brands | BUpack",
+    "cosmetics-beauty": "Custom Cosmetic Packaging Boxes | Skincare & Beauty Boxes | Low MOQ | BUpack",
   }
 
   const seoDescMap: Record<string, string> = {
@@ -375,6 +433,7 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
     "stationery-gifts": "Custom stationery and gift packaging — flat mailer boxes for notebooks, rigid gift set boxes for journal collections, and reusable keepsake boxes. Low MOQ, eco-friendly materials.",
     "tea-beverages": "Custom tea packaging boxes — drawer-style tea boxes, multi-compartment gift sets, and monthly subscription boxes for tea brands. FSC-certified, fast turnaround, MOQ from 100 units.",
     "pet-subscription": "Custom pet subscription box packaging with monthly theme rotation. Divided interior boxes for treats, toys, and accessories. Pet-safe soy inks, durable corrugated construction. MOQ from 100 units.",
+    "cosmetics-beauty": "Custom cosmetic packaging boxes for DTC beauty and skincare brands. Mailer boxes with bottle inserts, luxury rigid gift boxes, and beauty subscription boxes. FSC-certified, low MOQ from 100 units.",
   }
 
   return {

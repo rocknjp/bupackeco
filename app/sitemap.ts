@@ -15,6 +15,7 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/industries/stationery-gifts", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.8 },
   { path: "/industries/tea-beverages", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.8 },
   { path: "/industries/pet-subscription", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.8 },
+  { path: "/industries/cosmetics-beauty", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/contact", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.6 },
   { path: "/eco", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.7 },
   { path: "/blog", lastmod: "2026-06-12", changefreq: "weekly", priority: 0.7 },
