@@ -62,6 +62,7 @@ export default function Footer() {
               <li><Link href="/products?stage=growth" className="hover:text-white transition-colors">Growth Brands</Link></li>
               <li><Link href="/products?stage=scale" className="hover:text-white transition-colors">Scaling Brands</Link></li>
               <li><Link href="/eco" className="hover:text-white transition-colors">Sustainability Guide</Link></li>
+              <li><Link href="/fsc-certified-packaging" className="hover:text-white transition-colors">FSC Certified Packaging</Link></li>
             </ul>
           </div>
 
