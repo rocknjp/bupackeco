@@ -59,6 +59,7 @@ export default function KraftVsCoatedPaperDeepDive() {
         description="Kraft paper vs coated paper for custom packaging. Appearance, durability, sustainability, and cost comparison."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/kraft-vs-coated-paper-deep-dive"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

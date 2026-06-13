@@ -177,6 +177,7 @@ export function ArticleSchema({
   authorName = "BUpack Team",
   image,
   dateModified,
+  url,
 }: {
   headline: string;
   description: string;
@@ -184,7 +185,11 @@ export function ArticleSchema({
   authorName?: string;
   image?: string;
   dateModified?: string;
+  url?: string;
 }) {
+  const pageUrl = url
+    ? (url.startsWith("http") ? url : `https://www.bupackeco.com${url}`)
+    : "https://www.bupackeco.com";
   return (
     <Script
       id="schema-article"
@@ -213,7 +218,7 @@ export function ArticleSchema({
           },
           mainEntityOfPage: {
             "@type": "WebPage",
-            "@id": "https://www.bupackeco.com",
+            "@id": pageUrl,
           },
           ...(image && {
             image: image.startsWith("http") ? image : `https://www.bupackeco.com${image}`,

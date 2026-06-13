@@ -64,6 +64,7 @@ export default function DigitalPrintingVsOffsetPackaging() {
         description="Digital printing vs offset printing for custom packaging boxes. Cost comparison, quality differences, and when to use each method. MOQ recommendations included."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/digital-printing-vs-offset-packaging"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

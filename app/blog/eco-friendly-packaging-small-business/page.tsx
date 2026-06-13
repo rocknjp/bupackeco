@@ -64,6 +64,7 @@ export default function EcoFriendlyPackagingSmallBusiness() {
         description="Complete guide to eco-friendly packaging for small businesses. FSC-certified, recycled, and compostable options. Low MOQ from 100 units."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/eco-friendly-packaging-small-business"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

@@ -64,6 +64,7 @@ export default function PackagingForSubscriptionBoxesGuide() {
         description="Complete guide to subscription box packaging. Box types, monthly design rotation, interior organization, and cost control."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/packaging-for-subscription-boxes-guide"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

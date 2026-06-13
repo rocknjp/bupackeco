@@ -1779,6 +1779,7 @@ export default async function BlogPostPage({
         description={post.excerpt}
         datePublished={new Date(post.date).toISOString()}
         authorName="BUpack Team"
+        url={`/blog/${slug}`}
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

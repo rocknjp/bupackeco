@@ -59,6 +59,7 @@ export default function CustomPackagingCostBreakdown() {
         description="Detailed cost breakdown for custom packaging. Materials, printing, finishing, and shipping costs explained."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/custom-packaging-cost-breakdown"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

@@ -64,6 +64,7 @@ export default function BrandedPackagingIdeasEcommerce() {
         description="15 creative branded packaging ideas for ecommerce and DTC brands. From custom inserts to interactive unboxing. Real examples and cost breakdowns for each idea."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/branded-packaging-ideas-ecommerce"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

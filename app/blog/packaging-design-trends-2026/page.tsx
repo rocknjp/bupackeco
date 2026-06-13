@@ -59,6 +59,7 @@ export default function PackagingDesignTrends2026() {
         description="Top packaging design trends for 2026. Minimalism, bold colors, sustainable materials, and interactive unboxing."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/packaging-design-trends-2026"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

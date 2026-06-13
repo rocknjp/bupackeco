@@ -59,6 +59,7 @@ export default function HowToCreateUnboxingExperience() {
         description="How to design a memorable unboxing experience for your DTC brand. 8 proven strategies with real brand examples."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/how-to-create-unboxing-experience"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

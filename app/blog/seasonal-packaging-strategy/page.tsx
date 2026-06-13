@@ -59,6 +59,7 @@ export default function SeasonalPackagingStrategy() {
         description="How to plan seasonal packaging for holidays and launches. Valentine's, Easter, Halloween, Christmas packaging tips."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/seasonal-packaging-strategy"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

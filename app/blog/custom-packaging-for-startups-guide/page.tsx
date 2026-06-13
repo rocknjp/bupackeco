@@ -64,6 +64,7 @@ export default function CustomPackagingForStartupsGuide() {
         description="How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/custom-packaging-for-startups-guide"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

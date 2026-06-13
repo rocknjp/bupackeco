@@ -59,6 +59,7 @@ export default function CustomBoxesOverseasManufacturer() {
         description="Guide to choosing an overseas custom packaging manufacturer. Quality verification, communication tips, shipping logistics, and cost comparison."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/custom-boxes-overseas-manufacturer"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

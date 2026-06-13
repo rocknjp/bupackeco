@@ -59,6 +59,7 @@ export default function CustomPackagingTimelineGuide() {
         description="Complete timeline for custom packaging production. Design, sampling, manufacturing, and shipping breakdown."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/custom-packaging-timeline-guide"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

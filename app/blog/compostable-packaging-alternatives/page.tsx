@@ -64,6 +64,7 @@ export default function CompostablePackagingAlternatives() {
         description="Complete guide to compostable packaging alternatives. Materials comparison, home vs industrial composting, costs, and certification. Eco-friendly options from BUpack."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/compostable-packaging-alternatives"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

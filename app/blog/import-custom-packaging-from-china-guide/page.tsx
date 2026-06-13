@@ -64,6 +64,7 @@ export default function ImportCustomPackagingFromChinaGuide() {
         description="Step-by-step guide to importing custom packaging from China. Shipping, customs, quality control, and cost breakdown. Factory-direct pricing saves 40-60% vs domestic."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/import-custom-packaging-from-china-guide"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

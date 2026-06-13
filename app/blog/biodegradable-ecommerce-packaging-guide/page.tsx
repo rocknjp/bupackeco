@@ -64,6 +64,7 @@ export default function BiodegradableEcommercePackagingGuide() {
         description="Complete guide to biodegradable packaging for ecommerce. Materials comparison, cost analysis, and certification guide. FSC-certified options from BUpack."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/biodegradable-ecommerce-packaging-guide"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema

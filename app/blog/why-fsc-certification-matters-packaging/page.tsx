@@ -59,6 +59,7 @@ export default function WhyFSCCertificationMattersPackaging() {
         description="Why FSC certification matters for custom packaging. Environmental impact, brand trust, and market advantage explained."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
+        url="/blog/why-fsc-certification-matters-packaging"
       />
       <FAQSchema items={faqItems} />
       <BreadcrumbSchema
