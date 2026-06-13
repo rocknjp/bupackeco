@@ -347,6 +347,177 @@ const industries = {
       { q: "Can you do double-sided printing — outside theme + inside surprise?", a: "Absolutely. Many pet box brands print the monthly theme on the outside and a fun 'thank woof' message or puzzle on the inside. It's a subscriber favorite." },
     ],
   },
+  "cosmetics-beauty": {
+    name: "Cosmetics & Beauty",
+    tagline: "Your product deserves packaging as beautiful as the formula inside",
+    heroImage: "/images/industry_cosmetics.jpg",
+    color: "from-pink-500 to-rose-600",
+    icon: "💄",
+    whyBUpack: "Beauty brands invest months perfecting formulas, then scramble for packaging that matches their quality. Our 100-unit MOQ and 15-day turnaround means indie beauty brands get the same premium packaging as the big players — without the big-player order commitments.",
+    painPoints: [
+      "Glass serum bottles and cream jars arrive cracked — each broken unit is lost revenue and a disappointed customer",
+      "Your gorgeous packaging design looks cheap in mass-produced boxes that don't reflect your brand's premium positioning",
+      "Gift sets with multiple SKUs look chaotic — serums, moisturizers, and masks all jumbled together",
+      "Most suppliers require 1,000+ unit minimums — impossible for an indie beauty brand launching a new shade or limited edition",
+    ],
+    solutions: [
+      {
+        title: "Custom Skincare Mailer Boxes",
+        desc: "Corrugated mailers with precision-cut inserts that cradle glass bottles and jars. Drop-tested for safe shipping. Interior printing for the unboxing moment.",
+        image: "/images/product_box_1.jpg",
+      },
+      {
+        title: "Luxury Beauty Gift Sets",
+        desc: "Rigid lid-and-base boxes with custom EVA foam or velvet-lined compartments. Each product has its designated spot — the department-store experience, delivered.",
+        image: "/images/product_box_2.jpg",
+      },
+      {
+        title: "Monthly Beauty Subscription Boxes",
+        desc: "Standardized structures with rotating seasonal artwork. Same reliable box, fresh design every month — subscribers can't wait to unbox.",
+        image: "/images/product_box_3.jpg",
+      },
+    ],
+    caseStudy: {
+      brand: "Glow Rituals",
+      stage: "DTC skincare brand ($3.2M ARR)",
+      challenge: "Holiday gift sets shipped in plain white boxes with bubble wrap. Zero Instagram unboxing content despite 80K followers. Gift set returns at 8%.",
+      solution: "Custom rigid magnetic-closure box with rose gold foil stamping, 4-compartment EVA insert for serum + cream + mask + eye patches. Interior printed with brand story.",
+      result: "Unboxing posts went from 0 to 520+ during holiday season. Gift set AOV increased 55%. Return rate dropped from 8% → 0.3%. Gift sets became their #1 revenue channel.",
+    },
+    recommendedProducts: [
+      { name: "Mailer Boxes with Inserts", href: "/products/paper-boxes" },
+      { name: "Rigid Gift Boxes", href: "/products/rigid-gift-boxes" },
+      { name: "Folding Cartons", href: "/products/folding-cartons" },
+    ],
+    packagingTypes: [
+      { type: "Shipping Mailer", desc: "E-flute corrugated with custom bottle inserts. Protects glass skincare containers through FedEx and USPS.", icon: "📦" },
+      { type: "Gift Set Box", desc: "Rigid lid-and-base with multi-product compartments. The 'retail counter' experience at home.", icon: "🎁" },
+      { type: "Subscription Box", desc: "Monthly beauty discovery box with rotating designs. Same structure, fresh artwork each cycle.", icon: "🔄" },
+      { type: "Product Carton", desc: "Folding carton or sleeve for individual skincare items. Brand story and ingredients printed inside.", icon: "💄" },
+    ],
+    seoKeywords: "custom cosmetic packaging boxes, skincare product packaging custom, custom beauty box packaging, custom makeup packaging boxes, eco friendly cosmetics packaging, luxury beauty packaging wholesale",
+    faqs: [
+      { q: "What's the minimum order for custom cosmetic packaging boxes?", a: "We start at just 100 units — perfect for indie beauty brands launching new products or limited edition shades without overcommitting on inventory." },
+      { q: "Can you protect glass skincare bottles during shipping?", a: "Absolutely. We design custom paperboard or EVA foam inserts that cradle each bottle precisely. Every design is drop-tested to ensure your products arrive intact." },
+      { q: "Do you offer foil stamping for luxury beauty packaging?", a: "Yes — gold, silver, rose gold, copper, and holographic foil stamping are all available. We also offer soft-touch lamination for that ultra-premium feel beauty brands love." },
+      { q: "Are your materials safe for cosmetic product packaging?", a: "Yes. We use FSC-certified paper, soy-based inks, and water-based adhesives. All materials comply with FDA requirements for indirect food contact, making them safe for cosmetic packaging." },
+      { q: "How fast can I get beauty gift set boxes for a holiday launch?", a: "3 days for design, 5 days for sampling, 7 days for production — 15 days total from concept to delivery. We recommend reaching out 4-6 weeks before peak season for the best pricing." },
+    ],
+  },
+  "wine-spirits": {
+    name: "Wine & Spirits",
+    tagline: "The box that makes your bottle a gift before it's even opened",
+    heroImage: "/images/industry_wine.jpg",
+    color: "from-red-800 to-burgundy-900",
+    icon: "🍷",
+    whyBUpack: "Wineries and craft spirit brands bottle their own products but source packaging independently. Your box is the gift presentation, the brand ambassador, and the protection — all in one.",
+    painPoints: [
+      "Wine bottles arrive broken — one shattered bottle ruins the entire gift experience and guarantee",
+      "Generic kraft wine boxes make your premium bottle look like a supermarket special",
+      "Gift sets with wine + glasses + accessories are chaotic without proper compartment design",
+      "Seasonal and limited-release bottles need new packaging on short turnaround",
+    ],
+    solutions: [
+      {
+        title: "Protective Wine Bottle Boxes",
+        desc: "Corrugated mailers with molded pulp or custom paperboard inserts that secure bottles upright. Drop-tested for safe shipping across all carriers.",
+        image: "/images/product_box_1.jpg",
+      },
+      {
+        title: "Premium Gift Set Boxes",
+        desc: "Rigid lid-and-base boxes with divided compartments for wine + glasses + accessories. The presentation that makes your bottle gift-worthy.",
+        image: "/images/product_box_2.jpg",
+      },
+      {
+        title: "Club & Subscription Shipments",
+        desc: "Standardized wine club boxes with seasonal design refreshes. Same reliable protection, new artwork every quarter.",
+        image: "/images/product_box_3.jpg",
+      },
+    ],
+    caseStudy: {
+      brand: "Hillside Vine Co.",
+      stage: "DTC winery (12K wine club members)",
+      challenge: "Wine club shipments used plain styrofoam shippers. Zero Instagram content. 4% bottle breakage rate. Members complained the unboxing felt cheap.",
+      solution: "Custom corrugated wine shipper with branded exterior, molded pulp insert for 2 or 4 bottles, and printed tasting notes insert. Quarterly design rotation.",
+      result: "Breakage dropped from 4% → 0.1%. Instagram unboxing tags up 12x. Wine club retention improved 28%. Tasting note insert became a collector's item.",
+    },
+    recommendedProducts: [
+      { name: "Wine Bottle Mailers", href: "/products/paper-boxes" },
+      { name: "Rigid Gift Boxes", href: "/products/rigid-gift-boxes" },
+      { name: "Subscription Boxes", href: "/products/subscription-boxes" },
+    ],
+    packagingTypes: [
+      { type: "Shipping Mailer", desc: "Corrugated shipper with molded pulp insert. Protects bottles through cross-country shipping.", icon: "📦" },
+      { type: "Gift Set Box", desc: "Rigid box with wine + glasses compartments. The 'winery tasting room' gift experience.", icon: "🎁" },
+      { type: "Subscription Box", desc: "Wine club quarterly shipment box. Rotating seasonal artwork, consistent protection.", icon: "🔄" },
+      { type: "Product Sleeve", desc: "Paperboard sleeve or wrap for individual bottles. Branding upgrade for retail shelves.", icon: "🍷" },
+    ],
+    seoKeywords: "custom wine packaging boxes, wine gift box with insert, wine club shipping box, spirit bottle packaging custom, eco friendly wine packaging, custom liquor gift boxes",
+    faqs: [
+      { q: "Can you protect wine bottles during shipping?", a: "Yes. We use custom molded pulp or precision-cut paperboard inserts that hold bottles securely upright. All designs are drop-tested to survive standard carrier handling." },
+      { q: "What's the minimum order for custom wine boxes?", a: "100 units for standard designs. Perfect for small wineries or limited-release bottles. Volume pricing available for 500+ units." },
+      { q: "Can you handle quarterly design changes for wine club shipments?", a: "Absolutely. We keep the structural dieline consistent and refresh the artwork each quarter. Setup costs after the first design are minimal." },
+      { q: "Do you offer wine gift sets with glasses and accessories?", a: "Yes. We design multi-compartment rigid boxes that hold wine, glasses, corkscrews, and tasting cards — each item in its own place." },
+      { q: "Are your materials safe for direct bottle contact?", a: "Yes. We use FSC-certified paper and soy-based inks. All materials are tested for indirect food contact safety, making them safe for wine and spirit bottles." },
+    ],
+  },
+  "apparel-fashion": {
+    name: "Apparel & Fashion",
+    tagline: "The unboxing that makes your customer feel like they're opening a gift",
+    heroImage: "/images/industry_clothing.jpg",
+    color: "from-slate-700 to-gray-900",
+    icon: "👗",
+    whyBUpack: "Fashion brands design their garments but source packaging separately. Your shipping box is the first physical touchpoint with your customer — make it as intentional as your clothing design.",
+    painPoints: [
+      "Garments arrive wrinkled and crammed into undersized poly mailers — not the luxury experience your brand promises",
+      "Subscription boxes look the same every month, killing the excitement that drives retention",
+      "No branded tissue, no custom insert, no 'thank you' card — just a plastic bag with clothes inside",
+      "Seasonal launches need new packaging designs on impossibly tight timelines",
+    ],
+    solutions: [
+      {
+        title: "Branded Apparel Mailer Boxes",
+        desc: "Right-sized corrugated mailers that keep garments flat and presentation-ready. Interior printing turns every delivery into a branded experience.",
+        image: "/images/product_box_1.jpg",
+      },
+      {
+        title: "Fashion Gift & Styling Boxes",
+        desc: "Rigid boxes with tissue, custom inserts, and styling cards. The 'personal stylist' unboxing experience that drives social shares.",
+        image: "/images/product_box_2.jpg",
+      },
+      {
+        title: "Monthly Style Subscription Boxes",
+        desc: "Standardized structures with monthly artwork refreshes. Each box feels like a curated surprise — subscribers count down the days.",
+        image: "/images/product_box_3.jpg",
+      },
+    ],
+    caseStudy: {
+      brand: "Thread & Theory",
+      stage: "DTC women's fashion brand ($5M ARR)",
+      challenge: "Garments shipped in poly mailers. Zero unboxing content. High return rate (22%) partly driven by 'cheap' first impression undermining perceived value.",
+      solution: "Custom corrugated mailer with interior brand manifesto printing, tissue paper, and a personalized styling card. Rigid gift box option for orders over $150.",
+      result: "Unboxing Instagram tags up 15x. Return rate dropped from 22% → 14%. AOV increased 30% (customers upgraded to qualify for the premium box). Repeat purchase rate up 35%.",
+    },
+    recommendedProducts: [
+      { name: "Apparel Mailer Boxes", href: "/products/paper-boxes" },
+      { name: "Rigid Gift Boxes", href: "/products/rigid-gift-boxes" },
+      { name: "Custom Paper Bags", href: "/products/paper-bags" },
+    ],
+    packagingTypes: [
+      { type: "Shipping Mailer", desc: "Corrugated mailer sized for flat-folded garments. Interior printing for the branded unboxing.", icon: "📦" },
+      { type: "Gift Set Box", desc: "Rigid box for curated outfit or capsule collection. Styling card included.", icon: "🎁" },
+      { type: "Subscription Box", desc: "Monthly style box with rotating design. The 'curated surprise' subscribers love.", icon: "🔄" },
+      { type: "Retail Bag", desc: "Custom branded paper bag for in-store or pop-up events. Matches your box design.", icon: "👗" },
+    ],
+    seoKeywords: "custom apparel packaging boxes, clothing subscription box packaging, fashion mailer boxes custom, branded garment packaging, eco friendly fashion packaging, custom retail clothing boxes",
+    faqs: [
+      { q: "What's the best box style for shipping apparel?", a: "For most garments, a corrugated mailer box that keeps items flat and wrinkle-free is ideal. We size each box to your specific garment dimensions to minimize shipping costs." },
+      { q: "Can you include branded tissue and inserts?", a: "Yes. We offer custom tissue paper, branded stickers, thank-you cards, and styling inserts as add-ons. Everything coordinates for a cohesive brand experience." },
+      { q: "What's the minimum order for custom apparel boxes?", a: "100 units for standard designs. This lets fashion brands test new packaging without committing to large inventory. Volume pricing kicks in at 500+ units." },
+      { q: "How do you handle seasonal packaging changes for fashion brands?", a: "We keep the box structure consistent and refresh the design each season. Setup costs for new artwork are minimal after the initial dieline is established." },
+      { q: "Can you do both boxes and matching paper bags?", a: "Absolutely. We design coordinated box + bag sets so your packaging looks consistent across online orders and in-store or pop-up purchases." },
+    ],
+  },
 }
 
 export async function generateStaticParams() {
@@ -366,6 +537,9 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
     "stationery-gifts": "Stationery & Gift Packaging | BUpack",
     "tea-beverages": "Tea Packaging Boxes | Subscription & Gift | BUpack",
     "pet-subscription": "Pet Subscription Box Packaging | BUpack",
+    "cosmetics-beauty": "Custom Cosmetic Packaging Boxes | BUpack",
+    "wine-spirits": "Custom Wine Packaging Boxes | BUpack",
+    "apparel-fashion": "Custom Apparel Packaging Boxes | BUpack",
   }
 
   const seoDescMap: Record<string, string> = {
@@ -375,6 +549,9 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
     "stationery-gifts": "Custom stationery packaging — flat mailers & gift sets. Low MOQ, eco-friendly materials, fast turnaround.",
     "tea-beverages": "Custom tea packaging boxes — drawer-style, gift sets, subscription boxes. FSC-certified, low MOQ from 100 units.",
     "pet-subscription": "Pet subscription box packaging with monthly theme rotation. Divided interior, pet-safe inks. MOQ from 100 units.",
+    "cosmetics-beauty": "Custom cosmetic packaging boxes for skincare & beauty brands. Mailer boxes, luxury gift sets, subscription boxes. FSC-certified, low MOQ from 100 units.",
+    "wine-spirits": "Custom wine packaging boxes with protective inserts. Gift sets, wine club shipments. FSC-certified, low MOQ from 100 units.",
+    "apparel-fashion": "Custom apparel packaging boxes for fashion brands. Branded mailers, gift sets, subscription boxes. Low MOQ from 100 units.",
   }
 
   return {

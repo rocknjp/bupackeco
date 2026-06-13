@@ -63,6 +63,27 @@ const industryList = [
     desc: "Monthly themed boxes with pet-safe soy-based inks. Divided interiors for treats + toys + accessories. Direct-ship ready — no outer carton needed.",
     tags: ["Subscription", "Pet-Safe Ink", "Divided Interior"],
   },
+  {
+    slug: "cosmetics-beauty",
+    name: "Cosmetics & Beauty",
+    icon: "💄",
+    desc: "Custom mailer boxes with precision inserts for glass skincare bottles. Luxury gift sets with EVA foam compartments. Subscription boxes with monthly design refreshes.",
+    tags: ["Skincare Packaging", "Gift Sets", "Subscription"],
+  },
+  {
+    slug: "wine-spirits",
+    name: "Wine & Spirits",
+    icon: "🍷",
+    desc: "Protective wine bottle boxes with molded pulp inserts. Premium gift sets with wine + glasses compartments. Quarterly wine club shipment boxes.",
+    tags: ["Bottle Protection", "Gift Sets", "Wine Club"],
+  },
+  {
+    slug: "apparel-fashion",
+    name: "Apparel & Fashion",
+    icon: "👗",
+    desc: "Branded corrugated mailers that keep garments flat and wrinkle-free. Styling boxes with tissue and inserts. Monthly style subscription boxes.",
+    tags: ["Apparel Mailers", "Gift Boxes", "Subscription"],
+  },
 ];
 
 export default function IndustriesPage() {
