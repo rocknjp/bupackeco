@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 import { CollectionPageSchema, BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Eco Packaging Products for eCommerce Brands | BUpack",
+  title: "Custom Paper Boxes & Bags | Low MOQ 100pcs | Eco Packaging Manufacturer | BUpack",
   description:
-    "Browse BUpack's range of sustainable packaging: eCommerce mailer boxes, paper bags, subscription boxes, and gift packaging. FSC-certified, fully customizable, low MOQ.",
+    "FSC-certified custom paper boxes and bags for eCommerce brands. Low MOQ from 100 units, wholesale pricing, soy-based ink, free sample kit. Factory-direct in Qingdao, ships to North America.",
   alternates: {
     canonical: "https://www.bupackeco.com/products",
   },
   openGraph: {
-    title: "Eco Packaging Products for eCommerce Brands | BUpack",
+    title: "Custom Paper Boxes & Bags | Low MOQ 100pcs | BUpack",
     description:
-      "Sustainable custom paper boxes & bags for eCommerce brands. FSC-certified, low MOQ from 100 units.",
+      "FSC-certified custom paper boxes and bags for eCommerce brands. Low MOQ from 100 units, factory-direct wholesale pricing.",
     url: "https://www.bupackeco.com/products",
     siteName: "BUpack",
     locale: "en_US",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eco Packaging Products for eCommerce Brands | BUpack",
+    title: "Custom Paper Boxes & Bags | Low MOQ 100pcs | BUpack",
     description:
-      "Sustainable custom paper boxes & bags for eCommerce brands. FSC-certified, low MOQ from 100 units.",
+      "FSC-certified custom paper boxes and bags for eCommerce brands. Low MOQ from 100 units, factory-direct wholesale.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
   },
 };

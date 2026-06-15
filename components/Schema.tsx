@@ -21,7 +21,7 @@ export function SiteSchema() {
             url: baseUrl,
             logo: `${baseUrl}/images/bupack-logo.png`,
             description:
-              "FSC-certified custom paper boxes and bags for DTC and eCommerce brands. Low MOQ, eco-friendly, ships to North America.",
+              "FSC-certified custom paper boxes and bags manufacturer for DTC and eCommerce brands. Low MOQ from 100 units, owned factory in Qingdao, ships to North America.",
             address: {
               "@type": "PostalAddress",
               streetAddress: "No. 268, Haier Road, Laoshan District",
@@ -29,6 +29,18 @@ export function SiteSchema() {
               addressRegion: "Shandong",
               postalCode: "266100",
               addressCountry: "CN",
+            },
+            areaServed: [
+              { "@type": "Country", name: "US" },
+              { "@type": "Country", name: "CA" },
+              { "@type": "Country", name: "United States" },
+              { "@type": "Country", name: "Canada" },
+            ],
+            makesOffer: {
+              "@type": "Offer",
+              priceCurrency: "USD",
+              eligibleRegion: "US",
+              description: "Wholesale custom packaging, MOQ from 100 units",
             },
             sameAs: [
               "https://www.linkedin.com/company/bupack",
@@ -46,6 +58,8 @@ export function SiteSchema() {
               "Paper Bags",
               "DTC Packaging",
               "Sustainable Packaging",
+              "FSC Certified Packaging",
+              "Low MOQ Packaging",
             ],
           }),
         }}
@@ -76,7 +90,7 @@ export function SiteSchema() {
   );
 }
 
-/** Page-specific Product schema */
+/** Page-specific Product schema — supports wholesale MOQ + price */
 export function ProductSchema({
   name,
   description,
@@ -88,7 +102,13 @@ export function ProductSchema({
   description: string;
   image: string;
   brand?: string;
-  offers?: { price: string; priceCurrency?: string; url?: string };
+  offers?: {
+    price: string;
+    priceCurrency?: string;
+    moq?: number;
+    url?: string;
+    availability?: string;
+  };
 }) {
   const baseUrl = "https://www.bupackeco.com";
   return (
@@ -109,8 +129,17 @@ export function ProductSchema({
               "@type": "Offer",
               price: offers.price,
               priceCurrency: offers.priceCurrency || "USD",
+              ...(offers.moq && {
+                eligibleQuantity: {
+                  "@type": "QuantitativeValue",
+                  minValue: offers.moq,
+                  unitText: "units",
+                },
+              }),
+              availability: offers.availability || "https://schema.org/InStock",
               ...(offers.url && { url: offers.url }),
-              availability: "https://schema.org/InStock",
+              priceValidUntil: "2026-12-31",
+              areaServed: { "@type": "Country", name: "US" },
             },
           }),
         }),
@@ -250,8 +279,8 @@ export function ContactPageSchema() {
             mainEntity: {
               "@type": "Organization",
               name: "BUpack",
-            url: "https://www.bupackeco.com",
-            logo: "https://www.bupackeco.com/images/factory_workshop.jpg",
+              url: "https://www.bupackeco.com",
+              logo: "https://www.bupackeco.com/images/factory_workshop.jpg",
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+86-150-6426-0757",

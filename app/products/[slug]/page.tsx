@@ -321,6 +321,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
         name={product.name}
         description={product.overview}
         image={product.heroImage}
+        offers={{
+          price: slug === "paper-bags" ? "0.80" : slug === "subscription-boxes" ? "2.00" : "1.50",
+          priceCurrency: "USD",
+          moq: parseInt((Array.isArray(product.specs.moq) ? product.specs.moq[0] : product.specs.moq)?.toString().match(/\d+/)?.[0] || "100"),
+          availability: "https://schema.org/InStock",
+          url: `https://www.bupackeco.com/products/${slug}`,
+        }}
       />
       <BreadcrumbSchema
         items={[
