@@ -112,8 +112,8 @@ export default function EcoFriendlyPackagingSmallBusiness() {
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
             Why Eco-Friendly Packaging Matters for Small Businesses in 2026
           </h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            The shift toward sustainable packaging is no longer a niche trend — it is a market force that small businesses cannot afford to ignore. In 2025, products with sustainability claims grew <strong>2.7x faster</strong> than products without them, according to McKinsey. For small businesses under $5M in revenue, that growth differential is even larger — 3.1x — because sustainability is a key differentiator against larger competitors.
+            <p className="text-gray-700 leading-relaxed mb-4">
+            The shift toward sustainable packaging is no longer a niche trend — it is a market force that small businesses cannot afford to ignore. In 2025, products with sustainability claims grew <strong>2.7x faster</strong> than products without them, according to McKinsey. For small businesses under $5M in revenue, that growth differential is even larger — 3.1x — because sustainability is a key differentiator against larger competitors. Discover our <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">FSC-certified custom paper boxes</Link> and <Link href="/products/paper-bags" className="text-green-700 underline font-semibold">eco-friendly paper bags</Link> for low-MOQ sustainable packaging.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             The consumer math is clear: <strong>73% of Gen Z and Millennial consumers</strong> actively check for eco-packaging before buying, and 64% trust third-party certifications over brand self-claims. For small businesses, sustainable packaging is not a cost center — it is a conversion driver, a retention tool, and a brand differentiator that levels the playing field against larger competitors.
@@ -126,7 +126,7 @@ export default function EcoFriendlyPackagingSmallBusiness() {
             Eco-Friendly Packaging Materials: A Comparison
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Not all eco-friendly packaging is created equal. The best choice depends on your brand positioning, product type, and budget. Here is a detailed comparison of the main options:
+            Not all eco-friendly packaging is created equal. The best choice depends on your brand positioning, product type, and budget. Here is a detailed comparison of the main options — all available as <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">custom FSC-certified boxes</Link> from BUpack with low MOQ starting at 100 units.
           </p>
 
           <div className="bg-gray-50 rounded-xl border border-gray-200 overflow-hidden mb-6">
@@ -181,7 +181,7 @@ export default function EcoFriendlyPackagingSmallBusiness() {
           </div>
 
           <p className="text-gray-700 leading-relaxed mb-4">
-            For most small businesses, <strong>FSC-certified kraft paper</strong> offers the best combination of eco-credentials, cost-effectiveness, and brand versatility. It is 100% recyclable, home compostable, naturally food-safe, and requires no bleaching chemicals. The 5-8% premium over non-certified kraft is the smallest price increase with the most recognized certification.
+            For most small businesses, <strong>FSC-certified kraft paper</strong> offers the best combination of eco-credentials, cost-effectiveness, and brand versatility. It is 100% recyclable, home compostable, naturally food-safe, and requires no bleaching chemicals. The 5-8% premium over non-certified kraft is the smallest price increase with the most recognized certification. Our <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</Link> and <Link href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription boxes</Link> are all available in FSC-certified kraft as standard.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
@@ -271,8 +271,8 @@ export default function EcoFriendlyPackagingSmallBusiness() {
 
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Step 1: Switch inner packaging (Month 1, cost: +$0.05-0.15/order).</strong> Replace plastic bubble wrap with honeycomb kraft paper or shredded kraft filler. Replace plastic tape with paper tape. This immediately eliminates the most visible plastic from your unboxing.</p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Step 2: Add a sustainability badge (Month 1, cost: $0).</strong> Add &quot;Now shipped in 100% recyclable packaging&quot; to your product page. Brands that communicate their sustainability switch see an average 5-8% conversion rate lift. Free, immediate impact.</p>
-          <p className="text-gray-700 leading-relaxed mb-2"><strong>Step 3: Upgrade to custom kraft mailer boxes (Month 2-3, cost: +$1.00-1.50/order).</strong> Replace poly mailers with custom printed kraft mailer boxes. Better protection, better branding, fully recyclable. Available from 100 units with digital printing — no plate fees.</p>
-          <p className="text-gray-700 leading-relaxed mb-2"><strong>Step 4: Go FSC-certified (Month 3-4, cost: +$0.10-0.20/order).</strong> Upgrade your kraft boxes to FSC-certified paper. The premium is small, but the FSC label is one of the most recognized eco-labels in the world. It turns a vague &quot;eco-friendly&quot; claim into a verifiable, auditable statement.</p>
+          <p className="text-gray-700 leading-relaxed mb-2"><strong>Step 3: Upgrade to custom kraft mailer boxes (Month 2-3, cost: +$1.00-1.50/order).</strong> Replace poly mailers with <Link href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom printed kraft mailer boxes</Link>. Better protection, better branding, fully recyclable. Available from 100 units with digital printing — no plate fees.</p>
+          <p className="text-gray-700 leading-relaxed mb-2"><strong>Step 4: Go FSC-certified (Month 3-4, cost: +$0.10-0.20/order).</strong> Upgrade your kraft boxes to FSC-certified paper. The premium is small, but the FSC label is one of the most recognized eco-labels in the world. Our <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">FSC-certified paper boxes</Link> carry the FSC Mix label as standard — no extra paperwork for you.</p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Step 5: Add soy-based ink and water-based coatings (Month 4-5, cost: comparable to conventional).</strong> Soy-based ink is comparable in cost to petroleum ink at 1,000+ units. Water-based coatings cost slightly more than UV but eliminate VOC emissions. Together, they make your packaging genuinely sustainable from print to finish.</p>
           <p className="text-gray-700 leading-relaxed mb-4"><strong>Step 6: Communicate your sustainability story (Ongoing, cost: $0).</strong> Include an unboxing insert explaining your packaging choices. Update your FAQ with sustainability information. Feature your eco-packaging journey on social media. The brands that tell this story see 5-8% higher conversion rates than those that switch silently.</p>
 
@@ -324,8 +324,8 @@ export default function EcoFriendlyPackagingSmallBusiness() {
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
             What BUpack Offers Small Businesses
           </h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            We built our service specifically for small and growing DTC brands who want sustainable packaging without the barriers that traditional suppliers impose. Here is what makes us different:
+            <p className="text-gray-700 leading-relaxed mb-4">
+            We built our service specifically for small and growing DTC brands who want sustainable packaging without the barriers that traditional suppliers impose. Explore our <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">custom paper boxes</Link>, <Link href="/products/paper-bags" className="text-green-700 underline font-semibold">custom paper bags</Link>, and <Link href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription boxes</Link> — all FSC-certified, low MOQ from 100 units, with soy-based ink and water-based coatings included.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Low MOQ from 100 units.</strong> No need to order 5,000+ units to access FSC-certified packaging. We stock FSC-certified paperboard in standard grades, so you get the same sustainability credentials at the same low MOQ as our regular products.</p>
@@ -335,7 +335,7 @@ export default function EcoFriendlyPackagingSmallBusiness() {
           <p className="text-gray-700 leading-relaxed mb-4"><strong>Free digital proofs and design support.</strong> Every order includes free artwork review, dieline templates, and digital proofs. If you are transitioning from generic packaging for the first time, our design team will guide you through the process at no extra charge.</p>
 
           <p className="text-gray-700 leading-relaxed mb-4">
-            Explore our <a href="/products/paper-boxes" className="text-green-700 underline">custom paper boxes</a>, <a href="/products/paper-bags" className="text-green-700 underline">paper bags</a>, and <a href="/fsc-certified-packaging" className="text-green-700 underline">FSC-certified packaging options</a>. For brands in specific industries, check out our <a href="/industries/candles-fragrance" className="text-green-700 underline">candle packaging</a>, <a href="/industries/jewelry" className="text-green-700 underline">jewelry boxes</a>, and <a href="/industries/cosmetics-beauty" className="text-green-700 underline">cosmetics packaging</a> — each designed with eco-friendly materials and low MOQ.
+            Explore our <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">custom paper boxes</Link>, <Link href="/products/paper-bags" className="text-green-700 underline font-semibold">paper bags</Link>, <Link href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription boxes</Link>, and <Link href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</Link> — each FSC-certified, low MOQ from 100 units, with soy-based ink and water-based coatings included.
           </p>
 
         </div>

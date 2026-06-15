@@ -113,10 +113,10 @@ export default function CustomPackagingForStartupsGuide() {
               Why Custom Packaging Matters for Startups
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              As a startup founder, every dollar matters. So why invest in custom packaging when plain brown boxes are cheaper? Because custom packaging isn't a cost — it's a growth lever. Brands using custom packaging see <strong>23% more 5-star reviews</strong>, <strong>18% lower return rates</strong>, and <strong>3-5x more social media shares</strong> from unboxing content. For a new DTC brand competing against established players, your packaging is often the first — and sometimes only — physical touchpoint with your customer.
+              As a startup founder, every dollar matters. So why invest in custom packaging when plain brown boxes are cheaper? Because custom packaging isn't a cost — it's a growth lever. Brands using custom packaging see <strong>23% more 5-star reviews</strong>, <strong>18% lower return rates</strong>, and <strong>3-5x more social media shares</strong> from unboxing content. For a new DTC brand competing against established players, your packaging is often the first — and sometimes only — physical touchpoint with your customer. Explore our <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">low-MOQ custom boxes</Link> to get started.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              The good news: you no longer need to order 10,000 units to get started. Digital printing and flexible manufacturing have made <a href="/blog/custom-packaging-low-moq-guide" className="text-green-700 underline hover:text-green-600">low-MOQ custom packaging</a> accessible to brands shipping as few as 100 orders per month.
+              The good news: you no longer need to order 10,000 units to get started. Digital printing and flexible manufacturing have made <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">low-MOQ custom boxes</Link> accessible to brands shipping as few as 100 orders per month.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
@@ -238,7 +238,7 @@ export default function CustomPackagingForStartupsGuide() {
               Choosing the Right Box Type for Your Product
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Not every startup needs the same box. Here's a quick guide to matching box type with your product category:
+              Not every startup needs the same box. Here's a quick guide to matching box type with your product category — all available as <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">custom paper boxes</Link> from 100 units.
             </p>
 
             <div className="overflow-x-auto mb-6">

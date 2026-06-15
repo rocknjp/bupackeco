@@ -126,7 +126,7 @@ export default function WhyFSCCertificationMattersPackaging() {
               <li><strong>FSC Recycled:</strong> All the paper is made from post-consumer recycled material.</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mb-4">
-              All three labels represent responsible sourcing. For most custom packaging, FSC Mix is the standard — it balances sustainability with the practical availability of certified paper stock. BUpack uses FSC-certified paper across all <a href="/products/paper-boxes" className="text-green-700 underline hover:text-green-600">custom paper boxes</a> and <a href="/products/custom-paper-bags" className="text-green-700 underline hover:text-green-600">paper bags</a>.
+              All three labels represent responsible sourcing. For most custom packaging, FSC Mix is the standard — it balances sustainability with the practical availability of certified paper stock. BUpack uses FSC-certified paper across all <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">custom paper boxes</Link>, <Link href="/products/paper-bags" className="text-green-700 underline font-semibold">custom paper bags</Link>, and <Link href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription boxes</Link>.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
@@ -173,7 +173,7 @@ export default function WhyFSCCertificationMattersPackaging() {
               Sustainability regulations are tightening globally. The EU Deforestation Regulation (EUDR), effective December 2025, requires all wood-based products imported into the EU to be deforestation-free with traceability to the source. FSC certification provides the chain-of-custody documentation that makes compliance straightforward.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Even if you don't currently sell in the EU, this regulatory trend is expanding. California's packaging sustainability laws, Canada's plastic packaging bans, and the UK's packaging waste regulations all favor certified, traceable materials. Brands that adopt FSC certification now will be ahead of future compliance requirements rather than scrambling to catch up.
+              Even if you don't currently sell in the EU, this regulatory trend is expanding. California's packaging sustainability laws, Canada's plastic packaging bans, and the UK's packaging waste regulations all favor certified, traceable materials. Brands that adopt FSC certification now will be ahead of future compliance requirements rather than scrambling to catch up. Our <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">FSC-certified boxes</Link> and <Link href="/fsc-certified-packaging" className="text-green-700 underline font-semibold">sustainable packaging line</Link> are ready for global compliance.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
@@ -208,7 +208,7 @@ export default function WhyFSCCertificationMattersPackaging() {
               How to Communicate FSC Certification on Your Packaging
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Having FSC certification is only valuable if your customers know about it. Here's how to communicate it effectively:
+              Having FSC certification is only valuable if your customers know about it. Here's how to communicate it effectively on <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">FSC-certified boxes</Link> and all your packaging.
             </p>
             <ul className="list-disc list-inside mb-4 text-gray-700 space-y-2">
               <li><strong>Print the FSC label on your packaging:</strong> BUpack can include the FSC Mix label on your box design. The label must follow FSC's design guidelines (we handle the compliance).</li>
