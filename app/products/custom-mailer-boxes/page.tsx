@@ -190,7 +190,7 @@ export default function CustomMailerBoxesPage() {
         name="Custom Mailer Boxes for Ecommerce"
         description="Custom printed mailer boxes for ecommerce and DTC brands. E-flute and B-flute options, custom inserts, full-color printing. MOQ from 100 units."
         image="https://www.bupackeco.com/images/mailer_box_1.jpg"
-        offers={{ price: "2.80", priceCurrency: "USD", url: "https://www.bupackeco.com/products/custom-mailer-boxes" }}
+        offers={{ price: "2.80", priceCurrency: "USD", moq: 100, availability: "https://schema.org/InStock", url: "https://www.bupackeco.com/products/custom-mailer-boxes" }}
       />
 
       <FAQSchema items={faqItems} />

@@ -211,7 +211,7 @@ export default function FoldingCartonsPage() {
         name="Custom Folding Cartons"
         description="Wholesale custom folding cartons for retail and eCommerce. SBS, FBB, CRB material options. Flexo, offset, digital printing."
         image="https://www.bupackeco.com/images/folding_carton_1.jpg"
-        offers={{ price: "0.30", priceCurrency: "USD", url: "https://www.bupackeco.com/products/folding-cartons" }}
+        offers={{ price: "0.30", priceCurrency: "USD", moq: 100, availability: "https://schema.org/InStock", url: "https://www.bupackeco.com/products/folding-cartons" }}
       />
 
       <FAQSchema items={faqItems} />
