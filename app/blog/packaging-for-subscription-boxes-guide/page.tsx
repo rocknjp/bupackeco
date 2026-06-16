@@ -146,7 +146,7 @@ export default function PackagingForSubscriptionBoxesGuide() {
             </div>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              <strong>Recommendation:</strong> For most subscription businesses, a corrugated <a href="/products/custom-mailer-boxes" className="text-green-700 underline hover:text-green-600">mailer box</a> in E-flute is the best starting point. It offers the best balance of protection, print quality, cost, and unboxing experience. Upgrade to rigid boxes for premium tiers or special editions.
+              <strong>Recommendation:</strong> For most subscription businesses, a corrugated <a href="/products/custom-mailer-boxes" className="text-green-700 underline hover:text-green-600">mailer box</a> in E-flute is the best starting point. It offers the best balance of protection, print quality, cost, and unboxing experience. For premium tiers, <a href="/products/rigid-gift-boxes" className="text-green-700 underline font-semibold">rigid gift boxes</a> create a luxury feel. For beauty or sample subscriptions, <a href="/products/folding-cartons" className="text-green-700 underline font-semibold">folding cartons</a> are a cost-effective option. Browse our full range of <a href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription box packaging</a> for more options.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">

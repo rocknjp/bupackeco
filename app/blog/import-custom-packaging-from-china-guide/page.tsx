@@ -352,7 +352,7 @@ export default function ImportCustomPackagingFromChinaGuide() {
               <li><strong>Free digital proofs</strong> — No surprises on color or layout</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Whether you're ordering <a href="/products/paper-boxes" className="text-green-700 underline hover:text-green-600">custom paper boxes</a>, <a href="/products/paper-bags" className="text-green-700 underline hover:text-green-600">paper bags</a>, or <a href="/products/subscription-boxes" className="text-green-700 underline hover:text-green-600">subscription boxes</a>, our team manages the entire process from artwork approval to delivery.
+              Whether you're ordering <a href="/products/paper-boxes" className="text-green-700 underline hover:text-green-600">custom paper boxes</a>, <a href="/products/paper-bags" className="text-green-700 underline hover:text-green-600">paper bags</a>, <a href="/products/subscription-boxes" className="text-green-700 underline hover:text-green-600">subscription boxes</a>, <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</a>, <a href="/products/folding-cartons" className="text-green-700 underline font-semibold">folding cartons</a>, or <a href="/products/rigid-gift-boxes" className="text-green-700 underline font-semibold">rigid gift boxes</a>, our team manages the entire process from artwork approval to delivery.
             </p>
 
             {/* CTA */}

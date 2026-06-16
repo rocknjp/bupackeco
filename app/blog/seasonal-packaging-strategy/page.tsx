@@ -219,7 +219,7 @@ export default function SeasonalPackagingStrategy() {
               Christmas / Holiday (December)
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Colors: Red, green, gold, white, navy. Elements: Snowflakes, ornaments, plaid patterns, gold foil. Products that sell: everything — this is peak gifting season. <strong>Quick win:</strong> Gold foil logo on existing box + red/green interior pattern + holiday insert card. Cost: +$0.20-$0.45/unit. For premium options, explore our <a href="/products/rigid-gift-boxes" className="text-green-700 underline hover:text-green-600">rigid gift boxes</a> with magnetic closure for holiday gift sets.
+              Colors: Red, green, gold, white, navy. Elements: Snowflakes, ornaments, plaid patterns, gold foil. Products that sell: everything — this is peak gifting season. <strong>Quick win:</strong> Gold foil logo on existing box + red/green interior pattern + holiday insert card. Cost: +$0.20-$0.45/unit. For premium options, explore our <a href="/products/rigid-gift-boxes" className="text-green-700 underline hover:text-green-600">rigid gift boxes</a> with magnetic closure for holiday gift sets, or browse our full range of <a href="/products/paper-boxes" className="text-green-700 underline font-semibold">custom paper boxes</a>, <a href="/products/custom-paper-bags" className="text-green-700 underline font-semibold">branded paper bags</a>, and <a href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription box packaging</a> for seasonal editions.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">

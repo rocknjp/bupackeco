@@ -212,7 +212,7 @@ export default function KraftVsCoatedPaperDeepDive() {
               <li><strong>White kraft paper:</strong> Falls between brown kraft and coated in price. Offers a cleaner printing surface than brown kraft while maintaining the kraft perception.</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mb-4">
-              At BUpack, the price difference between kraft and coated <a href="/products/paper-boxes" className="text-green-700 underline hover:text-green-600">custom paper boxes</a> is typically just $0.05-$0.15 per unit at 500+ quantity. The decision should be driven by brand strategy, not cost.
+              At BUpack, the price difference between kraft and coated <a href="/products/paper-boxes" className="text-green-700 underline hover:text-green-600">custom paper boxes</a> is typically just $0.05-$0.15 per unit at 500+ quantity. The decision should be driven by brand strategy, not cost. Both materials are available across our full range including <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</a>, <a href="/products/folding-cartons" className="text-green-700 underline font-semibold">folding cartons</a>, and <a href="/products/custom-paper-bags" className="text-green-700 underline font-semibold">custom paper bags</a>.
             </p>
 
             {/* Key Takeaways */}

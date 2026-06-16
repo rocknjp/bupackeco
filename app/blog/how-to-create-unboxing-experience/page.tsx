@@ -259,13 +259,13 @@ export default function HowToCreateUnboxingExperience() {
             How BUpack Helps You Engineer the Perfect Unboxing
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            We work with DTC brands at every stage to design unboxing experiences that drive shares, reviews, and repeat purchases. Every <a href="/products/paper-boxes" className="text-green-700 underline">custom paper box</a> includes:
+            We work with DTC brands at every stage to design unboxing experiences that drive shares, reviews, and repeat purchases. Every <a href="/products/paper-boxes" className="text-green-700 underline">custom paper box</a>, <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer box</a>, and <a href="/products/rigid-gift-boxes" className="text-green-700 underline font-semibold">rigid gift box</a> includes:
           </p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Interior printing</strong> — full-color print on the inside of your mailer box. The surprise that makes people reach for their camera.</p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Custom inserts</strong> — die-cut corrugated or paperboard inserts that hold your product perfectly. No bubble wrap needed.</p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Branded tissue paper</strong> — custom printed tissue from 1,000 sheets. Your logo or pattern on every layer.</p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Sticker seals</strong> — branded sticker seals from 500 units. The ceremonial finishing touch.</p>
-          <p className="text-gray-700 leading-relaxed mb-4"><strong>FSC-certified materials</strong> with soy-based ink and water-based coatings — sustainable unboxing that your customers will love. Flexible MOQ starting from 100 units for mailer boxes and insert cards.</p>
+          <p className="text-gray-700 leading-relaxed mb-4"><strong>FSC-certified materials</strong> with soy-based ink and water-based coatings — sustainable unboxing that your customers will love. Flexible MOQ starting from 100 units for <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</a>, <a href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription boxes</a>, and insert cards.</p>
 
         </div>
 

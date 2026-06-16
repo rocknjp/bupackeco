@@ -272,7 +272,7 @@ export default function DigitalPrintingVsOffsetPackaging() {
               Smart brands use both methods strategically. Start with digital printing for your first order of 200–500 units to test the market. Validate your design, gather customer feedback, and refine. Once you've proven the design and your volume increases past 3,000 units, switch to offset for the cost savings.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              BUpack supports both digital and offset printing for all <a href="/products/folding-cartons" className="text-green-700 underline hover:text-green-600">folding cartons</a> and <a href="/products/rigid-gift-boxes" className="text-green-700 underline hover:text-green-600">rigid gift boxes</a>. Our team can advise on the best method for your specific order.
+              BUpack supports both digital and offset printing across all product lines: <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</a>, <a href="/products/paper-boxes" className="text-green-700 underline font-semibold">custom paper boxes</a>, <a href="/products/paper-bags" className="text-green-700 underline font-semibold">paper bags</a>, <a href="/products/folding-cartons" className="text-green-700 underline hover:text-green-600">folding cartons</a> and <a href="/products/rigid-gift-boxes" className="text-green-700 underline hover:text-green-600">rigid gift boxes</a>. Our team can advise on the best method for your specific order.
             </p>
 
             {/* Key Takeaways */}

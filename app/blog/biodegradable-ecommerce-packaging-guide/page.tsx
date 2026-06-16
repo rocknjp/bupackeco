@@ -238,8 +238,8 @@ export default function BiodegradableEcommercePackagingGuide() {
               </table>
             </div>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
-              BUpack is <strong>FSC-certified</strong> and all our packaging uses soy-based ink and water-based coatings. We provide full chain-of-custody documentation with every order. Visit our <a href="/eco" className="text-green-700 underline hover:text-green-600">eco certifications page</a> for details.
+              <p className="text-gray-700 leading-relaxed mb-4">
+              BUpack is <strong>FSC-certified</strong> and all our packaging uses soy-based ink and water-based coatings. We provide full chain-of-custody documentation with every order. Whether you need <a href="/products/paper-boxes" className="text-green-700 underline font-semibold">FSC-certified custom paper boxes</a>, <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom kraft mailer boxes</a>, or <a href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription box packaging</a>, we've got you covered. Visit our <a href="/eco" className="text-green-700 underline hover:text-green-600">eco certifications page</a> for details.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">

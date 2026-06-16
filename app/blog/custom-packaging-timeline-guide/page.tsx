@@ -121,7 +121,7 @@ export default function CustomPackagingTimelineGuide() {
               Everything starts with defining what you need. During this phase, you'll work with our team to specify:
             </p>
             <ul className="list-disc list-inside mb-4 text-gray-700 space-y-2">
-              <li><strong>Box type</strong> — Mailer box, folding carton, rigid box, or <a href="/products/paper-bags" className="text-green-700 underline hover:text-green-600">paper bags</a></li>
+              <li><strong>Box type</strong> — Mailer box, <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer box</a>, <a href="/products/folding-cartons" className="text-green-700 underline font-semibold">folding carton</a>, <a href="/products/rigid-gift-boxes" className="text-green-700 underline font-semibold">rigid box</a>, or <a href="/products/paper-bags" className="text-green-700 underline hover:text-green-600">paper bags</a></li>
               <li><strong>Dimensions</strong> — Based on your product measurements + padding allowance</li>
               <li><strong>Material</strong> — Kraft, coated art paper, specialty paper, or corrugated board</li>
               <li><strong>Printing method</strong> — Digital (fast, low MOQ) or offset (volume, precision)</li>

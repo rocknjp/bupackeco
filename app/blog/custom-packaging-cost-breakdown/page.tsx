@@ -121,9 +121,9 @@ export default function CustomPackagingCostBreakdown() {
               Material is the single largest cost component. Here's what you're paying for:
             </p>
             <ul className="list-disc list-inside mb-4 text-gray-700 space-y-2">
-              <li><strong>Corrugated board</strong> (E-flute/B-flute): $0.15-$0.40 per sqm. Used for mailer boxes and subscription boxes. The most affordable material.</li>
-              <li><strong>Paperboard</strong> (250-400gsm): $0.30-$0.65 per sqm. Used for folding cartons. Slightly more expensive due to higher density.</li>
-              <li><strong>Rigid board</strong> (1200-2000gsm): $0.80-$1.50 per sqm. Used for rigid gift boxes. The most expensive base material but creates the most premium result.</li>
+              <li><strong>Corrugated board</strong> (E-flute/B-flute): $0.15-$0.40 per sqm. Used for <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</a> and <a href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription boxes</a>. The most affordable material.</li>
+              <li><strong>Paperboard</strong> (250-400gsm): $0.30-$0.65 per sqm. Used for <a href="/products/folding-cartons" className="text-green-700 underline font-semibold">folding cartons</a>. Slightly more expensive due to higher density.</li>
+              <li><strong>Rigid board</strong> (1200-2000gsm): $0.80-$1.50 per sqm. Used for <a href="/products/rigid-gift-boxes" className="text-green-700 underline font-semibold">rigid gift boxes</a>. The most expensive base material but creates the most premium result.</li>
               <li><strong>Coated art paper</strong> (wrap for rigid boxes): $0.25-$0.50 per sqm. Adds 10-20% to rigid box material cost.</li>
               <li><strong>Specialty paper</strong> (textured, metallic): $0.60-$1.20 per sqm. Premium option for luxury packaging.</li>
             </ul>
@@ -184,7 +184,7 @@ export default function CustomPackagingCostBreakdown() {
               Labor costs include die-cutting, folding, gluing, and quality inspection. These costs are relatively fixed per unit and don't vary much between suppliers. The key factors are:
             </p>
             <ul className="list-disc list-inside mb-4 text-gray-700 space-y-2">
-              <li><strong>Box complexity:</strong> Simple mailer boxes cost less to assemble than rigid boxes with magnetic closures and custom inserts.</li>
+              <li><strong>Box complexity:</strong> Simple <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">mailer boxes</a> cost less to assemble than <a href="/products/rigid-gift-boxes" className="text-green-700 underline font-semibold">rigid boxes</a> with magnetic closures and custom inserts.</li>
               <li><strong>Insert assembly:</strong> Adding custom inserts (EVA foam, cardboard dividers) increases assembly time and cost by $0.10-$0.40/unit.</li>
               <li><strong>Quality control:</strong> Every BUpack order includes full QC inspection at no extra cost. Some factories charge extra for this — we don't.</li>
             </ul>

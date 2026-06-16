@@ -316,8 +316,8 @@ export default function CompostablePackagingAlternatives() {
               <li>Pursue BPI certification for your complete packaging system</li>
             </ul>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
-              BUpack can support your transition with <a href="/services/design-support" className="text-green-700 underline hover:text-green-600">design consultation</a> and material recommendations tailored to your product category and budget. Our <a href="/blog/biodegradable-ecommerce-packaging-guide" className="text-green-700 underline hover:text-green-600">biodegradable packaging guide</a> covers additional material science details.
+              <p className="text-gray-700 leading-relaxed mb-4">
+              BUpack can support your transition with <a href="/services/design-support" className="text-green-700 underline hover:text-green-600">design consultation</a> and material recommendations tailored to your product category and budget. Browse our full range of <a href="/products/paper-boxes" className="text-green-700 underline font-semibold">custom paper boxes</a>, <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</a>, and <a href="/products/custom-paper-bags" className="text-green-700 underline font-semibold">eco-friendly paper bags</a> — all available with FSC-certified compostable materials. Our <a href="/blog/biodegradable-ecommerce-packaging-guide" className="text-green-700 underline hover:text-green-600">biodegradable packaging guide</a> covers additional material science details.
             </p>
 
             {/* Key Takeaways */}
