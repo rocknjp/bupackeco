@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Packaging Design Trends 2026: What DTC Brands Need to Know | BUpack",
+  title: "Packaging Design Trends 2026 | BUpack",
   description:
     "Top packaging design trends for 2026. Minimalism, bold colors, sustainable materials, and interactive unboxing. Stay ahead with BUpack.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/packaging-design-trends-2026",
   },
   openGraph: {
-    title: "Packaging Design Trends 2026: What DTC Brands Need to Know | BUpack",
+    title: "Packaging Design Trends 2026 | BUpack",
     description:
       "Top packaging design trends for 2026. Minimalism, bold colors, sustainable materials, and interactive unboxing. Stay ahead with BUpack.",
     url: "https://www.bupackeco.com/blog/packaging-design-trends-2026",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Packaging Design Trends 2026: What DTC Brands Need to Know | BUpack",
+    title: "Packaging Design Trends 2026 | BUpack",
     description:
       "Top packaging design trends for 2026. Minimalism, bold colors, sustainable materials, and interactive unboxing. Stay ahead with BUpack.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],

@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Eco-Friendly Packaging for Small Business: 2026 Guide | BUpack",
+  title: "Eco-Friendly Packaging for Small Business | BUpack",
   description:
-    "Complete guide to eco-friendly packaging for small businesses. FSC-certified, recycled, and compostable options. Low MOQ from 100 units. Cost comparison and certification guide.",
+    "Eco-friendly packaging for small businesses. FSC-certified, recycled, and compostable options from 100 units. Cost comparison and certification guide.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/eco-friendly-packaging-small-business",
   },
   openGraph: {
-    title: "Eco-Friendly Packaging for Small Business: 2026 Guide | BUpack",
+    title: "Eco-Friendly Packaging for Small Business | BUpack",
     description:
-      "Complete guide to eco-friendly packaging for small businesses. FSC-certified, recycled, and compostable options. Low MOQ from 100 units. Cost comparison and certification guide.",
+      "Eco-friendly packaging for small businesses. FSC-certified, recycled, and compostable options from 100 units. Cost comparison and certification guide.",
     url: "https://www.bupackeco.com/blog/eco-friendly-packaging-small-business",
     siteName: "BUpack",
     locale: "en_US",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eco-Friendly Packaging for Small Business: 2026 Guide | BUpack",
+    title: "Eco-Friendly Packaging for Small Business | BUpack",
     description:
-      "Complete guide to eco-friendly packaging for small businesses. FSC-certified, recycled, and compostable options. Low MOQ from 100 units. Cost comparison and certification guide.",
+      "Eco-friendly packaging for small businesses. FSC-certified, recycled, and compostable options from 100 units. Cost comparison and certification guide.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
   },
 };

@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "How to Import Custom Packaging from China: Complete Guide | BUpack",
+  title: "Import Custom Packaging from China Guide | BUpack",
   description:
-    "Step-by-step guide to importing custom packaging from China. Shipping, customs, quality control, and cost breakdown. Factory-direct pricing saves 40-60% vs domestic.",
+    "Step-by-step guide to importing custom packaging from China. Shipping, customs, QC, and cost breakdown. Factory-direct saves 40-60% vs domestic.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/import-custom-packaging-from-china-guide",
   },
   openGraph: {
-    title: "How to Import Custom Packaging from China: Complete Guide | BUpack",
+    title: "Import Custom Packaging from China Guide | BUpack",
     description:
-      "Step-by-step guide to importing custom packaging from China. Shipping, customs, quality control, and cost breakdown. Factory-direct pricing saves 40-60% vs domestic.",
+      "Step-by-step guide to importing custom packaging from China. Shipping, customs, QC, and cost breakdown. Factory-direct saves 40-60% vs domestic.",
     url: "https://www.bupackeco.com/blog/import-custom-packaging-from-china-guide",
     siteName: "BUpack",
     locale: "en_US",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "How to Import Custom Packaging from China: Complete Guide | BUpack",
+    title: "Import Custom Packaging from China Guide | BUpack",
     description:
-      "Step-by-step guide to importing custom packaging from China. Shipping, customs, quality control, and cost breakdown. Factory-direct pricing saves 40-60% vs domestic.",
+      "Step-by-step guide to importing custom packaging from China. Shipping, customs, QC, and cost breakdown. Factory-direct saves 40-60% vs domestic.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
   },
 };
@@ -61,7 +61,7 @@ export default function ImportCustomPackagingFromChinaGuide() {
     <>
       <ArticleSchema
         headline="How to Import Custom Packaging from China: Complete Guide"
-        description="Step-by-step guide to importing custom packaging from China. Shipping, customs, quality control, and cost breakdown. Factory-direct pricing saves 40-60% vs domestic."
+        description="Step-by-step guide to importing custom packaging from China. Shipping, customs, QC, and cost breakdown. Factory-direct saves 40-60% vs domestic."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
         url="/blog/import-custom-packaging-from-china-guide"
@@ -99,7 +99,7 @@ export default function ImportCustomPackagingFromChinaGuide() {
             How to Import Custom Packaging from China: Complete Guide
           </h1>
           <p className="text-green-200 text-lg leading-relaxed">
-            Step-by-step guide to importing custom packaging from China. Shipping, customs, quality control, and cost breakdown. Factory-direct pricing saves 40-60% vs domestic.
+            Step-by-step guide to importing custom packaging from China. Shipping, customs, QC, and cost breakdown. Factory-direct saves 40-60% vs domestic.
           </p>
         </div>
       </section>

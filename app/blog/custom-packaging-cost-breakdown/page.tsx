@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Custom Packaging Cost Breakdown: What You're Paying For | BUpack",
+  title: "Custom Packaging Cost Breakdown | BUpack",
   description:
     "Detailed cost breakdown for custom packaging. Materials, printing, finishing, and shipping costs explained. Factory-direct pricing from BUpack saves 40-60%.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/custom-packaging-cost-breakdown",
   },
   openGraph: {
-    title: "Custom Packaging Cost Breakdown: What You're Paying For | BUpack",
+    title: "Custom Packaging Cost Breakdown | BUpack",
     description:
       "Detailed cost breakdown for custom packaging. Materials, printing, finishing, and shipping costs explained. Factory-direct pricing from BUpack saves 40-60%.",
     url: "https://www.bupackeco.com/blog/custom-packaging-cost-breakdown",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Custom Packaging Cost Breakdown: What You're Paying For | BUpack",
+    title: "Custom Packaging Cost Breakdown | BUpack",
     description:
       "Detailed cost breakdown for custom packaging. Materials, printing, finishing, and shipping costs explained. Factory-direct pricing from BUpack saves 40-60%.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],

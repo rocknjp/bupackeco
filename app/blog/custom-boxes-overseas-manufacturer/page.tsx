@@ -5,14 +5,14 @@ import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema"
 export const metadata: Metadata = {
   title: "How to Choose an Overseas Custom Boxes Manufacturer | BUpack",
   description:
-    "Guide to choosing an overseas custom packaging manufacturer. Quality verification, communication tips, shipping logistics, and cost comparison. Factory-direct from BUpack, China.",
+    "Guide to choosing an overseas custom packaging manufacturer. Quality verification, shipping logistics, and cost comparison. Factory-direct from BUpack.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/custom-boxes-overseas-manufacturer",
   },
   openGraph: {
     title: "How to Choose an Overseas Custom Boxes Manufacturer | BUpack",
     description:
-      "Guide to choosing an overseas custom packaging manufacturer. Quality verification, communication tips, shipping logistics, and cost comparison. Factory-direct from BUpack, China.",
+      "Guide to choosing an overseas custom packaging manufacturer. Quality verification, shipping logistics, and cost comparison. Factory-direct from BUpack.",
     url: "https://www.bupackeco.com/blog/custom-boxes-overseas-manufacturer",
     siteName: "BUpack",
     locale: "en_US",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "How to Choose an Overseas Custom Boxes Manufacturer | BUpack",
     description:
-      "Guide to choosing an overseas custom packaging manufacturer. Quality verification, communication tips, shipping logistics, and cost comparison. Factory-direct from BUpack, China.",
+      "Guide to choosing an overseas custom packaging manufacturer. Quality verification, shipping logistics, and cost comparison. Factory-direct from BUpack.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
   },
 };

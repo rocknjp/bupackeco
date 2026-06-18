@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Custom Packaging for Startups: A Complete Guide (2026) | BUpack",
+  title: "Custom Packaging for Startups Guide | BUpack",
   description:
-    "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands. Free design support included.",
+    "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/custom-packaging-for-startups-guide",
   },
   openGraph: {
-    title: "Custom Packaging for Startups: A Complete Guide (2026) | BUpack",
+    title: "Custom Packaging for Startups Guide | BUpack",
     description:
-      "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands. Free design support included.",
+      "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands.",
     url: "https://www.bupackeco.com/blog/custom-packaging-for-startups-guide",
     siteName: "BUpack",
     locale: "en_US",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Custom Packaging for Startups: A Complete Guide (2026) | BUpack",
+    title: "Custom Packaging for Startups Guide | BUpack",
     description:
-      "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands. Free design support included.",
+      "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
   },
 };
@@ -99,7 +99,7 @@ export default function CustomPackagingForStartupsGuide() {
             Custom Packaging for Startups: A Complete Guide (2026)
           </h1>
           <p className="text-green-200 text-lg leading-relaxed">
-            How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands. Free design support included.
+            How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands.
           </p>
         </div>
       </section>

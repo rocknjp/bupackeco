@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Compostable Packaging Alternatives: Complete Guide for Brands | BUpack",
+  title: "Compostable Packaging Alternatives Guide | BUpack",
   description:
-    "Complete guide to compostable packaging alternatives. Materials comparison, home vs industrial composting, costs, and certification. Eco-friendly options from BUpack.",
+    "Complete guide to compostable packaging: materials, home vs industrial composting, costs, and certifications. Eco-friendly options from BUpack.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/compostable-packaging-alternatives",
   },
   openGraph: {
-    title: "Compostable Packaging Alternatives: Complete Guide for Brands | BUpack",
+    title: "Compostable Packaging Alternatives Guide | BUpack",
     description:
-      "Complete guide to compostable packaging alternatives. Materials comparison, home vs industrial composting, costs, and certification. Eco-friendly options from BUpack.",
+      "Complete guide to compostable packaging: materials, home vs industrial composting, costs, and certifications. Eco-friendly options from BUpack.",
     url: "https://www.bupackeco.com/blog/compostable-packaging-alternatives",
     siteName: "BUpack",
     locale: "en_US",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Compostable Packaging Alternatives: Complete Guide for Brands | BUpack",
+    title: "Compostable Packaging Alternatives Guide | BUpack",
     description:
-      "Complete guide to compostable packaging alternatives. Materials comparison, home vs industrial composting, costs, and certification. Eco-friendly options from BUpack.",
+      "Complete guide to compostable packaging: materials, home vs industrial composting, costs, and certifications. Eco-friendly options from BUpack.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
   },
 };
@@ -61,7 +61,7 @@ export default function CompostablePackagingAlternatives() {
     <>
       <ArticleSchema
         headline="Compostable Packaging Alternatives: Complete Guide for Brands"
-        description="Complete guide to compostable packaging alternatives. Materials comparison, home vs industrial composting, costs, and certification. Eco-friendly options from BUpack."
+        description="Complete guide to compostable packaging: materials, home vs industrial composting, costs, and certifications. Eco-friendly options from BUpack."
         datePublished="2026-06-13T00:00:00.000Z"
         authorName="BUpack Team"
         url="/blog/compostable-packaging-alternatives"
@@ -99,7 +99,7 @@ export default function CompostablePackagingAlternatives() {
             Compostable Packaging Alternatives: Complete Guide for Brands
           </h1>
           <p className="text-green-200 text-lg leading-relaxed">
-            Complete guide to compostable packaging alternatives. Materials comparison, home vs industrial composting, costs, and certification. Eco-friendly options from BUpack.
+            Complete guide to compostable packaging: materials, home vs industrial composting, costs, and certifications. Eco-friendly options from BUpack.
           </p>
         </div>
       </section>

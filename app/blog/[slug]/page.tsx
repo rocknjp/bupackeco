@@ -11,7 +11,7 @@ const posts = [
     slug: "switch-plastic-to-paper-packaging-dtc-guide",
     title: "How to Switch from Plastic to Paper Packaging: A Practical Guide for DTC Brands",
     excerpt:
-      "DTC brands investing in sustainable packaging see a 24% higher LTV and 18% lower return rates. Here's the step-by-step transition plan — from audit to full rollout.",
+      "DTC brands investing in sustainable packaging see 24% higher LTV and 18% lower return rates. Here's the step-by-step transition plan.",
     category: "Sustainability",
     date: "June 7, 2026",
     readTime: "7 min",
@@ -76,7 +76,7 @@ Brands in specific verticals can explore our industry-specific solutions: from <
     slug: "unboxing-experience-drives-dtc-growth",
     title: "Why Your Unboxing Experience Is Your Most Underrated Marketing Channel",
     excerpt:
-      "Unboxing videos generate over 10 billion YouTube views per year. Here's how DTC brands are turning packaging into a repeatable growth loop — and how to engineer yours.",
+      "Unboxing videos generate over 10 billion YouTube views per year. Here's how DTC brands turn packaging into a repeatable growth loop.",
     category: "Unboxing Experience",
     date: "May 28, 2025",
     readTime: "9 min",
@@ -438,7 +438,7 @@ We produce both kraft and coated paper boxes with FSC certification, soy-based i
     slug: "china-vs-us-packaging-manufacturer",
     title: "China vs US Custom Packaging Manufacturers: Cost, Quality & Lead Time Compared",
     excerpt:
-      "Should you source custom packaging from China or the US? This data-driven comparison covers unit costs, quality standards, lead times, certifications, MOQ, and hidden fees — so you can make the right call for your brand.",
+      "Should you source custom packaging from China or the US? Data-driven comparison of unit costs, quality, lead times, MOQ, certifications, and hidden fees.",
     category: "DTC Strategy",
     date: "June 5, 2026",
     readTime: "10 min",
@@ -559,7 +559,7 @@ We combine the cost advantages of Chinese manufacturing with the reliability tha
     slug: "custom-packaging-cost-guide",
     title: "How Much Does Custom Packaging Cost? Complete Pricing Guide for DTC Brands",
     excerpt:
-      "A transparent breakdown of custom packaging costs by product type, volume, and finishing — plus the hidden fees most suppliers won't mention and 7 proven strategies to cut costs without sacrificing quality.",
+      "Transparent breakdown of custom packaging costs by product type, volume, and finishing — plus hidden fees and 7 proven strategies to cut costs.",
     category: "Packaging 101",
     date: "May 20, 2026",
     readTime: "9 min",
@@ -688,7 +688,7 @@ We provide itemized quotes with no hidden fees: production, finishing, freight, 
     slug: "eco-packaging-roi-small-dtc-brands",
     title: "Eco-Friendly Packaging ROI: How Small DTC Brands Can Afford Sustainable Packaging",
     excerpt:
-      "Sustainable packaging doesn't have to destroy your margins. Here's the real ROI math for small DTC brands — including cost breakdowns, customer retention data, and 5 low-cost strategies to go green without breaking the bank.",
+      "Sustainable packaging won't destroy your margins. Real ROI math for small DTC brands — cost breakdowns, retention data, and 5 low-cost strategies to go green.",
     category: "Sustainability",
     date: "June 8, 2026",
     readTime: "8 min",
@@ -796,7 +796,7 @@ The brands that move first on sustainable packaging don't just save the planet �
     slug: "cosmetics-packaging-boxes-supplier-guide",
     title: "Cosmetics Packaging Boxes: How to Find a Supplier That Gets Your Brand",
     excerpt:
-      "The cosmetics packaging market is projected to hit $62 billion by 2030 — but finding a supplier who understands beauty brand standards is harder than it looks. Here's how to evaluate, qualify, and partner with the right cosmetics packaging boxes supplier.",
+      "The cosmetics packaging market hits $62B by 2030. Here's how to evaluate, qualify, and partner with the right cosmetics packaging boxes supplier.",
     category: "Packaging 101",
     date: "June 13, 2026",
     readTime: "10 min",
@@ -998,7 +998,7 @@ Three strategies: (1) Use the same box size across SKUs with product-specific in
     slug: "custom-packaging-for-startups-guide",
     title: "Custom Packaging for Startups: A Complete Guide (2026)",
     excerpt:
-      "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands. Free design support included.",
+      "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands.",
     category: "Startup Guide",
     date: "June 13, 2026",
     readTime: "9 min",
@@ -1053,7 +1053,7 @@ Every BUpack order includes free design support: dieline templates, artwork revi
     slug: "import-custom-packaging-from-china-guide",
     title: "How to Import Custom Packaging from China: Complete Guide",
     excerpt:
-      "Step-by-step guide to importing custom packaging from China. Shipping, customs, quality control, and cost breakdown. Factory-direct pricing saves 40-60% vs domestic.",
+      "Step-by-step guide to importing custom packaging from China. Shipping, customs, QC, and cost breakdown. Factory-direct saves 40-60% vs domestic.",
     category: "Import Guide",
     date: "June 13, 2026",
     readTime: "10 min",
@@ -1186,7 +1186,7 @@ Every <a href="/products/paper-boxes">custom paper box</a> is available with: FS
     slug: "custom-boxes-overseas-manufacturer",
     title: "How to Choose an Overseas Custom Boxes Manufacturer",
     excerpt:
-      "Guide to choosing an overseas custom packaging manufacturer. Quality verification, communication tips, shipping logistics, and cost comparison. Factory-direct from BUpack, China.",
+      "Guide to choosing an overseas custom packaging manufacturer. Quality verification, shipping logistics, and cost comparison. Factory-direct from BUpack.",
     category: "Import Guide",
     date: "June 13, 2026",
     readTime: "10 min",
@@ -1246,7 +1246,7 @@ English-speaking project managers, FSC and ISO 9001 certified factory, 3-stage Q
     slug: "how-to-create-unboxing-experience",
     title: "How to Create an Unboxing Experience That Drives Social Shares",
     excerpt:
-      "How to design a memorable unboxing experience for your DTC brand. 8 proven strategies with real brand examples. Custom inserts, tissue, and interior printing from BUpack.",
+      "Design a memorable unboxing experience for DTC brands. 8 proven strategies with real examples, custom inserts, and interior printing from BUpack.",
     category: "Unboxing Experience",
     date: "June 13, 2026",
     readTime: "9 min",
@@ -1313,7 +1313,7 @@ Every <a href="/products/paper-boxes">custom paper box</a> includes interior pri
     slug: "eco-friendly-packaging-small-business",
     title: "Eco-Friendly Packaging for Small Business: 2026 Guide",
     excerpt:
-      "Complete guide to eco-friendly packaging for small businesses. FSC-certified, recycled, and compostable options. Low MOQ from 100 units. Cost comparison and certification guide.",
+      "Eco-friendly packaging for small businesses. FSC-certified, recycled, and compostable options from 100 units. Cost comparison and certification guide.",
     category: "Sustainability",
     date: "June 13, 2026",
     readTime: "11 min",
@@ -1693,14 +1693,21 @@ export async function generateMetadata({
   const post = posts.find((p) => p.slug === slug);
   if (!post) return { title: "Post Not Found" };
 
+  // Truncate title to fit 60 chars max (including " | BUpack" suffix)
+  const maxTitleLen = 50; // 50 + " | BUpack"(9) = 59
+  const shortTitle = post.title.length > maxTitleLen
+    ? post.title.slice(0, maxTitleLen).replace(/\s+\S*$/, "") + "…"
+    : post.title;
+  const metaTitle = `${shortTitle} | BUpack`;
+
   return {
-    title: `${post.title} | BUpack Blog`,
+    title: metaTitle,
     description: post.excerpt,
     alternates: {
       canonical: `https://www.bupackeco.com/blog/${slug}`,
     },
     openGraph: {
-      title: `${post.title} | BUpack Blog`,
+      title: metaTitle,
       description: post.excerpt,
       url: `https://www.bupackeco.com/blog/${slug}`,
       siteName: "BUpack",
@@ -1710,7 +1717,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${post.title} | BUpack Blog`,
+      title: metaTitle,
       description: post.excerpt,
       images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
     },

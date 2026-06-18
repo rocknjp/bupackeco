@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "15 Branded Packaging Ideas for Ecommerce Brands (2026) | BUpack",
+  title: "15 Branded Packaging Ideas for Ecommerce | BUpack",
   description:
     "15 creative branded packaging ideas for ecommerce and DTC brands. From custom inserts to interactive unboxing. Real examples and cost breakdowns for each idea.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/branded-packaging-ideas-ecommerce",
   },
   openGraph: {
-    title: "15 Branded Packaging Ideas for Ecommerce Brands (2026) | BUpack",
+    title: "15 Branded Packaging Ideas for Ecommerce | BUpack",
     description:
       "15 creative branded packaging ideas for ecommerce and DTC brands. From custom inserts to interactive unboxing. Real examples and cost breakdowns for each idea.",
     url: "https://www.bupackeco.com/blog/branded-packaging-ideas-ecommerce",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "15 Branded Packaging Ideas for Ecommerce Brands (2026) | BUpack",
+    title: "15 Branded Packaging Ideas for Ecommerce | BUpack",
     description:
       "15 creative branded packaging ideas for ecommerce and DTC brands. From custom inserts to interactive unboxing. Real examples and cost breakdowns for each idea.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],

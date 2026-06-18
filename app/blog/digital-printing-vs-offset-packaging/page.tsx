@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Digital Printing vs Offset for Custom Packaging: Which to Choose? | BUpack",
+  title: "Digital Printing vs Offset Packaging | BUpack",
   description:
     "Digital printing vs offset printing for custom packaging boxes. Cost comparison, quality differences, and when to use each method. MOQ recommendations included.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/digital-printing-vs-offset-packaging",
   },
   openGraph: {
-    title: "Digital Printing vs Offset for Custom Packaging: Which to Choose? | BUpack",
+    title: "Digital Printing vs Offset Packaging | BUpack",
     description:
       "Digital printing vs offset printing for custom packaging boxes. Cost comparison, quality differences, and when to use each method. MOQ recommendations included.",
     url: "https://www.bupackeco.com/blog/digital-printing-vs-offset-packaging",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Printing vs Offset for Custom Packaging: Which to Choose? | BUpack",
+    title: "Digital Printing vs Offset Packaging | BUpack",
     description:
       "Digital printing vs offset printing for custom packaging boxes. Cost comparison, quality differences, and when to use each method. MOQ recommendations included.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],

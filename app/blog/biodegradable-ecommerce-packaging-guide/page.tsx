@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Biodegradable Ecommerce Packaging Guide for DTC Brands | BUpack",
+  title: "Biodegradable Ecommerce Packaging Guide | BUpack",
   description:
     "Complete guide to biodegradable packaging for ecommerce. Materials comparison, cost analysis, and certification guide. FSC-certified options from BUpack.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/biodegradable-ecommerce-packaging-guide",
   },
   openGraph: {
-    title: "Biodegradable Ecommerce Packaging Guide for DTC Brands | BUpack",
+    title: "Biodegradable Ecommerce Packaging Guide | BUpack",
     description:
       "Complete guide to biodegradable packaging for ecommerce. Materials comparison, cost analysis, and certification guide. FSC-certified options from BUpack.",
     url: "https://www.bupackeco.com/blog/biodegradable-ecommerce-packaging-guide",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Biodegradable Ecommerce Packaging Guide for DTC Brands | BUpack",
+    title: "Biodegradable Ecommerce Packaging Guide | BUpack",
     description:
       "Complete guide to biodegradable packaging for ecommerce. Materials comparison, cost analysis, and certification guide. FSC-certified options from BUpack.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],

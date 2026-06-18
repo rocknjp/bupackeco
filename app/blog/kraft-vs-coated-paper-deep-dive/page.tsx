@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Kraft vs Coated Paper for Packaging: In-Depth Comparison | BUpack",
+  title: "Kraft vs Coated Paper for Packaging | BUpack",
   description:
     "Kraft paper vs coated paper for custom packaging. Appearance, durability, sustainability, and cost comparison. Choose the right material for your brand.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/kraft-vs-coated-paper-deep-dive",
   },
   openGraph: {
-    title: "Kraft vs Coated Paper for Packaging: In-Depth Comparison | BUpack",
+    title: "Kraft vs Coated Paper for Packaging | BUpack",
     description:
       "Kraft paper vs coated paper for custom packaging. Appearance, durability, sustainability, and cost comparison. Choose the right material for your brand.",
     url: "https://www.bupackeco.com/blog/kraft-vs-coated-paper-deep-dive",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kraft vs Coated Paper for Packaging: In-Depth Comparison | BUpack",
+    title: "Kraft vs Coated Paper for Packaging | BUpack",
     description:
       "Kraft paper vs coated paper for custom packaging. Appearance, durability, sustainability, and cost comparison. Choose the right material for your brand.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],

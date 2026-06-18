@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "How to Create an Unboxing Experience That Drives Social Shares | BUpack",
+  title: "Create Unboxing Experience That Drives Shares | BUpack",
   description:
-    "How to design a memorable unboxing experience for your DTC brand. 8 proven strategies with real brand examples. Custom inserts, tissue, and interior printing from BUpack.",
+    "Design a memorable unboxing experience for DTC brands. 8 proven strategies with real examples, custom inserts, and interior printing from BUpack.",
   alternates: {
     canonical: "https://www.bupackeco.com/blog/how-to-create-unboxing-experience",
   },
   openGraph: {
-    title: "How to Create an Unboxing Experience That Drives Social Shares | BUpack",
+    title: "Create Unboxing Experience That Drives Shares | BUpack",
     description:
-      "How to design a memorable unboxing experience for your DTC brand. 8 proven strategies with real brand examples. Custom inserts, tissue, and interior printing from BUpack.",
+      "Design a memorable unboxing experience for DTC brands. 8 proven strategies with real examples, custom inserts, and interior printing from BUpack.",
     url: "https://www.bupackeco.com/blog/how-to-create-unboxing-experience",
     siteName: "BUpack",
     locale: "en_US",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "How to Create an Unboxing Experience That Drives Social Shares | BUpack",
+    title: "Create Unboxing Experience That Drives Shares | BUpack",
     description:
-      "How to design a memorable unboxing experience for your DTC brand. 8 proven strategies with real brand examples. Custom inserts, tissue, and interior printing from BUpack.",
+      "Design a memorable unboxing experience for DTC brands. 8 proven strategies with real examples, custom inserts, and interior printing from BUpack.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
   },
 };
