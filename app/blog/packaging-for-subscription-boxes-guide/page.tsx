@@ -116,7 +116,7 @@ export default function PackagingForSubscriptionBoxesGuide() {
               For subscription box businesses, packaging isn't a one-time decision — it's a <strong>monthly recurring experience</strong>. Every month, your box arrives on your customer's doorstep, and every month it needs to deliver delight, surprise, and value. The packaging is the product. Research shows that subscription brands with premium packaging see up to <strong>40% higher 3-month retention</strong> and <strong>2.5x more unboxing content</strong> shared on social media.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              But subscription box packaging has unique challenges that one-time ecommerce packaging doesn't: you need monthly design variation, consistent cost control, reliable supply chain timing, and interior organization for multiple products. This guide covers everything you need to know.
+              But subscription box packaging has unique challenges that one-time ecommerce packaging doesn't: you need monthly design variation, consistent cost control, reliable supply chain timing, and interior organization for multiple products. This guide covers everything you need to know. For broader branding inspiration across product types, browse our <Link href="/blog/branded-packaging-ideas-ecommerce" className="text-green-700 underline hover:text-green-600">branded packaging ideas</Link>.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
@@ -146,7 +146,7 @@ export default function PackagingForSubscriptionBoxesGuide() {
             </div>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              <strong>Recommendation:</strong> For most subscription businesses, a corrugated <a href="/products/custom-mailer-boxes" className="text-green-700 underline hover:text-green-600">mailer box</a> in E-flute is the best starting point. It offers the best balance of protection, print quality, cost, and unboxing experience. For premium tiers, <a href="/products/rigid-gift-boxes" className="text-green-700 underline font-semibold">rigid gift boxes</a> create a luxury feel. For beauty or sample subscriptions, <a href="/products/folding-cartons" className="text-green-700 underline font-semibold">folding cartons</a> are a cost-effective option. Browse our full range of <a href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription box packaging</a> for more options.
+              <strong>Recommendation:</strong> For most subscription businesses, a corrugated <a href="/products/custom-mailer-boxes" className="text-green-700 underline hover:text-green-600">mailer box</a> in E-flute is the best starting point. It offers the best balance of protection, print quality, cost, and unboxing experience. For premium tiers, <a href="/products/rigid-gift-boxes" className="text-green-700 underline font-semibold">rigid gift boxes</a> create a luxury feel. For beauty or sample subscriptions, <a href="/products/folding-cartons" className="text-green-700 underline font-semibold">folding cartons</a> are a cost-effective option. The same principles apply across verticals — from <Link href="/industries/pet-subscription" className="text-green-700 underline hover:text-green-600">pet subscription boxes</Link> to <Link href="/industries/tea-beverages" className="text-green-700 underline hover:text-green-600">tea subscription boxes</Link> — with insert choices adapted to product weight and fragility. Browse our full range of <a href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription box packaging</a> for more options.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
@@ -200,7 +200,7 @@ export default function PackagingForSubscriptionBoxesGuide() {
               Cost Control for Recurring Packaging Orders
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Subscription box packaging is a recurring cost that directly impacts your margins. Here are six strategies to keep costs under control:
+              Subscription box packaging is a recurring cost that directly impacts your margins. For per-unit pricing by quantity and printing method, see our <Link href="/blog/custom-packaging-cost-breakdown" className="text-green-700 underline hover:text-green-600">cost breakdown</Link>. Here are six strategies to keep costs under control:
             </p>
             <ul className="list-disc list-inside mb-4 text-gray-700 space-y-3">
               <li><strong>Standardize box dimensions:</strong> Use one box size that fits your monthly product range. Multiple box sizes multiply your inventory and reduce volume per SKU.</li>
@@ -215,7 +215,7 @@ export default function PackagingForSubscriptionBoxesGuide() {
               Supply Chain Timing for Subscription Boxes
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Unlike one-time product launches, subscription boxes have hard monthly deadlines. Your packaging must arrive on time, every month. Here's how to build a reliable supply chain:
+              Unlike one-time product launches, subscription boxes have hard monthly deadlines. Your packaging must arrive on time, every month. For a phase-by-phase production breakdown, see our <Link href="/blog/custom-packaging-timeline-guide" className="text-green-700 underline hover:text-green-600">packaging timeline</Link> guide. Here's how to build a reliable supply chain:
             </p>
             <ul className="list-disc list-inside mb-4 text-gray-700 space-y-2">
               <li><strong>Order 6-8 weeks before ship date:</strong> 2-3 weeks production + 2-3 weeks ocean shipping + 1 week buffer.</li>

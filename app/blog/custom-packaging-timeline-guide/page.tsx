@@ -113,6 +113,9 @@ export default function CustomPackagingTimelineGuide() {
             <p className="text-gray-700 leading-relaxed mb-4">
               The total timeline from first contact to delivery at your door typically ranges from <strong>15 days (rush, air freight)</strong> to <strong>6 weeks (standard, ocean freight)</strong>. Here's what happens at every step.
             </p>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              These phases apply universally across categories — whether you're producing <Link href="/industries/cosmetics-beauty" className="text-green-700 underline hover:text-green-600">cosmetic packaging</Link>, <Link href="/industries/candles-fragrance" className="text-green-700 underline hover:text-green-600">candle packaging</Link>, or apparel boxes, the production workflow stays the same. If you're a first-time founder, our <Link href="/blog/custom-packaging-for-startups-guide" className="text-green-700 underline hover:text-green-600">startups packaging guide</Link> covers MOQ and budgeting basics.
+            </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
               Phase 1: Consultation & Specifications (1-3 Days)
@@ -230,6 +233,10 @@ export default function CustomPackagingTimelineGuide() {
                 </table>
               </div>
             </div>
+
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Want to understand how each phase affects your budget? Our <Link href="/blog/custom-packaging-cost-breakdown" className="text-green-700 underline hover:text-green-600">packaging cost breakdown</Link> details per-unit pricing by quantity and printing method. If you're sourcing from overseas for the first time, the <Link href="/blog/import-custom-packaging-from-china-guide" className="text-green-700 underline hover:text-green-600">import from China guide</Link> covers freight, customs, and supplier vetting.
+            </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
               5 Ways to Accelerate Your Packaging Timeline

@@ -108,7 +108,7 @@ export default function SeasonalPackagingStrategy() {
               Why Seasonal Packaging Is a Growth Lever, Not a Cost
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Seasonal packaging is one of the highest-ROI investments a DTC brand can make. Brands that launch seasonal packaging see an average <strong>23% increase in order value</strong> during the seasonal period, <strong>3x more social media shares</strong>, and <strong>18% higher repeat purchase rates</strong> from customers who received seasonal packaging. The psychology is simple: limited-edition packaging creates urgency, novelty drives sharing, and thoughtful seasonal touches build emotional connection.
+              Seasonal packaging is one of the highest-ROI investments a DTC brand can make. Brands that launch seasonal packaging see an average <strong>23% increase in order value</strong> during the seasonal period, <strong>3x more social media shares</strong>, and <strong>18% higher repeat purchase rates</strong> from customers who received seasonal packaging. The psychology is simple: limited-edition packaging creates urgency, novelty drives sharing, and thoughtful seasonal touches build emotional connection. Aligning seasonal drops with the latest <Link href="/blog/packaging-design-trends-2026" className="text-green-700 underline hover:text-green-600">design trends 2026</Link> keeps your brand current, and for evergreen inspiration, browse our <Link href="/blog/branded-packaging-ideas-ecommerce" className="text-green-700 underline hover:text-green-600">branded packaging ideas</Link>.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
               Yet most DTC brands either skip seasonal packaging entirely (leaving money on the table) or overinvest in complex redesigns (wasting budget). The sweet spot is a strategic, repeatable seasonal packaging system that's easy to execute and scales with your brand.
@@ -171,7 +171,7 @@ export default function SeasonalPackagingStrategy() {
               Level 2: Interior Print Swap ($0.10-$0.30/unit additional)
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Keep the same exterior design but change the interior printing for each season. Your exterior stays consistent (brand recognition), while the interior surprises with seasonal patterns, colors, or messages. This approach works especially well with <a href="/products/custom-mailer-boxes" className="text-green-700 underline hover:text-green-600">custom mailer boxes</a> where the interior is revealed during unboxing.
+              Keep the same exterior design but change the interior printing for each season. Your exterior stays consistent (brand recognition), while the interior surprises with seasonal patterns, colors, or messages. This approach works especially well with <a href="/products/custom-mailer-boxes" className="text-green-700 underline hover:text-green-600">custom mailer boxes</a> where the interior is revealed during unboxing — learn more in our guide on how to create an <Link href="/blog/how-to-create-unboxing-experience" className="text-green-700 underline hover:text-green-600">unboxing experience</Link>.
             </p>
             <ul className="list-disc list-inside mb-4 text-gray-700 space-y-2">
               <li>Snowflake pattern inside for winter</li>
@@ -198,7 +198,7 @@ export default function SeasonalPackagingStrategy() {
               Valentine's Day (February)
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Colors: Pink, red, rose gold. Elements: Heart patterns, love messages, foil-stamped accents. Products that sell: jewelry, candles, skincare, chocolate, lingerie. <strong>Quick win:</strong> Rose gold foil on your existing box exterior + pink tissue paper inside. Cost: +$0.25-$0.40/unit.
+              Colors: Pink, red, rose gold. Elements: Heart patterns, love messages, foil-stamped accents. Products that sell: jewelry, candles, skincare, chocolate, lingerie — making it peak season for <Link href="/industries/chocolate-confectionery" className="text-green-700 underline hover:text-green-600">chocolate gift packaging</Link> and <Link href="/industries/jewelry" className="text-green-700 underline hover:text-green-600">jewelry gift packaging</Link>. <strong>Quick win:</strong> Rose gold foil on your existing box exterior + pink tissue paper inside. Cost: +$0.25-$0.40/unit.
             </p>
 
             <h3 className="text-xl font-semibold text-gray-800 mt-8 mb-3">

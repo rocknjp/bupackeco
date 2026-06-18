@@ -140,14 +140,14 @@ export default function KraftVsCoatedPaperDeepDive() {
             </div>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              <strong>Consumer perception data:</strong> In a 2025 survey of 2,000 US consumers, 71% associated kraft packaging with "environmentally responsible" brands, while 68% associated coated packaging with "high-quality" brands. Neither perception is inherently better — but they serve different brand strategies.
+              <strong>Consumer perception data:</strong> In a 2025 survey of 2,000 US consumers, 71% associated kraft packaging with "environmentally responsible" brands, while 68% associated coated packaging with "high-quality" brands. Neither perception is inherently better — but they serve different brand strategies. Kraft is especially popular for <Link href="/industries/chocolate-confectionery" className="text-green-700 underline hover:text-green-600">chocolate packaging</Link> and <Link href="/industries/tea-beverages" className="text-green-700 underline hover:text-green-600">tea packaging</Link>, where natural materials reinforce artisanal positioning. <Link href="/blog/packaging-for-subscription-boxes-guide" className="text-green-700 underline hover:text-green-600">Subscription box packaging</Link> often combines both — a kraft exterior for eco-signaling with a coated interior for vibrant branding.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
               Print Quality Comparison
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              This is where the materials diverge most significantly. Coated paper's smooth surface is engineered for printing — kraft paper's textured surface is not.
+              This is where the materials diverge most significantly. Coated paper's smooth surface is engineered for printing — kraft paper's textured surface is not. For a broader look at how printing techniques affect output, see our <Link href="/blog/digital-printing-vs-offset-packaging" className="text-green-700 underline hover:text-green-600">printing methods comparison</Link>.
             </p>
             <ul className="list-disc list-inside mb-4 text-gray-700 space-y-2">
               <li><strong>Color vibrancy:</strong> Coated paper produces 30-40% more vibrant CMYK colors. The smooth surface reflects light evenly, creating richer, more saturated prints. Kraft paper absorbs some ink into the fibers, resulting in slightly muted tones.</li>
@@ -212,7 +212,7 @@ export default function KraftVsCoatedPaperDeepDive() {
               <li><strong>White kraft paper:</strong> Falls between brown kraft and coated in price. Offers a cleaner printing surface than brown kraft while maintaining the kraft perception.</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mb-4">
-              At BUpack, the price difference between kraft and coated <a href="/products/paper-boxes" className="text-green-700 underline hover:text-green-600">custom paper boxes</a> is typically just $0.05-$0.15 per unit at 500+ quantity. The decision should be driven by brand strategy, not cost. Both materials are available across our full range including <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</a>, <a href="/products/folding-cartons" className="text-green-700 underline font-semibold">folding cartons</a>, and <a href="/products/custom-paper-bags" className="text-green-700 underline font-semibold">custom paper bags</a>.
+              At BUpack, the price difference between kraft and coated <a href="/products/paper-boxes" className="text-green-700 underline hover:text-green-600">custom paper boxes</a> is typically just $0.05-$0.15 per unit at 500+ quantity. The decision should be driven by brand strategy, not cost. For a full per-unit breakdown by quantity and printing method, see our <Link href="/blog/custom-packaging-cost-breakdown" className="text-green-700 underline hover:text-green-600">packaging cost breakdown</Link>. Both materials are available across our full range including <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</a>, <a href="/products/folding-cartons" className="text-green-700 underline font-semibold">folding cartons</a>, and <a href="/products/custom-paper-bags" className="text-green-700 underline font-semibold">custom paper bags</a>.
             </p>
 
             {/* Key Takeaways */}

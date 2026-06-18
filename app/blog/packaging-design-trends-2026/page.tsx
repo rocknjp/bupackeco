@@ -108,7 +108,7 @@ export default function PackagingDesignTrends2026() {
               2026: The Year Packaging Becomes a Brand Channel
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              In 2026, packaging is no longer just a container — it's your most visible brand channel. With <strong>unboxing content generating 15 billion views</strong> across social platforms and <strong>78% of consumers</strong> saying packaging influences their purchase decisions, the design choices you make for your boxes, bags, and mailers have never mattered more. This year, the trends split in two directions: brands going bolder with color and texture, and brands going deeper with sustainability and interactivity. The most successful DTC brands do both.
+              In 2026, packaging is no longer just a container — it's your most visible brand channel. With <strong>unboxing content generating 15 billion views</strong> across social platforms and <strong>78% of consumers</strong> saying packaging influences their purchase decisions, the design choices you make for your boxes, bags, and mailers have never mattered more. This year, the trends split in two directions: brands going bolder with color and texture, and brands going deeper with sustainability and interactivity. The most successful DTC brands do both. For more inspiration, browse our <Link href="/blog/branded-packaging-ideas-ecommerce" className="text-green-700 underline hover:text-green-600">branded packaging ideas</Link>, and see how a <Link href="/blog/seasonal-packaging-strategy" className="text-green-700 underline hover:text-green-600">seasonal packaging</Link> strategy can keep your brand fresh year-round.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
@@ -151,7 +151,7 @@ export default function PackagingDesignTrends2026() {
               Trend 4: Interactive Unboxing Experiences
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              The biggest shift in 2026 packaging design is the move from passive to <strong>interactive unboxing</strong>. Smart packaging elements like QR codes, AR markers, and hidden reveal patterns turn every box into a bridge between physical and digital experiences.
+              The biggest shift in 2026 packaging design is the move from passive to <strong>interactive unboxing</strong>. Smart packaging elements like QR codes, AR markers, and hidden reveal patterns turn every box into a bridge between physical and digital experiences. For a full playbook on designing this moment, see our guide on how to create an <Link href="/blog/how-to-create-unboxing-experience" className="text-green-700 underline hover:text-green-600">unboxing experience</Link>.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
               Here's how DTC brands are implementing interactive unboxing:
@@ -175,7 +175,7 @@ export default function PackagingDesignTrends2026() {
             <ul className="list-disc list-inside mb-4 text-gray-700 space-y-2">
               <li><strong>Soft-touch matte lamination</strong> — The velvety feel creates an instant premium impression. Available from just 100 units with BUpack.</li>
               <li><strong>Embossed patterns</strong> — Raised geometric or organic patterns on box panels add depth without adding color complexity.</li>
-              <li><strong>Linen and fabric textures</strong> — Textured specialty papers that mimic linen, canvas, or leather. Popular for <a href="/products/rigid-gift-boxes" className="text-green-700 underline hover:text-green-600">rigid gift boxes</a> and premium packaging.</li>
+              <li><strong>Linen and fabric textures</strong> — Textured specialty papers that mimic linen, canvas, or leather. Popular for <a href="/products/rigid-gift-boxes" className="text-green-700 underline hover:text-green-600">rigid gift boxes</a>, <Link href="/industries/cosmetics-beauty" className="text-green-700 underline hover:text-green-600">beauty packaging</Link>, and <Link href="/industries/apparel-fashion" className="text-green-700 underline hover:text-green-600">apparel packaging</Link>.</li>
               <li><strong>Debossed logos</strong> — A recessed brand mark creates a subtle, tactile signature that photographs beautifully in unboxing content.</li>
             </ul>
 

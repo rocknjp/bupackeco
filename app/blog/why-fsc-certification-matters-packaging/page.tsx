@@ -108,7 +108,7 @@ export default function WhyFSCCertificationMattersPackaging() {
               FSC Certification: The Gold Standard for Sustainable Packaging
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              If you're choosing sustainable packaging, you've probably seen "FSC-certified" on supplier websites and product listings. But what does it actually mean — and does it matter for your brand? The short answer: <strong>yes, it matters more than ever.</strong> In 2026, FSC certification has become the baseline expectation for brands claiming sustainability, not a premium differentiator. Here's why.
+              If you're choosing sustainable packaging, you've probably seen "FSC-certified" on supplier websites and product listings. But what does it actually mean — and does it matter for your brand? The short answer: <strong>yes, it matters more than ever.</strong> In 2026, FSC certification has become the baseline expectation for brands claiming sustainability, not a premium differentiator. If you're new to sustainable sourcing, our <Link href="/blog/eco-friendly-packaging-small-business" className="text-green-700 underline hover:text-green-600">eco-friendly packaging</Link> guide for small businesses is a good starting point. Here's why.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
@@ -147,7 +147,7 @@ export default function WhyFSCCertificationMattersPackaging() {
               <li><strong>Legal compliance:</strong> All forestry operations comply with local, national, and international laws.</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Compare this to unverified claims: a brand saying "we use sustainable paper" without FSC certification could be sourcing from illegally logged forests or operations with poor labor practices. FSC removes the guesswork.
+              Compare this to unverified claims: a brand saying "we use sustainable paper" without FSC certification could be sourcing from illegally logged forests or operations with poor labor practices. FSC removes the guesswork. Note that FSC covers forest sourcing, not end-of-life disposal — for material breakdown options, see our <Link href="/blog/biodegradable-ecommerce-packaging-guide" className="text-green-700 underline hover:text-green-600">biodegradable packaging</Link> guide and <Link href="/blog/compostable-packaging-alternatives" className="text-green-700 underline hover:text-green-600">compostable alternatives</Link> comparison.
             </p>
 
             <h3 className="text-xl font-semibold text-gray-800 mt-8 mb-3">
@@ -214,7 +214,7 @@ export default function WhyFSCCertificationMattersPackaging() {
               <li><strong>Print the FSC label on your packaging:</strong> BUpack can include the FSC Mix label on your box design. The label must follow FSC's design guidelines (we handle the compliance).</li>
               <li><strong>Add it to your product page:</strong> "Packaged in FSC-certified paper" is a clear, specific claim that customers trust.</li>
               <li><strong>Include it in unboxing inserts:</strong> "Why your packaging is FSC-certified" — a one-line explanation that educates without lecturing.</li>
-              <li><strong>Feature it in sustainability sections:</strong> Your website's sustainability or <a href="/eco" className="text-green-700 underline hover:text-green-600">eco page</a> should list FSC certification alongside other environmental commitments.</li>
+              <li><strong>Feature it in sustainability sections:</strong> Your website should list FSC certification alongside other <Link href="/eco" className="text-green-700 underline hover:text-green-600">sustainability commitments</Link>, and link to our <Link href="/fsc-certified-packaging" className="text-green-700 underline hover:text-green-600">FSC-certified packaging page</Link> for product options.</li>
               <li><strong>Social media content:</strong> A short video or carousel explaining what FSC certification means. Educational content drives trust and shares.</li>
             </ul>
 
