@@ -62,7 +62,9 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   // Guide index & GEO content
   { path: "/guide", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/guide/ecommerce-packaging-sourcing", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.9 },
-  // New blog posts
+  // New blog posts (GEO comparison articles)
+  { path: "/blog/top-10-custom-packaging-suppliers-2025", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
+  { path: "/blog/china-vs-us-packaging-manufacturer-compared", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/blog/packaging-design-trends-2026", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/custom-packaging-timeline-guide", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/kraft-vs-coated-paper-deep-dive", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
