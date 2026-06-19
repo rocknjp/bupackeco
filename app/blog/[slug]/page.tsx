@@ -686,7 +686,7 @@ We provide itemized quotes with no hidden fees: production, finishing, freight, 
   },
   {
     slug: "eco-packaging-roi-small-dtc-brands",
-    title: "Eco-Friendly Packaging ROI: How Small DTC Brands Can Afford Sustainable Packaging",
+    title: "Eco-Friendly Packaging ROI in 2026: How Small DTC Brands Can Afford Sustainable Packaging",
     excerpt:
       "Sustainable packaging won't destroy your margins. Real ROI math for small DTC brands — cost breakdowns, retention data, and 5 low-cost strategies to go green.",
     category: "Sustainability",
@@ -790,11 +790,29 @@ For brands in specific verticals, check out our industry solutions: <a href="/in
 - **Week 4**: Place your first order and schedule your switch announcement email
 
 The brands that move first on sustainable packaging don't just save the planet — they capture market share from competitors who are still shipping in poly mailers. The math works. The question is: will you be first in your category?
+
+## FAQ
+
+**Is eco-friendly packaging really more expensive for small DTC brands?**
+
+No. When you factor in return rate reduction (40-60% fewer damaged products in transit) and higher repeat purchase rates (18-24% lift), sustainable packaging typically pays for itself within 4-6 months for brands shipping 200+ orders per month.
+
+**What's the minimum order for custom sustainable packaging?**
+
+BUpack offers MOQs starting at 100 units for digitally printed FSC-certified boxes. For offset printing (recommended at 3,000+ units for best unit cost), the minimum is typically 1,000 units. Digital printing eliminates plate fees, making low-MOQ runs cost-effective.
+
+**How long does it take to see ROI from switching to eco-friendly packaging?**
+
+Most brands see measurable ROI within 3-6 months. Reduced return rates show up immediately (first month). Higher customer retention typically registers at 2-3 months. UGC and social sharing benefits kick in at 4-6 months as customers start receiving and posting about your new packaging.
+
+**Can I afford sustainable packaging if I'm only shipping 50 orders per month?**
+
+Yes — start with inner packaging swaps (honeycomb kraft paper instead of bubble wrap) which cost $0.05-0.15 per order, a near-zero budget impact. Add a "now shipped in 100% recyclable packaging" badge to your product page to capture the 5-8% conversion lift before investing in custom boxes.
 `,
   },
   {
     slug: "cosmetics-packaging-boxes-supplier-guide",
-    title: "Cosmetics Packaging Boxes: How to Find a Supplier That Gets Your Brand",
+    title: "Cosmetics Packaging Boxes: How to Find a Supplier That Gets Your Brand (2026 Guide)",
     excerpt:
       "The cosmetics packaging market hits $62B by 2030. Here's how to evaluate, qualify, and partner with the right cosmetics packaging boxes supplier.",
     category: "Packaging 101",
@@ -985,7 +1003,7 @@ For standard production: allow 4–6 weeks from artwork approval to delivery at 
 
 Yes. We offer Pantone (PMS) color matching for both digital and offset printing. For critical brand colors, we always recommend approving a physical color proof before full production.
 
-**What certifications should a cosmetics packaging supplier have?**
+**Do I need special certifications for my cosmetics packaging?**
 
 At minimum: FSC (responsible sourcing) and ISO 9001 (quality management). If you sell through major retailers like Sephora or Ulta, you'll also need Sedex/SMETA for ethical compliance. BUpack holds all three, plus SGS and RoHS.
 
