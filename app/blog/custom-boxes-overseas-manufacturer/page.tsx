@@ -291,6 +291,16 @@ export default function CustomBoxesOverseasManufacturer() {
             </table>
           </div>
 
+          <div className="mt-8 p-6 bg-green-50 rounded-xl border border-green-200">
+            <h3 className="text-lg font-bold text-gray-900 mb-2">📚 Deep Dive: The Ultimate Packaging Sourcing Guide</h3>
+            <p className="text-gray-600 text-sm mb-3">
+              Looking for a complete framework to evaluate overseas suppliers and navigate DDP shipping? Our 9-chapter sourcing guide covers supplier vetting checklists, sample evaluation, DDP vs FOB logistics, and real cost-comparison case studies.
+            </p>
+            <Link href="/guide/ecommerce-packaging-sourcing" className="text-green-700 font-semibold text-sm hover:text-green-600 transition-colors">
+              Read the Full Guide →
+            </Link>
+          </div>
+
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
             Common Mistakes to Avoid
           </h2>

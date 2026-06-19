@@ -37,6 +37,9 @@ export default function Navbar() {
             <Link href="/blog" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
               Blog
             </Link>
+            <Link href="/guide" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
+              Guides
+            </Link>
             <Link href="/faq" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
               FAQ
             </Link>
@@ -75,6 +78,7 @@ export default function Navbar() {
               <Link href="/industries" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Industries</Link>
               <Link href="/eco" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Sustainability</Link>
               <Link href="/blog" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Blog</Link>
+              <Link href="/guide" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Guides</Link>
               <Link href="/faq" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>FAQ</Link>
               <Link href="/contact" className="bg-green-700 text-white px-5 py-2 rounded-lg font-medium text-center" onClick={() => setMenuOpen(false)}>Get Free Samples →</Link>
             </nav>

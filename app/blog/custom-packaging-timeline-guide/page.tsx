@@ -238,6 +238,16 @@ export default function CustomPackagingTimelineGuide() {
               Want to understand how each phase affects your budget? Our <Link href="/blog/custom-packaging-cost-breakdown" className="text-green-700 underline hover:text-green-600">packaging cost breakdown</Link> details per-unit pricing by quantity and printing method. If you're sourcing from overseas for the first time, the <Link href="/blog/import-custom-packaging-from-china-guide" className="text-green-700 underline hover:text-green-600">import from China guide</Link> covers freight, customs, and supplier vetting.
             </p>
 
+            <div className="mt-8 p-6 bg-green-50 rounded-xl border border-green-200">
+              <h3 className="text-lg font-bold text-gray-900 mb-2">📚 Deep Dive: The Ultimate Packaging Sourcing Guide</h3>
+              <p className="text-gray-600 text-sm mb-3">
+                Need to plan sampling timelines and production cycles across multiple suppliers? Our 9-chapter sourcing guide includes detailed Gantt charts for sampling workflows, production lead-time benchmarks by box type, and contingency planning for peak-season delays.
+              </p>
+              <Link href="/guide/ecommerce-packaging-sourcing" className="text-green-700 font-semibold text-sm hover:text-green-600 transition-colors">
+                Read the Full Guide →
+              </Link>
+            </div>
+
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
               5 Ways to Accelerate Your Packaging Timeline
             </h2>

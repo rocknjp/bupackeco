@@ -119,6 +119,16 @@ export default function CustomPackagingForStartupsGuide() {
               The good news: you no longer need to order 10,000 units to get started. Digital printing and flexible manufacturing have made <Link href="/products/paper-boxes" className="text-green-700 underline font-semibold">low-MOQ custom boxes</Link> accessible to brands shipping as few as 100 orders per month.
             </p>
 
+            <div className="mt-8 p-6 bg-green-50 rounded-xl border border-green-200">
+              <h3 className="text-lg font-bold text-gray-900 mb-2">📚 Deep Dive: The Ultimate Packaging Sourcing Guide</h3>
+              <p className="text-gray-600 text-sm mb-3">
+                Struggling with MOQ negotiation and supplier evaluation? Our 9-chapter sourcing guide covers MOQ strategies for startups, supplier vetting frameworks, sampling workflows, and compliance checklists — everything you need to find and qualify the right packaging partner.
+              </p>
+              <Link href="/guide/ecommerce-packaging-sourcing" className="text-green-700 font-semibold text-sm hover:text-green-600 transition-colors">
+                Read the Full Guide →
+              </Link>
+            </div>
+
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
               Budget Planning: What Startups Actually Pay
             </h2>

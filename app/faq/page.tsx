@@ -308,6 +308,32 @@ export default function FAQPage() {
         </section>
       ))}
 
+      {/* ── Guide CTA ── */}
+      <section className="py-16 px-4 bg-[#f9fdf8] border-y border-green-100">
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="inline-block bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full mb-4">
+            📚 Deep Dive
+          </div>
+          <h2 className="text-2xl font-bold text-gray-900 mb-3">
+            Want the Complete Packaging Sourcing Guide?
+          </h2>
+          <p className="text-gray-600 mb-6 leading-relaxed">
+            Our 9-chapter definitive guide covers everything in this FAQ and much more — supplier evaluation
+            checklists, cost optimization strategies, compliance requirements, real case studies with data,
+            and ready-to-use procurement toolkits.
+          </p>
+          <Link
+            href="/guide/ecommerce-packaging-sourcing"
+            className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-600 text-white px-6 py-3 rounded-xl font-semibold transition-colors"
+          >
+            Read the Ultimate Guide
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
+      </section>
+
       {/* ── 3. CTA ── */}
       <section className="py-20 px-4 bg-green-800 text-white">
         <div className="max-w-3xl mx-auto text-center">

@@ -231,6 +231,16 @@ export default function CustomPackagingCostBreakdown() {
               The same box from the same factory costs 40-60% more through a distributor. The quality is identical — the difference is the middleman margin. Read more about this in our <a href="/blog/import-custom-packaging-from-china-guide" className="text-green-700 underline hover:text-green-600">import guide</a>.
             </p>
 
+            <div className="mt-8 p-6 bg-green-50 rounded-xl border border-green-200">
+              <h3 className="text-lg font-bold text-gray-900 mb-2">📚 Deep Dive: The Ultimate Packaging Sourcing Guide</h3>
+              <p className="text-gray-600 text-sm mb-3">
+                Want to optimize your total packaging cost end-to-end? Our 9-chapter sourcing guide dives into cost control levers, total landed cost calculations, MOQ-vs-price tradeoffs, and negotiation tactics that help brands save 20-40% on every order.
+              </p>
+              <Link href="/guide/ecommerce-packaging-sourcing" className="text-green-700 font-semibold text-sm hover:text-green-600 transition-colors">
+                Read the Full Guide →
+              </Link>
+            </div>
+
             {/* Key Takeaways */}
             <div className="my-10 p-6 bg-green-50 rounded-2xl border border-green-200">
               <h3 className="text-lg font-bold text-green-800 mb-3">Key Takeaways</h3>

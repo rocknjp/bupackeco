@@ -149,6 +149,16 @@ export default function PackagingForSubscriptionBoxesGuide() {
               <strong>Recommendation:</strong> For most subscription businesses, a corrugated <a href="/products/custom-mailer-boxes" className="text-green-700 underline hover:text-green-600">mailer box</a> in E-flute is the best starting point. It offers the best balance of protection, print quality, cost, and unboxing experience. For premium tiers, <a href="/products/rigid-gift-boxes" className="text-green-700 underline font-semibold">rigid gift boxes</a> create a luxury feel. For beauty or sample subscriptions, <a href="/products/folding-cartons" className="text-green-700 underline font-semibold">folding cartons</a> are a cost-effective option. The same principles apply across verticals — from <Link href="/industries/pet-subscription" className="text-green-700 underline hover:text-green-600">pet subscription boxes</Link> to <Link href="/industries/tea-beverages" className="text-green-700 underline hover:text-green-600">tea subscription boxes</Link> — with insert choices adapted to product weight and fragility. Browse our full range of <a href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription box packaging</a> for more options.
             </p>
 
+            <div className="mt-8 p-6 bg-green-50 rounded-xl border border-green-200">
+              <h3 className="text-lg font-bold text-gray-900 mb-2">📚 Deep Dive: The Ultimate Packaging Sourcing Guide</h3>
+              <p className="text-gray-600 text-sm mb-3">
+                Still weighing box types, insert materials, and finishing options? Our 9-chapter sourcing guide features a full packaging-type decision matrix, side-by-side supplier comparisons, and scoring frameworks to help subscription brands pick the right structure on the first try.
+              </p>
+              <Link href="/guide/ecommerce-packaging-sourcing" className="text-green-700 font-semibold text-sm hover:text-green-600 transition-colors">
+                Read the Full Guide →
+              </Link>
+            </div>
+
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
               Monthly Design Rotation Strategy
             </h2>

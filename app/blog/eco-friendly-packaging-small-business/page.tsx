@@ -196,6 +196,16 @@ export default function EcoFriendlyPackagingSmallBusiness() {
           <p className="text-gray-700 leading-relaxed mb-2"><strong>ISO 14001</strong> — Environmental management system certification. More relevant for B2B credibility than consumer marketing. If you sell through wholesale channels or to larger retailers, this may be required.</p>
           <p className="text-gray-700 leading-relaxed mb-4"><strong>Recycled Content Certification</strong> — Verifies the percentage of post-consumer waste (PCW) in your packaging. Some retailers require minimum recycled content thresholds. Common claims: &quot;70% PCW&quot; or &quot;100% recycled content.&quot;</p>
 
+          <div className="mt-8 p-6 bg-green-50 rounded-xl border border-green-200">
+            <h3 className="text-lg font-bold text-gray-900 mb-2">📚 Deep Dive: The Ultimate Packaging Sourcing Guide</h3>
+            <p className="text-gray-600 text-sm mb-3">
+              Need to navigate FSC certification, EN 13432 compostability, and retailer compliance requirements end-to-end? Our 9-chapter sourcing guide breaks down every certification, audits suppliers against compliance checklists, and includes a printable FSC chain-of-custody documentation template.
+            </p>
+            <Link href="/guide/ecommerce-packaging-sourcing" className="text-green-700 font-semibold text-sm hover:text-green-600 transition-colors">
+              Read the Full Guide →
+            </Link>
+          </div>
+
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
             Cost Comparison: Eco vs Conventional Packaging
           </h2>
