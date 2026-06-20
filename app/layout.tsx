@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { SiteSchema } from "@/components/Schema";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.bupackeco.com"),
@@ -43,6 +44,19 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <SiteSchema />
+        {/* Google Analytics GA4 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-TJSE5T9KS"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-TJSE5T9KS');
+          `}
+        </Script>
       </head>
       <body className="font-sans">
         <Navbar />
