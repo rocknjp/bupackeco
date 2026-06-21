@@ -18,16 +18,21 @@ export function SiteSchema() {
             "@context": "https://schema.org",
             "@type": "Organization",
             name: "BUpack",
+            alternateName: [
+              "Bejan Giant New Packaging",
+              "BEJAN GIANT",
+              "Qingdao Bejan Giant New Packaging Science and Technology Co., Ltd.",
+              "BUpack Packaging",
+            ],
             url: baseUrl,
             logo: `${baseUrl}/images/bupack-logo.png`,
             description:
               "FSC-certified custom paper boxes and bags manufacturer for DTC and eCommerce brands. Low MOQ from 100 units, owned factory in Qingdao, ships to North America.",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "No. 268, Haier Road, Laoshan District",
+              streetAddress: "No. 96, Tianfeng North Road, Chengyang District",
               addressLocality: "Qingdao",
               addressRegion: "Shandong",
-              postalCode: "266100",
               addressCountry: "CN",
             },
             areaServed: [
@@ -43,8 +48,14 @@ export function SiteSchema() {
               description: "Wholesale custom packaging, MOQ from 100 units",
             },
             sameAs: [
-              "https://www.linkedin.com/company/bupack",
-              "https://www.instagram.com/bupack",
+              "https://www.bzpackage.com",
+              "https://bzpackage.en.alibaba.com",
+              "https://www.qingdaobaina.com",
+              "https://www.linkedin.com/company/bejan-giant-new-packaging",
+              "https://www.tiktok.com/@bejangiant",
+              "https://www.youtube.com/@BejanGiantNewPackaging",
+              "https://x.com/BejanGiant",
+              "https://www.facebook.com/BejanGiant",
             ],
             contactPoint: {
               "@type": "ContactPoint",

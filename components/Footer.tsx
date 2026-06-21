@@ -106,6 +106,15 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
+            {/* Cross-platform links */}
+            <div className="mt-5 pt-4 border-t border-gray-800">
+              <h4 className="text-gray-500 text-xs font-semibold uppercase tracking-wide mb-2">Partner Sites</h4>
+              <ul className="space-y-1.5 text-xs">
+                <li><a href="https://www.bzpackage.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Full Catalog (bzpackage.com)</a></li>
+                <li><a href="https://bzpackage.en.alibaba.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Alibaba Gold Supplier Store</a></li>
+                <li><a href="https://www.qingdaobaina.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Social Media Hub</a></li>
+              </ul>
+            </div>
           </div>
         </div>
 
