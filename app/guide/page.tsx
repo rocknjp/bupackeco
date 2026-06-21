@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/guide",
   },
+  openGraph: {
+    title: "Packaging Guides for Ecommerce Brands | BUpack",
+    description:
+      "Expert guides on custom packaging sourcing, compliance, cost optimization, and supplier evaluation for US ecommerce brands. Free toolkits, templates, and real case studies.",
+    url: "https://www.bupackeco.com/guide",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Packaging Guides for Ecommerce Brands | BUpack",
+    description:
+      "Expert guides on custom packaging sourcing, compliance, cost optimization, and supplier evaluation for US ecommerce brands. Free toolkits, templates, and real case studies.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 const guides = [

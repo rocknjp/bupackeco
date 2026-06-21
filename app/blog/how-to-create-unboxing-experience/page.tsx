@@ -128,7 +128,7 @@ export default function HowToCreateUnboxingExperience() {
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Layer 3: The product</strong> — Nestled in a custom insert or surrounded by kraft paper cushioning. The product should feel presented, not packed.</p>
           <p className="text-gray-700 leading-relaxed mb-4"><strong>Layer 4: The surprise</strong> — A hidden message on the inside lid, a thank-you card, a sample, or a QR code. This is the moment that makes people reach for their camera.</p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>Real example:</strong> Apple&apos;s iPhone packaging is the gold standard of layered reveal. The slow-slide lid, the precisely fitted inserts, the document envelope underneath — every layer is engineered to build anticipation. You can achieve a similar effect at a fraction of the cost with a custom mailer box, branded tissue, and a printed insert card.
+            <strong>Real example:</strong> Apple&apos;s iPhone packaging is the gold standard of layered reveal. The slow-slide lid, the precisely fitted inserts, the document envelope underneath — every layer is engineered to build anticipation. You can achieve a similar effect at a fraction of the cost with a custom mailer box, branded tissue, and a printed insert card. For more inspiration, explore our collection of <Link href="/blog/branded-packaging-ideas-ecommerce" className="text-green-700 underline hover:text-green-600">branded packaging ideas for ecommerce brands</Link> — from minimalist luxury to bold pattern-driven designs.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
@@ -198,7 +198,9 @@ export default function HowToCreateUnboxingExperience() {
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Swap the insert card</strong> — Cheapest seasonal refresh. Design a new card for each season or holiday. Cost: $0.05-0.10 per card.</p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Change tissue paper color</strong> — Holiday red, spring pastel, summer bright. Cost: $0.01-0.03 more per sheet than standard white.</p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Add a themed sticker seal</strong> — Seasonal designs cost pennies and transform the opening moment. Cost: $0.05-0.10 each.</p>
-          <p className="text-gray-700 leading-relaxed mb-4"><strong>Use a sleeve box system</strong> — The base box stays the same year-round; only the printed paper sleeve changes with each season. This cuts seasonal packaging costs by 40-60% compared to a fully new box design.</p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            <strong>Use a sleeve box system</strong> — The base box stays the same year-round; only the printed paper sleeve changes with each season. This cuts seasonal packaging costs by 40-60% compared to a fully new box design. For a complete playbook on seasonal execution, read our <Link href="/blog/seasonal-packaging-strategy" className="text-green-700 underline hover:text-green-600">seasonal packaging strategy guide</Link> — covering holiday planning, limited-edition drops, and Q4 readiness.
+          </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
             Strategy 8: Encourage & Incentivize Sharing
@@ -244,6 +246,10 @@ export default function HowToCreateUnboxingExperience() {
             </table>
           </div>
 
+          <p className="text-gray-700 leading-relaxed mb-4">
+            For subscription brands, the unboxing experience is your single most important retention tool — it's the moment that determines whether a subscriber stays or cancels. Our <Link href="/blog/packaging-for-subscription-boxes-guide" className="text-green-700 underline hover:text-green-600">subscription box packaging guide</Link> covers monthly theme refreshes, cost-per-box optimization, and retention-focused design strategies.
+          </p>
+
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
             The ROI of a Great Unboxing Experience
           </h2>
@@ -265,7 +271,7 @@ export default function HowToCreateUnboxingExperience() {
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Custom inserts</strong> — die-cut corrugated or paperboard inserts that hold your product perfectly. No bubble wrap needed.</p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Branded tissue paper</strong> — custom printed tissue from 1,000 sheets. Your logo or pattern on every layer.</p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>Sticker seals</strong> — branded sticker seals from 500 units. The ceremonial finishing touch.</p>
-          <p className="text-gray-700 leading-relaxed mb-4"><strong>FSC-certified materials</strong> with soy-based ink and water-based coatings — sustainable unboxing that your customers will love. Flexible MOQ starting from 100 units for <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</a>, <a href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription boxes</a>, and insert cards.</p>
+          <p className="text-gray-700 leading-relaxed mb-4"><strong>FSC-certified materials</strong> with soy-based ink and water-based coatings — sustainable unboxing that your customers will love. For luxury and gift-oriented products, our <Link href="/products/rigid-gift-boxes" className="text-green-700 underline hover:text-green-600">rigid gift boxes</Link> with magnetic closures deliver the most premium unboxing experience — starting at 500 units MOQ with full customization. Flexible MOQ starting from 100 units for <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</a>, <a href="/products/subscription-boxes" className="text-green-700 underline font-semibold">subscription boxes</a>, and insert cards.</p>
 
         </div>
 

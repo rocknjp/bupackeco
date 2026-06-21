@@ -224,7 +224,7 @@ export default function CustomBoxesOverseasManufacturer() {
           </div>
 
           <p className="text-gray-700 leading-relaxed mb-4">
-            For first-time importers, we recommend <strong>DDP (Delivered Duty Paid)</strong> shipping. You pay one price that includes freight, customs clearance, and duties — no surprise charges at delivery. Most paper boxes fall under HTS code 4819.10 with 0% US import duty.
+            For first-time importers, we recommend <strong>DDP (Delivered Duty Paid)</strong> shipping. You pay one price that includes freight, customs clearance, and duties — no surprise charges at delivery. Most paper boxes fall under HTS code 4819.10 with 0% US import duty. For a step-by-step walkthrough of the entire import process, see our <Link href="/blog/import-custom-packaging-from-china-guide" className="text-green-700 underline hover:text-green-600">complete guide to importing custom packaging from China</Link>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
@@ -309,6 +309,10 @@ export default function CustomBoxesOverseasManufacturer() {
           <p className="text-gray-700 leading-relaxed mb-2"><strong>3. Not planning for shipping time.</strong> Ocean freight takes 3-4 weeks. If you need boxes by a specific date, work backward and add a 2-week buffer.</p>
           <p className="text-gray-700 leading-relaxed mb-4"><strong>4. Ignoring cultural differences in communication.</strong> Chinese suppliers may say &quot;no problem&quot; to save face even when there is a problem. Ask specific, measurable questions: &quot;Can you ship by June 15?&quot; rather than &quot;Can you ship soon?&quot;</p>
 
+          <p className="text-gray-700 leading-relaxed mb-4">
+            These best practices apply across industries, but the stakes are especially high in appearance-driven categories. For <Link href="/industries/cosmetics-beauty" className="text-green-700 underline hover:text-green-600">cosmetics and beauty brands</Link>, packaging quality directly influences perceived product value — a scuffed box or misaligned print can undermine a $50 serum&apos;s credibility before the customer even tries it.
+          </p>
+
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
             How BUpack Makes Overseas Manufacturing Easy
           </h2>
@@ -319,7 +323,7 @@ export default function CustomBoxesOverseasManufacturer() {
           <p className="text-gray-700 leading-relaxed mb-2"><strong>FSC and ISO 9001 certified factory</strong> with full chain of custody documentation. Certificates available on request.</p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>3-stage QC process</strong> with photo documentation at every checkpoint. You see your boxes before they ship.</p>
           <p className="text-gray-700 leading-relaxed mb-2"><strong>DDP shipping available</strong> so you don&apos;t deal with customs. One price, delivered to your door.</p>
-          <p className="text-gray-700 leading-relaxed mb-4"><strong>Flexible MOQ from 100 units</strong> so you can test before you scale. All our <a href="/products/paper-boxes" className="text-green-700 underline">custom paper boxes</a> and <a href="/products/paper-bags" className="text-green-700 underline">paper bags</a> are available in FSC-certified materials with soy-based ink.</p>
+          <p className="text-gray-700 leading-relaxed mb-4"><strong>Flexible MOQ from 100 units</strong> so you can test before you scale. All our <a href="/products/paper-boxes" className="text-green-700 underline">custom paper boxes</a> and <a href="/products/paper-bags" className="text-green-700 underline">paper bags</a> are available in FSC-certified materials with soy-based ink. If you&apos;re a startup navigating packaging for the first time, our <Link href="/blog/custom-packaging-for-startups-guide" className="text-green-700 underline hover:text-green-600">custom packaging guide for startups</Link> walks you through the entire process — from design to delivery.</p>
 
         </div>
 

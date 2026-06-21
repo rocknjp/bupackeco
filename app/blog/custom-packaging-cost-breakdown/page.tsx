@@ -193,7 +193,7 @@ export default function CustomPackagingCostBreakdown() {
               Cost Component 5: Shipping & Logistics (10-20% of Total Cost)
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Shipping is often underestimated. Here's what to budget for different scenarios:
+              Shipping is often underestimated. Here's what to budget for different scenarios. To plan your entire production timeline — from artwork submission to warehouse delivery — see our <Link href="/blog/custom-packaging-timeline-guide" className="text-green-700 underline hover:text-green-600">custom packaging timeline guide</Link> for a week-by-week breakdown.
             </p>
             <ul className="list-disc list-inside mb-4 text-gray-700 space-y-2">
               <li><strong>Air freight:</strong> $0.40-$0.80/unit for 200-500 units. Fast but expensive. Best for first orders and time-sensitive launches.</li>
@@ -231,6 +231,10 @@ export default function CustomPackagingCostBreakdown() {
               The same box from the same factory costs 40-60% more through a distributor. The quality is identical — the difference is the middleman margin. Read more about this in our <a href="/blog/import-custom-packaging-from-china-guide" className="text-green-700 underline hover:text-green-600">import guide</a>.
             </p>
 
+            <p className="text-gray-700 leading-relaxed mb-4">
+              The printing method you choose has an outsized impact on both cost and turnaround. For a deeper comparison, our <Link href="/blog/digital-printing-vs-offset-packaging" className="text-green-700 underline hover:text-green-600">digital printing vs. offset packaging guide</Link> breaks down when each method makes financial sense — and how to avoid overpaying on plate fees for small runs.
+            </p>
+
             <div className="mt-8 p-6 bg-green-50 rounded-xl border border-green-200">
               <h3 className="text-lg font-bold text-gray-900 mb-2">📚 Deep Dive: The Ultimate Packaging Sourcing Guide</h3>
               <p className="text-gray-600 text-sm mb-3">
@@ -251,6 +255,7 @@ export default function CustomPackagingCostBreakdown() {
                 <li>Shipping is 10-20% of total cost — ocean freight saves 60-70% vs air</li>
                 <li>Factory-direct pricing from BUpack eliminates 40-60% distributor markup</li>
                 <li>Always compare total cost (setup + per-unit x quantity), not just unit price</li>
+                <li>Choosing <Link href="/fsc-certified-packaging" className="text-green-800 underline hover:text-green-600">FSC-certified packaging</Link> adds minimal cost (typically 5-10% premium on materials) while meeting retailer requirements and boosting consumer trust</li>
               </ul>
             </div>
 

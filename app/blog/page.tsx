@@ -328,6 +328,17 @@ const posts = [
     featured: false,
     emoji: "🌿",
   },
+  {
+    slug: "custom-supplement-packaging-guide",
+    title: "Custom Supplement Packaging Guide: FDA-Compliant, Eco-Friendly Designs",
+    excerpt:
+      "Complete guide to custom supplement and vitamin packaging. FDA-compliant materials, child-resistant options, and eco-friendly designs. Low MOQ from 100 units from BUpack.",
+    category: "Packaging 101",
+    date: "June 21, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "💊",
+  },
 ];
 
 export default function BlogPage() {

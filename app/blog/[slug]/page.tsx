@@ -1690,6 +1690,50 @@ Print the FSC label on packaging (BUpack handles compliance). Add "Packaged in F
 At BUpack, FSC-certified paper adds $0.00-$0.05 per unit — essentially no price difference. The marketing and trust benefits far outweigh the negligible cost.
 `,
   },
+  {
+    slug: "custom-supplement-packaging-guide",
+    title: "Custom Supplement Packaging Guide: FDA-Compliant, Eco-Friendly Designs",
+    excerpt: "Complete guide to custom supplement and vitamin packaging. FDA-compliant materials, child-resistant options, and eco-friendly designs. Low MOQ from 100 units from BUpack.",
+    category: "Packaging 101",
+    date: "June 21, 2026",
+    readTime: "10 min",
+    emoji: "💊",
+    body: `
+## Why Supplement Packaging Matters
+
+The global dietary supplements market is projected to reach $327 billion by 2030, growing at 8.9% CAGR. In this crowded space, your packaging isn't just a container — it's your brand's first physical impression, a trust signal, and a regulatory requirement all rolled into one.
+
+For supplement brands, packaging serves three critical functions: brand differentiation, FDA regulatory compliance, and product protection against moisture, light, and contamination. For DTC supplement brands shipping directly to consumers, custom mailer boxes with branded interiors create the kind of memorable experience that drives repeat purchases and social shares.
+
+### Types of Supplement Packaging
+
+**Custom Mailer Boxes** — Durable corrugated boxes for DTC shipping with full-color interior/exterior printing. Our <a href="/products/custom-mailer-boxes">custom mailer boxes</a> are available from 100 units.
+
+**Folding Cartons** — Lightweight paperboard cartons for retail shelf presence. Support tamper-evident seals and child-resistant locking mechanisms. Ship flat, assemble easily.
+
+**Bottle Inserts and Sleeves** — Cost-effective branding additions for bottle-packaged supplements. Hold bottles securely and add shelf presence.
+
+### FDA Compliance
+
+Supplement packaging operates under FDA 21 CFR Part 111. Key requirements: indirect food contact safety (food-grade inks and coatings), tamper-evident features, Supplement Facts panel accommodation, and moisture/light barrier protection. BUpack uses FDA-compliant soy-based inks and water-based coatings on all supplement packaging.
+
+### Child-Resistant Packaging
+
+Required under the Poison Prevention Packaging Act for supplements containing iron (250mg+). Recommended for gummy vitamins. Options include push-and-turn caps, CR-certified folding cartons, squeeze-and-lift closures, and slide-lock mechanisms.
+
+### Eco-Friendly Options
+
+78% of supplement buyers consider sustainable packaging important. BUpack offers FSC-certified paperboard, PCR recycled content up to 100%, soy-based inks, water-based coatings, and fully recyclable designs. See our <a href="/fsc-certified-packaging">FSC-certified packaging</a> page.
+
+### Subscription Brand Strategy
+
+Monthly design rotation using digital printing keeps the unboxing experience fresh. Strategy: consistent exterior (bulk order 2,000-5,000 units) + rotating interior printing monthly. Start with digital printing, scale to offset at 2,000+ subscribers.
+
+### Cost Breakdown
+
+Folding cartons: $0.60-$2.50/unit depending on volume. Mailer boxes: $1.00-$4.00/unit. Bottle inserts: $0.08-$0.50/unit. Custom sleeves: $0.25-$1.20/unit. Start at 100 units with zero plate fees using digital printing.
+`,
+  },
 ];
 
 // ============================================================

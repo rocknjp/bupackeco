@@ -9,6 +9,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.bupackeco.com/guide/ecommerce-packaging-sourcing",
   },
+  openGraph: {
+    title: "Ultimate Ecommerce Packaging Sourcing Guide for US Brands | BUpack",
+    description:
+      "The definitive guide to custom packaging sourcing for US ecommerce brands. Covers MOQ, sampling, production timelines, supplier evaluation, FSC compliance, cost optimization, and real case studies with data.",
+    url: "https://www.bupackeco.com/guide/ecommerce-packaging-sourcing",
+    siteName: "BUpack",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.bupackeco.com/images/bupack-og-hero.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ultimate Ecommerce Packaging Sourcing Guide for US Brands | BUpack",
+    description:
+      "The definitive guide to custom packaging sourcing for US ecommerce brands. Covers MOQ, sampling, production timelines, supplier evaluation, FSC compliance, cost optimization, and real case studies with data.",
+    images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
+  },
 };
 
 /* ── chapter data ── */
