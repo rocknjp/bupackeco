@@ -73,6 +73,7 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/blog/packaging-for-subscription-boxes-guide", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/why-fsc-certification-matters-packaging", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/custom-supplement-packaging-guide", lastmod: "2026-06-21", changefreq: "monthly", priority: 0.6 },
+  { path: "/blog/custom-electronics-packaging-guide", lastmod: "2026-06-22", changefreq: "monthly", priority: 0.6 },
   { path: "/privacy", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.3 },
   { path: "/terms", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.3 },
 ];

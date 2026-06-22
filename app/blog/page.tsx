@@ -339,6 +339,17 @@ const posts = [
     featured: false,
     emoji: "💊",
   },
+  {
+    slug: "custom-electronics-packaging-guide",
+    title: "Custom Electronics Packaging Guide: Drop-Tested, ESD-Safe, Premium Unboxing",
+    excerpt:
+      "Complete guide to custom electronics packaging. Anti-static materials, drop-tested mailers, and premium unboxing for tech brands. Low MOQ from 100 units from BUpack.",
+    category: "Packaging 101",
+    date: "June 22, 2026",
+    readTime: "11 min",
+    featured: false,
+    emoji: "📦",
+  },
 ];
 
 export default function BlogPage() {
