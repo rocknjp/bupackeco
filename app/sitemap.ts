@@ -41,6 +41,8 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/blog/digital-printing-vs-offset-packaging", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/compostable-packaging-alternatives", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
   { path: "/compare/rigid-vs-corrugated-boxes", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.7 },
+  { path: "/compare/bupack-vs-arka", lastmod: "2026-06-23", changefreq: "monthly", priority: 0.8 },
+  { path: "/compare/bupack-vs-packlane", lastmod: "2026-06-23", changefreq: "monthly", priority: 0.8 },
   { path: "/case-studies", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.7 },
   { path: "/case-studies/makeup-brush-brand-launch", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.7 },
   { path: "/case-studies/fragrance-gift-box-600-sales", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.7 },
