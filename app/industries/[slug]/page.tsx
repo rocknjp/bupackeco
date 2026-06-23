@@ -8,10 +8,36 @@ interface IndustryPageProps {
   params: Promise<{ slug: string }>
 }
 
-const industries = {
+interface IdentitySlogan {
+  zh: string
+  en: string
+}
+
+interface IndustryData {
+  name: string
+  tagline: string
+  identitySlogan?: IdentitySlogan
+  heroImage: string
+  color: string
+  icon: string
+  whyBUpack: string
+  painPoints: string[]
+  solutions: { title: string; desc: string; image: string }[]
+  caseStudy: { brand: string; stage: string; challenge: string; solution: string; result: string }
+  recommendedProducts: { name: string; href: string }[]
+  packagingTypes: { type: string; desc: string; icon: string }[]
+  seoKeywords: string
+  faqs: { q: string; a: string }[]
+}
+
+const industries: Record<string, IndustryData> = {
   "candles-fragrance": {
     name: "Candles & Home Fragrance",
     tagline: "Your candle deserves a box as beautiful as its scent",
+    identitySlogan: {
+      zh: "烛光化美学，包装点睛",
+      en: "From glow to art, packaging completes",
+    },
     heroImage: "/images/industry_cosmetics.jpg",
     color: "from-amber-500 to-orange-600",
     icon: "🕯️",
@@ -69,6 +95,10 @@ const industries = {
   "jewelry": {
     name: "Jewelry & Accessories",
     tagline: "Small product, big moment — make the box part of the story",
+    identitySlogan: {
+      zh: "珠宝见真我，盒启故事",
+      en: "Jewelry reveals self, box begins story",
+    },
     heroImage: "/images/industry_jewelry.jpg",
     color: "from-violet-600 to-purple-800",
     icon: "💍",
@@ -350,6 +380,10 @@ const industries = {
   "cosmetics-beauty": {
     name: "Cosmetics & Beauty",
     tagline: "Your product deserves packaging as beautiful as the formula inside",
+    identitySlogan: {
+      zh: "香气到身份，一盒跨越",
+      en: "From fragrance to identity, one box bridges",
+    },
     heroImage: "/images/industry_cosmetics.jpg",
     color: "from-pink-500 to-rose-600",
     icon: "💄",
@@ -407,6 +441,10 @@ const industries = {
   "wine-spirits": {
     name: "Wine & Spirits",
     tagline: "The box that makes your bottle a gift before it's even opened",
+    identitySlogan: {
+      zh: "佳酿至品味，礼盒为证",
+      en: "From vintage to taste, packaging bears witness",
+    },
     heroImage: "/images/industry_wine.jpg",
     color: "from-red-800 to-burgundy-900",
     icon: "🍷",
@@ -721,13 +759,26 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
       {/* Hero */}
       <section className={`relative bg-gradient-to-br ${industry.color} text-white py-24 pt-32`}>
         <div className="absolute inset-0 opacity-15">
-          <Image src={industry.heroImage} alt={industry.name} fill className="object-cover" />
+          <Image src={industry.heroImage} alt={`${industry.name} packaging by BUpack`} fill className="object-cover" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <Link href="/" className="text-white/70 hover:text-white text-sm mb-4 inline-block transition-colors">← Back to Home</Link>
           <div className="text-5xl mb-4">{industry.icon}</div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">{industry.name}</h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto">{industry.tagline}</p>
+          {/* Identity Transformation Slogan — prominently displayed */}
+          {industry.identitySlogan && (
+            <div className="mt-8 max-w-xl mx-auto">
+              <div className="inline-block bg-white/15 backdrop-blur-sm border border-white/30 rounded-2xl px-8 py-6 shadow-lg">
+                <p className="text-2xl md:text-3xl font-serif italic text-white leading-relaxed tracking-wide">
+                  {industry.identitySlogan.zh}
+                </p>
+                <p className="text-lg md:text-xl font-light text-white/80 mt-2 tracking-wider">
+                  {industry.identitySlogan.en}
+                </p>
+              </div>
+            </div>
+          )}
         </div>
       </section>
 

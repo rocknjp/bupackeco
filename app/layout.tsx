@@ -10,7 +10,7 @@ const GA4_ID = process.env.NEXT_PUBLIC_GA_ID || "G-TJSE5T9KS";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.bupackeco.com"),
-  title: "Custom Paper Packaging Manufacturer | Eco-Friendly, Low MOQ | BUpack",
+  title: "Custom Eco Packaging Manufacturer | Low MOQ | BUpack",
   description:
     "FSC-certified custom paper boxes & bags. Low MOQ from 100 units, owned factory in Qingdao. Free samples, fast production. Ships to North America.",
   keywords:
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     google: "0UiMWYGj7TuSenx5PyIWZZ5N-l9jecBQW30rxEvTBUA",
   },
   openGraph: {
-    title: "Custom Paper Packaging Manufacturer | Eco-Friendly, Low MOQ | BUpack",
+    title: "Custom Eco Packaging Manufacturer | Low MOQ | BUpack",
     description:
       "FSC-certified custom paper boxes & bags. Low MOQ from 100 units, owned factory in Qingdao. Free samples, fast production.",
     url: "https://www.bupackeco.com",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Custom Paper Packaging Manufacturer | Eco-Friendly, Low MOQ | BUpack",
+    title: "Custom Eco Packaging Manufacturer | Low MOQ | BUpack",
     description:
       "FSC-certified custom paper boxes & bags. Low MOQ from 100 units. Ships to North America.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],

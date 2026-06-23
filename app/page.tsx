@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Custom Paper Packaging Manufacturer | Low MOQ, FSC-Certified | BUpack – Qingdao Bejan Giant",
+  title: "Custom Eco Packaging | Low MOQ, FSC-Certified | BUpack",
   description:
     "Qingdao Bejan Giant (BUpack) — 17 years of expertise in custom rigid boxes, cardstock boxes, corrugated boxes & paper bags. FSC & ISO 9001 certified, owned 10,000㎡ factory, Fortune 500 trusted vendor. Flexible MOQ, 3-day sampling.",
   alternates: {

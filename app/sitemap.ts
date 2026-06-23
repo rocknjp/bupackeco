@@ -4,6 +4,7 @@ import { MetadataRoute } from "next";
 const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "monthly"; priority: number }[] = [
   { path: "", lastmod: "2026-06-13", changefreq: "weekly", priority: 1.0 },
   { path: "/about", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.7 },
+  { path: "/factory", lastmod: "2026-06-23", changefreq: "monthly", priority: 0.9 },
   { path: "/products", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.8 },
   { path: "/products/paper-boxes", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.8 },
   { path: "/products/paper-bags", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.8 },

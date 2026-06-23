@@ -341,7 +341,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
       {/* ── HERO ───────────────────────────────────────────── */}
       <section className={`relative bg-gradient-to-br ${product.color} text-white py-24 pt-32`}>
         <div className="absolute inset-0 opacity-20">
-          <Image src={product.heroImage} alt={product.name} fill className="object-cover" />
+          <Image src={product.heroImage} alt={`${product.name} — ${product.tagline}`} fill className="object-cover" />
         </div>
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
@@ -609,7 +609,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   <div className="relative h-40 bg-gray-100">
                     <Image
                       src={relProduct?.heroImage || "/images/factory_hero.jpg"}
-                      alt={rel.name}
+                      alt={`${rel.name} — ${rel.tagline}`}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />

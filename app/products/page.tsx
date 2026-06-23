@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { CollectionPageSchema, BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Custom Paper Boxes & Bags | Low MOQ 100pcs | Eco Packaging Manufacturer | BUpack",
+  title: "Custom Paper Boxes & Bags | Low MOQ 100pcs | BUpack",
   description:
     "FSC-certified custom paper boxes and bags for eCommerce brands. Low MOQ from 100 units, wholesale pricing, soy-based ink, free sample kit. Factory-direct in Qingdao, ships to North America.",
   alternates: {

@@ -31,6 +31,9 @@ export default function Navbar() {
             <Link href="/industries" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
               Industries
             </Link>
+            <Link href="/factory" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
+              Our Factory
+            </Link>
             <Link href="/eco" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
               Sustainability
             </Link>
@@ -76,6 +79,7 @@ export default function Navbar() {
               <Link href="/" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Home</Link>
               <Link href="/products#ecommerce-boxes" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Products</Link>
               <Link href="/industries" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Industries</Link>
+              <Link href="/factory" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Our Factory</Link>
               <Link href="/eco" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Sustainability</Link>
               <Link href="/blog" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Blog</Link>
               <Link href="/guide" className="text-gray-700 hover:text-green-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Guides</Link>
