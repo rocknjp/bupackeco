@@ -27,10 +27,7 @@ const industryList = [
     icon: "🕯️",
     desc: "Drop-tested mailer boxes with precision-cut inserts that protect glass jars during shipping. Holiday gift sets, monthly subscription boxes, and branded sleeves.",
     tags: ["Mailer Boxes", "Gift Sets", "Subscription"],
-    identitySlogan: {
-      zh: "烛光化美学，包装点睛",
-      en: "From glow to art, packaging completes",
-    },
+    identitySlogan: "From glow to art, packaging completes",
   },
   {
     slug: "jewelry",
@@ -38,10 +35,7 @@ const industryList = [
     icon: "💍",
     desc: "Velvet-lined rigid boxes with magnetic closure, custom monogram embossing, and travel pouches. Designed to photograph beautifully for Instagram and proposal posts.",
     tags: ["Rigid Boxes", "Velvet Insert", "Magnetic Closure"],
-    identitySlogan: {
-      zh: "珠宝见真我，盒启故事",
-      en: "Jewelry reveals self, box begins story",
-    },
+    identitySlogan: "Jewelry reveals self, box begins story",
   },
   {
     slug: "chocolate-confectionery",
@@ -49,6 +43,7 @@ const industryList = [
     icon: "🍫",
     desc: "FDA-compliant gift boxes with food-safe inks and windowed presentation. Precision-cut trays keep truffles and confections perfectly in place.",
     tags: ["FDA Compliant", "Window Boxes", "Gift Sets"],
+    identitySlogan: "From sweetness to indulgence, packaging elevates",
   },
   {
     slug: "stationery-gifts",
@@ -56,6 +51,7 @@ const industryList = [
     icon: "✒️",
     desc: "Slim-profile mailers for notebooks and planners. Multi-compartment gift sets for journal + pen combos. Reusable keepsake boxes customers actually keep.",
     tags: ["Flat Mailers", "Gift Sets", "Keepsake Boxes"],
+    identitySlogan: "From craft to legacy, packaging preserves",
   },
   {
     slug: "tea-beverages",
@@ -63,6 +59,7 @@ const industryList = [
     icon: "🍵",
     desc: "Drawer-style tea boxes with organized sachet compartments. Monthly subscription boxes with rotating seasonal artwork. Tasting guide inserts included.",
     tags: ["Drawer Boxes", "Subscription", "Gift Sets"],
+    identitySlogan: "From leaf to ritual, packaging transforms",
   },
   {
     slug: "pet-subscription",
@@ -70,6 +67,7 @@ const industryList = [
     icon: "🐾",
     desc: "Monthly themed boxes with pet-safe soy-based inks. Divided interiors for treats + toys + accessories. Direct-ship ready — no outer carton needed.",
     tags: ["Subscription", "Pet-Safe Ink", "Divided Interior"],
+    identitySlogan: "From treat to bond, packaging delivers",
   },
   {
     slug: "cosmetics-beauty",
@@ -77,10 +75,7 @@ const industryList = [
     icon: "💄",
     desc: "Custom mailer boxes with precision inserts for glass skincare bottles. Luxury gift sets with EVA foam compartments. Subscription boxes with monthly design refreshes.",
     tags: ["Skincare Packaging", "Gift Sets", "Subscription"],
-    identitySlogan: {
-      zh: "香气到身份，一盒跨越",
-      en: "From fragrance to identity, one box bridges",
-    },
+    identitySlogan: "From fragrance to identity, one box bridges",
   },
   {
     slug: "wine-spirits",
@@ -88,10 +83,7 @@ const industryList = [
     icon: "🍷",
     desc: "Protective wine bottle boxes with molded pulp inserts. Premium gift sets with wine + glasses compartments. Quarterly wine club shipment boxes.",
     tags: ["Bottle Protection", "Gift Sets", "Wine Club"],
-    identitySlogan: {
-      zh: "佳酿至品味，礼盒为证",
-      en: "From vintage to taste, packaging bears witness",
-    },
+    identitySlogan: "From vintage to taste, packaging bears witness",
   },
   {
     slug: "apparel-fashion",
@@ -99,6 +91,7 @@ const industryList = [
     icon: "👗",
     desc: "Branded corrugated mailers that keep garments flat and wrinkle-free. Styling boxes with tissue and inserts. Monthly style subscription boxes.",
     tags: ["Apparel Mailers", "Gift Boxes", "Subscription"],
+    identitySlogan: "From fabric to statement, packaging defines",
   },
   {
     slug: "bakery-food",
@@ -106,6 +99,7 @@ const industryList = [
     icon: "🥐",
     desc: "FDA-compliant packaging with food-safe inks and windowed presentation. Custom inserts for cookies, macarons, and pastries. Seasonal gift boxes for holidays.",
     tags: ["FDA Compliant", "Window Boxes", "Gift Sets"],
+    identitySlogan: "From recipe to ritual, packaging presents",
   },
   {
     slug: "cbd-hemp",
@@ -113,6 +107,7 @@ const industryList = [
     icon: "🌿",
     desc: "Child-resistant certified packaging with premium finishes. Compliant display boxes with required warning labels. Subscription boxes with regulatory compliance built in.",
     tags: ["Child-Resistant", "Compliant", "Premium Finish"],
+    identitySlogan: "From nature to wellness, packaging safeguards",
   },
 ];
 
@@ -145,17 +140,12 @@ export default function IndustriesPage() {
                 <h2 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-green-700 transition-colors">
                   {ind.name}
                 </h2>
-                {/* Identity Transformation Slogan — prominent display */}
-                {ind.identitySlogan && (
-                  <div className="mb-4 bg-gradient-to-r from-green-700 to-emerald-600 text-white rounded-xl px-5 py-3 shadow-md">
-                    <p className="font-serif italic text-base tracking-wide leading-snug">
-                      {ind.identitySlogan.zh}
-                    </p>
-                    <p className="text-sm font-light text-white/80 mt-1 tracking-wider">
-                      {ind.identitySlogan.en}
-                    </p>
-                  </div>
-                )}
+                {/* Identity Transformation Slogan — every industry, single-line English */}
+                <div className="mb-4 bg-gradient-to-r from-green-700 to-emerald-600 text-white rounded-xl px-5 py-3">
+                  <p className="font-serif italic text-base tracking-wide">
+                    {ind.identitySlogan}
+                  </p>
+                </div>
                 <p className="text-gray-600 text-sm leading-relaxed mb-5">
                   {ind.desc}
                 </p>

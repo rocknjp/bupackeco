@@ -8,15 +8,10 @@ interface IndustryPageProps {
   params: Promise<{ slug: string }>
 }
 
-interface IdentitySlogan {
-  zh: string
-  en: string
-}
-
 interface IndustryData {
   name: string
   tagline: string
-  identitySlogan?: IdentitySlogan
+  identitySlogan: string
   heroImage: string
   color: string
   icon: string
@@ -34,10 +29,7 @@ const industries: Record<string, IndustryData> = {
   "candles-fragrance": {
     name: "Candles & Home Fragrance",
     tagline: "Your candle deserves a box as beautiful as its scent",
-    identitySlogan: {
-      zh: "烛光化美学，包装点睛",
-      en: "From glow to art, packaging completes",
-    },
+    identitySlogan: "From glow to art, packaging completes",
     heroImage: "/images/industry_cosmetics.jpg",
     color: "from-amber-500 to-orange-600",
     icon: "🕯️",
@@ -95,10 +87,7 @@ const industries: Record<string, IndustryData> = {
   "jewelry": {
     name: "Jewelry & Accessories",
     tagline: "Small product, big moment — make the box part of the story",
-    identitySlogan: {
-      zh: "珠宝见真我，盒启故事",
-      en: "Jewelry reveals self, box begins story",
-    },
+    identitySlogan: "Jewelry reveals self, box begins story",
     heroImage: "/images/industry_jewelry.jpg",
     color: "from-violet-600 to-purple-800",
     icon: "💍",
@@ -155,6 +144,7 @@ const industries: Record<string, IndustryData> = {
   "chocolate-confectionery": {
     name: "Chocolate & Confectionery",
     tagline: "Great chocolate deserves a box that says 'this is special'",
+    identitySlogan: "From sweetness to indulgence, packaging elevates",
     heroImage: "/images/industry_food_box.jpg",
     color: "from-rose-700 to-red-800",
     icon: "🍫",
@@ -211,6 +201,7 @@ const industries: Record<string, IndustryData> = {
   "stationery-gifts": {
     name: "Stationery & Lifestyle Gifts",
     tagline: "The paper that wraps the paper — packaging for people who love paper",
+    identitySlogan: "From craft to legacy, packaging preserves",
     heroImage: "/images/industry_gift_box.jpg",
     color: "from-sky-600 to-indigo-700",
     icon: "✒️",
@@ -267,6 +258,7 @@ const industries: Record<string, IndustryData> = {
   "tea-beverages": {
     name: "Tea & Specialty Beverages",
     tagline: "The box that opens to reveal a ritual",
+    identitySlogan: "From leaf to ritual, packaging transforms",
     heroImage: "/images/industry_wine.jpg",
     color: "from-emerald-600 to-teal-700",
     icon: "🍵",
@@ -323,6 +315,7 @@ const industries: Record<string, IndustryData> = {
   "pet-subscription": {
     name: "Pet Treats & Subscription Boxes",
     tagline: "The box your dog can't wait to open",
+    identitySlogan: "From treat to bond, packaging delivers",
     heroImage: "/images/industry_clothing.jpg",
     color: "from-orange-500 to-red-600",
     icon: "🐾",
@@ -380,10 +373,7 @@ const industries: Record<string, IndustryData> = {
   "cosmetics-beauty": {
     name: "Cosmetics & Beauty",
     tagline: "Your product deserves packaging as beautiful as the formula inside",
-    identitySlogan: {
-      zh: "香气到身份，一盒跨越",
-      en: "From fragrance to identity, one box bridges",
-    },
+    identitySlogan: "From fragrance to identity, one box bridges",
     heroImage: "/images/industry_cosmetics.jpg",
     color: "from-pink-500 to-rose-600",
     icon: "💄",
@@ -441,10 +431,7 @@ const industries: Record<string, IndustryData> = {
   "wine-spirits": {
     name: "Wine & Spirits",
     tagline: "The box that makes your bottle a gift before it's even opened",
-    identitySlogan: {
-      zh: "佳酿至品味，礼盒为证",
-      en: "From vintage to taste, packaging bears witness",
-    },
+    identitySlogan: "From vintage to taste, packaging bears witness",
     heroImage: "/images/industry_wine.jpg",
     color: "from-red-800 to-burgundy-900",
     icon: "🍷",
@@ -502,6 +489,7 @@ const industries: Record<string, IndustryData> = {
   "apparel-fashion": {
     name: "Apparel & Fashion",
     tagline: "The unboxing that makes your customer feel like they're opening a gift",
+    identitySlogan: "From fabric to statement, packaging defines",
     heroImage: "/images/industry_clothing.jpg",
     color: "from-slate-700 to-gray-900",
     icon: "👗",
@@ -559,6 +547,7 @@ const industries: Record<string, IndustryData> = {
   "bakery-food": {
     name: "Bakery & Food",
     tagline: "Packaging that keeps your baked goods as fresh as your brand",
+    identitySlogan: "From recipe to ritual, packaging presents",
     heroImage: "/images/industry_food_box.jpg",
     color: "from-yellow-500 to-amber-600",
     icon: "🥐",
@@ -616,6 +605,7 @@ const industries: Record<string, IndustryData> = {
   "cbd-hemp": {
     name: "CBD & Hemp",
     tagline: "Compliant packaging that looks as premium as your product",
+    identitySlogan: "From nature to wellness, packaging safeguards",
     heroImage: "/images/industry_cosmetics.jpg",
     color: "from-green-600 to-lime-700",
     icon: "🌿",
@@ -766,19 +756,14 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
           <div className="text-5xl mb-4">{industry.icon}</div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">{industry.name}</h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto">{industry.tagline}</p>
-          {/* Identity Transformation Slogan — prominently displayed */}
-          {industry.identitySlogan && (
-            <div className="mt-8 max-w-xl mx-auto">
-              <div className="inline-block bg-white/15 backdrop-blur-sm border border-white/30 rounded-2xl px-8 py-6 shadow-lg">
-                <p className="text-2xl md:text-3xl font-serif italic text-white leading-relaxed tracking-wide">
-                  {industry.identitySlogan.zh}
-                </p>
-                <p className="text-lg md:text-xl font-light text-white/80 mt-2 tracking-wider">
-                  {industry.identitySlogan.en}
-                </p>
-              </div>
+          {/* Identity Transformation Slogan — single-line English, prominent */}
+          <div className="mt-8 max-w-xl mx-auto">
+            <div className="inline-block bg-white/20 backdrop-blur-md border border-white/40 rounded-2xl px-8 py-5 shadow-xl">
+              <p className="text-2xl md:text-3xl font-serif italic text-white leading-snug tracking-wide">
+                {industry.identitySlogan}
+              </p>
             </div>
-          )}
+          </div>
         </div>
       </section>
 
