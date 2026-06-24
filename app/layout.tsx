@@ -54,7 +54,30 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', '${GA4_ID}');
+              gtag('config', '${GA4_ID}', {
+                // Custom dimensions for GEO/AI source tracking
+                custom_map: {
+                  'custom_source': 'ai_source',
+                  'custom_medium': 'ai_medium'
+                }
+              });
+
+              // Override transport for reliability
+              gtag('set', 'transport_type', 'beacon');
+
+              // Track AI referral sources (ChatGPT, Perplexity, etc.)
+              (function() {
+                var referrer = document.referrer || '';
+                var aiSources = ['chatgpt.com', 'perplexity.ai', 'bing.com/chat', 'gemini.google.com', 'claude.ai', 'anthropic.com'];
+                var isAI = aiSources.some(function(s) { return referrer.indexOf(s) !== -1; });
+                if (isAI && window.gtag) {
+                  gtag('event', 'ai_referral', {
+                    'ai_source': referrer,
+                    'event_category': 'GEO',
+                    'event_label': referrer
+                  });
+                }
+              })();
             `,
           }}
         />
