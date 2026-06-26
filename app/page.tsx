@@ -84,6 +84,7 @@ const products = [
     tags: ["Gift Box", "Luxury"],
     desc: "High-density cardboard rigid boxes with magnetic closure, velvet insert, foil stamping. Built for high-end gift packaging and luxury brands.",
     img: "/images/product_rigid_boxes.jpg",
+    alt: "Custom rigid gift boxes with magnetic closure and velvet insert",
   },
   {
     name: "Cardstock & Foldable Boxes",
@@ -91,6 +92,7 @@ const products = [
     tags: ["Retail", "Folding Carton"],
     desc: "Flexible thin paperboard boxes for cosmetics, food, and retail products. Full-color printing, embossing, window patching available.",
     img: "/images/product_cardstock_foldable.png",
+    alt: "Custom foldable cardstock boxes for retail and cosmetics",
   },
   {
     name: "Corrugated & Mailer Boxes",
@@ -98,6 +100,7 @@ const products = [
     tags: ["Shipping", "DTC"],
     desc: "Durable 3-layer corrugated boxes for eCommerce shipping. Custom size, printed exterior, eco-friendly material options.",
     img: "/images/product_corrugated_mailer.png",
+    alt: "Custom corrugated mailer boxes for ecommerce shipping",
   },
   {
     name: "Paper Bags",
@@ -105,6 +108,7 @@ const products = [
     tags: ["Retail", "Shopping"],
     desc: "Custom paper bags with rope handles, Matte/Gloss lamination. From boutique storefronts to trade shows.",
     img: "/images/product_paper_bags.png",
+    alt: "Custom printed paper bags with rope handles for retail",
   },
 ];
 
@@ -128,6 +132,7 @@ const industries = [
     name: "Candles & Home Fragrance",
     slug: "candles-fragrance",
     img: "/images/industry_cosmetics.jpg",
+    alt: "Custom candle packaging boxes for home fragrance brands",
     desc: "Mailer boxes, gift sets, and subscription boxes for candle brands that want unboxing to be part of the experience.",
     tags: ["Fast Turnaround", "Gift-Ready", "Seasonal"],
   },
@@ -135,6 +140,7 @@ const industries = [
     name: "Jewelry & Accessories",
     slug: "jewelry",
     img: "/images/industry_jewelry.jpg",
+    alt: "Luxury rigid jewelry boxes with velvet insert and magnetic closure",
     desc: "Small-batch luxury rigid boxes with velvet inserts. Your packaging is the proposal moment.",
     tags: ["Low MOQ", "Magnetic Closure", "Velvet Insert"],
   },
@@ -142,6 +148,7 @@ const industries = [
     name: "Chocolate & Confectionery",
     slug: "chocolate-confectionery",
     img: "/images/industry_food_box.jpg",
+    alt: "FDA-compliant chocolate gift boxes with window patching",
     desc: "FDA-compliant gift boxes that make chocolate feel like a luxury — not a commodity.",
     tags: ["Food-Safe", "Holiday Rush", "Window Boxes"],
   },
@@ -149,6 +156,7 @@ const industries = [
     name: "Stationery & Lifestyle Gifts",
     slug: "stationery-gifts",
     img: "/images/industry_stationery_gifts.jpg",
+    alt: "Custom stationery and lifestyle gift packaging boxes",
     desc: "Journals, pens, and gift sets deserve packaging that matches the craft inside.",
     tags: ["Flat Mailers", "Gift Sets", "Floral Print"],
   },
@@ -156,6 +164,7 @@ const industries = [
     name: "Tea & Specialty Beverages",
     slug: "tea-beverages",
     img: "/images/industry_wine.jpg",
+    alt: "Custom tea and beverage packaging boxes with drawer-style design",
     desc: "Tea tins, sachet boxes, and monthly subscription boxes for the modern tea brand.",
     tags: ["Subscription Box", "Drawer Style", "Airtight"],
   },
@@ -163,6 +172,7 @@ const industries = [
     name: "Pet Treats & Subscription Boxes",
     slug: "pet-subscription",
     img: "/images/industry_clothing.jpg",
+    alt: "Monthly pet treat subscription box packaging with custom themes",
     desc: "Monthly themed boxes that dogs (and their owners) can't wait to open.",
     tags: ["Monthly Themes", "Durable", "Pet-Safe Ink"],
   },
@@ -209,7 +219,7 @@ export default function HomePage() {
         <div className="absolute inset-0 opacity-20">
           <Image
             src="/images/factory_workshop.jpg"
-            alt="Packaging factory workshop"
+            alt="BUpack custom eco packaging factory workshop in Qingdao China"
             fill
             className="object-cover"
             priority
@@ -265,16 +275,16 @@ export default function HomePage() {
               <p className="text-green-400/80 text-xs font-semibold uppercase tracking-widest mb-4">Inside Our 10,000㎡ Owned Factory</p>
               <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
                 {[
-                  { img: "/images/factory_hero.jpg", label: "Assembly Workshop" },
-                  { img: "/images/factory_printing.png", label: "Printing Center" },
-                  { img: "/images/factory_production.jpg", label: "Production Line" },
-                  { img: "/images/factory_workers.jpg", label: "Skilled Team" },
-                  { img: "/images/factory_machine.jpg", label: "Precision Machinery" },
+                  { img: "/images/factory_hero.jpg", label: "Assembly Workshop", alt: "BUpack box assembly workshop with skilled workers" },
+                  { img: "/images/factory_printing.png", label: "Printing Center", alt: "Koenig & Bauer printing press for custom packaging" },
+                  { img: "/images/factory_production.jpg", label: "Production Line", alt: "Automated packaging production line at BUpack factory" },
+                  { img: "/images/factory_workers.jpg", label: "Skilled Team", alt: "BUpack quality control team inspecting finished boxes" },
+                  { img: "/images/factory_machine.jpg", label: "Precision Machinery", alt: "Die-cutting machine for custom box production" },
                 ].map((item) => (
                   <div key={item.label} className="relative h-24 sm:h-28 rounded-lg overflow-hidden border border-white/20 hover:border-green-400/60 transition-all group cursor-pointer">
                     <Image
                       src={item.img}
-                      alt={item.label}
+                      alt={item.alt}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
@@ -294,7 +304,7 @@ export default function HomePage() {
       <section className="relative h-[420px] md:h-[500px] flex items-center justify-center overflow-hidden">
         <Image
           src="/images/factory_production.jpg"
-          alt="BUpack factory workshop - eco packaging production"
+          alt="BUpack eco packaging production line — FSC-certified custom boxes manufacturing"
           fill
           className="object-cover"
         />
@@ -458,7 +468,7 @@ export default function HomePage() {
                 <div className="relative h-36 bg-gradient-to-br from-green-50 to-emerald-100 flex items-center justify-center overflow-hidden">
                   <Image
                     src={p.img}
-                    alt={p.name}
+                    alt={p.alt}
                     width={400}
                     height={144}
                     className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
@@ -510,7 +520,7 @@ export default function HomePage() {
                 <div className="relative h-40 sm:h-44 bg-gradient-to-br from-green-50 to-emerald-100 flex items-center justify-center overflow-hidden">
                   <Image
                     src={ind.img}
-                    alt={ind.name}
+                    alt={ind.alt}
                     fill
                     className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                   />
@@ -553,6 +563,9 @@ export default function HomePage() {
             </p>
             <Link href="/eco" className="inline-flex items-center gap-2 bg-green-500 text-white font-semibold px-6 py-3 rounded-xl hover:bg-green-400 transition-colors">
               Our Sustainability Commitments
+            </Link>
+            <Link href="/products" className="inline-flex items-center gap-2 border border-white/30 text-white font-semibold px-6 py-3 rounded-xl hover:bg-white/10 transition-colors">
+              Browse Eco Products
             </Link>
           </div>
           <div className="flex-1 grid grid-cols-2 gap-4">
@@ -663,6 +676,63 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── FROM THE BLOG ──────────────────────────── */}
+      <section className="py-16 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-2">Packaging Insights</h2>
+              <p className="text-gray-500">Actionable guides for growing eCommerce brands.</p>
+            </div>
+            <Link href="/blog" className="text-green-700 font-semibold text-sm hover:underline whitespace-nowrap">
+              View all articles →
+            </Link>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              {
+                slug: "switch-plastic-to-paper-packaging-dtc-guide",
+                title: "How to Switch from Plastic to Paper Packaging",
+                emoji: "♻️",
+                tag: "Sustainability",
+              },
+              {
+                slug: "custom-packaging-low-moq-guide",
+                title: "How to Order Custom Packaging with Low MOQ",
+                emoji: "📦",
+                tag: "Packaging 101",
+              },
+              {
+                slug: "packaging-for-subscription-boxes-guide",
+                title: "Packaging for Subscription Boxes: Complete Guide",
+                emoji: "📬",
+                tag: "DTC Strategy",
+              },
+            ].map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="group rounded-xl border border-gray-100 p-6 hover:border-green-200 hover:shadow-md transition-all"
+              >
+                <div className="text-4xl mb-3">{post.emoji}</div>
+                <span className="inline-block bg-green-50 text-green-700 text-[10px] font-medium px-2 py-0.5 rounded-full border border-green-100 mb-2">
+                  {post.tag}
+                </span>
+                <h3 className="font-bold text-gray-900 text-sm group-hover:text-green-700 transition-colors leading-snug">
+                  {post.title}
+                </h3>
+                <span className="inline-flex items-center gap-1 text-green-700 font-medium text-xs mt-3 group-hover:gap-2 transition-all">
+                  Read article
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </Link>
             ))}
           </div>
         </div>

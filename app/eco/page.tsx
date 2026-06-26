@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { BreadcrumbSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
   title: "Sustainability – Eco Packaging Commitments | BUpack",
@@ -99,6 +99,26 @@ export default function EcoPage() {
           { name: "Sustainability", url: "https://www.bupackeco.com/eco" },
         ]}
       />
+      <FAQSchema
+        items={[
+          {
+            question: "Is BUpack packaging truly eco-friendly?",
+            answer: "Yes. All BUpack packaging uses FSC-certified paper, soy-based inks, and contains zero plastic components. Our standard product line is 100% curbside recyclable.",
+          },
+          {
+            question: "What does FSC certification mean for my packaging?",
+            answer: "FSC certification means the paper comes from responsibly managed forests with a verified chain of custody. BUpack holds FSC Chain of Custody certification and includes the FSC label on every production run.",
+          },
+          {
+            question: "Are BUpack boxes compostable?",
+            answer: "Our kraft paper and corrugated board products are naturally compostable (home and industrial). Coated papers with lamination are industrially compostable only. We can provide EN 13432 and ASTM D6400 certified materials.",
+          },
+          {
+            question: "Does eco-friendly packaging cost more?",
+            answer: "BUpack's eco packaging is priced the same as conventional options. FSC-certified paper, soy-based inks, and plastic-free components are our default — not premium add-ons.",
+          },
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#0a2e18] text-white py-20 px-4">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -182,9 +202,15 @@ export default function EcoPage() {
           <p className="text-green-100 mb-8">
             We&apos;ll help you choose the right eco-certified materials and even write the sustainability copy for your product pages.
           </p>
-          <Link href="/contact" className="inline-block bg-white text-green-800 font-bold px-8 py-4 rounded-xl hover:bg-green-50 transition-colors">
-            Start with Free Samples →
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact" className="inline-block bg-white text-green-800 font-bold px-8 py-4 rounded-xl hover:bg-green-50 transition-colors">
+              Start with Free Samples →
+            </Link>
+            <Link href="/faq" className="inline-block border-2 border-white/30 text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors">
+              Read the FAQ
+            </Link>
+          </div>
+          <p className="text-green-200 text-sm mt-6">Explore our <Link href="/products" className="underline hover:text-white">eco product lineup</Link> or <Link href="/blog" className="underline hover:text-white">read packaging guides</Link></p>
         </div>
       </section>
     </>

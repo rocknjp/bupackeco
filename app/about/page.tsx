@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { BreadcrumbSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "About BUpack – Qingdao Bejan Giant",
+  title: "About BUpack – Custom Eco Packaging Factory | FSC & ISO 9001",
   description:
     "17 years of expertise in custom paper packaging. Owned factory in Qingdao, FSC & ISO 9001 certified, Fortune 500 trusted vendor.",
   alternates: {
     canonical: "https://www.bupackeco.com/about",
   },
   openGraph: {
-    title: "About BUpack – Qingdao Bejan Giant",
+    title: "About BUpack – Custom Eco Packaging Factory | FSC & ISO 9001",
     description:
       "17 years of expertise in custom paper packaging. Owned factory Qingdao, FSC & ISO 9001 certified.",
     url: "https://www.bupackeco.com/about",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "About BUpack – Qingdao Bejan Giant",
+    title: "About BUpack – Custom Eco Packaging Factory | FSC & ISO 9001",
     description:
       "17 years of expertise in custom paper packaging. Owned factory Qingdao, FSC & ISO 9001 certified.",
     images: ["https://www.bupackeco.com/images/bupack-og-hero.jpg"],
@@ -86,12 +86,28 @@ export default function AboutPage() {
           { name: "About", url: "https://www.bupackeco.com/about" },
         ]}
       />
+      <FAQSchema
+        items={[
+          {
+            question: "Where is BUpack's factory located?",
+            answer: "BUpack's owned factory is located at No. 96, Tianfeng North Road, Chengyang District, Qingdao, China. The facility spans 10,000+ square meters with complete pre-press, printing, and post-press equipment.",
+          },
+          {
+            question: "What certifications does BUpack hold?",
+            answer: "BUpack holds FSC Chain of Custody certification, ISO 9001 quality management certification, Sedex/SMETA ethical trade audit, SGS product testing certification, and RoHS compliance.",
+          },
+          {
+            question: "Can I visit the BUpack factory?",
+            answer: "Yes. We welcome factory visits and audits. Contact us to schedule a tour — we'll show you the full production line from pre-press to finished packaging. Virtual tours are also available via video call.",
+          },
+        ]}
+      />
       {/* Hero */}
       <section className="relative bg-[#0a2e18] text-white py-20 px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-15">
           <Image
             src="/images/factory_hero.jpg"
-            alt="Bejan Packaging Factory"
+            alt="BUpack custom packaging factory interior — Koenig & Bauer printing press"
             fill
             className="object-cover"
           />
@@ -179,7 +195,7 @@ export default function AboutPage() {
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <Image
                 src="/images/factory_printing.png"
-                alt="Bejan factory printing center"
+                alt="BUpack printing center — 7-color UV offset press for custom boxes"
                 width={560}
                 height={400}
                 className="object-cover w-full h-auto"

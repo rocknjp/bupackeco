@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     "custom rigid box manufacturer, gift box OEM China, paper packaging factory Qingdao, FSC certified packaging, ISO 9001 packaging supplier, Fortune 500 packaging vendor, low MOQ custom boxes, candle jewelry chocolate packaging",
   verification: {
     google: "0UiMWYGj7TuSenx5PyIWZZ5N-l9jecBQW30rxEvTBUA",
+    other: {
+      "msvalidate.01": "PLACE_BING_VERIFICATION_CODE_HERE",
+    },
   },
   openGraph: {
     title: "Custom Eco Packaging Manufacturer | Low MOQ | BUpack",
