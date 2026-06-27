@@ -350,6 +350,28 @@ const posts = [
     featured: false,
     emoji: "📦",
   },
+  {
+    slug: "custom-coffee-packaging-guide",
+    title: "Custom Coffee Packaging Guide: Resealable Bags, Valves, and Subscription Boxes",
+    excerpt:
+      "Complete guide to custom coffee packaging. Resealable bags, coffee boxes, and subscription packaging for roasters. FSC-certified, low MOQ from 100 units.",
+    category: "Packaging 101",
+    date: "June 27, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "☕",
+  },
+  {
+    slug: "sustainable-packaging-trends-2026",
+    title: "Sustainable Packaging Trends 2026: From FSC to Circular Design",
+    excerpt:
+      "Top sustainable packaging trends for 2026. From FSC-certified materials to compostable solutions and circular packaging design. Stay ahead with BUpack.",
+    category: "Sustainability",
+    date: "June 27, 2026",
+    readTime: "11 min",
+    featured: false,
+    emoji: "🌱",
+  },
 ];
 
 export default function BlogPage() {
