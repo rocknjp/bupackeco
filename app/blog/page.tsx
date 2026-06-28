@@ -372,6 +372,28 @@ const posts = [
     featured: false,
     emoji: "🌱",
   },
+  {
+    slug: "custom-tea-packaging-guide",
+    title: "Custom Tea Packaging Guide: Drawer Boxes, Tins, and Pyramid Sachets",
+    excerpt:
+      "Complete guide to custom tea packaging. Drawer boxes, tea tin boxes, and pyramid bag sachets. FSC-certified, low MOQ from 100 units for tea brands.",
+    category: "Packaging 101",
+    date: "June 29, 2026",
+    readTime: "11 min",
+    featured: false,
+    emoji: "🍵",
+  },
+  {
+    slug: "luxury-packaging-design-guide",
+    title: "Luxury Packaging Design Guide: Foil, Soft-Touch, and Magnetic Closures",
+    excerpt:
+      "Complete guide to luxury packaging design. Foil stamping, soft-touch finishes, magnetic closures, and premium unboxing. Low MOQ from 100 units from BUpack.",
+    category: "Design Trends",
+    date: "June 29, 2026",
+    readTime: "12 min",
+    featured: false,
+    emoji: "✨",
+  },
 ];
 
 export default function BlogPage() {

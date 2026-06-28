@@ -1953,6 +1953,159 @@ Understanding sustainable packaging trends is one thing. Acting on them is anoth
 The most important principle: **don't let perfection be the enemy of progress.** A brand that swaps plastic mailers for FSC-certified paper mailers next month is doing more than one waiting for a "perfect" compostable solution next year. Start with the changes you can make at 100-unit MOQ, measure the customer response, and scale from there. For more on the small-brand playbook, see our <a href="/blog/eco-friendly-packaging-small-business">eco-friendly packaging guide for small businesses</a>.
 `,
   },
+  {
+    slug: "custom-tea-packaging-guide",
+    title: "Custom Tea Packaging Guide: Drawer Boxes, Tins, and Pyramid Sachets",
+    excerpt: "Complete guide to custom tea packaging. Drawer boxes, tea tin boxes, and pyramid bag sachets. FSC-certified, low MOQ from 100 units for tea brands.",
+    category: "Packaging 101",
+    date: "June 29, 2026",
+    readTime: "11 min",
+    emoji: "🍵",
+    body: `
+## Why Custom Tea Packaging Defines Your Brand
+
+The global tea market is projected to reach **$86 billion by 2030**, growing at 6.6% CAGR, with specialty and loose-leaf teas outpacing the overall category by nearly two-to-one. In a category dominated by mass-market tea bags, custom tea packaging is the single most powerful tool a specialty tea brand has to command premium pricing, communicate quality, and build shelf presence — whether that shelf is in a Whole Foods, a boutique tea shop, or a customer's monthly subscription box.
+
+Tea is a sensory product. Customers don't just buy tea — they buy ritual, calm, provenance, and craft. A generic kraft box with a sticker doesn't tell the story of your single-estate Darjeeling or your hand-rolled jasmine pearls. Custom tea box packaging does. It's the difference between a $9 commodity and a $34 luxury experience. For specialty tea brands, packaging is also a freshness technology: tea degrades rapidly when exposed to oxygen, moisture, light, or strong odors, and the right packaging protects those delicate flavor compounds.
+
+For DTC tea brands, packaging plays an even bigger role. Your box is the **entire unboxing experience** — there's no retail shelf to lean on. Drawer boxes with tea tin boxes and pyramid bag sachets create the kind of memorable ritual that drives repeat purchases, gift orders, and social shares. Explore our <a href="/industries/tea-beverages">tea and beverage packaging</a> solutions for industry-specific designs, or read on for the complete guide.
+
+### Types of Custom Tea Packaging
+
+Tea packaging comes in several formats, each suited to different product types, price points, and distribution channels. Choosing the right format depends on your tea's form factor (loose leaf vs. bagged vs. pyramid sachets), your sales channel (retail vs. DTC vs. wholesale), and your brand positioning.
+
+**Drawer Boxes for Premium Loose Leaf Tea** — Drawer boxes — also called matchbox-style or slide-out boxes — are the gold standard for premium loose leaf tea packaging. A rigid outer sleeve holds an inner tray that slides out, revealing the tea in a deliberate, ritualistic motion that elevates the perceived value. Drawer boxes support full-color exterior and interior printing, foil stamping, and embossing for a true luxury feel. Our <a href="/products/rigid-gift-boxes">rigid gift boxes</a> are available from 100 units with digital printing, making them accessible even for new specialty tea brands launching their first SKU.
+
+**Tea Tin Boxes for Shelf Presence and Reusability** — Tea tin boxes — paperboard-wrapped rigid boxes with metal or food-grade interior lining — offer superior shelf presence and brand longevity. Tins are inherently reusable; customers keep them for storage, planters, or travel kits, extending your brand's presence in their home long after the tea is gone. Tea tin boxes provide excellent barrier protection against light, moisture, and oxygen, making them ideal for delicate green and white teas.
+
+**Pyramid Bag Sachets and Folding Cartons** — Pyramid tea bags — made from plant-based PLA mesh or nylon — have become the standard for premium bagged tea. The pyramid shape gives whole-leaf tea room to expand, delivering a superior brew compared to flat tea bags. Pyramid sachets are typically packaged in branded folding cartons (12-18pt paperboard) holding 12-25 sachets, with each sachet wrapped in its own foil envelope for freshness. For DTC tea subscriptions, a branded <a href="/products/custom-mailer-boxes">custom mailer box</a> with pyramid sachets inside creates a memorable monthly ritual.
+
+**Tea Bag Packaging Wholesale for Multi-SKU Brands** — For tea brands scaling beyond a single SKU, tea bag packaging wholesale — bulk production of folding cartons, sachet envelopes, and mailer boxes — unlocks significant cost savings. Wholesale pricing typically kicks in at 1,000-2,000 units per SKU, with the steepest discounts at 5,000+ units. The most cost-effective approach is to standardize carton sizes across your entire tea line and use product-specific sachet envelopes and labels to differentiate SKUs.
+
+### Food Safety and FDA Compliance for Tea Packaging
+
+Tea packaging operates under specific food safety regulations that govern any material in contact with the product. In the United States, tea is regulated as a food under the **FDA Federal Food, Drug, and Cosmetic Act**. While packaging materials don't require direct FDA pre-approval, they must comply with **indirect food contact safety** standards under 21 CFR Part 174-179. This means any material that could potentially contact the tea — including the interior of boxes, sachet envelopes, and even printing inks — must be safe and non-reactive, with no migration of harmful substances into the product.
+
+Key FDA compliance requirements: **Indirect food contact safety** (soy-based inks, water-based coatings), **multi-layer barrier liners** (food-grade foil, PLA, or paper between printed carton and product), **labeling compliance** (product name, net weight, ingredients, manufacturer info, country of origin), **moisture/light/oxygen barrier** (12-24 month shelf life protection), and **odor neutrality** (tea readily absorbs surrounding odors — low-VOC soy inks are essential). BUpack uses FDA-compliant soy-based inks and water-based coatings on all tea packaging orders, with full documentation for food-contact materials.
+
+### Freshness Technology: Barrier Protection for Tea
+
+Tea is one of the most packaging-sensitive products on the planet. Within weeks of harvest, tea begins losing volatile aroma compounds, and improper packaging accelerates this degradation dramatically. The right barrier protection can extend shelf life from 6 months to 24 months — a make-or-break factor for premium tea brands importing from single-origin estates.
+
+| Barrier Material | Light Block | Oxygen Block | Best For |
+|------------------|-------------|--------------|----------|
+| Foil laminate (PET/AL/PE) | 100% | 100% | Premium whole-leaf, single-estate |
+| Metallized film (PET/VMPET/PE) | 95%+ | 95%+ | Everyday and mid-tier teas |
+| PLA biopolymer | 70% | 60% | Sustainability-focused brands |
+| Kraft + food-grade wax lining | 80% | 75% | Traditional, natural-feel tins |
+
+For ultra-premium teas — first-flush Darjeeling, shade-grown Japanese gyokuro, aged pu-erh — **nitrogen-flushed packaging with oxygen absorbers** extends shelf life to 18-24 months. Nitrogen flushing replaces oxygen inside the sealed package with nitrogen gas, preventing oxidation. Oxygen absorbers (small iron-based packets) scavenge residual oxygen down to <0.01%. BUpack can integrate both technologies into your tea packaging production, with sourcing for food-grade oxygen absorbers and nitrogen-flush sealing equipment.
+
+### Eco-Friendly Tea Packaging
+
+Sustainability is a defining purchase driver for tea consumers. A 2026 category survey found that **74% of specialty tea buyers** consider sustainable packaging important — well above the consumer-goods average. Tea's natural, wellness-oriented customer base expects the brands they trust to care about planetary health, too.
+
+**FSC-Certified Paperboard** — Forest Stewardship Council (FSC) certification is the gold standard for sustainable paper packaging. FSC-certified paperboard comes from responsibly managed forests that protect biodiversity, respect indigenous rights, and maintain ecosystem health. BUpack offers FSC-certified options across all tea packaging formats — drawer boxes, tins, folding cartons, and sachet envelopes. When your manufacturer already holds FSC chain-of-custody certification, you can use the FSC logo on your packaging without holding your own certificate — accessible even at 100-unit MOQs. Learn more on our <a href="/fsc-certified-packaging">FSC-certified packaging</a> page.
+
+**Compostable Pyramid Sachets** — Traditional nylon pyramid tea bags are a hidden source of microplastic pollution. The 2026 alternative is plant-based PLA mesh — derived from corn or sugarcane — which is industrially compostable under EN 13432 standards. PLA sachets perform identically to nylon in brewing, with the same pyramid shape that gives whole-leaf tea room to expand. For brands targeting home-compostable certification, newer PHA (polyhydroxyalkanoates) sachets are emerging as a marine-degradable, home-compostable option, though at a higher cost.
+
+**Soy-Based Inks and Water-Based Coatings** — Traditional petroleum-based printing inks contain volatile organic compounds (VOCs) that are harmful to both the environment and human health — and that can migrate into tea through packaging. Soy-based inks offer the same print quality with significantly lower environmental impact and near-zero odor, which is critical for flavor-sensitive tea packaging. Combined with water-based coatings (instead of plastic lamination), your tea packaging can be fully recyclable while maintaining vibrant, premium print quality. For more on eco-strategy for small brands, see our <a href="/blog/eco-friendly-packaging-small-business">eco-friendly packaging guide for small businesses</a>.
+
+### Tea Subscription Box Packaging Strategy
+
+The tea subscription market has exploded, with brands like Sips By, Free Your Tea, and Plum Deluxe leading the personalized tea curation trend. Tea subscription brands face unique packaging challenges that differ from traditional retail models — the same box every month leads to unboxing fatigue, while fully custom designs break the unit economics.
+
+**Monthly Design Rotation Strategy** — The most cost-effective subscription tea packaging strategy: keep the exterior box consistent (order in bulk at 2,000-5,000 units for maximum price break), and rotate interior printing, sachet envelopes, and tasting note cards monthly using digital printing. This gives subscribers something new to discover each month without the cost of fully custom box designs. A branded mailer box with seasonal interior artwork creates the kind of monthly ritual that drives retention. For a deeper framework on subscription packaging, see our <a href="/blog/packaging-for-subscription-boxes-guide">subscription box packaging guide</a>.
+
+**Tasting Note Cards and Brand Storytelling** — Tasting note cards are the heart of the tea subscription experience. Include a 4x6 card with each tea's origin, brewing instructions, flavor profile, and pairing suggestions. Premium brands add foil stamping or deckled edges for a tactile, gift-like quality. The card is also where you communicate sustainability credentials (FSC, compostable sachet, fair-trade sourcing) — turning packaging into brand storytelling that customers photograph and share on social media.
+
+**Packaging That Scales with Subscriber Growth** — Subscription tea brands grow month over month, which means packaging needs change. Start with digital printing at 100-500 units per month — no plate fees, fast turnaround, ability to test designs. As you scale past 2,000 monthly subscribers, transition to offset printing for lower per-unit costs. BUpack's flexible production model supports this transition seamlessly, with no minimum commitment to switch printing methods.
+
+### Cost Considerations for Custom Tea Packaging
+
+Per-unit pricing (digital printing): Folding carton (12pt, 4-color) $1.80-$2.50 at 100 / $0.60-$1.00 at 1,000+, drawer box (rigid, w/ sleeve) $3.50-$6.00 at 100 / $1.50-$2.80 at 1,000+, tea tin box (paper-wrapped) $2.80-$4.50 at 100 / $1.10-$1.90 at 1,000+, pyramid sachet envelope (per 25) $1.20-$2.00 at 100 / $0.35-$0.70 at 1,000+, mailer box (E-flute) $2.50-$4.00 at 100 / $1.00-$1.60 at 1,000+, tasting note card (4x6) $0.30-$0.55 at 100 / $0.08-$0.18 at 1,000+.
+
+**Cost Optimization**: Start at 100 units with digital printing (zero plate fees, $200-$600 saved). Standardize carton size across SKUs with product-specific sachet envelopes. Order at volume breakpoints (500, 1,000, 5,000). Separate box from sachet orders (sachets are shelf-stable 24+ months in sealed cases — order in larger runs). Simplify finishing — full-color print + matte lamination looks premium without foil. Use FSC paper as default ($0.00-$0.05/unit). For broader subscription packaging strategy, see our <a href="/blog/packaging-for-subscription-boxes-guide">subscription box packaging guide</a>.
+`,
+  },
+  {
+    slug: "luxury-packaging-design-guide",
+    title: "Luxury Packaging Design Guide: Foil, Soft-Touch, and Magnetic Closures",
+    excerpt: "Complete guide to luxury packaging design. Foil stamping, soft-touch finishes, magnetic closures, and premium unboxing. Low MOQ from 100 units from BUpack.",
+    category: "Design Trends",
+    date: "June 29, 2026",
+    readTime: "12 min",
+    emoji: "✨",
+    body: `
+## Why Luxury Packaging Design Is a Growth Strategy
+
+The global luxury packaging market is projected to reach **$32 billion by 2030**, growing at 4.8% CAGR — and the fastest-growing segment isn't traditional luxury houses. It's emerging DTC, beauty, jewelry, and premium gifting brands using packaging to command price points 3-5x higher than their category average. In categories where the product itself can't always be evaluated before purchase, packaging is the primary signal of quality, provenance, and care.
+
+Luxury packaging design is fundamentally different from mass-market packaging. Mass-market packaging is engineered for cost, shipping efficiency, and shelf visibility. Luxury packaging is engineered for **perceived value, tactile experience, and reveal choreography**. The box isn't a container — it's the first chapter of the brand story, a physical expression of the price the customer just paid, and the foundation of the unboxing moment that drives social shares and repeat purchases.
+
+For DTC brands selling jewelry, cosmetics, fragrance, premium spirits, or gifting, the unboxing experience is even more critical. Online shoppers can't touch the product before buying — so the packaging has to deliver the sensory confirmation that they made the right choice. A luxury unboxing experience that exceeds expectations drives the kind of user-generated content that no paid media can replicate. For broader strategies, see our guide on <a href="/blog/how-to-create-unboxing-experience">how to create an unboxing experience</a> that drives social shares.
+
+### Anatomy of a Luxury Package
+
+Luxury packaging is built in layers. Each layer serves a specific function — protection, presentation, or surprise — and the choreography of revealing those layers is what creates the premium unboxing experience.
+
+**Rigid Box Construction** — The defining structural element of luxury packaging is rigid box construction. Unlike folding cartons (which ship flat and fold together), rigid boxes are assembled at the factory from 1.5-3mm thick paperboard and wrapped in printed art paper or specialty stock. This construction gives luxury packaging its characteristic weight, heft, and structural integrity — a rigid box doesn't buckle, dent, or arrive crushed. Rigid boxes are the foundation of <a href="/products/rigid-gift-boxes">premium packaging boxes</a> across jewelry, cosmetics, spirits, and gifting categories. They're available from BUpack starting at 100 units with no tooling fees for standard shapes.
+
+**Custom Inserts and Product Cradling** — The insert is where luxury packaging goes from container to experience. A custom-fit insert cradles the product in a precisely engineered cavity, eliminating movement during shipping and presenting the product like a jewel on display. The most common luxury insert materials are EVA foam (dense, premium feel, custom-cut), velvet or suede-lined compartments, molded pulp (eco-friendly, premium matte finish), and die-cut paperboard (cost-effective, fully recyclable). The choice of insert material is a sustainability decision as much as an aesthetic one — molded pulp and paperboard are recyclable, while EVA foam and velvet typically aren't.
+
+**Magnetic Closures and Reveal Mechanics** — The way a box opens defines the reveal moment. Magnetic closures — hidden steel discs embedded in the box flap and base — create the satisfying "click" of a premium product, the same closure used by Apple, Dyson, and luxury watch brands. Ribbon pulls offer a slower, more ceremonial reveal for drawer-style boxes — popular in fragrance and cosmetics. Hinged lids with magnetic stay-open positioning let the box sit open on a vanity or shelf, extending brand presence in the customer's home.
+
+**Interior Printing and Brand Storytelling** — Mass-market packaging prints only the exterior. Luxury packaging prints the interior too — and that's where the brand story unfolds. Inside-the-lid printing turns the open box into a framed presentation: brand heritage, sustainability story, care instructions, or a personal message from the founder. This is also where QR codes linking to video content, authenticity verification, or styling guides live.
+
+### Premium Finishes: Foil, Soft-Touch, Embossing
+
+Premium finishes are the tactile and visual cues that signal luxury before the box is even opened. Each finish adds a specific sensory dimension, and the most effective luxury packaging designs layer multiple finishes strategically rather than applying one across the entire box.
+
+**Foil Stamping** — Foil stamping applies a thin metallic film (gold, silver, rose gold, copper, or holographic) to specific areas of the packaging using heat and pressure. It's the signature finish of luxury packaging — used for logos, brand monograms, edition numbers, and accent details. Foil stamping reads as premium because it catches light differently than ink, creating a tactile, reflective element that signals craftsmanship. BUpack offers hot foil stamping (traditional, lower cost) and cold foil stamping (faster turnaround, finer detail) on rigid boxes, folding cartons, and sleeves. For more design ideas across ecommerce categories, see our <a href="/blog/branded-packaging-ideas-ecommerce">branded packaging ideas guide</a>.
+
+**Soft-Touch and Velvet Finishes** — The tactile feel of a luxury box matters as much as its visual design. Soft-touch lamination creates a velvet-like, almost suede feel that's instantly recognizable as premium — used by Apple, Tesla, and luxury beauty brands worldwide. The finish is achieved with a special matte film that absorbs light and feels warm to the touch. For eco-conscious brands, water-based soft-touch coatings (not film lamination) now offer a similar tactile experience while remaining recyclable.
+
+**Embossing and Debossing** — Embossing (raising the paper surface) and debossing (pressing it down) add dimensional texture to packaging — a sensory element that flat printing cannot achieve. Blind embossing (no ink or foil) creates subtle, sophisticated texture for monograms, patterns, or brand marks. Combined with foil stamping (foil embossing), the effect is unmistakably luxury. Debossing is popular for logo placement on magnetic-closure lids.
+
+**Spot UV and Specialty Coatings** — Spot UV applies a high-gloss coating to specific areas of an otherwise matte box, creating dramatic contrast — the glossy logo jumps off the matte background. Soft-touch with spot UV is the signature combination of premium tech and beauty packaging. Each coating should be used strategically — overusing specialty finishes reads as gaudy, not luxurious.
+
+### Engineering the Luxury Unboxing Experience
+
+A luxury unboxing experience is choreographed, not accidental. Every element — the weight of the box, the resistance of the closure, the reveal sequence — should be designed with intention. The goal is to slow the customer down, create anticipation, and reward every micro-moment with sensory delight.
+
+**The Reveal Sequence** — The best luxury unboxing experiences unfold in 4-5 distinct moments: (1) The outer packaging — a sleeve or mailer box that builds anticipation; (2) The reveal of the rigid box itself — its weight, texture, and foil-stamped branding; (3) The opening mechanics — the magnetic click or ribbon pull; (4) The interior printing and presentation — the framed moment where the product appears; (5) The hidden surprise — a thank-you card, care guide, or bonus sample. Each moment should be its own sensory reward.
+
+**Weight and Tactile Cues** — Weight is the most underrated luxury signal. A rigid gift box weighing 400-600g communicates premium quality before the customer even sees the branding. Light, flimsy packaging — even with beautiful printing — fails the luxury test. Beyond weight, tactile cues like soft-touch finishes, embossed patterns, and ribbon pulls engage the senses and create the "I want to touch it again" response that turns packaging into a keepsake rather than waste.
+
+**Brand Storytelling Through Layers** — Each layer of the unboxing should reveal a new chapter of the brand story. The outer mailer sets the tone with branded exterior printing. The rigid box confirms the premium positioning with foil and finish. The interior printing delivers the brand narrative — heritage, sustainability, or founder's note. The product insert adds the personal touch — care instructions, authenticity card, or limited edition number. The cumulative effect is an experience that feels curated, not packaged — the difference between a product shipped and a gift received.
+
+### Luxury Packaging by Industry
+
+Luxury packaging design varies significantly by industry. The product dictates the structural requirements, the price point dictates the finish budget, and the customer expectations dictate the reveal mechanics.
+
+**Jewelry and Fine Accessories** — Jewelry packaging is the most demanding luxury category. The product is small, high-value, and emotionally loaded — the packaging has to make a $200 ring feel like a $2,000 experience. Rigid magnetic-closure boxes with velvet or suede interiors are the standard. Foil-stamped monograms, ribbon pulls, and interior lid printing complete the experience. BUpack's <a href="/industries/jewelry">jewelry packaging</a> solutions cover everything from engagement ring boxes to multi-piece jewelry gift sets, all at 100-unit MOQ for boutique jewelers and DTC brands.
+
+**Cosmetics and Beauty** — Beauty packaging has led the premium packaging movement for the past decade. Rigid lift-off lid boxes with EVA foam or paperboard cradles are the foundation for skincare serums, foundations, and fragrance. Soft-touch finishes with foil-stamped branding dominate the high end, while minimalist matte designs with debossed logos capture the modern "quiet luxury" aesthetic. For multi-product sets, drawer-style boxes with divided interiors create a curated gifting experience. Explore our <a href="/industries/cosmetics-beauty">cosmetics and beauty packaging</a> for category-specific designs.
+
+**Spirits, Wine, and Gifting** — Spirits packaging demands both protection and presentation. Rigid boxes with custom bottle cradles (EVA foam or molded pulp) protect premium bottles during shipping while creating a gifting experience that justifies premium pricing. Magnetic closures, foil-stamped branding, and interior storytelling cards are standard. Limited edition spirits packaging often incorporates numbered edition cards, wax-seal accents, and specialty papers for collector appeal.
+
+### Sustainable Luxury Packaging
+
+The biggest shift in luxury packaging design over the past three years is the death of the "luxury = wasteful" assumption. Sustainable luxury is now the expectation, not a contradiction. McKinsey's 2026 luxury report found that **67% of luxury consumers** consider sustainability a purchase driver — and packaging is the most visible sustainability signal a brand sends.
+
+**FSC-Certified Rigid Board** — FSC-certified rigid paperboard is now the default for sustainable luxury packaging. The certification guarantees that paper comes from responsibly managed forests that protect biodiversity and ecosystem health. BUpack offers FSC-certified rigid board at minimal cost premium — typically $0.05-$0.15 per unit. When your manufacturer holds FSC chain-of-custody certification (as BUpack does), you can use the FSC logo on your packaging without holding your own certificate. Learn more on our <a href="/fsc-certified-packaging">FSC-certified packaging</a> page.
+
+**Recyclable Inserts and Closures** — The historical sustainability challenge with luxury packaging has been inserts and closures. EVA foam and velvet aren't recyclable. Magnets complicate recycling. The 2026 solutions: molded pulp inserts (recyclable, biodegradable, premium matte finish) replace foam; die-cut paperboard inserts replace velvet; magnetic closures use embedded steel discs that are removable during recycling. <a href="/products/folding-cartons">Folding cartons</a> with custom paperboard inserts offer a fully recyclable alternative for brands that want premium without the rigid box price point.
+
+**Water-Based Soft-Touch and Soy Inks** — The soft-touch velvet feel that defines modern luxury packaging has historically required plastic film lamination — making the box unrecyclable. New water-based soft-touch coatings deliver the same tactile experience without the plastic, keeping the box fully recyclable. Combined with soy-based inks (renewable, low-VOC, food-safe) and water-based coatings, sustainable luxury packaging now achieves the same sensory experience as conventional luxury — at comparable cost and full recyclability.
+
+### Cost Considerations for Luxury Packaging
+
+Per-unit pricing (digital printing): Rigid magnetic-closure box (no finish) $3.50-$5.50 at 100 / $1.50-$2.50 at 1,000+, rigid box + foil + soft-touch $4.50-$8.00 at 100 / $2.00-$3.50 at 1,000+, drawer box with ribbon pull $4.00-$6.50 at 100 / $1.80-$3.00 at 1,000+, premium folding carton (w/ foil) $2.20-$3.50 at 100 / $0.80-$1.40 at 1,000+, EVA foam custom insert $0.80-$1.80 at 100 / $0.25-$0.55 at 1,000+, molded pulp insert (eco) $0.50-$1.20 at 100 / $0.15-$0.35 at 1,000+.
+
+**Cost Optimization**: Start with structural luxury first (rigid magnetic-closure box without finishing add-ons reads as premium at 100 units; add foil and soft-touch on reorders as volume justifies the tooling cost). Standardize box footprints across SKUs with product-specific inserts and sleeves. Order at volume breakpoints — luxury packaging has steeper volume breaks (biggest price drops at 500, 1,000, and 5,000 units). Strategic finishing — apply foil only to the logo, use spot UV instead of full-coverage soft-touch. Choose molded pulp over EVA foam (30-50% less cost, fully recyclable, premium matte aesthetic). Use FSC rigid board as default ($0.05-$0.15/unit). For unboxing design framework, see our <a href="/blog/how-to-create-unboxing-experience">unboxing experience guide</a>.
+`,
+  },
 ];
 
 // ============================================================
