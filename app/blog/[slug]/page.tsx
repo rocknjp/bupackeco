@@ -69,7 +69,7 @@ Don't make the switch silently. Your customers want to know:
 
 We specialize in helping eCommerce brands transition to <a href="/products/paper-boxes">paper-based packaging</a> with flexible MOQ starting at 100 units. Every box is available in <a href="/eco">FSC-certified paper</a>, printed with soy-based ink, and finished with water-based coatings. We also offer plastic-free shipping supplies including paper tape and kraft paper cushioning — so your entire unboxing experience can be 100% recyclable.
 
-Brands in specific verticals can explore our industry-specific solutions: from <a href="/industries/candles-fragrance">candle packaging</a> to <a href="/industries/jewelry">jewelry boxes</a> and <a href="/industries/chocolate-confectionery">confectionery packaging</a> — each with drop-tested designs and FDA-compliant materials where needed.
+Brands in specific verticals can explore our industry-specific solutions: from <a href="/industries/fragrance-candles">candle packaging</a> to <a href="/industries/jewelry-accessories">jewelry boxes</a> and <a href="/industries/corporate-gifts-subscription">gift packaging</a> — each with drop-tested designs and FDA-compliant materials where needed.
 `,
   },
   {

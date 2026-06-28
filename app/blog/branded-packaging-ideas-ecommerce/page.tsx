@@ -156,7 +156,7 @@ export default function BrandedPackagingIdeasEcommerce() {
               Wrapping products in custom-printed tissue paper adds a layer of luxury and brand reinforcement. It's especially effective for fashion, beauty, and gift brands. Custom tissue paper starts at <strong>$0.08–$0.15 per sheet</strong> and can be printed with soy-based inks on recycled paper for an eco-friendly touch.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              <strong>Best for:</strong> <a href="/industries/apparel-fashion" className="text-green-700 underline">Fashion</a> and <a href="/industries/cosmetics-beauty" className="text-green-700 underline">beauty brands</a> where presentation drives perceived value.
+              <strong>Best for:</strong> <a href="/industries/stationery-toys" className="text-green-700 underline">Fashion</a> and <a href="/industries/beauty-skincare" className="text-green-700 underline">beauty brands</a> where presentation drives perceived value.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
@@ -186,7 +186,7 @@ export default function BrandedPackagingIdeasEcommerce() {
                   <tr className="border-b border-gray-100"><td className="py-2 px-4 text-gray-700"><strong>#6 Custom stickers & seals</strong></td><td className="py-2 px-4 text-gray-700">$0.05–$0.12</td><td className="py-2 px-4 text-gray-700">Sealing tissue, box closure</td></tr>
                   <tr className="border-b border-gray-100"><td className="py-2 px-4 text-gray-700"><strong>#7 Die-cut windows</strong></td><td className="py-2 px-4 text-gray-700">$0.20–$0.50</td><td className="py-2 px-4 text-gray-700">Food, beauty product preview</td></tr>
                   <tr className="border-b border-gray-100"><td className="py-2 px-4 text-gray-700"><strong>#8 Spot UV accents</strong></td><td className="py-2 px-4 text-gray-700">$0.15–$0.30</td><td className="py-2 px-4 text-gray-700">Luxury & premium brands</td></tr>
-                  <tr className="border-b border-gray-100"><td className="py-2 px-4 text-gray-700"><strong>#9 Foil stamping</strong></td><td className="py-2 px-4 text-gray-700">$0.25–$0.60</td><td className="py-2 px-4 text-gray-700"><a href="/industries/jewelry" className="text-green-700 underline">Jewelry</a>, <a href="/industries/candles-fragrance" className="text-green-700 underline">candles</a>, holiday</td></tr>
+                  <tr className="border-b border-gray-100"><td className="py-2 px-4 text-gray-700"><strong>#9 Foil stamping</strong></td><td className="py-2 px-4 text-gray-700">$0.25–$0.60</td><td className="py-2 px-4 text-gray-700"><a href="/industries/jewelry-accessories" className="text-green-700 underline">Jewelry</a>, <a href="/industries/fragrance-candles" className="text-green-700 underline">candles</a>, holiday</td></tr>
                   <tr className="border-b border-gray-100"><td className="py-2 px-4 text-gray-700"><strong>#10 Embossed/debossed logo</strong></td><td className="py-2 px-4 text-gray-700">$0.30–$0.80</td><td className="py-2 px-4 text-gray-700">Premium positioning</td></tr>
                 </tbody>
               </table>
@@ -199,7 +199,7 @@ export default function BrandedPackagingIdeasEcommerce() {
               Foam or cardboard inserts cut to hold your product precisely. This serves dual purposes: protection during shipping and a premium presentation. Custom inserts eliminate the need for bubble wrap and show customers you care about both product safety and aesthetics. Inserts cost <strong>$0.30–$0.80 per unit</strong> depending on complexity.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              <strong>Best for:</strong> <a href="/industries/chocolate-confectionery" className="text-green-700 underline">Food</a>, cosmetics, and fragile products.
+              <strong>Best for:</strong> <a href="/industries/corporate-gifts-subscription" className="text-green-700 underline">Food</a>, cosmetics, and fragile products.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">

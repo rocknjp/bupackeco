@@ -293,7 +293,7 @@ export default function CompostablePackagingAlternatives() {
               <li>Switch poly tape to kraft paper tape — same functionality, compostable, minimal cost change</li>
               <li>Replace plastic tissue with recycled kraft tissue — identical cost</li>
               <li>Swap plastic stickers for compostable labels — small premium, big perception gain</li>
-              <li>Switch from coated to uncoated kraft paper for <a href="/industries/chocolate-confectionery" className="text-green-700 underline">food packaging</a> and <a href="/industries/candles-fragrance" className="text-green-700 underline">candle boxes</a></li>
+              <li>Switch from coated to uncoated kraft paper for <a href="/industries/beauty-skincare" className="text-green-700 underline">beauty packaging</a> and <a href="/industries/fragrance-candles" className="text-green-700 underline">candle boxes</a></li>
             </ul>
 
             <h3 className="text-xl font-semibold text-gray-800 mt-8 mb-3">

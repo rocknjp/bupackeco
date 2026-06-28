@@ -310,7 +310,7 @@ export default function CustomBoxesOverseasManufacturer() {
           <p className="text-gray-700 leading-relaxed mb-4"><strong>4. Ignoring cultural differences in communication.</strong> Chinese suppliers may say &quot;no problem&quot; to save face even when there is a problem. Ask specific, measurable questions: &quot;Can you ship by June 15?&quot; rather than &quot;Can you ship soon?&quot;</p>
 
           <p className="text-gray-700 leading-relaxed mb-4">
-            These best practices apply across industries, but the stakes are especially high in appearance-driven categories. For <Link href="/industries/cosmetics-beauty" className="text-green-700 underline hover:text-green-600">cosmetics and beauty brands</Link>, packaging quality directly influences perceived product value — a scuffed box or misaligned print can undermine a $50 serum&apos;s credibility before the customer even tries it.
+            These best practices apply across industries, but the stakes are especially high in appearance-driven categories. For <Link href="/industries/beauty-skincare" className="text-green-700 underline hover:text-green-600">cosmetics and beauty brands</Link>, packaging quality directly influences perceived product value — a scuffed box or misaligned print can undermine a $50 serum&apos;s credibility before the customer even tries it.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">

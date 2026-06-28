@@ -128,54 +128,48 @@ const certifications = [
 ];
 
 const industries = [
+  // ── Target Industries v3.0 — North America Focus ─────────────
   {
-    name: "Candles & Home Fragrance",
-    slug: "candles-fragrance",
+    name: "Beauty & Skincare",
+    slug: "beauty-skincare",
     img: "/images/industry_cosmetics.jpg",
-    alt: "Custom candle packaging boxes for home fragrance brands",
-    desc: "Mailer boxes, gift sets, and subscription boxes for candle brands that want unboxing to be part of the experience.",
-    tags: ["Fast Turnaround", "Gift-Ready", "Seasonal"],
+    alt: "Custom beauty and skincare packaging boxes for indie brands",
+    desc: "FDA-compliant mailer boxes with bottle inserts, luxury gift sets for multi-SKU collections. Low MOQ from 100 units.",
+    tags: ["FDA Compliant", "Low MOQ", "Gift Sets"],
+  },
+  {
+    name: "Fragrance & Candles",
+    slug: "fragrance-candles",
+    img: "/images/industry_cosmetics.jpg",
+    alt: "Custom candle and home fragrance packaging with jar inserts",
+    desc: "Drop-tested mailer boxes for glass jars and premium diffuser bottles. Holiday gift sets and subscription packaging.",
+    tags: ["Jar Inserts", "Gift Sets", "Subscription"],
+  },
+  {
+    name: "Corporate Gifts & Subscriptions",
+    slug: "corporate-gifts-subscription",
+    img: "/images/industry_gift_box.jpg",
+    alt: "Corporate gift box and subscription box packaging manufacturer",
+    desc: "Monthly subscription boxes from 100 units. Employee welcome kits, client appreciation gifts, holiday distributions.",
+    tags: ["Subscription", "Corporate Kits", "Volume Pricing"],
+  },
+  {
+    name: "Stationery & Designer Toys",
+    slug: "stationery-toys",
+    img: "/images/industry_stationery_gifts.jpg",
+    alt: "Collector-grade designer toy packaging and slim stationery mailers",
+    desc: "Limited edition numbered boxes, blind box packaging, slim notebook mailers. Collector-grade presentation.",
+    tags: ["Collector Grade", "Limited Edition", "Slim Mailers"],
   },
   {
     name: "Jewelry & Accessories",
-    slug: "jewelry",
+    slug: "jewelry-accessories",
     img: "/images/industry_jewelry.jpg",
-    alt: "Luxury rigid jewelry boxes with velvet insert and magnetic closure",
-    desc: "Small-batch luxury rigid boxes with velvet inserts. Your packaging is the proposal moment.",
-    tags: ["Low MOQ", "Magnetic Closure", "Velvet Insert"],
+    alt: "Luxury jewelry packaging boxes with velvet insert and magnetic closure",
+    desc: "Affordable luxury unboxing with velvet-lined rigid boxes, magnetic closure, coordinated accessory packaging family.",
+    tags: ["Velvet Insert", "Magnetic Closure", "Affordable Luxury"],
   },
-  {
-    name: "Chocolate & Confectionery",
-    slug: "chocolate-confectionery",
-    img: "/images/industry_food_box.jpg",
-    alt: "FDA-compliant chocolate gift boxes with window patching",
-    desc: "FDA-compliant gift boxes that make chocolate feel like a luxury — not a commodity.",
-    tags: ["Food-Safe", "Holiday Rush", "Window Boxes"],
-  },
-  {
-    name: "Stationery & Lifestyle Gifts",
-    slug: "stationery-gifts",
-    img: "/images/industry_stationery_gifts.jpg",
-    alt: "Custom stationery and lifestyle gift packaging boxes",
-    desc: "Journals, pens, and gift sets deserve packaging that matches the craft inside.",
-    tags: ["Flat Mailers", "Gift Sets", "Floral Print"],
-  },
-  {
-    name: "Tea & Specialty Beverages",
-    slug: "tea-beverages",
-    img: "/images/industry_wine.jpg",
-    alt: "Custom tea and beverage packaging boxes with drawer-style design",
-    desc: "Tea tins, sachet boxes, and monthly subscription boxes for the modern tea brand.",
-    tags: ["Subscription Box", "Drawer Style", "Airtight"],
-  },
-  {
-    name: "Pet Treats & Subscription Boxes",
-    slug: "pet-subscription",
-    img: "/images/industry_clothing.jpg",
-    alt: "Monthly pet treat subscription box packaging with custom themes",
-    desc: "Monthly themed boxes that dogs (and their owners) can't wait to open.",
-    tags: ["Monthly Themes", "Durable", "Pet-Safe Ink"],
-  },
+  // ── End Target Industries ───────────────────────────────────
 ];
 
 const testimonials = [

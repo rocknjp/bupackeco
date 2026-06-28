@@ -602,6 +602,303 @@ const industries: Record<string, IndustryData> = {
       { q: "Can you design inserts for different pastry shapes and sizes?", a: "Yes. We create precision-cut paperboard or EVA foam inserts for cookies, macarons, croissants, cupcakes, and any other shape. Each item gets its own protective slot." },
     ],
   },
+  // ── NEW: Target Industries (v3.0) ──────────────────────────────
+  "beauty-skincare": {
+    name: "Beauty & Skincare",
+    tagline: "Your formula deserves packaging that matches its quality — from first impression to unboxing ritual",
+    identitySlogan: "From glow to art, packaging completes",
+    heroImage: "/images/industry_cosmetics.jpg",
+    color: "from-pink-500 to-rose-700",
+    icon: "✨",
+    whyBUpack: "Indie beauty and skincare brands invest months perfecting formulas, then settle for generic packaging that undermines their premium positioning. Our 100-unit MOQ and FDA-compliant materials mean you get luxury presentation without luxury order commitments.",
+    painPoints: [
+      "Glass serum bottles and cream jars arrive cracked — each broken unit is lost revenue AND a disappointed customer who tells their friends",
+      "Your gorgeous product looks cheap in mass-produced boxes that don't reflect your brand's clean-beauty or clinical-luxury positioning",
+      "Gift sets with multiple SKUs (serum + cream + mask + oil) look chaotic when jumbled together in oversized boxes",
+      "Most suppliers require 1,000+ unit minimums — impossible for an indie brand testing a new shade or limited-edition launch",
+      "FDA compliance questions keep you up at night — are your inks, coatings, and adhesives safe for cosmetic contact?",
+    ],
+    solutions: [
+      {
+        title: "Skincare Mailer Boxes with Bottle Inserts",
+        desc: "E-flute corrugated mailers with precision-cut paperboard or EVA foam inserts that cradle each bottle perfectly. Drop-tested for FedEx, USPS, DHL. Interior printing for the unboxing moment.",
+        image: "/images/product_box_1.jpg",
+      },
+      {
+        title: "Luxury Beauty Gift Sets",
+        desc: "Rigid lid-and-base boxes with custom compartments for multi-SKU sets (serum + moisturizer + eye patches + face oil). Soft-touch lamination, gold/rose-gold foil stamping. The department-store experience at home.",
+        image: "/images/product_box_2.jpg",
+      },
+      {
+        title: "Monthly Beauty Discovery Boxes",
+        desc: "Standardized structures with rotating seasonal artwork. Same reliable box, fresh design every month — subscribers can't wait to see this quarter's palette.",
+        image: "/images/product_box_3.jpg",
+      },
+    ],
+    caseStudy: {
+      brand: "Glow Rituals",
+      stage: "DTC skincare brand ($3.2M ARR)",
+      challenge: "Holiday gift sets shipped in plain white boxes with bubble wrap. Zero Instagram unboxing content despite 80K followers. Gift set returns at 8% from 'cheap first impression.'",
+      solution: "Custom rigid magnetic-closure box with rose gold foil stamping, 4-compartment EVA insert for serum + cream + mask + eye patches. Interior printed with ingredient story and usage guide.",
+      result: "Unboxing posts went from 0 to 520+ during holiday season. Gift set AOV increased 55%. Return rate dropped from 8% → 0.3%. Gift sets became #1 revenue channel Q4-Q1.",
+    },
+    recommendedProducts: [
+      { name: "Mailer Boxes with Inserts", href: "/products/paper-boxes" },
+      { name: "Rigid Gift Boxes", href: "/products/rigid-gift-boxes" },
+      { name: "Folding Cartons", href: "/products/folding-cartons" },
+    ],
+    packagingTypes: [
+      { type: "Shipping Mailer", desc: "E-flute corrugated with custom bottle inserts. Protects glass skincare containers through all carriers.", icon: "📦" },
+      { type: "Gift Set Box", desc: "Rigid lid-and-base with multi-product compartments. The 'retail counter' experience delivered home.", icon: "🎁" },
+      { type: "Subscription Box", desc: "Monthly beauty discovery box with rotating designs. Same structure, fresh artwork each cycle.", icon: "🔄" },
+      { type: "Product Carton", desc: "Folding carton or sleeve for individual items. Ingredient story and how-to-use inside.", icon: "✨" },
+    ],
+    seoKeywords: "beauty packaging low moq, skincare brand custom boxes, custom cosmetic packaging boxes, eco friendly beauty packaging, FDA compliant beauty boxes wholesale, indie beauty packaging supplier",
+    faqs: [
+      { q: "What's the minimum order for beauty and skincare packaging?", a: "We start at just 100 units — perfect for indie beauty brands launching a new product line, limited edition shade, or seasonal collection without overcommitting on inventory." },
+      { q: "Are your materials FDA-compliant for cosmetic product contact?", a: "Yes. All our cosmetic-contact packaging uses FSC-certified paper, soy-based inks, and water-based adhesives compliant with FDA 21 CFR requirements for indirect food/cosmetic contact." },
+      { q: "Can you protect glass skincare bottles during shipping?", a: "Absolutely. We design custom paperboard or EVA foam inserts that cradle each bottle precisely by diameter and height. Every design is drop-tested to ensure your products survive cross-country shipping intact." },
+      { q: "Do you offer foil stamping and soft-touch lamination for luxury beauty packaging?", a: "Yes — gold, silver, rose gold, copper, and holographic foil stamping are available. Soft-touch lamination, spot UV, and embossing too. Everything that makes your box feel as premium as your $85 serum." },
+      { q: "How fast can I get beauty gift set boxes for a holiday launch?", a: "3 days for design finalization, 5 days for sampling, 7 days for production delivery — 15 days total from concept to door. We recommend reaching out 6 weeks before peak season for best pricing." },
+    ],
+  },
+  "fragrance-candles": {
+    name: "Fragrance & Candles",
+    tagline: "Your candle deserves a box as beautiful as its scent — and your fragrance deserves packaging that sells the dream",
+    identitySlogan: "From glow to art, packaging completes",
+    heroImage: "/images/industry_cosmetics.jpg",
+    color: "from-amber-500 to-orange-600",
+    icon: "🕯️",
+    whyBUpack: "Candle brands pour their own wax and source packaging separately. Home fragrance brands design bottles independently. Our 3-day design + 5-day sampling + 7-day production means your seasonal launches never miss the window — whether it's a soy candle or a $200 room diffuser.",
+    painPoints: [
+      "Glass jars arrive shattered — your beautiful candle becomes a refund request and a negative review",
+      "Holiday launch packaging takes 8-12 weeks from traditional suppliers — you miss the entire selling season",
+      "Your gift sets feel generic — no brand personality in the unboxing, zero Instagram-worthy moments",
+      "Monthly subscription boxes look the same every month, killing subscriber excitement and increasing churn",
+      "Premium fragrance bottles (diffusers, perfume) need presentation-level packaging, not just shipping protection",
+    ],
+    solutions: [
+      {
+        title: "Custom Candle Mailer Boxes with Inserts",
+        desc: "E-flute corrugated mailers with precision-cut inserts that cradle glass jars of any size. Drop-tested to survive FedEx, USPS, and DHL. Interior branding for unboxing.",
+        image: "/images/product_box_1.jpg",
+      },
+      {
+        title: "Luxury Fragrance Gift Sets",
+        desc: "Rigid lid-and-base boxes with EVA foam or velvet-lined compartments for candles + diffusers + accessories. Gold foil, satin ribbon, magnetic closure. The giftable unboxing.",
+        image: "/images/product_box_2.jpg",
+      },
+      {
+        title: "Monthly Subscription Boxes",
+        desc: "Standardized sizes with monthly design refreshes. Same dieline, new artwork every month — subscribers can't wait to see what's next. Perfect for candle-of-the-month clubs.",
+        image: "/images/product_box_3.jpg",
+      },
+    ],
+    caseStudy: {
+      brand: "Botanical Flame Co.",
+      stage: "DTC candle & home fragrance brand ($2M ARR)",
+      challenge: "Holiday gift sets were shipping in plain brown boxes. Zero Instagram unboxing posts despite 50K followers. Diffuser launches had no premium packaging option — they looked the same as $12 candles.",
+      solution: "Custom rigid lid-and-base box with gold foil stamping, EVA insert for 3-candle sets, and separate luxury SKU for diffuser gift sets with magnetic closure and interior scent-story card.",
+      result: "Unboxing posts jumped from 0 to 340+ in Q4. Gift set AOV increased 42%. Return rate dropped from 6% → 0.8%. Diffuser gift set became Q1 bestseller at $89/unit.",
+    },
+    recommendedProducts: [
+      { name: "Mailer Boxes with Inserts", href: "/products/paper-boxes" },
+      { name: "Rigid Gift Boxes", href: "/products/paper-boxes" },
+      { name: "Subscription Boxes", href: "/products/subscription-boxes" },
+    ],
+    packagingTypes: [
+      { type: "Candle Shipper", desc: "E-flute corrugated with custom-fit jar inserts. Survives cross-country shipping. Interior print for unboxing moment.", icon: "📦" },
+      { type: "Gift Set Box", desc: "Rigid lid-and-base with multi-candle/diffuser inserts. The 'giftable' unboxing that drives social shares.", icon: "🎁" },
+      { type: "Subscription Box", desc: "Monthly theme rotation on standardized dieline. Fresh design, same structure. Candle-of-the-month club ready.", icon: "🔄" },
+      { type: "Fragrance Sleeve", desc: "Paperboard wrap-around sleeve for single candles or diffusers. Premium branding without bulk.", icon: "🕯️" },
+    ],
+    seoKeywords: "custom candle packaging boxes, candle mailer box with insert, candle gift set packaging, candle subscription box, fragrance box manufacturer, luxury candle packaging that customers instagram",
+    faqs: [
+      { q: "What's the minimum order for candle mailer boxes?", a: "We start at just 100 units — perfect for testing a new scent line or seasonal design before committing to volume. Reorders can go as low as 50 units." },
+      { q: "How do you protect glass candle jars during shipping?", a: "We use E-flute corrugated with precision-cut paperboard or EVA foam inserts sized to your exact jar dimensions. Every design is drop-tested before production to ensure jars arrive intact." },
+      { q: "Can you match my candle brand's specific color palette?", a: "Absolutely. We use Pantone color matching and digital proofing. You'll see and approve a physical sample before production. Soy-based inks for clean, eco-friendly color reproduction." },
+      { q: "How fast can I get a new candle gift set box designed and delivered?", a: "3 days for design finalization, 5 days for sampling, and 7 days for production delivery — that's 15 days from concept to your door for orders under 10,000 units." },
+      { q: "Can you do packaging for home fragrance beyond candles — diffusers, room sprays?", a: "Yes! We design for the full home fragrance category: reed diffuser boxes, room spray cartons, car fragrance packaging, and electric melt warmer boxes. Each gets the same premium treatment as our candle packaging." },
+    ],
+  },
+  "corporate-gifts-subscription": {
+    name: "Corporate Gifts & Subscription Boxes",
+    tagline: "From employee welcome kits to monthly subscriber experiences — packaging that makes every unboxing memorable",
+    identitySlogan: "Every box is a touchpoint that builds loyalty",
+    heroImage: "/images/industry_gift_box.jpg",
+    color: "from-blue-600 to-indigo-800",
+    icon: "🎁",
+    whyBUpack: "Corporate gift programs and subscription box businesses live or die by unboxing experience. Your box IS the product for subscription brands, and it's the first touchpoint for corporate gifting. We've shipped 10M+ boxes and know what makes recipients say 'wow.'",
+    painPoints: [
+      "Subscriber churn because every month's box feels the same — no excitement, no shareability",
+      "Corporate gifts arrive damaged or looking cheap — undermining your brand's relationship with clients and employees",
+      "High per-unit costs from premium suppliers make subscription economics impossible at scale",
+      "Long lead times mean you can't react to trends or customize for key client gifts",
+      "No way to personalize at scale — every recipient gets the same generic box",
+    ],
+    solutions: [
+      {
+        title: "Monthly Subscription Boxes",
+        desc: "Standardized dieline with unlimited artwork variations. Same structure, new surprise every month. Designed for high-volume, low-cost-per-unit economics at scale.",
+        image: "/images/product_box_3.jpg",
+      },
+      {
+        title: "Corporate Welcome & Appreciation Kits",
+        desc: "Branded rigid boxes for employee onboarding, client appreciation, or event swag. Custom compartments for branded items + welcome letter + company swag.",
+        image: "/images/product_box_1.jpg",
+      },
+      {
+        title: "Holiday & Event Gift Sets",
+        desc: "Pre-engineered seasonal designs with quick-turn capability. From 100-unit executive gifts to 10,000-unit company-wide distributions. Consistent quality at any volume.",
+        image: "/images/product_box_2.jpg",
+      },
+    ],
+    caseStudy: {
+      brand: "Thread & Thread Subscription Co.",
+      stage: "DTC lifestyle subscription box (25K+ subscribers)",
+      challenge: "Churn was at 14%/month — subscribers said 'the boxes all look the same.' Unboxing content on social media was declining. Competitor boxes felt more 'curated' and premium.",
+      solution: "Redesigned box structure with magnetic closure, custom tissue pattern rotated quarterly, and interior panel with curated note explaining the theme. Per-unit cost reduced 18% through structural optimization while upgrading perceived value.",
+      result: "Churn dropped from 14% → 7.8% monthly. Instagram unboxing tags increased 4x. Net Promoter Score improved from 32 → 61. Subscriber LTV increased 40%.",
+    },
+    recommendedProducts: [
+      { name: "Subscription Boxes", href: "/products/subscription-boxes" },
+      { name: "Rigid Gift Boxes", href: "/products/rigid-gift-boxes" },
+      { name: "Mailer Boxes", href: "/products/paper-boxes" },
+    ],
+    packagingTypes: [
+      { type: "Subscription Box", desc: "High-volume optimized rigid or corrugated box. Rotating artwork, fixed structure. Built for scale.", icon: "📦" },
+      { type: "Corporate Kit", desc: "Rigid box with multi-compartment insert for curated items. Employee/client-ready presentation.", icon: "🎁" },
+      { type: "Mail Pack", desc: "Flat corrugated or rigid mailer for document + small gift combinations. Cost-effective direct mail.", icon: "✉️" },
+      { type: "Event Swag", desc: "Portable rigid or folding box for conference giveaways. Branded, memorable, keepsake-worthy.", icon: "🏆" },
+    ],
+    seoKeywords: "corporate gift box packaging, subscription box manufacturer, custom subscription boxes from 100 units, employee welcome kit boxes, monthly subscription box packaging supplier, custom boxes low MOQ",
+    faqs: [
+      { q: "What's the minimum order for custom subscription boxes?", a: "Just 100 units for your initial design. Once the dieline is established, monthly reorders with new artwork start at just 50 units. Perfect for testing concepts before scaling." },
+      { q: "Can you handle different artwork each month without setup fees?", a: "After your initial design is finalized, artwork changes have minimal setup costs — typically just printing plate changes. Many subscription brands rotate 12 unique designs yearly with negligible per-design overhead." },
+      { q: "What's the typical lead time for corporate gift orders?", a: "For standard designs: 5 business days after approval. For fully custom corporate gifts with logo, insert, and special finishes: 10-15 business days. Rush orders available for urgent executive gifting needs." },
+      { q: "Can you include personalized elements like recipient names or messages?", a: "Yes. We support variable data printing for personalized thank-you cards, nameplates, and message inserts. Digital printing allows unique personalization on every box at scale — perfect for employee recognition programs." },
+      { q: "How do your prices compare at 1,000 vs 10,000 units?", a: "At 1,000 units, expect $1.80-$3.50/unit depending on size and finishes. At 10,000+ units, pricing typically drops 30-45% due to material and setup efficiency gains. Volume tiers are clearly quoted upfront so you can model your unit economics accurately." },
+    ],
+  },
+  "stationery-toys": {
+    name: "Stationery & Designer Toys",
+    tagline: "The paper that wraps the paper — and the collector's grade box that completes the limited edition",
+    identitySlogan: "From craft to legacy, packaging preserves",
+    heroImage: "/images/industry_gift_box.jpg",
+    color: "from-sky-600 to-violet-700",
+    icon: "✒️",
+    whyBUpack: "Stationery brands design notebooks, pens, and journals separately from packaging. Designer toy creators craft collectible figures that demand museum-grade presentation. Your box is either kept forever on a desk or thrown away immediately — we make sure it's the former.",
+    painPoints: [
+      "Flat products (notebooks, cards, prints) slide around in oversized boxes — wasted space = wasted postage",
+      "Designer toy collectors judge authenticity BY the packaging — a generic box devalues a $200 limited edition",
+      "Gift sets with multiple items (journal + pen + washi tape + stickers) look messy without proper organization",
+      "Seasonal collections and limited editions need new packaging on short notice — traditional suppliers take months",
+      "Customers want packaging they'll reuse as desk organizers or display cases — not throw away",
+    ],
+    solutions: [
+      {
+        title: "Slim Flat Mailer Boxes",
+        desc: "Purpose-built slim-profile corrugated mailers for notebooks, planners, card decks, and art prints. No wasted space, no dimensional weight penalty. Optimized for flat products.",
+        image: "/images/product_box_1.jpg",
+      },
+      {
+        title: "Collector-Grade Toy Packaging",
+        desc: "Rigid boxes with premium finishes designed for shelf display and collector preservation. Numbered edition printing, holographic seals, magnetic closure. Museum-quality presentation.",
+        image: "/images/product_box_2.jpg",
+      },
+      {
+        title: "Journal & Creative Gift Set Boxes",
+        desc: "Rigid lid-and-base with compartments for journal + pen + accessories + washi tape set. Interior printed with creative prompts or brand manifesto. Magnetic closure keepsake design.",
+        image: "/images/product_box_3.jpg",
+      },
+    ],
+    caseStudy: {
+      brand: "Papillon Press x Inkling Toys",
+      stage: "DTC stationery brand + designer toy collab (50K+ stationery customers)",
+      challenge: "Holiday collaboration gift set shipped in generic boxes with kraft stuffing. Stationery fans were disappointed; toy collectors refused to display the packaging. Two audiences, one missed opportunity.",
+      solution: "Custom rigid collector's box with dual-interior design: one side featured journal + pen + tape set, reverse side showcased limited-edition figurine with numbered certificate. Holographic seal, embossed collaboration logos.",
+      result: "Gift set AOV increased 35% vs prior holiday sets. Collector resale value on secondary market confirmed packaging premium. Customer reviews mentioning 'collector-grade packaging' went from 0 → 67%.",
+    },
+    recommendedProducts: [
+      { name: "Flat Mailer Boxes", href: "/products/paper-boxes" },
+      { name: "Collector Rigid Boxes", href: "/products/rigid-gift-boxes" },
+      { name: "Gift Set Boxes", href: "/products/subscription-boxes" },
+    ],
+    packagingTypes: [
+      { type: "Slim Mailer", desc: "Optimized for notebooks, prints, card decks. Minimal dimensional weight. Maximum protection for flat goods.", icon: "📦" },
+      { type: "Collector Box", desc: "Display-grade rigid box with numbering, seals, premium finish. For limited editions and designer toys.", icon: "🎨" },
+      { type: "Gift Set Box", desc: "Multi-compartment rigid box for journal + accessories combos. Desk-worthy keepsake design.", icon: "🎁" },
+      { type: "Product Sleeve", desc: "Paperboard wrap or belly band for individual notebooks or blind boxes. Minimal material, maximum brand impact.", icon: "✒️" },
+    ],
+    seoKeywords: "premium stationery packaging, designer toy box custom, collector grade packaging for limited editions, notebook mailer box, custom stationery gift boxes, blind box packaging manufacturer",
+    faqs: [
+      { q: "What's the best packaging style for shipping notebooks and planners?", a: "Slim-profile mailer boxes with height between 0.75-1.5 inches are ideal. They protect flat products while minimizing dimensional weight charges. Our most popular size ships at the lowest possible USPS Priority Mail rate." },
+      { q: "Can you do numbered limited edition packaging for designer toys?", a: "Absolutely. We offer sequential numbering, holographic authenticity certificates, and edition-specific variant printing. Each box can be individually serialized for true limited edition verification." },
+      { q: "Do you offer packaging that works for both stationery and toys?", a: "That's exactly what our collector-grade rigid boxes deliver. The same premium construction works for both categories — we've done successful collaborations where one box design serves both stationery fans and toy collectors." },
+      { q: "What's the minimum order for custom blind box or mystery box packaging?", a: "100 units for standard designs. Blind/mystery boxes are one of our specialties — we can do varied interior printing so each box in a series has different internal artwork or reveals." },
+      { q: "How fast can you produce limited edition packaging for a convention or drop date?", a: "Design in 3 days, samples in 5 days, production in 7 days. For convention exclusives, we recommend locking in your design 4 weeks before the event for the smoothest experience." },
+    ],
+  },
+  "jewelry-accessories": {
+    name: "Jewelry & Accessories",
+    tagline: "Small product, big moment — make the box part of the story customers tell",
+    identitySlogan: "Jewelry reveals self, box begins story",
+    heroImage: "/images/industry_jewelry.jpg",
+    color: "from-violet-600 to-purple-800",
+    icon: "💍",
+    whyBUpack: "Jewelry and accessory brands manufacture pieces separately from packaging. But your box IS the first thing customers see — it's the proposal moment, the birthday reveal, the self-gift ritual. We make sure it's worthy of the piece inside.",
+    painPoints: [
+      "Generic leatherette or cotton-filled boxes cheapen even the finest jewelry — the unboxing kills the magic before the piece is even seen",
+      "Tiny items get lost in oversized boxes — customers hate opening a large box to find a small ring swimming in filler paper",
+      "No way to include care instructions or brand story that customers actually keep (not throw away)",
+      "Ring and earring boxes that don't photograph well for proposal posts, unboxings, or TikTok shows",
+      "Accessory brands (watches, sunglasses, hair clips) need different proportions than traditional jewelry boxes",
+    ],
+    solutions: [
+      {
+        title: "Velvet-Insert Rigid Boxes",
+        desc: "Custom-cut velvet or suede inserts holding each piece precisely in place. Rings, necklaces, earrings, watches — each has its perfect designated spot. Available in 20+ interior colors.",
+        image: "/images/product_box_2.jpg",
+      },
+      {
+        title: "Magnetic Closure Gift Boxes",
+        desc: "Soft-touch laminated rigid boxes with hidden magnetic flap — the slow, satisfying reveal that makes every unboxing Instagram-worthy and TikTok-ready.",
+        image: "/images/product_box_1.jpg",
+      },
+      {
+        title: "Travel Pouch + Box Combo",
+        desc: "Reusable microfiber drawstring pouch nested inside a rigid presentation box. Customers keep both — your brand travels with them daily and lives on their vanity.",
+        image: "/images/product_box_3.jpg",
+      },
+    ],
+    caseStudy: {
+      brand: "June & Stone",
+      stage: "DTC jewelry & accessories brand",
+      challenge: "Ring boxes were generic black leatherette — customers posted the ring on Instagram, never the box. Brand story stopped at the jewelry. Accessory line (hair clips, sunglasses cloths) had no dedicated packaging at all.",
+      solution: "Velvet-lined rigid box collection with brand monogram emboss, plus matching magnetic-closure accessory pouches. Designed specifically for 'proposal shot' and 'flat lay' photography. Hair clip boxes in complementary smaller format.",
+      result: "Unboxing posts 5x increase across jewelry + accessories. 40% of customers now post a photo of the box itself. AOV up 15% via pouch upsell. Accessory attachment rate jumped from baseline to 34% of jewelry orders.",
+    },
+    recommendedProducts: [
+      { name: "Rigid Jewelry Boxes", href: "/products/paper-boxes" },
+      { name: "Magnetic Gift Boxes", href: "/products/subscription-boxes" },
+      { name: "Accessory Pouches", href: "/products/paper-bags" },
+    ],
+    packagingTypes: [
+      { type: "Jewelry Box", desc: "Primary presentation box — velvet/suede lined, magnetic or ribbon closure, embossed logo. Kept forever, gifted forward.", icon: "💎" },
+      { type: "Shipper Mailer", desc: "Compact corrugated mailer protecting the jewelry box inside. Small footprint = lower dimensional weight shipping.", icon: "📦" },
+      { type: "Accessory Box", desc: "Smaller rigid box for sunglasses cloths, hair clips, watch bands. Coordinates with main jewelry box family.", icon: "👓" },
+      { type: "Travel Pouch", desc: "Reusable drawstring pouch included with purchase. Daily utility = daily brand exposure.", icon: "👜" },
+    ],
+    seoKeywords: "custom jewelry packaging box, affordable luxury unboxing for jewelry brands, engagement ring gift box, velvet insert jewelry packaging, accessory brand packaging, magnetic closure jewelry box low moq",
+    faqs: [
+      { q: "What's the smallest jewelry box you can make?", a: "We produce rigid boxes as small as 2x2 inches for rings and stud earrings, up to 12x9x2 inches for necklace sets. Minimum 100 units per design regardless of size." },
+      { q: "Can you do velvet or suede interior lining in custom colors?", a: "Yes — we offer 20+ stock interior colors (black, navy, forest green, blush, champagne, etc.) and can PMS-match custom colors for orders of 300+ units. All materials tested for colorfastness to protect your jewelry." },
+      { q: "How do I ensure the ring box photographs well for social media?", a: "We optimize for 'Instagram lighting' — matte exterior finishes that don't glare under ring lights, rich interior contrast colors that pop on camera, and clean edges that photograph beautifully from any angle. Many of our jewelry brand clients use our boxes specifically for content creation." },
+      { q: "Can you add my brand's monogram or logo in foil?", a: "Yes — gold, silver, rose gold, copper, and holographic foil stamping. Blind embossing for subtler luxury. Debossed logo options also available. All positioned for maximum visibility in photos." },
+      { q: "Do you offer different box sizes within a coordinated family design?", a: "Absolutely — this is one of our most requested features. We create coordinated box families: large for necklaces/sets, medium for bracelets/watches, small for rings/ear studs, extra-small for accessories. Same design language, proportioned for each product category." },
+    ],
+  },
+  // ── END NEW Target Industries ──────────────────────────────────
   "cbd-hemp": {
     name: "CBD & Hemp",
     tagline: "Compliant packaging that looks as premium as your product",
@@ -673,6 +970,13 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
 
   // SEO-optimized title & description per industry
   const seoTitleMap: Record<string, string> = {
+    // NEW: Target Industries v3.0
+    "beauty-skincare": "Beauty & Skincare Packaging | Low MOQ Custom Boxes | BUpack",
+    "fragrance-candles": "Fragrance & Candle Packaging | Custom Boxes Low MOQ | BUpack",
+    "corporate-gifts-subscription": "Corporate Gift & Subscription Box Packaging | BUpack",
+    "stationery-toys": "Stationery & Designer Toy Packaging | Collector-Grade Custom Boxes | BUpack",
+    "jewelry-accessories": "Jewelry & Accessories Packaging | Luxury Unboxing | BUpack",
+    // Legacy industries (archived from main navigation)
     "candles-fragrance": "Custom Candle Packaging Boxes | BUpack",
     "jewelry": "Custom Jewelry Packaging Boxes | BUpack",
     "chocolate-confectionery": "Chocolate Gift Box Packaging | BUpack",
@@ -687,6 +991,13 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
   }
 
   const seoDescMap: Record<string, string> = {
+    // NEW: Target Industries v3.0
+    "beauty-skincare": "Custom beauty & skincare packaging boxes. FDA-compliant materials, low MOQ from 100 units. Mailer boxes with bottle inserts, luxury gift sets. FSC-certified factory-direct.",
+    "fragrance-candles": "Custom candle & home fragrance packaging. Mailer boxes with jar inserts, luxury diffuser gift sets. Low MOQ from 100 units. FSC-certified, fast turnaround.",
+    "corporate-gifts-subscription": "Corporate gift box & subscription box packaging. Custom from 100 units. Employee welcome kits, monthly subscription boxes. Volume pricing available.",
+    "stationery-toys": "Premium stationery & designer toy packaging. Collector-grade limited edition boxes, slim notebook mailers. Custom blind boxes. Low MOQ, factory-direct.",
+    "jewelry-accessories": "Custom jewelry & accessories packaging. Velvet-insert rigid boxes, magnetic closure, affordable luxury unboxing. Low MOQ from 100 units.",
+    // Legacy industries (archived)
     "candles-fragrance": "Custom candle packaging boxes with jar inserts. Mailer boxes, holiday gift sets. FSC-certified, low MOQ from 100 units.",
     "jewelry": "Custom jewelry boxes with velvet inserts. Magnetic closure rigid boxes for rings, necklaces. Low MOQ, factory-direct.",
     "chocolate-confectionery": "FDA-compliant chocolate gift boxes. Window boxes, rigid gift sets. FSC-certified, low MOQ from 100 units.",

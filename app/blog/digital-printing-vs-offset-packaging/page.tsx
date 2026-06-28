@@ -261,7 +261,7 @@ export default function DigitalPrintingVsOffsetPackaging() {
               <li>Your brand requires exact Pantone spot color matching</li>
               <li>You need metallic, fluorescent, or specialty inks</li>
               <li>You're printing extremely fine detail (text under 6pt, hairline illustrations)</li>
-              <li>You're ordering for a <a href="/industries/cosmetics-beauty" className="text-green-700 underline">beauty brand</a> or luxury product where color precision is critical</li>
+              <li>You're ordering for a <a href="/industries/beauty-skincare" className="text-green-700 underline">beauty brand</a> or luxury product where color precision is critical</li>
               <li>You plan to reorder the same design repeatedly (plates can be reused)</li>
             </ul>
 
