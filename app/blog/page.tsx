@@ -394,6 +394,28 @@ const posts = [
     featured: false,
     emoji: "✨",
   },
+  {
+    slug: "custom-chocolate-packaging-guide",
+    title: "Custom Chocolate Packaging Guide: FDA-Compliant, Luxury Gift Sets",
+    excerpt:
+      "Complete guide to custom chocolate packaging. FDA-compliant materials, window boxes, and luxury gift sets for confectionery brands. Low MOQ from 100 units.",
+    category: "Packaging 101",
+    date: "June 30, 2026",
+    readTime: "10 min",
+    featured: false,
+    emoji: "🍫",
+  },
+  {
+    slug: "custom-jewelry-packaging-guide",
+    title: "Custom Jewelry Packaging Guide: Velvet-Lined Rigid Boxes, Magnetic Closures",
+    excerpt:
+      "Complete guide to custom jewelry packaging. Velvet-lined rigid boxes, magnetic closures, and premium finishes for jewelry brands. Low MOQ from 100 units.",
+    category: "Packaging 101",
+    date: "June 30, 2026",
+    readTime: "11 min",
+    featured: false,
+    emoji: "💍",
+  },
 ];
 
 export default function BlogPage() {
