@@ -33,7 +33,7 @@ export function SiteSchema() {
             "BUpack Packaging",
           ],
           url: baseUrl,
-          logo: `${baseUrl}/images/bupack-logo.png`,
+          logo: `${baseUrl}/images/bupack-logo.jpg`,
           description:
             "FSC-certified custom paper boxes and bags manufacturer for DTC and eCommerce brands. Low MOQ from 100 units, owned factory in Qingdao, ships to North America.",
           address: {
@@ -245,7 +245,7 @@ export function ArticleSchema({
           name: "BUpack",
           logo: {
             "@type": "ImageObject",
-            url: "https://www.bupackeco.com/images/bupack-logo.png",
+            url: "https://www.bupackeco.com/images/bupack-logo.jpg",
           },
         },
         mainEntityOfPage: {

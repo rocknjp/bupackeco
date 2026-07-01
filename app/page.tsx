@@ -91,7 +91,7 @@ const products = [
     slug: "paper-boxes",
     tags: ["Retail", "Folding Carton"],
     desc: "Flexible thin paperboard boxes for cosmetics, food, and retail products. Full-color printing, embossing, window patching available.",
-    img: "/images/product_cardstock_foldable.png",
+    img: "/images/product_cardstock_foldable.jpg",
     alt: "Custom foldable cardstock boxes for retail and cosmetics",
   },
   {
@@ -99,7 +99,7 @@ const products = [
     slug: "paper-boxes",
     tags: ["Shipping", "DTC"],
     desc: "Durable 3-layer corrugated boxes for eCommerce shipping. Custom size, printed exterior, eco-friendly material options.",
-    img: "/images/product_corrugated_mailer.png",
+    img: "/images/product_corrugated_mailer.jpg",
     alt: "Custom corrugated mailer boxes for ecommerce shipping",
   },
   {
@@ -107,7 +107,7 @@ const products = [
     slug: "paper-bags",
     tags: ["Retail", "Shopping"],
     desc: "Custom paper bags with rope handles, Matte/Gloss lamination. From boutique storefronts to trade shows.",
-    img: "/images/product_paper_bags.png",
+    img: "/images/product_paper_bags.jpg",
     alt: "Custom printed paper bags with rope handles for retail",
   },
 ];
@@ -120,7 +120,7 @@ const impactStats = [
 ];
 
 const certifications = [
-  { name: "FSC Certified", img: "/images/cert_fsc.png", desc: "Responsibly sourced paper from certified forests" },
+  { name: "FSC Certified", img: "/images/cert_fsc.jpg", desc: "Responsibly sourced paper from certified forests" },
   { name: "ISO 9001", img: "/images/cert_iso9001.jpg", desc: "International quality management standard" },
   { name: "Sedex / SMETA", img: "/images/cert_smeta.jpg", desc: "Ethical supply chain and labor practices" },
   { name: "SGS Tested", img: "/images/cert_sgs.jpg", desc: "Third-party quality assurance testing" },
@@ -270,7 +270,7 @@ export default function HomePage() {
               <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
                 {[
                   { img: "/images/factory_hero.jpg", label: "Assembly Workshop", alt: "BUpack box assembly workshop with skilled workers" },
-                  { img: "/images/factory_printing.png", label: "Printing Center", alt: "Koenig & Bauer printing press for custom packaging" },
+                  { img: "/images/factory_printing.jpg", label: "Printing Center", alt: "Koenig & Bauer printing press for custom packaging" },
                   { img: "/images/factory_production.jpg", label: "Production Line", alt: "Automated packaging production line at BUpack factory" },
                   { img: "/images/factory_workers.jpg", label: "Skilled Team", alt: "BUpack quality control team inspecting finished boxes" },
                   { img: "/images/factory_machine.jpg", label: "Precision Machinery", alt: "Die-cutting machine for custom box production" },

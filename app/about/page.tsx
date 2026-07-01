@@ -61,7 +61,7 @@ const values = [
 ];
 
 const certifications = [
-  { name: "FSC Certified", img: "/images/cert_fsc.png", desc: "Forest Stewardship Council chain of custody certified" },
+  { name: "FSC Certified", img: "/images/cert_fsc.jpg", desc: "Forest Stewardship Council chain of custody certified" },
   { name: "ISO 9001", img: "/images/cert_iso9001.jpg", desc: "Quality management system certified" },
   { name: "Sedex / SMETA", img: "/images/cert_smeta.jpg", desc: "Ethical trade audit passed" },
   { name: "SGS Tested", img: "/images/cert_sgs.jpg", desc: "Third-party quality & safety verification" },
@@ -194,7 +194,7 @@ export default function AboutPage() {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/factory_printing.png"
+                src="/images/factory_printing.jpg"
                 alt="BUpack printing center — 7-color UV offset press for custom boxes"
                 width={560}
                 height={400}

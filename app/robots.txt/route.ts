@@ -6,7 +6,8 @@ export function GET() {
   const robotsTxt = `User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /_next/
+Disallow: /_next/static/
+Allow: /_next/image/
 
 Sitemap: https://www.bupackeco.com/sitemap.xml
 

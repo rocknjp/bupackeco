@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Digital Printing vs Offset Packaging | BUpack",
@@ -109,6 +110,20 @@ export default function DigitalPrintingVsOffsetPackaging() {
         <div className="max-w-3xl mx-auto">
           <div className="prose prose-lg prose-green max-w-none">
 
+            <figure className="my-8">
+              <Image
+                src="/images/factory_printing.jpg"
+                alt="BUpack printing center with Koenig and Bauer UV printing press producing custom paper packaging boxes — industrial offset printing for custom boxes"
+                width={800}
+                height={480}
+                className="w-full h-auto rounded-xl"
+                loading="eager"
+              />
+              <figcaption className="text-center text-sm text-gray-500 mt-2">
+                BUpack&apos;s printing center — where the choice between digital and offset printing directly affects your cost, quality, and timeline.
+              </figcaption>
+            </figure>
+
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
               The Short Answer
             </h2>
@@ -137,6 +152,20 @@ export default function DigitalPrintingVsOffsetPackaging() {
               <li><strong>Low MOQ</strong> — as few as 100 units</li>
             </ul>
 
+            <figure className="my-8">
+              <Image
+                src="/images/factory_production.jpg"
+                alt="Digital printing production line at BUpack factory printing custom corrugated mailer boxes — fast turnaround digital print for low MOQ packaging orders"
+                width={800}
+                height={532}
+                className="w-full h-auto rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-sm text-gray-500 mt-2">
+                Digital printing in action — no plates, immediate start, ideal for runs of 100–2,000 units.
+              </figcaption>
+            </figure>
+
             <h3 className="text-xl font-semibold text-gray-800 mt-8 mb-3">
               Offset Printing: Plates Transfer Ink to Rubber Blanket to Substrate
             </h3>
@@ -150,6 +179,20 @@ export default function DigitalPrintingVsOffsetPackaging() {
               <li><strong>Longer setup</strong> — 14–21 business days production</li>
               <li><strong>Higher MOQ</strong> — typically 1,000+ units, economical at 3,000+</li>
             </ul>
+
+            <figure className="my-8">
+              <Image
+                src="/images/factory_machine.jpg"
+                alt="Precision offset printing machinery at BUpack packaging factory — metal plate offset press for high-volume custom box production with Pantone color matching"
+                width={800}
+                height={532}
+                className="w-full h-auto rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-sm text-gray-500 mt-2">
+                Offset printing equipment — the precision setup that delivers exact Pantone colors and fine detail at volume.
+              </figcaption>
+            </figure>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
               Cost Comparison: Digital vs Offset at Every Volume
@@ -274,6 +317,20 @@ export default function DigitalPrintingVsOffsetPackaging() {
             <p className="text-gray-700 leading-relaxed mb-4">
               BUpack supports both digital and offset printing across all product lines: <a href="/products/custom-mailer-boxes" className="text-green-700 underline font-semibold">custom mailer boxes</a>, <a href="/products/paper-boxes" className="text-green-700 underline font-semibold">custom paper boxes</a>, <a href="/products/paper-bags" className="text-green-700 underline font-semibold">paper bags</a>, <a href="/products/folding-cartons" className="text-green-700 underline hover:text-green-600">folding cartons</a> and <a href="/products/rigid-gift-boxes" className="text-green-700 underline hover:text-green-600">rigid gift boxes</a>. Our team can advise on the best method for your specific order.
             </p>
+
+            <figure className="my-8">
+              <Image
+                src="/images/product_rigid_boxes.jpg"
+                alt="Custom rigid gift boxes with magnetic closure and velvet insert — premium finished packaging product showing high-quality offset printing result"
+                width={800}
+                height={800}
+                className="w-full h-auto rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-sm text-gray-500 mt-2">
+                The finished result — custom rigid gift boxes where print quality, color accuracy, and finishing define the brand experience.
+              </figcaption>
+            </figure>
 
             {/* Key Takeaways */}
             <div className="my-10 p-6 bg-green-50 rounded-2xl border border-green-200">

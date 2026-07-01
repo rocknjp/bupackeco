@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Custom Packaging Timeline: From Design to Delivery | BUpack",
@@ -104,6 +105,20 @@ export default function CustomPackagingTimelineGuide() {
         <div className="max-w-3xl mx-auto">
           <div className="prose prose-lg prose-green max-w-none">
 
+            <figure className="my-8">
+              <Image
+                src="/images/factory_workshop.jpg"
+                alt="BUpack custom paper packaging factory workshop in Qingdao China — full view of the 10000 sqm production floor where custom boxes are manufactured"
+                width={800}
+                height={530}
+                className="w-full h-auto rounded-xl"
+                loading="eager"
+              />
+              <figcaption className="text-center text-sm text-gray-500 mt-2">
+                BUpack&apos;s 10,000㎡ owned factory in Qingdao — where your custom packaging is produced, from design to shipping.
+              </figcaption>
+            </figure>
+
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
               Understanding the Full Packaging Production Timeline
             </h2>
@@ -151,6 +166,20 @@ export default function CustomPackagingTimelineGuide() {
               <strong>Speed tip:</strong> Design in CMYK from the start, include 3mm bleed, and keep text 5mm from cut lines. Files that pass our print-readiness check on the first submission save 3-4 days.
             </p>
 
+            <figure className="my-8">
+              <Image
+                src="/images/product_box_1.jpg"
+                alt="Custom paper box digital proof and sample — printed packaging sample showing color accuracy and structural detail before mass production"
+                width={800}
+                height={600}
+                className="w-full h-auto rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-sm text-gray-500 mt-2">
+                A digital proof sample — verifying colors, structure, and finish before full production runs.
+              </figcaption>
+            </figure>
+
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
               Phase 3: Digital Proof Approval (1-2 Days)
             </h2>
@@ -196,6 +225,34 @@ export default function CustomPackagingTimelineGuide() {
             <p className="text-gray-700 leading-relaxed mb-4">
               Production includes printing, die-cutting, folding, gluing, lamination, and any finishing like foil stamping or embossing. Complex finishing adds time because each process is a separate production step.
             </p>
+
+            <figure className="my-8">
+              <Image
+                src="/images/factory_printing.jpg"
+                alt="Koenig and Bauer UV printing press printing custom paper packaging boxes at BUpack factory — offset printing in progress with vibrant CMYK colors"
+                width={800}
+                height={480}
+                className="w-full h-auto rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-sm text-gray-500 mt-2">
+                The printing stage — a Koenig &amp; Bauer UV press applying full-color CMYK print to custom box material.
+              </figcaption>
+            </figure>
+
+            <figure className="my-8">
+              <Image
+                src="/images/factory_machine.jpg"
+                alt="Die-cutting machine cutting custom paper box shapes at BUpack packaging factory — precision die-cutting for mailer boxes and folding cartons"
+                width={800}
+                height={532}
+                className="w-full h-auto rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="text-center text-sm text-gray-500 mt-2">
+                Die-cutting — the precision step that turns printed sheets into folded, glued, ready-to-ship box blanks.
+              </figcaption>
+            </figure>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
               Phase 6: Shipping (3-21 Days)

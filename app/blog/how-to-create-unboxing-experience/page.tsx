@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Create Unboxing Experience That Drives Shares | BUpack",
@@ -104,6 +105,20 @@ export default function HowToCreateUnboxingExperience() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose prose-lg prose-green max-w-none">
 
+          <figure className="my-8 max-w-md mx-auto">
+            <Image
+              src="/images/product_packaging.jpg"
+              alt="Custom printed paper packaging boxes finished product display — branded mailer and gift boxes that create memorable unboxing experiences for DTC ecommerce brands"
+              width={600}
+              height={800}
+              className="w-full h-auto rounded-xl mx-auto"
+              loading="eager"
+            />
+            <figcaption className="text-center text-sm text-gray-500 mt-2">
+              Custom packaging is the physical touchpoint where unboxing experiences begin — every detail from material to finish shapes how customers perceive your brand.
+            </figcaption>
+          </figure>
+
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
             The Unboxing Moment Is Your Most Powerful Brand Touchpoint
           </h2>
@@ -131,6 +146,20 @@ export default function HowToCreateUnboxingExperience() {
             <strong>Real example:</strong> Apple&apos;s iPhone packaging is the gold standard of layered reveal. The slow-slide lid, the precisely fitted inserts, the document envelope underneath — every layer is engineered to build anticipation. You can achieve a similar effect at a fraction of the cost with a custom mailer box, branded tissue, and a printed insert card. For more inspiration, explore our collection of <Link href="/blog/branded-packaging-ideas-ecommerce" className="text-green-700 underline hover:text-green-600">branded packaging ideas for ecommerce brands</Link> — from minimalist luxury to bold pattern-driven designs.
           </p>
 
+          <figure className="my-8">
+            <Image
+              src="/images/product_box_2.jpg"
+              alt="Custom paper boxes arranged to show layered unboxing reveal — branded outer box with interior print and custom insert demonstrating multi-layer packaging design"
+              width={800}
+              height={600}
+              className="w-full h-auto rounded-xl"
+              loading="lazy"
+            />
+            <figcaption className="text-center text-sm text-gray-500 mt-2">
+              The layered reveal — outer box, interior print, and fitted insert work together to build anticipation with every layer opened.
+            </figcaption>
+          </figure>
+
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
             Strategy 2: Interior Printing
           </h2>
@@ -156,6 +185,20 @@ export default function HowToCreateUnboxingExperience() {
             <strong>Real example:</strong> MeUndies uses a custom corrugated insert that holds their product in a precise folded position. The insert is printed with their signature pattern, making even the functional element feel on-brand. Cost: approximately $0.20-0.40 per unit at 2,000+ volume.
           </p>
 
+          <figure className="my-8">
+            <Image
+              src="/images/product_corrugated_mailer.jpg"
+              alt="Custom corrugated mailer box with die-cut insert for ecommerce shipping — self-locking DTC mailer box designed for unboxing experience and product protection"
+              width={800}
+              height={803}
+              className="w-full h-auto rounded-xl"
+              loading="lazy"
+            />
+            <figcaption className="text-center text-sm text-gray-500 mt-2">
+              A custom corrugated mailer box with die-cut insert — protection and presentation in one self-locking structure, no tape needed.
+            </figcaption>
+          </figure>
+
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
             Strategy 4: Branded Tissue Paper & Sticker Seals
           </h2>
@@ -168,6 +211,20 @@ export default function HowToCreateUnboxingExperience() {
           <p className="text-gray-700 leading-relaxed mb-4">
             <strong>Real example:</strong> Glossier wraps every order in their signature pink tissue paper sealed with a Glossier sticker. The cost is minimal, but the visual impact on Instagram is enormous — their pink packaging is one of the most recognizable brand assets in beauty.
           </p>
+
+          <figure className="my-8">
+            <Image
+              src="/images/product_cardstock_foldable.jpg"
+              alt="Custom foldable cardstock box for retail and cosmetics packaging — flat-foldable paper box with full color print used for branded tissue and sticker seal unboxing presentation"
+              width={700}
+              height={778}
+              className="w-full h-auto rounded-xl mx-auto"
+              loading="lazy"
+            />
+            <figcaption className="text-center text-sm text-gray-500 mt-2">
+              Foldable cardstock boxes — the affordable base layer that pairs with branded tissue and sticker seals for a gift-like reveal.
+            </figcaption>
+          </figure>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-100">
             Strategy 5: The Thank-You Card
