@@ -21,6 +21,12 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/industries/apparel-fashion", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/industries/bakery-food", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
   { path: "/industries/cbd-hemp", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.8 },
+  // v3.0 Target Industries (5 core focus pages)
+  { path: "/industries/beauty-skincare", lastmod: "2026-07-02", changefreq: "weekly", priority: 0.9 },
+  { path: "/industries/fragrance-candles", lastmod: "2026-07-02", changefreq: "weekly", priority: 0.9 },
+  { path: "/industries/corporate-gifts-subscription", lastmod: "2026-07-02", changefreq: "weekly", priority: 0.9 },
+  { path: "/industries/stationery-toys", lastmod: "2026-07-02", changefreq: "weekly", priority: 0.9 },
+  { path: "/industries/jewelry-accessories", lastmod: "2026-07-02", changefreq: "weekly", priority: 0.9 },
   { path: "/contact", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.6 },
   { path: "/glossary", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.6 },
   { path: "/eco", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.7 },
