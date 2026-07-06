@@ -12,69 +12,69 @@ const nextConfig: NextConfig = {
       {
         source: "/industries/candles-fragrance",
         destination: "/industries/fragrance-candles",
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: "/industries/jewelry",
         destination: "/industries/jewelry-accessories",
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: "/industries/stationery-gifts",
         destination: "/industries/stationery-toys",
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: "/industries/cosmetics-beauty",
         destination: "/industries/beauty-skincare",
-        permanent: true,
+        statusCode: 301,
       },
       // ── Archive redirects: old pages → relevant content ─────────
       {
         source: "/industries/chocolate-confectionery",
         destination: "/blog/custom-chocolate-packaging-guide",
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: "/industries/tea-beverages",
         destination: "/blog",
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: "/industries/pet-subscription",
         destination: "/blog/subscription-box-packaging-guide",
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: "/industries/wine-spirits",
         destination: "/blog",
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: "/industries/apparel-fashion",
         destination: "/blog/apparel-fashion-packaging-guide",
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: "/industries/bakery-food",
         destination: "/blog/custom-bakery-packaging-tips",
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: "/industries/cbd-hemp",
         destination: "/blog",
-        permanent: true,
+        statusCode: 301,
       },
       // ── Legacy alias redirects (keep for backward compat) ─────
       {
         source: "/industries/clothing",
         destination: "/industries/jewelry-accessories",
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: "/industries/cosmetics",
         destination: "/industries/beauty-skincare",
-        permanent: true,
+        statusCode: 301,
       },
     ];
   },
