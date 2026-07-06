@@ -182,7 +182,7 @@ export default function RigidGiftBoxesPage() {
       <ProductSchema
         name="Custom Rigid Gift Boxes"
         description="Premium custom rigid gift boxes with low MOQ from 500 units. Magnetic closure, velvet/EVA inserts, hot foil stamping, FSC-certified materials."
-        image="https://www.bupackeco.com/images/rigid_box_1.jpg"
+        image="https://www.bupackeco.com/images/product_box_1.jpg"
         offers={{ price: "3.20", priceCurrency: "USD", moq: 500, availability: "https://schema.org/InStock", url: "https://www.bupackeco.com/products/rigid-gift-boxes" }}
       />
 

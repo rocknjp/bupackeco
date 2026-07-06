@@ -189,7 +189,7 @@ export default function CustomPaperBagsPage() {
       <ProductSchema
         name="Custom Paper Bags with Logo"
         description="Custom printed paper bags with your logo. Kraft, coated, and luxury options. Bulk and wholesale pricing. FSC-certified, MOQ from 200 units."
-        image="https://www.bupackeco.com/images/paper_bag_1.jpg"
+        image="https://www.bupackeco.com/images/product_box_1.jpg"
         offers={{ price: "1.20", priceCurrency: "USD", moq: 200, availability: "https://schema.org/InStock", url: "https://www.bupackeco.com/products/custom-paper-bags" }}
       />
 
