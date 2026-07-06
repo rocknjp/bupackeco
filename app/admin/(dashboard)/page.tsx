@@ -12,32 +12,32 @@ export default function DashboardPage() {
 
   return (
     <div>
-      <h1 className="text-2xl font-bold text-gray-900 mb-1">Dashboard</h1>
-      <p className="text-sm text-gray-500 mb-6">Welcome to BUpack admin panel</p>
+      <h1 className="text-2xl font-bold text-gray-900 mb-1">仪表盘</h1>
+      <p className="text-sm text-gray-500 mb-6">欢迎使用 BUpack 后台管理</p>
 
       {/* Stats Grid */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         <StatCard
-          label="Total Posts"
+          label="博客文章"
           value={totalPosts.toString()}
           icon={BlogIcon}
           color="green"
         />
         <StatCard
-          label="Categories"
+          label="分类"
           value={categoryCount.toString()}
           icon={CategoryIcon}
           color="blue"
         />
         <StatCard
-          label="Featured"
+          label="精选文章"
           value={featuredPost ? 1 : 0}
           icon={StarIcon}
           color="yellow"
         />
         <StatCard
-          label="Live Site"
-          value="Active"
+          label="网站状态"
+          value="运行中"
           icon={GlobeIcon}
           color="purple"
         />
@@ -46,26 +46,38 @@ export default function DashboardPage() {
       {/* Quick Actions */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
         <div className="bg-white border border-gray-200 rounded-xl p-5">
-          <h2 className="font-semibold text-gray-900 mb-3">Quick Actions</h2>
+          <h2 className="font-semibold text-gray-900 mb-3">快捷操作</h2>
           <div className="space-y-2">
             <Link
               href="/admin/blogs"
               className="flex items-center gap-2 text-sm text-green-700 hover:text-green-800 font-medium"
             >
-              <span className="text-lg">+</span> Manage Blog Posts
+              <span className="text-lg">+</span> 管理博客文章
+            </Link>
+            <Link
+              href="/admin/inquiries"
+              className="flex items-center gap-2 text-sm text-green-700 hover:text-green-800 font-medium"
+            >
+              <span className="text-lg">+</span> 查看询盘
+            </Link>
+            <Link
+              href="/admin/products"
+              className="flex items-center gap-2 text-sm text-green-700 hover:text-green-800 font-medium"
+            >
+              <span className="text-lg">+</span> 管理产品
             </Link>
             <Link
               href="/"
               target="_blank"
               className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-800 font-medium"
             >
-              <span className="text-lg">↗</span> View Website
+              <span className="text-lg">↗</span> 查看网站
             </Link>
           </div>
         </div>
 
         <div className="bg-white border border-gray-200 rounded-xl p-5">
-          <h2 className="font-semibold text-gray-900 mb-3">Category Distribution</h2>
+          <h2 className="font-semibold text-gray-900 mb-3">分类分布</h2>
           <div className="space-y-1.5">
             {BLOG_CATEGORIES.map((cat) => {
               const count = posts.filter((p) => p.category === cat).length;
@@ -83,12 +95,12 @@ export default function DashboardPage() {
       {/* Recent Posts */}
       <div className="bg-white border border-gray-200 rounded-xl p-5">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="font-semibold text-gray-900">Recent Blog Posts</h2>
+          <h2 className="font-semibold text-gray-900">最近文章</h2>
           <Link
             href="/admin/blogs"
             className="text-sm text-green-700 hover:text-green-800 font-medium"
           >
-            View All →
+            查看全部 →
           </Link>
         </div>
         <div className="space-y-2">
@@ -106,7 +118,7 @@ export default function DashboardPage() {
               </div>
               {post.featured && (
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium flex-shrink-0">
-                  Featured
+                  精选
                 </span>
               )}
             </div>

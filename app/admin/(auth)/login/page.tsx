@@ -26,10 +26,10 @@ export default function LoginPage() {
         router.push("/admin");
       } else {
         const data = await res.json();
-        setError(data.error || "Invalid credentials");
+        setError(data.error || "用户名或密码错误");
       }
     } catch {
-      setError("Network error. Please try again.");
+      setError("网络错误，请重试");
     } finally {
       setLoading(false);
     }
@@ -46,8 +46,8 @@ export default function LoginPage() {
               <path d="M14 4a1 1 0 00-1 1v5.586l-1.293-1.293a1 1 0 00-1.414 1.414L13.586 14H12a1 1 0 000 2h4a1 1 0 001-1v-4a1 1 0 00-2 0v1.586l-3.293-3.293A1 1 0 0013 8V5a1 1 0 00-1-1z"/>
             </svg>
           </div>
-          <h1 className="text-2xl font-bold text-gray-900">BUpack Admin</h1>
-          <p className="text-sm text-gray-500 mt-1">Sign in to manage your website</p>
+          <h1 className="text-2xl font-bold text-gray-900">BUpack 后台管理</h1>
+          <p className="text-sm text-gray-500 mt-1">登录管理您的网站</p>
         </div>
 
         {/* Login Form */}
@@ -60,7 +60,7 @@ export default function LoginPage() {
 
           <div>
             <label htmlFor="username" className="block text-sm font-medium text-gray-700 mb-1.5">
-              Username
+              用户名
             </label>
             <input
               id="username"
@@ -68,7 +68,7 @@ export default function LoginPage() {
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 placeholder-gray-400"
-              placeholder="Enter your username"
+              placeholder="请输入用户名"
               required
               autoFocus
             />
@@ -76,7 +76,7 @@ export default function LoginPage() {
 
           <div>
             <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1.5">
-              Password
+              密码
             </label>
             <input
               id="password"
@@ -84,7 +84,7 @@ export default function LoginPage() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 placeholder-gray-400"
-              placeholder="Enter your password"
+              placeholder="请输入密码"
               required
             />
           </div>
@@ -94,7 +94,7 @@ export default function LoginPage() {
             disabled={loading}
             className="w-full bg-green-700 text-white font-semibold py-2.5 rounded-lg hover:bg-green-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm"
           >
-            {loading ? "Signing in..." : "Sign In"}
+            {loading ? "登录中..." : "登录"}
           </button>
         </form>
       </div>
