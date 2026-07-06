@@ -81,6 +81,8 @@ const staticRoutes: { path: string; lastmod: string; changefreq: "weekly" | "mon
   { path: "/blog/seasonal-packaging-strategy", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/packaging-for-subscription-boxes-guide", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/why-fsc-certification-matters-packaging", lastmod: "2026-06-13", changefreq: "monthly", priority: 0.6 },
+  // Week 26 new blog posts
+  { path: "/blog/how-to-evaluate-packaging-suppliers-checklist", lastmod: "2026-06-24", changefreq: "monthly", priority: 0.8 },
   { path: "/blog/custom-supplement-packaging-guide", lastmod: "2026-06-21", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/custom-electronics-packaging-guide", lastmod: "2026-06-22", changefreq: "monthly", priority: 0.6 },
   { path: "/blog/custom-coffee-packaging-guide", lastmod: "2026-06-27", changefreq: "monthly", priority: 0.6 },
