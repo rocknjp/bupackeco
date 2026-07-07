@@ -79,36 +79,40 @@ const useCases = [
 
 const products = [
   {
-    name: "Rigid Boxes",
-    slug: "paper-boxes",
-    tags: ["Gift Box", "Luxury"],
-    desc: "High-density cardboard rigid boxes with magnetic closure, velvet insert, foil stamping. Built for high-end gift packaging and luxury brands.",
+    name: "Rigid Gift Boxes",
+    slug: "rigid-gift-boxes",
+    tags: ["Luxury", "Magnetic Closure"],
+    desc: "High-density rigid boxes with magnetic closure, velvet inserts, and foil stamping. The packaging your premium product deserves.",
     img: "/images/product_rigid_boxes.jpg",
     alt: "Custom rigid gift boxes with magnetic closure and velvet insert",
+    priceFrom: "From $1.50/unit",
   },
   {
-    name: "Cardstock & Foldable Boxes",
-    slug: "paper-boxes",
-    tags: ["Retail", "Folding Carton"],
-    desc: "Flexible thin paperboard boxes for cosmetics, food, and retail products. Full-color printing, embossing, window patching available.",
+    name: "Folding Cartons",
+    slug: "folding-cartons",
+    tags: ["Retail", "Cosmetics"],
+    desc: "Lightweight SBS and FBB cartons for retail shelves and e-commerce. Full-color printing, window patching, and soft-touch finishes.",
     img: "/images/product_cardstock_foldable.jpg",
-    alt: "Custom foldable cardstock boxes for retail and cosmetics",
+    alt: "Custom folding carton boxes for retail and cosmetics",
+    priceFrom: "From $0.30/unit",
   },
   {
-    name: "Corrugated & Mailer Boxes",
-    slug: "paper-boxes",
-    tags: ["Shipping", "DTC"],
-    desc: "Durable 3-layer corrugated boxes for eCommerce shipping. Custom size, printed exterior, eco-friendly material options.",
+    name: "Corrugated Mailer Boxes",
+    slug: "custom-mailer-boxes",
+    tags: ["DTC", "Shipping"],
+    desc: "E-flute and B-flute mailer boxes built for e-commerce shipping. Full interior print, custom inserts, FSC-certified.",
     img: "/images/product_corrugated_mailer.jpg",
     alt: "Custom corrugated mailer boxes for ecommerce shipping",
+    priceFrom: "From $0.50/unit",
   },
   {
-    name: "Paper Bags",
-    slug: "paper-bags",
-    tags: ["Retail", "Shopping"],
-    desc: "Custom paper bags with rope handles, Matte/Gloss lamination. From boutique storefronts to trade shows.",
+    name: "Custom Paper Bags",
+    slug: "custom-paper-bags",
+    tags: ["Retail", "Branded"],
+    desc: "Custom printed paper bags with rope handles. Kraft, coated, and luxury options for retail and events.",
     img: "/images/product_paper_bags.jpg",
     alt: "Custom printed paper bags with rope handles for retail",
+    priceFrom: "From $0.40/unit",
   },
 ];
 
@@ -478,6 +482,7 @@ export default function HomePage() {
                     ))}
                   </div>
                   <h3 className="font-bold text-gray-900 text-sm mb-1.5 group-hover:text-green-700 transition-colors">{p.name}</h3>
+                  <p className="text-green-700 font-bold text-xs mb-1">{p.priceFrom}</p>
                   <p className="text-gray-500 text-xs leading-relaxed line-clamp-3">{p.desc}</p>
                   <span className="inline-flex items-center gap-1 text-green-700 font-medium text-xs mt-3 group-hover:gap-2 transition-all">
                     Learn more

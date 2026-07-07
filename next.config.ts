@@ -76,6 +76,22 @@ const nextConfig: NextConfig = {
         destination: "/industries/beauty-skincare",
         statusCode: 301,
       },
+      // ── Old product slug redirects (2026-07-07) ──────
+      {
+        source: "/products/paper-boxes",
+        destination: "/products/custom-mailer-boxes",
+        statusCode: 301,
+      },
+      {
+        source: "/products/paper-bags",
+        destination: "/products/custom-paper-bags",
+        statusCode: 301,
+      },
+      {
+        source: "/products/subscription-boxes",
+        destination: "/products/custom-mailer-boxes",
+        statusCode: 301,
+      },
     ];
   },
 };

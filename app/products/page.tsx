@@ -5,7 +5,7 @@ import { CollectionPageSchema, BreadcrumbSchema } from "@/components/Schema";
 export const metadata: Metadata = {
   title: "Custom Paper Boxes & Bags | Low MOQ 100pcs | BUpack",
   description:
-    "FSC-certified custom paper boxes and bags for eCommerce brands. Low MOQ from 100 units, wholesale pricing, soy-based ink, free sample kit. Factory-direct in Qingdao, ships to North America.",
+    "FSC-certified custom paper boxes and bags for eCommerce brands. Rigid gift boxes, folding cartons, mailer boxes, and paper bags. Low MOQ from 100 units, factory-direct wholesale pricing.",
   alternates: {
     canonical: "https://www.bupackeco.com/products",
   },
@@ -30,22 +30,56 @@ export const metadata: Metadata = {
 
 const products = [
   {
-    id: "ecommerce-boxes",
-    name: "eCommerce Mailer Boxes",
-    tags: ["DTC", "Subscription Box", "Apparel"],
-    badge: "🏆 Most Popular",
+    slug: "custom-mailer-boxes",
+    name: "Corrugated Mailer Boxes",
+    badge: "Most Popular",
+    emoji: "📦",
+    tags: ["DTC", "Subscription", "Shipping"],
     description:
-      "The packaging your DTC brand deserves. Self-locking, no-tape mailer boxes with full interior and exterior print. Built to survive shipping and deliver a premium unboxing moment.",
-    specs: [
-      { label: "Material", value: "Corrugated / Rigid paperboard, 300–500gsm" },
-      { label: "Print", value: "Full CMYK, Pantone, interior print included" },
-      { label: "Finish", value: "Matte, gloss, soft-touch, spot UV" },
-      { label: "MOQ", value: "From 100 units" },
-      { label: "Lead time", value: "15–20 business days" },
-      { label: "Eco options", value: "FSC-certified, recycled paper, soy inks" },
-    ],
-    whyBrands: "DTC brands that run unboxing-worthy experiences report 2–3x higher UGC and social shares. Start from 100 units.",
-    emoji: "📬",
+      "The workhorse of e-commerce. Self-locking mailer boxes with full interior and exterior print, custom inserts, and FSC-certified E-flute/B-flute board.",
+    priceFrom: "From $0.50/unit",
+    moq: "100 units",
+    leadTime: "7–15 days",
+    bestFor: "DTC brands, subscription boxes, e-commerce shipping",
+  },
+  {
+    slug: "rigid-gift-boxes",
+    name: "Rigid Gift Boxes",
+    badge: "Premium",
+    emoji: "🎁",
+    tags: ["Luxury", "Gift", "Magnetic Closure"],
+    description:
+      "High-density rigid boxes with magnetic closure, velvet/EVA inserts, hot foil stamping. The packaging your premium product deserves.",
+    priceFrom: "From $1.50/unit",
+    moq: "500 units",
+    leadTime: "18–22 days",
+    bestFor: "Jewelry, cosmetics, luxury gifts, corporate packaging",
+  },
+  {
+    slug: "folding-cartons",
+    name: "Folding Cartons",
+    badge: "Versatile",
+    emoji: "📦",
+    tags: ["Retail", "Cosmetics", "Food"],
+    description:
+      "Lightweight SBS/FBB cartons for retail shelves. Full-color printing, window patching, soft-touch, and embossing options.",
+    priceFrom: "From $0.30/unit",
+    moq: "100 units",
+    leadTime: "12–18 days",
+    bestFor: "Cosmetics, food, pharmaceuticals, retail products",
+  },
+  {
+    slug: "custom-paper-bags",
+    name: "Custom Paper Bags",
+    badge: "Branded",
+    emoji: "🛍️",
+    tags: ["Retail", "Events", "Branded"],
+    description:
+      "Custom printed paper bags with rope handles. Kraft, coated, and luxury options for retail storefronts, trade shows, and events.",
+    priceFrom: "From $0.40/unit",
+    moq: "200 units",
+    leadTime: "15–20 days",
+    bestFor: "Retail stores, trade shows, brand events, boutiques",
   },
 ];
 
@@ -54,21 +88,13 @@ export default function ProductsPage() {
     <>
       <CollectionPageSchema
         name="BUpack Packaging Products"
-        description="Browse BUpack's range of sustainable packaging: eCommerce mailer boxes, paper bags, subscription boxes, and gift packaging. FSC-certified, fully customizable, low MOQ."
-        products={[
-          {
-            name: "eCommerce Mailer Boxes",
-            description: "Self-locking, no-tape mailer boxes with full interior and exterior print.",
-            image: "https://www.bupackeco.com/images/product_box_1.jpg",
-            url: "https://www.bupackeco.com/products/paper-boxes",
-          },
-          {
-            name: "Custom Paper Bags",
-            description: "Elevate your retail and event experience with custom paper bags.",
-            image: "https://www.bupackeco.com/images/product_bag_1.jpg",
-            url: "https://www.bupackeco.com/products/paper-bags",
-          },
-        ]}
+        description="Browse BUpack's range of sustainable packaging: mailer boxes, rigid gift boxes, folding cartons, and paper bags. FSC-certified, fully customizable, low MOQ."
+        products={products.map((p) => ({
+          name: p.name,
+          description: p.description,
+          image: "https://www.bupackeco.com/images/product_box_1.jpg",
+          url: `https://www.bupackeco.com/products/${p.slug}`,
+        }))}
       />
 
       <BreadcrumbSchema
@@ -77,46 +103,36 @@ export default function ProductsPage() {
           { name: "Products", url: "https://www.bupackeco.com/products" },
         ]}
       />
+
       {/* Hero */}
       <section className="bg-[#0a2e18] text-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Packaging Built for eCommerce</h1>
           <p className="text-green-200 text-lg max-w-2xl mx-auto">
-            Every product is designed to protect your goods, elevate your brand, and reflect your sustainability values.
+            Four product lines designed to protect your goods, elevate your brand, and reflect your sustainability values. All FSC-certified, factory-direct.
           </p>
         </div>
       </section>
 
-      {/* Selector tabs */}
-      <section className="sticky top-16 z-40 bg-white border-b border-gray-100 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 flex gap-1 overflow-x-auto py-3">
-          {products.map((p) => (
-            <a
-              key={p.id}
-              href={`#${p.id}`}
-              className="flex-shrink-0 text-sm font-medium px-4 py-1.5 rounded-full border border-gray-200 text-gray-600 hover:border-green-500 hover:text-green-700 hover:bg-green-50 transition-colors"
-            >
-              {p.emoji} {p.name}
-            </a>
-          ))}
-        </div>
-      </section>
-
-      {/* Products */}
+      {/* Product Grid */}
       <section className="py-16 px-4 bg-[#f9fdf8]">
-        <div className="max-w-7xl mx-auto space-y-20">
-          {products.map((p, idx) => (
-            <div key={p.id} id={p.id} className="scroll-mt-32">
-              <div className={`flex flex-col ${idx % 2 !== 0 ? "md:flex-row-reverse" : "md:flex-row"} gap-10 bg-white rounded-3xl shadow-sm overflow-hidden border border-gray-100`}>
-                {/* Visual */}
-                <div className="md:w-2/5 bg-gradient-to-br from-green-50 via-emerald-50 to-teal-100 flex flex-col items-center justify-center py-16 px-8 gap-4">
-                  <div className="text-8xl">{p.emoji}</div>
-                  <span className="bg-white text-green-700 text-sm font-bold px-4 py-1.5 rounded-full border border-green-200 shadow-sm">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8">
+            {products.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/products/${p.slug}`}
+                className="group bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg hover:border-green-200 transition-all block"
+              >
+                {/* Visual Header */}
+                <div className="bg-gradient-to-br from-green-50 via-emerald-50 to-teal-100 p-8 flex flex-col items-center justify-center gap-3">
+                  <div className="text-6xl">{p.emoji}</div>
+                  <span className="bg-white text-green-700 text-xs font-bold px-3 py-1 rounded-full border border-green-200 shadow-sm">
                     {p.badge}
                   </span>
-                  <div className="flex flex-wrap gap-2 justify-center mt-2">
+                  <div className="flex flex-wrap gap-1.5 justify-center">
                     {p.tags.map((t) => (
-                      <span key={t} className="text-xs bg-green-100 text-green-700 px-2.5 py-0.5 rounded-full font-medium">
+                      <span key={t} className="text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium">
                         {t}
                       </span>
                     ))}
@@ -124,40 +140,107 @@ export default function ProductsPage() {
                 </div>
 
                 {/* Content */}
-                <div className="md:w-3/5 p-8 md:p-12 flex flex-col justify-between">
-                  <div>
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">{p.name}</h2>
-                    <p className="text-gray-600 leading-relaxed text-lg mb-8">{p.description}</p>
+                <div className="p-6">
+                  <h2 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-green-700 transition-colors">{p.name}</h2>
+                  <p className="text-green-700 font-bold text-sm mb-3">{p.priceFrom}</p>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-4">{p.description}</p>
 
-                    <div className="bg-green-50 border border-green-100 rounded-xl p-4 mb-8">
-                      <p className="text-green-800 text-sm font-medium">💡 Why brands choose this:</p>
-                      <p className="text-green-700 text-sm mt-1">{p.whyBrands}</p>
+                  {/* Quick Specs */}
+                  <div className="grid grid-cols-3 gap-3 mb-4">
+                    <div className="bg-green-50 rounded-lg p-2 text-center">
+                      <div className="text-[10px] text-gray-400 font-medium uppercase">MOQ</div>
+                      <div className="text-sm text-gray-800 font-semibold">{p.moq}</div>
                     </div>
-
-                    <h3 className="font-bold text-gray-900 mb-4 text-sm uppercase tracking-wide">Specifications</h3>
-                    <div className="grid grid-cols-2 gap-3">
-                      {p.specs.map((s) => (
-                        <div key={s.label} className="flex flex-col gap-0.5">
-                          <span className="text-xs text-gray-400 font-medium uppercase tracking-wide">{s.label}</span>
-                          <span className="text-sm text-gray-800">{s.value}</span>
-                        </div>
-                      ))}
+                    <div className="bg-green-50 rounded-lg p-2 text-center">
+                      <div className="text-[10px] text-gray-400 font-medium uppercase">Lead Time</div>
+                      <div className="text-sm text-gray-800 font-semibold">{p.leadTime}</div>
+                    </div>
+                    <div className="bg-green-50 rounded-lg p-2 text-center">
+                      <div className="text-[10px] text-gray-400 font-medium uppercase">Eco</div>
+                      <div className="text-sm text-green-700 font-semibold">FSC ✓</div>
                     </div>
                   </div>
 
-                  <Link
-                    href="/contact"
-                    className="inline-flex items-center gap-2 mt-8 bg-green-700 text-white font-semibold px-6 py-3 rounded-xl hover:bg-green-600 transition-colors w-fit"
-                  >
-                    Request Quote + Free Sample
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </Link>
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs text-gray-400">{p.bestFor}</span>
+                    <span className="inline-flex items-center gap-1 text-green-700 font-semibold text-sm group-hover:gap-2 transition-all">
+                      View Details
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </span>
+                  </div>
                 </div>
-              </div>
-            </div>
-          ))}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Compare Table */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold text-gray-900 mb-3">Which Product Is Right for You?</h2>
+            <p className="text-gray-500">Quick comparison to help you choose</p>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse bg-white rounded-2xl overflow-hidden shadow-sm">
+              <thead>
+                <tr className="bg-[#0a2e18] text-white">
+                  <th className="text-left p-4 font-bold">Feature</th>
+                  <th className="text-left p-4 font-bold">Mailer Boxes</th>
+                  <th className="text-left p-4 font-bold">Rigid Gift Boxes</th>
+                  <th className="text-left p-4 font-bold">Folding Cartons</th>
+                  <th className="text-left p-4 font-bold">Paper Bags</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-green-50">
+                  <td className="p-3 font-semibold text-gray-900 text-sm">Starting Price</td>
+                  <td className="p-3 text-green-700 font-semibold text-sm">$0.50/unit</td>
+                  <td className="p-3 text-green-700 font-semibold text-sm">$1.50/unit</td>
+                  <td className="p-3 text-green-700 font-semibold text-sm">$0.30/unit</td>
+                  <td className="p-3 text-green-700 font-semibold text-sm">$0.40/unit</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold text-gray-900 text-sm">MOQ</td>
+                  <td className="p-3 text-gray-700 text-sm">100 units</td>
+                  <td className="p-3 text-gray-700 text-sm">500 units</td>
+                  <td className="p-3 text-gray-700 text-sm">100 units</td>
+                  <td className="p-3 text-gray-700 text-sm">200 units</td>
+                </tr>
+                <tr className="bg-green-50">
+                  <td className="p-3 font-semibold text-gray-900 text-sm">Best For</td>
+                  <td className="p-3 text-gray-700 text-sm">DTC shipping</td>
+                  <td className="p-3 text-gray-700 text-sm">Luxury unboxing</td>
+                  <td className="p-3 text-gray-700 text-sm">Retail shelves</td>
+                  <td className="p-3 text-gray-700 text-sm">Branded carry</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold text-gray-900 text-sm">Shipping Ready</td>
+                  <td className="p-3 text-green-600 text-sm">Yes — ships as-is</td>
+                  <td className="p-3 text-gray-500 text-sm">Needs outer box</td>
+                  <td className="p-3 text-gray-500 text-sm">Needs outer box</td>
+                  <td className="p-3 text-green-600 text-sm">Yes — handheld</td>
+                </tr>
+                <tr className="bg-green-50">
+                  <td className="p-3 font-semibold text-gray-900 text-sm">Premium Finishes</td>
+                  <td className="p-3 text-gray-700 text-sm">Matte/Gloss/Spot UV</td>
+                  <td className="p-3 text-gray-700 text-sm">Foil/Emboss/Soft-touch</td>
+                  <td className="p-3 text-gray-700 text-sm">Window/Soft-touch/UV</td>
+                  <td className="p-3 text-gray-700 text-sm">Lamination/Foil</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold text-gray-900 text-sm">Interior Print</td>
+                  <td className="p-3 text-green-600 text-sm">Yes</td>
+                  <td className="p-3 text-green-600 text-sm">Yes</td>
+                  <td className="p-3 text-gray-500 text-sm">Limited</td>
+                  <td className="p-3 text-gray-500 text-sm">No</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
