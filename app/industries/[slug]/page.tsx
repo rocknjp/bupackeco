@@ -1019,9 +1019,9 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
       canonical: `https://www.bupackeco.com/industries/${slug}/`,
     },
     openGraph: {
-      title: seoTitleMap[slug] || /`${industry.name} Packaging | BUpack`,
+      title: seoTitleMap[slug] || `${industry.name} Packaging | BUpack`,
       description: seoDescMap[slug] || `${industry.tagline}. FSC-certified, low MOQ.`,
-      url: `https://www.bupackeco.com/industries/${slug}`,
+      url: `https://www.bupackeco.com/industries/${slug}/`,
       siteName: "BUpack",
       locale: "en_US",
       type: "website",

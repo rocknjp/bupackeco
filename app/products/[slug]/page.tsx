@@ -302,7 +302,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
       images: [`https://www.bupackeco.com${product.heroImage}`],
     },
     alternates: {
-      canonical: `https://www.bupackeco.com/products/${slug}/`,,
+      canonical: `https://www.bupackeco.com/products/${slug}/`,
     },
   }
 }
@@ -315,7 +315,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
   if (!product) notFound()
 
   return (
-    <div className=/"min-h-screen">
+    <div className="min-h-screen">
       {/* Schema.org */}
       <ProductSchema
         name={product.name}
