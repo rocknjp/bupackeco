@@ -2274,12 +2274,12 @@ export async function generateMetadata({
     title: metaTitle,
     description: post.excerpt,
     alternates: {
-      canonical: `https://www.bupackeco.com/blog/${slug}`,
+      canonical: `https://www.bupackeco.com/blog/${slug}/`,
     },
     openGraph: {
       title: metaTitle,
       description: post.excerpt,
-      url: `https://www.bupackeco.com/blog/${slug}`,
+      url: /`https://www.bupackeco.com/blog/${slug}`,
       siteName: "BUpack",
       locale: "en_US",
       type: "article",

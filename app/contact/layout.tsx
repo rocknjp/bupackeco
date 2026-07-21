@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Contact BUpack for custom packaging solutions. Get a free sample kit, request a quote, or chat with our packaging specialists.",
   alternates: {
-    canonical: "https://www.bupackeco.com/contact",
+    canonical: "https://www.bupackeco.com/contact/",
   },
   openGraph: {
     title: "Contact BUpack – Get Free Packaging Samples",

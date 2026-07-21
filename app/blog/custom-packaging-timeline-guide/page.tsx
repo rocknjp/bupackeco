@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Complete timeline for custom packaging production. Design, sampling, manufacturing, and shipping breakdown. Get your boxes in 15 days with BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/custom-packaging-timeline-guide",
+    canonical: "https://www.bupackeco.com/blog/custom-packaging-timeline-guide/",
   },
   openGraph: {
     title: "Custom Packaging Timeline: From Design to Delivery | BUpack",

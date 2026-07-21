@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Tour BUpack's 10,000sqm ISO-certified factory in Qingdao, China. 17 years of custom packaging expertise, FSC chain-of-custody, Fortune 500 clients. See our production line, quality control, and sustainability practices.",
   alternates: {
-    canonical: "https://www.bupackeco.com/factory",
+    canonical: "https://www.bupackeco.com/factory/",
   },
   openGraph: {
     title: "Our Factory | FSC-Certified Packaging Workshop | BUpack",

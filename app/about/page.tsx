@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "17 years of expertise in custom paper packaging. Owned factory in Qingdao, FSC & ISO 9001 certified, Fortune 500 trusted vendor.",
   alternates: {
-    canonical: "https://www.bupackeco.com/about",
+    canonical: "https://www.bupackeco.com/about/",
   },
   openGraph: {
     title: "About BUpack – Custom Eco Packaging Factory | FSC & ISO 9001",

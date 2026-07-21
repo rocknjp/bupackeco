@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Eco-friendly packaging for small businesses. FSC-certified, recycled, and compostable options from 100 units. Cost comparison and certification guide.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/eco-friendly-packaging-small-business",
+    canonical: "https://www.bupackeco.com/blog/eco-friendly-packaging-small-business/",
   },
   openGraph: {
     title: "Eco-Friendly Packaging for Small Business | BUpack",

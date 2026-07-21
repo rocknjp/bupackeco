@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Comparison of the 10 best custom packaging suppliers for ecommerce brands in 2025. Ranked by MOQ, price, certifications, and production capacity.",
   alternates: {
     canonical:
-      "https://www.bupackeco.com/blog/top-10-custom-packaging-suppliers-2025",
+      "https://www.bupackeco.com/blog/top-10-custom-packaging-suppliers-2025/",
   },
   openGraph: {
     title:

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Digital printing vs offset printing for custom packaging boxes. Cost comparison, quality differences, and when to use each method. MOQ recommendations included.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/digital-printing-vs-offset-packaging",
+    canonical: "https://www.bupackeco.com/blog/digital-printing-vs-offset-packaging/",
   },
   openGraph: {
     title: "Digital Printing vs Offset Packaging | BUpack",

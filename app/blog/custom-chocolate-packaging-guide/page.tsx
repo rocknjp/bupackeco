@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Complete guide to custom chocolate packaging. FDA-compliant materials, window boxes, and luxury gift sets for confectionery brands. Low MOQ from 100 units.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/custom-chocolate-packaging-guide",
+    canonical: "https://www.bupackeco.com/blog/custom-chocolate-packaging-guide/",
   },
   openGraph: {
     title: "Custom Chocolate Packaging Guide | BUpack",

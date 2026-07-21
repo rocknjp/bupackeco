@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "packaging case study, custom packaging results, DTC packaging success, subscription box case study, custom box ROI, packaging design case study",
   alternates: {
-    canonical: "https://www.bupackeco.com/case-studies",
+    canonical: "https://www.bupackeco.com/case-studies/",
   },
   openGraph: {
     title: "Custom Packaging Case Studies | Real DTC Brand Results | BUpack",

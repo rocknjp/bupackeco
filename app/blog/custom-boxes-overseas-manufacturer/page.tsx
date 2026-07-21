@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Guide to choosing an overseas custom packaging manufacturer. Quality verification, shipping logistics, and cost comparison. Factory-direct from BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/custom-boxes-overseas-manufacturer",
+    canonical: "https://www.bupackeco.com/blog/custom-boxes-overseas-manufacturer/",
   },
   openGraph: {
     title: "How to Choose an Overseas Custom Boxes Manufacturer | BUpack",

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "FSC-certified custom paper boxes and bags for eCommerce brands. Rigid gift boxes, folding cartons, mailer boxes, and paper bags. Low MOQ from 100 units, factory-direct wholesale pricing.",
   alternates: {
-    canonical: "https://www.bupackeco.com/products",
+    canonical: "https://www.bupackeco.com/products/",
   },
   openGraph: {
     title: "Custom Paper Boxes & Bags | Low MOQ 100pcs | BUpack",

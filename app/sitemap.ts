@@ -86,7 +86,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.bupackeco.com";
 
   return staticRoutes.map((route) => ({
-    url: `${baseUrl}${route.path}`,
+    // 🔧 trailingSlash=true: 所有路径必须以 / 结尾（空路径 "/" 除外）
+    url: `${baseUrl}${route.path || "/"}${route.path && !route.path.endsWith("/") ? "/" : ""}`,
     lastModified: new Date(route.lastmod),
     changeFrequency: route.changefreq,
     priority: route.priority,

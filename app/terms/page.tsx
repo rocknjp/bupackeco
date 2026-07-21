@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Terms of Service | BUpack",
   description: "BUpack terms of service. Conditions for using bupackeco.com and ordering custom packaging from BUpack Eco Packaging Co., Ltd.",
   alternates: {
-    canonical: "https://www.bupackeco.com/terms",
+    canonical: "https://www.bupackeco.com/terms/",
   },
   openGraph: {
     title: "Terms of Service | BUpack",

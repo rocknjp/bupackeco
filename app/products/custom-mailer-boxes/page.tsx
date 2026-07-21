@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Custom printed mailer boxes for ecommerce and DTC brands. E-flute and B-flute options, custom inserts, full-color printing. MOQ from 100 units.",
   alternates: {
-    canonical: "https://www.bupackeco.com/products/custom-mailer-boxes",
+    canonical: "https://www.bupackeco.com/products/custom-mailer-boxes/",
   },
   keywords: [
     "custom mailer boxes",

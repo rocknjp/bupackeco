@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "FSC-certified paper, soy-based inks, plastic-free options. Learn how BUpack helps eCommerce brands go green.",
   alternates: {
-    canonical: "https://www.bupackeco.com/eco",
+    canonical: "https://www.bupackeco.com/eco/",
   },
   openGraph: {
     title: "Sustainability – Eco Packaging Commitments | BUpack",

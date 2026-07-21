@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Why FSC certification matters for custom packaging. Environmental impact, brand trust, and market advantage explained. FSC-certified options from BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/why-fsc-certification-matters-packaging",
+    canonical: "https://www.bupackeco.com/blog/why-fsc-certification-matters-packaging/",
   },
   openGraph: {
     title: "Why FSC Certification Matters for Your Packaging | BUpack",

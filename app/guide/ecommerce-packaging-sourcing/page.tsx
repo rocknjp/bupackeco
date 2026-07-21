@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "The definitive guide to custom packaging sourcing for US ecommerce brands. Covers MOQ, sampling, production timelines, supplier evaluation, FSC compliance, cost optimization, and real case studies with data.",
   alternates: {
-    canonical: "https://www.bupackeco.com/guide/ecommerce-packaging-sourcing",
+    canonical: "https://www.bupackeco.com/guide/ecommerce-packaging-sourcing/",
   },
   openGraph: {
     title: "Ultimate Ecommerce Packaging Sourcing Guide for US Brands | BUpack",

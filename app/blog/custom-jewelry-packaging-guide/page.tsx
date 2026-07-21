@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Complete guide to custom jewelry packaging. Velvet-lined rigid boxes, magnetic closures, and premium finishes for jewelry brands. Low MOQ from 100 units.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/custom-jewelry-packaging-guide",
+    canonical: "https://www.bupackeco.com/blog/custom-jewelry-packaging-guide/",
   },
   openGraph: {
     title: "Custom Jewelry Packaging Guide | BUpack",

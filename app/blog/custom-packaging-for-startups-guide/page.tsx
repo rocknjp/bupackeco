@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "How startups can get custom packaging with low MOQ from 100 units. Budget tips, design advice, and timeline planning for new DTC brands.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/custom-packaging-for-startups-guide",
+    canonical: "https://www.bupackeco.com/blog/custom-packaging-for-startups-guide/",
   },
   openGraph: {
     title: "Custom Packaging for Startups Guide | BUpack",

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Specialized custom paper packaging for beauty & skincare, fragrance & candles, corporate gifts & subscription boxes, stationery & designer toys, and jewelry & accessories. FSC-certified, low MOQ from 100 units.",
   alternates: {
-    canonical: "https://www.bupackeco.com/industries",
+    canonical: "https://www.bupackeco.com/industries/",
   },
   openGraph: {
     title: "Custom Packaging by Industry | BUpack",

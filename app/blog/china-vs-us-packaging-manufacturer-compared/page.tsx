@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Data-driven comparison of Chinese vs US custom packaging manufacturers. Unit cost, MOQ, lead time, certifications, and total landed cost — with 2025 numbers.",
   alternates: {
     canonical:
-      "https://www.bupackeco.com/blog/china-vs-us-packaging-manufacturer-compared",
+      "https://www.bupackeco.com/blog/china-vs-us-packaging-manufacturer-compared/",
   },
   openGraph: {
     title:

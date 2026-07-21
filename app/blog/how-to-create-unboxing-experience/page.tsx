@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Design a memorable unboxing experience for DTC brands. 8 proven strategies with real examples, custom inserts, and interior printing from BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/how-to-create-unboxing-experience",
+    canonical: "https://www.bupackeco.com/blog/how-to-create-unboxing-experience/",
   },
   openGraph: {
     title: "Create Unboxing Experience That Drives Shares | BUpack",

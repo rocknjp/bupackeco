@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Actionable packaging guides: unboxing experience, sustainable packaging, subscription box design and more.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog",
+    canonical: "https://www.bupackeco.com/blog/",
   },
   openGraph: {
     title: "Packaging Blog – Tips for eCommerce Brands | BUpack",

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Custom printed paper bags with your logo. Kraft, coated, and luxury options. Bulk and wholesale pricing. FSC-certified, MOQ from 200 units.",
   alternates: {
-    canonical: "https://www.bupackeco.com/products/custom-paper-bags",
+    canonical: "https://www.bupackeco.com/products/custom-paper-bags/",
   },
   keywords: [
     "custom paper bags with logo",

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Kraft paper vs coated paper for custom packaging. Appearance, durability, sustainability, and cost comparison. Choose the right material for your brand.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/kraft-vs-coated-paper-deep-dive",
+    canonical: "https://www.bupackeco.com/blog/kraft-vs-coated-paper-deep-dive/",
   },
   openGraph: {
     title: "Kraft vs Coated Paper for Packaging | BUpack",

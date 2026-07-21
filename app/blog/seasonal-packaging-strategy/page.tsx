@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "How to plan seasonal packaging for holidays and launches. Valentine's, Easter, Halloween, Christmas packaging tips. Quick-turn options from BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/seasonal-packaging-strategy",
+    canonical: "https://www.bupackeco.com/blog/seasonal-packaging-strategy/",
   },
   openGraph: {
     title: "Seasonal Packaging Strategy for DTC Brands | BUpack",

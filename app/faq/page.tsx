@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Frequently asked questions about custom packaging. MOQ, pricing, shipping, materials, and design. Get answers from BUpack — FSC-certified manufacturer with 100-unit MOQ.",
   alternates: {
-    canonical: "https://www.bupackeco.com/faq",
+    canonical: "https://www.bupackeco.com/faq/",
   },
   openGraph: {
     title: "Custom Packaging FAQ | Low MOQ, FSC, Shipping | BUpack",

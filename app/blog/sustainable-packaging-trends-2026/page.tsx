@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Top sustainable packaging trends for 2026. From FSC-certified materials to compostable solutions and circular packaging design. Stay ahead with BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/sustainable-packaging-trends-2026",
+    canonical: "https://www.bupackeco.com/blog/sustainable-packaging-trends-2026/",
   },
   openGraph: {
     title: "Sustainable Packaging Trends 2026 | BUpack",

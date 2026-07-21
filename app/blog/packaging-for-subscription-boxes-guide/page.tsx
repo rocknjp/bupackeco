@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Complete guide to subscription box packaging. Box types, monthly design rotation, interior organization, and cost control. MOQ from 100 units.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/packaging-for-subscription-boxes-guide",
+    canonical: "https://www.bupackeco.com/blog/packaging-for-subscription-boxes-guide/",
   },
   openGraph: {
     title: "Packaging for Subscription Boxes: Complete Guide | BUpack",

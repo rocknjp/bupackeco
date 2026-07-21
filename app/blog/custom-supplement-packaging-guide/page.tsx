@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Complete guide to custom supplement and vitamin packaging. FDA-compliant materials, child-resistant options, and eco-friendly designs. Low MOQ from 100 units from BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/custom-supplement-packaging-guide",
+    canonical: "https://www.bupackeco.com/blog/custom-supplement-packaging-guide/",
   },
   openGraph: {
     title: "Custom Supplement Packaging Guide | BUpack",

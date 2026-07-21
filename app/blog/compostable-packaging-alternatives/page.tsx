@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Complete guide to compostable packaging: materials, home vs industrial composting, costs, and certifications. Eco-friendly options from BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/compostable-packaging-alternatives",
+    canonical: "https://www.bupackeco.com/blog/compostable-packaging-alternatives/",
   },
   openGraph: {
     title: "Compostable Packaging Alternatives Guide | BUpack",

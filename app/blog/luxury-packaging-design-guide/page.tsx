@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Complete guide to luxury packaging design. Foil stamping, soft-touch finishes, magnetic closures, and premium unboxing. Low MOQ from 100 units from BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/luxury-packaging-design-guide",
+    canonical: "https://www.bupackeco.com/blog/luxury-packaging-design-guide/",
   },
   openGraph: {
     title: "Luxury Packaging Design Guide | BUpack",

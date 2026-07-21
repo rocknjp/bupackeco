@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "A comprehensive comparison of rigid boxes and corrugated boxes — cost, use cases, printing options, unboxing experience, and sustainability. Find the right box type for your brand.",
   alternates: {
-    canonical: "https://www.bupackeco.com/compare/rigid-vs-corrugated-boxes",
+    canonical: "https://www.bupackeco.com/compare/rigid-vs-corrugated-boxes/",
   },
   openGraph: {
     title: "Rigid Box vs Corrugated Box: Which Is Right for Your Brand? | BUpack",

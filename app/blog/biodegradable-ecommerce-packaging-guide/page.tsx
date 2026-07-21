@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Complete guide to biodegradable packaging for ecommerce. Materials comparison, cost analysis, and certification guide. FSC-certified options from BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/biodegradable-ecommerce-packaging-guide",
+    canonical: "https://www.bupackeco.com/blog/biodegradable-ecommerce-packaging-guide/",
   },
   openGraph: {
     title: "Biodegradable Ecommerce Packaging Guide | BUpack",

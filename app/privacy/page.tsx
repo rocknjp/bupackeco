@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy | BUpack",
   description: "BUpack privacy policy. How we collect, use, and protect your personal information when you visit bupackeco.com or request a packaging quote.",
   alternates: {
-    canonical: "https://www.bupackeco.com/privacy",
+    canonical: "https://www.bupackeco.com/privacy/",
   },
   openGraph: {
     title: "Privacy Policy | BUpack",

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "BUpack vs Arka: Custom Packaging Comparison (MOQ, Price, Certifications) | BUpack",
   description:
     "Detailed comparison of BUpack vs Arka for custom packaging. MOQ, pricing, lead time, certifications, DDP shipping, factory capacity, and product range — side by side.",
-  alternates: { canonical: "https://www.bupackeco.com/compare/bupack-vs-arka" },
+  alternates: { canonical: "https://www.bupackeco.com/compare/bupack-vs-arka/" },
 };
 
 const comparison = [

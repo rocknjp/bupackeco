@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Free packaging design support for your custom boxes. Professional structural design, artwork assistance, and 3D mockups. No design fees — included with every order from BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/services/design-support",
+    canonical: "https://www.bupackeco.com/services/design-support/",
   },
   openGraph: {
     title: "Free Custom Packaging Design Support | BUpack",

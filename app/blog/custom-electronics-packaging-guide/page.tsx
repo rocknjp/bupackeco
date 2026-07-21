@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Complete guide to custom electronics packaging. Anti-static materials, drop-tested mailers, and premium unboxing for tech brands. Low MOQ from 100 units from BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/custom-electronics-packaging-guide",
+    canonical: "https://www.bupackeco.com/blog/custom-electronics-packaging-guide/",
   },
   openGraph: {
     title: "Custom Electronics Packaging Guide | BUpack",

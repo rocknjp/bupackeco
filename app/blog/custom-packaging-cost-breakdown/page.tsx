@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Detailed cost breakdown for custom packaging. Materials, printing, finishing, and shipping costs explained. Factory-direct pricing from BUpack saves 40-60%.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/custom-packaging-cost-breakdown",
+    canonical: "https://www.bupackeco.com/blog/custom-packaging-cost-breakdown/",
   },
   openGraph: {
     title: "Custom Packaging Cost Breakdown | BUpack",

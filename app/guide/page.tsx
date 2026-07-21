@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Expert guides on custom packaging sourcing, compliance, cost optimization, and supplier evaluation for US ecommerce brands. Free toolkits, templates, and real case studies.",
   alternates: {
-    canonical: "https://www.bupackeco.com/guide",
+    canonical: "https://www.bupackeco.com/guide/",
   },
   openGraph: {
     title: "Packaging Guides for Ecommerce Brands | BUpack",

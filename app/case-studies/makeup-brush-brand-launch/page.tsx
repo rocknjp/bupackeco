@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "How a beauty startup launched their makeup brush brand with just 200 custom packaging units, delivered in 10 days. Low MOQ + fast sampling = new brand success.",
   alternates: {
-    canonical: "https://www.bupackeco.com/case-studies/makeup-brush-brand-launch",
+    canonical: "https://www.bupackeco.com/case-studies/makeup-brush-brand-launch/",
   },
 };
 

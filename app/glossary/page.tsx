@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Comprehensive packaging industry glossary: 50+ terms explained. Perfect for eCommerce brands sourcing custom boxes, mailers, and sustainable packaging solutions.",
   alternates: {
-    canonical: "https://www.bupackeco.com/glossary",
+    canonical: "https://www.bupackeco.com/glossary/",
   },
   openGraph: {
     title: "Packaging Industry Glossary – Terms & Definitions | BUpack",

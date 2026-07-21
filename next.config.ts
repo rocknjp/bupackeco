@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // 🔧 Fix: 启用尾部斜杠，消除 Google 报告的 "网页会被自动重定向" 索引问题
+  // 根因：Next.js 默认对 /about/ 等 URL 返回 308 重定向，Google 爬虫拒绝索引重定向页面
+  trailingSlash: true,
+
   images: {
     formats: ["image/avif", "image/webp"],
     deviceSizes: [640, 750, 828, 1080, 1200],

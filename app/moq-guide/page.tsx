@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "low MOQ custom packaging, custom packaging for small business low minimum order, custom boxes 100 units, small batch packaging manufacturer, low minimum custom boxes, startup packaging supplier",
   alternates: {
-    canonical: "https://www.bupackeco.com/moq-guide",
+    canonical: "https://www.bupackeco.com/moq-guide/",
   },
   openGraph: {
     title: "Low MOQ Custom Packaging Guide | Start from 100 Units | BUpack",

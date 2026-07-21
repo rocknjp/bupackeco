@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Learn everything about custom packaging box types, materials, and printing methods. Beginner-friendly guide from BUpack — FSC-certified manufacturer.",
   alternates: {
-    canonical: "https://www.bupackeco.com/packaging-101",
+    canonical: "https://www.bupackeco.com/packaging-101/",
   },
   keywords: [
     "packaging 101",

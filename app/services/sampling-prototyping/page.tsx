@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Get physical samples of your custom packaging before full production. 5-day sampling, structural prototypes, and color-matched proofs. MOQ from 100 units after sample approval.",
   alternates: {
-    canonical: "https://www.bupackeco.com/services/sampling-prototyping",
+    canonical: "https://www.bupackeco.com/services/sampling-prototyping/",
   },
   openGraph: {
     title: "Custom Packaging Sampling & Prototyping | BUpack",

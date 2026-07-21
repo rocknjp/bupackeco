@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Top packaging design trends for 2026. Minimalism, bold colors, sustainable materials, and interactive unboxing. Stay ahead with BUpack.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/packaging-design-trends-2026",
+    canonical: "https://www.bupackeco.com/blog/packaging-design-trends-2026/",
   },
   openGraph: {
     title: "Packaging Design Trends 2026 | BUpack",

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Step-by-step guide to importing custom packaging from China. Shipping, customs, QC, and cost breakdown. Factory-direct saves 40-60% vs domestic.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/import-custom-packaging-from-china-guide",
+    canonical: "https://www.bupackeco.com/blog/import-custom-packaging-from-china-guide/",
   },
   openGraph: {
     title: "Import Custom Packaging from China Guide | BUpack",

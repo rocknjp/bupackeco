@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Complete guide to custom tea packaging. Drawer boxes, tea tin boxes, and pyramid bag sachets. FSC-certified, low MOQ from 100 units for tea brands.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/custom-tea-packaging-guide",
+    canonical: "https://www.bupackeco.com/blog/custom-tea-packaging-guide/",
   },
   openGraph: {
     title: "Custom Tea Packaging Guide | BUpack",

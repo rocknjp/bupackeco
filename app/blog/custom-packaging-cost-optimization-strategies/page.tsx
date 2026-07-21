@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "10 proven strategies to reduce custom packaging costs without sacrificing quality. Right-sizing, DIY flat-pack, DDP shipping, and more — with real data.",
   alternates: {
     canonical:
-      "https://www.bupackeco.com/blog/custom-packaging-cost-optimization-strategies",
+      "https://www.bupackeco.com/blog/custom-packaging-cost-optimization-strategies/",
   },
   openGraph: {
     title:

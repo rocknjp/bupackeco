@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "FSC-certified custom paper packaging for DTC and eCommerce brands. Verified chain of custody from sustainable forests. Mailer boxes, rigid boxes, and paper bags from 100 units MOQ.",
   alternates: {
-    canonical: "https://www.bupackeco.com/fsc-certified-packaging",
+    canonical: "https://www.bupackeco.com/fsc-certified-packaging/",
   },
   openGraph: {
     title: "FSC-Certified Custom Packaging | Low MOQ, Verified | BUpack",

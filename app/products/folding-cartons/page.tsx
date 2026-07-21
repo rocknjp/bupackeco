@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Wholesale custom folding cartons for retail and eCommerce. SBS, FBB, CRB material options. Flexo, offset, digital printing. Low MOQ from 100 units.",
   alternates: {
-    canonical: "https://www.bupackeco.com/products/folding-cartons",
+    canonical: "https://www.bupackeco.com/products/folding-cartons/",
   },
   keywords: [
     "custom folding cartons wholesale",

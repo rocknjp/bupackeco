@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "A practical 15-point checklist for DTC brands to evaluate custom packaging suppliers. Quality, capacity, sampling, compliance, and cost transparency — with real data.",
   alternates: {
     canonical:
-      "https://www.bupackeco.com/blog/how-to-evaluate-packaging-suppliers-checklist",
+      "https://www.bupackeco.com/blog/how-to-evaluate-packaging-suppliers-checklist/",
   },
   openGraph: {
     title:

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "How a wine brand used DIY modular flat-pack packaging to double sales, increase repurchase rate by 20%, and reduce packaging cost by 20% — while saving 60% on freight.",
   alternates: {
-    canonical: "https://www.bupackeco.com/case-studies/wine-diy-modular-packaging",
+    canonical: "https://www.bupackeco.com/case-studies/wine-diy-modular-packaging/",
   },
 };
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "How a content creator's 6-bottle fragrance gift box achieved 600% sales increase and under 1% shipping damage rate with custom EVA inserts and magnetic rigid box design.",
   alternates: {
-    canonical: "https://www.bupackeco.com/case-studies/fragrance-gift-box-600-sales",
+    canonical: "https://www.bupackeco.com/case-studies/fragrance-gift-box-600-sales/",
   },
 };
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "BUpack vs Packlane: Custom Packaging Comparison (MOQ, Price, Design) | BUpack",
   description:
     "Detailed comparison of BUpack vs Packlane for custom packaging. MOQ, pricing, lead time, design tools, certifications, DDP shipping, and production capacity.",
-  alternates: { canonical: "https://www.bupackeco.com/compare/bupack-vs-packlane" },
+  alternates: { canonical: "https://www.bupackeco.com/compare/bupack-vs-packlane/" },
 };
 
 const comparison = [

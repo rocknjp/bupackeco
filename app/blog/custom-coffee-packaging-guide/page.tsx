@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Complete guide to custom coffee packaging. Resealable bags, coffee boxes, and subscription packaging for roasters. FSC-certified, low MOQ from 100 units.",
   alternates: {
-    canonical: "https://www.bupackeco.com/blog/custom-coffee-packaging-guide",
+    canonical: "https://www.bupackeco.com/blog/custom-coffee-packaging-guide/",
   },
   openGraph: {
     title: "Custom Coffee Packaging Guide | BUpack",

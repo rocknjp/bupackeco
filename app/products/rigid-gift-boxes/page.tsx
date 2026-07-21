@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Premium custom rigid gift boxes with low MOQ from 500 units. Magnetic closure, velvet/EVA inserts, hot foil stamping, FSC-certified materials. Perfect for luxury brands.",
   alternates: {
-    canonical: "https://www.bupackeco.com/products/rigid-gift-boxes",
+    canonical: "https://www.bupackeco.com/products/rigid-gift-boxes/",
   },
   keywords: [
     "custom rigid boxes low minimum",
