@@ -384,4 +384,14 @@ export const INITIAL_POSTS: BlogPost[] = [
     featured: false,
     emoji: "💍",
   },
+  {
+    slug: "low-moq-packaging-guide-small-businesses-2026",
+    title: "Low MOQ Packaging: Complete Guide for Small Businesses 2026",
+    excerpt: "Custom packaging starting at 100 units. Compare box types, materials, and pricing for small-batch brands. Low MOQ strategies, cost breakdown, and supplier checklist from BUpack.",
+    category: "Startup Guide",
+    date: "July 22, 2026",
+    readTime: "12 min",
+    featured: true,
+    emoji: "📦",
+  },
 ];

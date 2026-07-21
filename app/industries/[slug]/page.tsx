@@ -974,7 +974,7 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
     "beauty-skincare": "Beauty & Skincare Packaging | Low MOQ Custom Boxes | BUpack",
     "fragrance-candles": "Fragrance & Candle Packaging | Custom Boxes Low MOQ | BUpack",
     "corporate-gifts-subscription": "Corporate Gift & Subscription Box Packaging | BUpack",
-    "stationery-toys": "Stationery & Designer Toy Packaging | Collector-Grade Custom Boxes | BUpack",
+    "stationery-toys": "Stationery & Toys Packaging | Low MOQ | BUpack",
     "jewelry-accessories": "Jewelry & Accessories Packaging | Luxury Unboxing | BUpack",
     // Legacy industries (archived from main navigation)
     "candles-fragrance": "Custom Candle Packaging Boxes | BUpack",
