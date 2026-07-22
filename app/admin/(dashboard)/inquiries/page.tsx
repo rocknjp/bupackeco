@@ -17,7 +17,7 @@ export default function InquiriesPage() {
   async function fetchInquiries() {
     setLoading(true);
     try {
-      const res = await fetch("/api/admin/inquiries");
+      const res = await fetch("/api/admin/inquiries/");
       if (res.ok) {
         const data = await res.json();
         setInquiries(data.inquiries || []);
@@ -31,7 +31,7 @@ export default function InquiriesPage() {
 
   async function updateStatus(id: string, status: Inquiry["status"]) {
     try {
-      const res = await fetch("/api/admin/inquiries", {
+      const res = await fetch("/api/admin/inquiries/", {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id, status }),
@@ -51,7 +51,7 @@ export default function InquiriesPage() {
   async function deleteInquiry(id: string) {
     if (!confirm("确定删除此询盘？此操作不可撤销。")) return;
     try {
-      const res = await fetch(`/api/admin/inquiries?id=${encodeURIComponent(id)}`, {
+      const res = await fetch(`/api/admin/inquiries/?id=${encodeURIComponent(id)}`, {
         method: "DELETE",
       });
       if (res.ok) {

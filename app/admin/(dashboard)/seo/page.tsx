@@ -21,7 +21,7 @@ export default function SeoPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/api/admin/seo")
+    fetch("/api/admin/seo/")
       .then((res) => res.json())
       .then((d) => {
         setData(d);

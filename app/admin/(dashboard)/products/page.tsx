@@ -30,7 +30,7 @@ export default function ProductsPage() {
   async function fetchProducts() {
     setLoading(true);
     try {
-      const res = await fetch("/api/admin/products");
+      const res = await fetch("/api/admin/products/");
       if (res.ok) {
         const data = await res.json();
         setProducts(data.products || []);
@@ -92,7 +92,7 @@ export default function ProductsPage() {
     }
 
     try {
-      const res = await fetch("/api/admin/products", {
+      const res = await fetch("/api/admin/products/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -125,7 +125,7 @@ export default function ProductsPage() {
 
   async function toggleActive(id: string) {
     try {
-      const res = await fetch("/api/admin/products", {
+      const res = await fetch("/api/admin/products/", {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id, action: "toggle" }),
@@ -141,7 +141,7 @@ export default function ProductsPage() {
   async function deleteProduct(id: string) {
     if (!confirm("确定删除此产品？此操作不可撤销。")) return;
     try {
-      const res = await fetch(`/api/admin/products?id=${encodeURIComponent(id)}`, {
+      const res = await fetch(`/api/admin/products/?id=${encodeURIComponent(id)}`, {
         method: "DELETE",
       });
       if (res.ok) {

@@ -29,7 +29,7 @@ export default function BlogsPage() {
   async function fetchPosts() {
     setLoading(true);
     try {
-      const res = await fetch("/api/admin/blogs");
+      const res = await fetch("/api/admin/blogs/");
       if (res.ok) {
         const data = await res.json();
         setPosts(data.posts || []);
@@ -88,7 +88,7 @@ export default function BlogsPage() {
 
     setSaving(true);
     try {
-      const res = await fetch("/api/admin/blogs", {
+      const res = await fetch("/api/admin/blogs/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(editing ? { ...form, oldSlug: editing.slug } : form),
@@ -114,7 +114,7 @@ export default function BlogsPage() {
     if (!confirm(`确定删除 "${slug}"？此操作不可撤销。`)) return;
 
     try {
-      const res = await fetch(`/api/admin/blogs?slug=${encodeURIComponent(slug)}`, {
+      const res = await fetch(`/api/admin/blogs/?slug=${encodeURIComponent(slug)}`, {
         method: "DELETE",
       });
 
