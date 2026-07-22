@@ -100,8 +100,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: route.changefreq,
     priority: route.priority,
     // Image sitemap entries for Google image search indexing
+    // Next.js 16 expects images as string[] (absolute image URLs)
     ...(route.images && route.images.length > 0
-      ? { images: route.images.map((img) => ({ url: `${baseUrl}${img}` })) }
+      ? { images: route.images.map((img) => `${baseUrl}${img}`) }
       : {}),
   }));
 }
