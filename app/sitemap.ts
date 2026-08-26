@@ -24,6 +24,7 @@ const staticRoutes: {
   { path: "/industries/stationery-toys", lastmod: "2026-07-22", changefreq: "weekly", priority: 0.9, images: ["/images/industry_stationery_gifts.jpg"] },
   { path: "/industries/jewelry-accessories", lastmod: "2026-07-02", changefreq: "weekly", priority: 0.9, images: ["/images/industry_jewelry.jpg"] },
   { path: "/contact", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.6, images: ["/images/bupack-logo.jpg"] },
+  { path: "/quote", lastmod: "2026-08-26", changefreq: "monthly", priority: 0.9, images: ["/images/product_hero.jpg"] },
   { path: "/glossary", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.6, images: ["/images/bupack-logo.jpg"] },
   { path: "/eco", lastmod: "2026-06-07", changefreq: "monthly", priority: 0.7, images: ["/images/cert_fsc.jpg"] },
   { path: "/blog", lastmod: "2026-07-22", changefreq: "weekly", priority: 0.7, images: ["/images/bupack-og-hero.jpg"] },

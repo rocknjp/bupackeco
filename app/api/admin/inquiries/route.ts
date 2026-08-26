@@ -20,8 +20,8 @@ export async function GET() {
   const authError = await checkAuth();
   if (authError) return authError;
 
-  const inquiries = getInquiries();
-  const stats = getInquiryStats();
+  const inquiries = await getInquiries();
+  const stats = await getInquiryStats();
   return NextResponse.json({ inquiries, stats });
 }
 
@@ -40,7 +40,7 @@ export async function PATCH(request: NextRequest) {
       );
     }
 
-    const inquiry = updateInquiryStatus(id, status, notes);
+    const inquiry = await updateInquiryStatus(id, status, notes);
     if (!inquiry) {
       return NextResponse.json(
         { error: "Inquiry not found" },
@@ -69,7 +69,7 @@ export async function DELETE(request: NextRequest) {
     );
   }
 
-  const success = deleteInquiry(id);
+  const success = await deleteInquiry(id);
   if (!success) {
     return NextResponse.json(
       { error: "Inquiry not found" },

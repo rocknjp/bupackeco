@@ -17,6 +17,8 @@ const PRODUCTS = [
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState("");
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -34,9 +36,24 @@ export default function ContactPage() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSubmitting(true);
+    setError("");
+    try {
+      const res = await fetch("/api/inquiry/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...form, source: "contact" }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Submission failed, please try again");
+      setSubmitted(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Submission failed, please try again");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -242,11 +259,15 @@ export default function ContactPage() {
                   />
                 </div>
 
+                {error && (
+                  <p className="text-sm text-red-600 bg-red-50 rounded-lg px-3 py-2">{error}</p>
+                )}
                 <button
                   type="submit"
-                  className="w-full bg-green-700 text-white font-bold py-3.5 rounded-xl hover:bg-green-600 transition-colors text-base"
+                  disabled={submitting}
+                  className="w-full bg-green-700 text-white font-bold py-3.5 rounded-xl hover:bg-green-600 transition-colors text-base disabled:opacity-60"
                 >
-                  Request Free Sample Kit →
+                  {submitting ? "Sending…" : "Request Free Sample Kit →"}
                 </button>
                 <p className="text-xs text-gray-400 text-center">
                   No credit card · No commitment · Responds within 24h

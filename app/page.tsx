@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import Craftsmanship from "@/components/home/Craftsmanship";
 
 export const metadata: Metadata = {
   title: "Custom Eco Packaging | Low MOQ, FSC-Certified | BUpack",
@@ -679,6 +680,86 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ── CASE STUDIES ──────────────────────────── */}
+      <section className="py-20 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+            <div>
+              <span className="inline-block text-xs font-semibold text-green-700 uppercase tracking-widest mb-3">
+                Case Studies
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+                Real projects, measurable results
+              </h2>
+              <p className="text-gray-500 max-w-2xl text-lg">
+                How growing brands used custom packaging to move their numbers.
+              </p>
+            </div>
+            <Link href="/case-studies/" className="text-green-700 font-semibold text-sm hover:underline whitespace-nowrap">
+              View all case studies →
+            </Link>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              {
+                href: "/case-studies/fragrance-gift-box-600-sales/",
+                industry: "Fragrance & Gifts",
+                title: "Fragrance Gift Box That Drove 600% Sales Growth",
+                desc: "Magnetic rigid box with custom EVA inserts — 600% sales increase and under 1% shipping damage.",
+                metrics: ["600% sales increase", "<1% damage rate"],
+              },
+              {
+                href: "/case-studies/makeup-brush-brand-launch/",
+                industry: "Beauty & Skincare",
+                title: "Makeup Brush Launch With Just 200 Boxes",
+                desc: "A beauty startup launched their brand with 200 custom units delivered in 10 days. Low MOQ works.",
+                metrics: ["200 pcs start", "10-day delivery"],
+              },
+              {
+                href: "/case-studies/wine-diy-modular-packaging/",
+                industry: "Food & Beverage",
+                title: "Wine Brand Doubled Sales With Modular Packaging",
+                desc: "DIY modular flat-pack design: sales doubled, repurchase +20%, packaging cost −20%, freight −60%.",
+                metrics: ["2x sales", "−60% freight cost"],
+              },
+            ].map((cs) => (
+              <Link
+                key={cs.href}
+                href={cs.href}
+                className="group rounded-2xl border border-gray-100 p-7 hover:border-green-200 hover:shadow-lg transition-all bg-white flex flex-col"
+              >
+                <span className="inline-block bg-green-50 text-green-700 text-[10px] font-bold px-2.5 py-1 rounded-full border border-green-100 mb-4 uppercase tracking-wider self-start">
+                  {cs.industry}
+                </span>
+                <h3 className="font-bold text-gray-900 text-lg mb-3 group-hover:text-green-700 transition-colors leading-snug">
+                  {cs.title}
+                </h3>
+                <p className="text-sm text-gray-500 leading-relaxed mb-5">{cs.desc}</p>
+                <div className="flex flex-wrap gap-2 mt-auto mb-4">
+                  {cs.metrics.map((m) => (
+                    <span
+                      key={m}
+                      className="text-xs font-bold text-green-700 bg-green-50 border border-green-100 rounded-full px-3 py-1"
+                    >
+                      {m}
+                    </span>
+                  ))}
+                </div>
+                <span className="inline-flex items-center gap-1 text-green-700 font-semibold text-sm group-hover:gap-2 transition-all">
+                  Read case study
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── CRAFTSMANSHIP ─────────────────────────── */}
+      <Craftsmanship />
 
       {/* ── FROM THE BLOG ──────────────────────────── */}
       <section className="py-16 px-4 bg-white border-t border-gray-100">

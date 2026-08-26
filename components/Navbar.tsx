@@ -101,10 +101,10 @@ export default function Navbar() {
               FAQ
             </Link>
             <Link
-              href="/contact"
+              href="/quote/"
               className="bg-green-700 text-white px-5 py-2 rounded-lg font-medium hover:bg-green-600 transition-colors text-sm"
             >
-              Get Free Quote →
+              Instant Quote Calculator →
             </Link>
           </nav>
 
@@ -155,7 +155,10 @@ export default function Navbar() {
               <Link href="/blog" className="text-gray-700 hover:text-green-700 font-medium py-2 px-2 rounded-lg hover:bg-green-50" onClick={() => setMenuOpen(false)}>Blog</Link>
               <Link href="/guide" className="text-gray-700 hover:text-green-700 font-medium py-2 px-2 rounded-lg hover:bg-green-50" onClick={() => setMenuOpen(false)}>Guides</Link>
               <Link href="/faq" className="text-gray-700 hover:text-green-700 font-medium py-2 px-2 rounded-lg hover:bg-green-50" onClick={() => setMenuOpen(false)}>FAQ</Link>
-              <Link href="/contact" className="bg-green-700 text-white px-5 py-2 rounded-lg font-medium text-center mt-1" onClick={() => setMenuOpen(false)}>Get Free Quote →</Link>
+              <Link href="/case-studies/" className="text-gray-600 hover:text-green-700 font-medium transition-colors text-sm">
+              Case Studies
+            </Link>
+            <Link href="/quote/" className="bg-green-700 text-white px-5 py-2 rounded-lg font-medium text-center mt-1" onClick={() => setMenuOpen(false)}>Instant Quote Calculator →</Link>
             </nav>
           </div>
         )}
